@@ -14,13 +14,18 @@ const raw = JSON.parse(fs.readFileSync(exportPath, 'utf8'));
 // Estrutura padrão do export do Ghost: { db: [ { data: { posts: [...] } } ] }
 const posts = raw.db?.[0]?.data?.posts || [];
 
+function cleanGhostUrl(html) {
+  if (!html || typeof html !== 'string') return html || '';
+  return html.replace(/__GHOST_URL__/g, '');
+}
+
 const mapped = posts
   .filter((p) => p.status === 'published')
   .map((p) => ({
     id: p.id,
     slug: p.slug,
     title: p.title,
-    html: p.html,
+    html: cleanGhostUrl(p.html),
     created_at: p.created_at,
     updated_at: p.updated_at,
     published_at: p.published_at,

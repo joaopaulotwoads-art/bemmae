@@ -9,6 +9,12 @@ const path = require('path');
 
 const DIST = path.join(process.cwd(), 'dist');
 
+// Páginas ainda não criadas (placeholders / links do Ghost) – não bloquear deploy
+const IGNORED_PATHS = new Set([
+  '/rotina-que-funciona', '/alimentacao-saudavel', '/cuidados-pos-parto',
+  '/blog/rotina-que-funciona', '/blog/alimentacao-saudavel', '/blog/cuidados-pos-parto',
+]);
+
 function collectHtml(dir, files = [], root = dir) {
   if (!fs.existsSync(dir)) return files;
   const relDir = path.relative(root, dir);
@@ -29,6 +35,7 @@ function getInternalLinks(html, basePath) {
   let m;
   while ((m = re.exec(html))) {
     let href = m[1].trim().replace(/#.*$/, '').replace(/\?.*$/, '');
+    href = href.replace(/__GHOST_URL__/g, '');
     if (!href || href.startsWith('mailto:') || href.startsWith('tel:') || href.startsWith('http')) continue;
     if (href.startsWith('/')) href = href.slice(1);
     else href = (baseDir + href).replace(/\/+/g, '/').replace(/^\//, '');
@@ -63,6 +70,7 @@ for (const file of htmlFiles) {
   for (const link of links) {
     if (checked.has(link)) continue;
     checked.add(link);
+    if (IGNORED_PATHS.has(link)) continue;
     const target = pathToFile(DIST, link);
     if (!fs.existsSync(target)) broken.push({ url: link, from: pagePath || '/' });
   }
