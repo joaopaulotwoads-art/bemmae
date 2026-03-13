@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #fff;
+  --color-text: #5c4d3c;
+  --color-muted: #8a7a6a;
+  --color-accent: #c4a77d;
+  --color-border: #e8dcd3;
+  --color-rosa: #f5e6e8;
+  --color-nude: #e8dcd3;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Ajuste dos botões CTA herdados do Ghost (.bemmae-*) */
+.bemmae-cta-wrapper {
+  margin: 24px auto;
+  max-width: 480px;
+}
+
+.bemmae-cta-wrapper a,
+.bemmae-cta-wrapper button {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 12px 18px !important;
+  font-size: 14px !important;
+  border-radius: 999px !important;
+}
+

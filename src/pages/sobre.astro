@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { siteConfig } from '../config';
+---
+<BaseLayout title="Sobre" description={`Sobre ${siteConfig.name}. Nossa história e quem somos.`}>
+  <article class="max-w-2xl mx-auto px-4 py-12">
+    <header class="mb-10">
+      <h1 class="text-2xl font-semibold text-[var(--color-text)]">Sobre o Bem Mãe</h1>
+      <p class="mt-1 text-[var(--color-muted)]">Um espaço feito com carinho para mães que buscam leveza no dia a dia.</p>
+    </header>
+    <div class="aspect-[16/9] rounded-lg bg-[var(--color-rosa)] flex items-center justify-center text-[var(--color-muted)] text-sm mb-8">
+      [ Foto ou ilustração ]
+    </div>
+    <div class="prose prose-[var(--color-text)] max-w-none">
+      <p>O Bem Mãe nasceu do desejo de compartilhar uma maternidade real: sem perfeição, com respeito ao ritmo de cada família e com foco em rotina, alimentação e saúde de forma prática e acolhedora.</p>
+    </div>
+    <section class="mt-10 grid md:grid-cols-2 gap-6" aria-labelledby="equipe-title">
+      <h2 id="equipe-title" class="sr-only">Quem escreve</h2>
+      <div class="p-6 rounded-lg border border-[var(--color-border)]">
+        <div class="aspect-square max-w-[120px] rounded-full bg-[var(--color-rosa)] mx-auto mb-3 flex items-center justify-center text-2xl">👩</div>
+        <h3 class="font-semibold text-[var(--color-accent)] text-center">Vitoria Caroline</h3>
+        <p class="text-sm text-[var(--color-muted)] text-center mt-1">Mãe e criadora do projeto.</p>
+      </div>
+      <div class="p-6 rounded-lg border border-[var(--color-border)]">
+        <div class="aspect-square max-w-[120px] rounded-full bg-[var(--color-rosa)] mx-auto mb-3 flex items-center justify-center text-2xl">👩</div>
+        <h3 class="font-semibold text-[var(--color-accent)] text-center">Maria Helena</h3>
+        <p class="text-sm text-[var(--color-muted)] text-center mt-1">Colaboradora em conteúdo sobre saúde.</p>
+      </div>
+    </section>
+    <p class="mt-8">
+      <a href="/contato" class="text-[var(--color-accent)] font-medium hover:underline">Entre em contato</a>
+    </p>
+  </article>
+</BaseLayout>

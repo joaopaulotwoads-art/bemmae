@@ -1,0 +1,26 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { siteConfig } from '../config';
+import '../styles/global.css';
+interface Props { title: string; description?: string; }
+const { title, description } = Astro.props;
+const fullTitle = title === siteConfig.name ? title : `${title} | ${siteConfig.name}`;
+const fullDescription = description || siteConfig.description;
+const siteUrl = siteConfig.url;
+---
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{fullTitle}</title><meta name="description" content={fullDescription} />
+  <link rel="canonical" href={`${siteUrl}${Astro.url.pathname || '/'}`} />
+  <meta property="og:type" content="website" /><meta property="og:title" content={fullTitle} /><meta property="og:description" content={fullDescription} /><meta property="og:url" content={Astro.url.href} /><meta property="og:locale" content="pt_BR" />
+  <meta name="twitter:card" content="summary" /><meta name="twitter:title" content={fullTitle} /><meta name="twitter:description" content={fullDescription} />
+  <script type="application/ld+json" set:html={JSON.stringify({ "@context": "https://schema.org", "@type": "Organization", "name": siteConfig.name, "url": siteUrl, "description": fullDescription })} />
+  <script type="application/ld+json" set:html={JSON.stringify({ "@context": "https://schema.org", "@type": "WebSite", "name": siteConfig.name, "url": siteUrl })} />
+</head>
+<body class="bg-[var(--color-bg)] text-[var(--color-text)] antialiased">
+  <Header /><main><slot /></main><Footer />
+</body>
+</html>

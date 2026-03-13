@@ -1,0 +1,37 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { siteConfig } from '../../config';
+import { posts } from '../../data/posts';
+
+const visiblePosts = posts.filter((p) => p.slug !== 'sobre' && p.slug !== 'contato');
+---
+<BaseLayout title="Blog" description={`Blog de ${siteConfig.name}. Artigos importados do Ghost.`}>
+  <article class="max-w-4xl mx-auto px-4 py-12">
+    <header class="mb-10">
+      <h1 class="text-2xl font-semibold text-[var(--color-text)]">Blog</h1>
+      <p class="mt-1 text-[var(--color-muted)]">Dicas, experiências e reflexões sobre maternidade real.</p>
+    </header>
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+      {visiblePosts.map((post) => (
+        <a href={`/${post.slug}`} class="group block rounded-lg border border-[var(--color-border)] overflow-hidden hover:border-[var(--color-accent)] transition-colors">
+          {post.slug === 'melhor-carrinho-de-bebe' ? (
+            <div class="aspect-[4/3] overflow-hidden bg-[var(--color-rosa)]">
+              <img src="/melhor-carrinho-de-bebe.png" alt="" class="w-full h-full object-cover" loading="lazy" />
+            </div>
+          ) : (
+            <div class="aspect-[4/3] bg-[var(--color-rosa)] flex items-center justify-center text-[var(--color-muted)] text-sm">Img</div>
+          )}
+          <div class="p-4">
+            {post.published_at && (
+              <time class="text-xs text-[var(--color-muted)]" datetime={post.published_at}>
+                {new Date(post.published_at).toLocaleDateString('pt-BR')}
+              </time>
+            )}
+            <h2 class="mt-1 font-medium text-[var(--color-text)] group-hover:text-[var(--color-accent)]">{post.title}</h2>
+            {post.excerpt && <p class="text-sm text-[var(--color-muted)] mt-1">{post.excerpt}</p>}
+          </div>
+        </a>
+      ))}
+    </div>
+  </article>
+</BaseLayout>

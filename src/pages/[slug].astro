@@ -1,0 +1,62 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { siteConfig } from '../config';
+import { posts } from '../data/posts';
+
+export function getStaticPaths() {
+  const reserved = new Set(['', 'sobre', 'contato', 'blog', 'inicio']);
+  return posts
+    .filter((p) => !reserved.has(p.slug))
+    .map((p) => ({ params: { slug: p.slug } }));
+}
+
+const { slug } = Astro.params;
+const post = posts.find((p) => p.slug === slug);
+
+if (!post) {
+  throw new Error(`Post não encontrado para slug: ${slug}`);
+}
+
+const date = post.published_at || post.created_at;
+const excerpt = post.excerpt || '';
+const title = post.title;
+---
+<BaseLayout title={title} description={excerpt}>
+  <article class="max-w-2xl mx-auto px-4 py-12">
+    <header class="mb-8">
+      <h1 class="text-2xl md:text-3xl font-semibold text-[var(--color-text)]">{title}</h1>
+      <div class="mt-3 flex flex-wrap gap-4 text-sm text-[var(--color-muted)]">
+        {date && (
+          <time datetime={date}>
+            {new Date(date).toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' })}
+          </time>
+        )}
+      </div>
+    </header>
+    {slug === 'melhor-carrinho-de-bebe' ? (
+      <div class="rounded-lg overflow-hidden mb-8">
+        <img
+          src="/melhor-carrinho-de-bebe.png"
+          alt="Família passeando com carrinho de bebê"
+          class="w-full h-auto object-cover max-h-[420px]"
+          loading="lazy"
+        />
+      </div>
+    ) : (
+      <div class="aspect-video rounded-lg bg-[var(--color-rosa)] flex items-center justify-center text-[var(--color-muted)] text-sm mb-8">
+        [ Imagem do artigo ]
+      </div>
+    )}
+    <div class="prose prose-[var(--color-text)] max-w-none">
+      {excerpt && <p class="lead text-[var(--color-muted)]">{excerpt}</p>}
+      <div set:html={post.html} />
+    </div>
+    <section class="mt-12 pt-8 border-t border-[var(--color-border)]" aria-labelledby="related-title">
+      <h2 id="related-title" class="text-lg font-semibold text-[var(--color-text)] mb-4">Artigos relacionados</h2>
+      <ul class="space-y-2">
+        <li><a href="/blog" class="text-[var(--color-accent)] hover:underline">Ver todos os artigos</a></li>
+      </ul>
+    </section>
+  </article>
+</BaseLayout>
+

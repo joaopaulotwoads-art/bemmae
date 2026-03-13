@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/inicio", "destination": "/", "permanent": true }
+  ]
+}

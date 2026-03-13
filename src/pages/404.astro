@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { siteConfig } from '../config';
+---
+<BaseLayout title="Página não encontrada" description="A página não existe.">
+  <div class="max-w-xl mx-auto px-4 py-20 text-center">
+    <h1 class="text-xl font-semibold text-[var(--color-text)] mb-2">Página não encontrada</h1>
+    <p class="text-[var(--color-muted)] mb-6">O endereço pode ter mudado ou a página não existe.</p>
+    <a href="/" class="inline-flex items-center justify-center min-h-[44px] px-5 py-2.5 rounded-md bg-[var(--color-accent)] text-white font-medium">Voltar ao início</a>
+  </div>
+</BaseLayout>

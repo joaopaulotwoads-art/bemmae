@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { siteConfig } from '../config';
+---
+<BaseLayout title="Contato" description={`Entre em contato com ${siteConfig.name}.`}>
+  <article class="max-w-xl mx-auto px-4 py-12">
+    <header class="mb-8">
+      <h1 class="text-2xl font-semibold text-[var(--color-text)]">Contato</h1>
+      <p class="mt-1 text-[var(--color-muted)]">Envie sua mensagem, dúvida ou sugestão.</p>
+    </header>
+    <form class="space-y-4" action="#" method="post" aria-label="Formulário de contato">
+      <div>
+        <label for="nome" class="block text-sm font-medium text-[var(--color-text)] mb-1">Nome</label>
+        <input id="nome" type="text" name="nome" required class="w-full min-h-[44px] px-4 rounded-md border border-[var(--color-border)] bg-white text-[var(--color-text)]" />
+      </div>
+      <div>
+        <label for="email" class="block text-sm font-medium text-[var(--color-text)] mb-1">E-mail</label>
+        <input id="email" type="email" name="email" required class="w-full min-h-[44px] px-4 rounded-md border border-[var(--color-border)] bg-white text-[var(--color-text)]" />
+      </div>
+      <div>
+        <label for="mensagem" class="block text-sm font-medium text-[var(--color-text)] mb-1">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required class="w-full min-h-[44px] px-4 py-3 rounded-md border border-[var(--color-border)] bg-white text-[var(--color-text)]"></textarea>
+      </div>
+      <button type="submit" class="min-h-[44px] px-5 py-2.5 rounded-md bg-[var(--color-accent)] text-white font-medium hover:opacity-90">Enviar</button>
+    </form>
+    <p class="mt-8 text-sm text-[var(--color-muted)]">Redes: configure em <code class="bg-[var(--color-border)] px-1 rounded">src/config.ts</code> (Instagram, Facebook, Pinterest).</p>
+  </article>
+</BaseLayout>
