@@ -156,17 +156,47 @@
   color: var(--color-heading);
 }
 
+/* Preflight do Tailwind zera list-style; restaurar marcadores nas listas editoriais */
 .bemmae-post-html > ul,
 .bemmae-post-html > ol {
   margin: 0.5em 0 1.35em;
-  padding-left: 1.35rem;
+  padding-left: 1.5rem;
   max-width: 72ch;
   line-height: 1.75;
+  list-style-position: outside;
+}
+
+.bemmae-post-html > ul {
+  list-style-type: disc;
+}
+
+.bemmae-post-html > ol {
+  list-style-type: decimal;
+}
+
+.bemmae-post-html ul:not([class]) ul:not([class]) {
+  list-style-type: circle;
+  margin-top: 0.35em;
+  margin-bottom: 0.35em;
+}
+
+.bemmae-post-html ol:not([class]) ol:not([class]) {
+  list-style-type: lower-alpha;
+  margin-top: 0.35em;
+  margin-bottom: 0.35em;
 }
 
 .bemmae-post-html > ul > li,
 .bemmae-post-html > ol > li {
   margin-bottom: 0.55em;
+}
+
+.bemmae-post-html :is(ul, ol):not([class]) > li > p {
+  margin: 0 0 0.35em;
+}
+
+.bemmae-post-html :is(ul, ol):not([class]) > li > p:last-child {
+  margin-bottom: 0;
 }
 
 .bemmae-post-html > ul > li:last-child,
