@@ -109,7 +109,7 @@ PRODUCTS = [
         "badge": "Isofix",
         "badge_r": "Base Isofix",
         "score": "8,7",
-        "img": "https://m.media-amazon.com/images/I/61SgH0DWDdL._AC_SL1500_.jpg",
+        "img": "https://m.media-amazon.com/images/I/61mDFDwDt4L._AC_SX522_.jpg",
         "link": href("https://amzn.to/48uPERO"),
         "features_r": [
             "9,7 kg e até 15 kg: trio com Isofix ou cinto, dobra compacta, assento reversível com 4 reclínios e capota UV50+.",
@@ -175,7 +175,7 @@ PRODUCTS = [
         "badge": "Ultracompacto",
         "badge_r": "Leve",
         "score": "8,5",
-        "img": "https://m.media-amazon.com/images/I/71zqRsm0YfL._AC_SL1500_.jpg",
+        "img": "https://m.media-amazon.com/images/I/81i4A3ttrJL._AC_SY300_SX300_QL70_ML2_.jpg",
         "link": href("https://amzn.to/4claFAZ"),
         "features_r": [
             "Cerca de 6,6 kg e até 15 kg: guarda-chuva ~51 x 45 x 28 cm fechado, ideal para Uber, prédio e viagem.",
@@ -274,7 +274,7 @@ PRODUCTS = [
         "badge": "Intermediário",
         "badge_r": "Trio Cosco",
         "score": "8,2",
-        "img": "https://m.media-amazon.com/images/I/71pY9vBZh5L._AC_SL1500_.jpg",
+        "img": "https://m.media-amazon.com/images/I/61lww9LWf8L._AC_SY300_SX300_QL70_ML2_.jpg",
         "link": href("https://amzn.to/4tk6F9W"),
         "features_r": [
             "9,8 kg e até 15 kg: trio com base Wizz, modo berço, rodas grandes, bandeja com copos e capota extensível.",
@@ -340,7 +340,7 @@ PRODUCTS = [
         "badge": "Nacional",
         "badge_r": "Clássico",
         "score": "8,0",
-        "img": "https://m.media-amazon.com/images/I/61mDFDwDt4L._AC_SX522_.jpg",
+        "img": "https://static.dafiti.com.br/p/Galzerano-Carrinho-Galzerano-Milano-Reversivel-II-Preto-7460-4788703-1-product.jpg",
         "link": href("https://amzn.to/4tmQAQD"),
         "features_r": [
             "8,8 kg na Rev. III e até 15 kg Inmetro: cabo reversível, bandeja com copos e cesto em tela, clássico nacional.",
@@ -406,7 +406,7 @@ PRODUCTS = [
         "badge": "One touch",
         "badge_r": "Automático",
         "score": "7,8",
-        "img": "https://m.media-amazon.com/images/I/71ZgHmKvnQL._AC_SL1500_.jpg",
+        "img": "https://m.media-amazon.com/images/I/61-meIWPdTL._AC_SX522_.jpg",
         "link": href("https://amzn.to/4caE0hj"),
         "features_r": [
             "Cerca de 6,9 kg com fecho one touch e ~46 x 25 x 56 cm dobrado; capota ampla; confira limite de peso no selo.",
