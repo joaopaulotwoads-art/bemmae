@@ -24,6 +24,7 @@ import {
   toIsoDateTime,
 } from '../../utils/post-json-ld';
 import { resolveBemmaeMediaUrl } from '../../utils/media-url';
+import { buildBemmaeArticleExperts } from '../../utils/bemmae-article-experts';
 
 export const prerender = true;
 
@@ -113,6 +114,11 @@ const blogPermalinkStructure = (settings?.data?.blogPermalinkStructure as BlogPe
 const blogUrlPrefix = (settings?.data?.blogUrlPrefix as BlogUrlPrefix) || 'blog';
 const allPosts = await getCollection('posts');
 const relatedPosts = useBemmae ? pickRelatedPosts(post, allPosts, 3) : [];
+const beAbout = useBemmae ? await readSingleton('about', 'bemmae') : null;
+const articleExperts = useBemmae ? buildBemmaeArticleExperts(author, beAbout as Record<string, unknown> | null) : undefined;
+const articleExpertsSectionTitle = useBemmae
+  ? String((beAbout as Record<string, unknown> | null)?.teamSectionTitle || 'Conheça nossos especialistas').trim()
+  : '';
 ---
 
 {useBemmae ? (
@@ -139,6 +145,8 @@ const relatedPosts = useBemmae ? pickRelatedPosts(post, allPosts, 3) : [];
       relatedPosts={relatedPosts}
       blogPermalinkStructure={blogPermalinkStructure}
       blogUrlPrefix={blogUrlPrefix}
+      articleExperts={articleExperts}
+      articleExpertsSectionTitle={articleExpertsSectionTitle}
     />
 </BaseLayoutBemmae>
 ) : (

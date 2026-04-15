@@ -7,6 +7,8 @@ import { splitReviewRoundupBodyParagraphs } from '../../utils/review-paragraph-s
 import { injectH2IdsAndBuildToc, splitHtmlAfterReviewHeroPicks } from '../../utils/review-article-toc';
 import { injectMissingProsConsCtas } from '../../utils/review-pros-cons-cta';
 import { ensureRoundupTableHead, upgradeRoundupItemsHtml } from '../../utils/review-roundup-rows';
+import type { BemmaeExpertCardData } from '../../utils/bemmae-article-experts';
+import BemmaeExpertCard from './BemmaeExpertCard.astro';
 
 interface Props {
   post: any;
@@ -17,6 +19,9 @@ interface Props {
   relatedPosts?: CollectionEntry<'posts'>[];
   blogPermalinkStructure?: BlogPermalinkStructure;
   blogUrlPrefix?: BlogUrlPrefix;
+  /** Especialistas no fim do post (about.yaml + autor); se omitido, usa o bloco antigo só com `author`. */
+  articleExperts?: BemmaeExpertCardData[];
+  articleExpertsSectionTitle?: string;
 }
 
 const {
@@ -27,6 +32,8 @@ const {
   relatedPosts: relatedPostsProp,
   blogPermalinkStructure = 'postname',
   blogUrlPrefix = 'blog',
+  articleExperts,
+  articleExpertsSectionTitle = 'Conheça nossos especialistas',
 } = Astro.props;
 const relatedPosts = relatedPostsProp ?? [];
 const date = post.data.publishedDate;
@@ -195,52 +202,70 @@ const applyRoundupArticleScope =
     )}
   </div>
 
-  {author && (
-    <section class="mt-12 pt-10 border-t border-[var(--color-border)]" aria-labelledby="post-author-heading">
-      <div class="rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] p-6 md:p-8">
-        <div class="flex flex-col sm:flex-row gap-6 sm:gap-8 items-start">
-          {author.data.avatar ? (
-            <img
-              src={resolveBemmaeMediaUrl(author.data.avatar)}
-              alt={author.data.name}
-              width="96"
-              height="96"
-              class="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover shrink-0 ring-2 ring-gray-200 border border-[var(--color-border)]"
-              loading="lazy"
-            />
-          ) : (
-            <div
-              class="w-20 h-20 sm:w-24 sm:h-24 rounded-full shrink-0 flex items-center justify-center text-xl sm:text-2xl font-semibold text-[var(--color-heading)] bg-white border border-[var(--color-border)] ring-2 ring-gray-200"
-              aria-hidden="true"
-            >
-              {String(author.data.name || '?')
-                .trim()
-                .charAt(0)
-                .toUpperCase()}
-            </div>
-          )}
-          <div class="min-w-0 flex-1">
-            <p class="text-xs font-semibold uppercase tracking-wider text-[var(--color-muted)] mb-1">Sobre quem escreveu</p>
-            <div id="post-author-heading" class="text-xl font-semibold text-[var(--color-heading)]">
-              {author.data.name}
-            </div>
-            {author.data.role && (
-              <p class="mt-1 text-sm font-medium text-[var(--color-muted)]">{author.data.role}</p>
+  {articleExperts && articleExperts.length > 0 ? (
+    <section class="mt-12 pt-10 border-t border-[var(--color-border)]" aria-labelledby="post-experts-heading">
+      <h2
+        id="post-experts-heading"
+        class="text-2xl md:text-3xl font-bold text-[var(--color-heading)] mb-8 text-center sm:text-left [font-family:var(--font-heading)]"
+      >
+        {articleExpertsSectionTitle}
+      </h2>
+      <ul class="flex flex-col gap-8 list-none p-0 m-0">
+        {articleExperts.map((ex) => (
+          <li>
+            <BemmaeExpertCard {...ex} />
+          </li>
+        ))}
+      </ul>
+    </section>
+  ) : (
+    author && (
+      <section class="mt-12 pt-10 border-t border-[var(--color-border)]" aria-labelledby="post-author-heading">
+        <div class="rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] p-6 md:p-8">
+          <div class="flex flex-col sm:flex-row gap-6 sm:gap-8 items-start">
+            {author.data.avatar ? (
+              <img
+                src={resolveBemmaeMediaUrl(author.data.avatar)}
+                alt={author.data.name}
+                width="96"
+                height="96"
+                class="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover shrink-0 ring-2 ring-gray-200 border border-[var(--color-border)]"
+                loading="lazy"
+              />
+            ) : (
+              <div
+                class="w-20 h-20 sm:w-24 sm:h-24 rounded-full shrink-0 flex items-center justify-center text-xl sm:text-2xl font-semibold text-[var(--color-heading)] bg-white border border-[var(--color-border)] ring-2 ring-gray-200"
+                aria-hidden="true"
+              >
+                {String(author.data.name || '?')
+                  .trim()
+                  .charAt(0)
+                  .toUpperCase()}
+              </div>
             )}
-            {author.data.bio && (
-              <p class="mt-4 text-[var(--color-muted)] leading-relaxed text-[0.98rem]">{author.data.bio}</p>
-            )}
-            <a
-              href={`/authors/${author.id}`}
-              class="inline-flex items-center gap-2 mt-5 text-sm font-medium text-[var(--color-link)] no-underline hover:underline min-h-[44px]"
-            >
-              Ver perfil completo
-              <span aria-hidden="true">→</span>
-            </a>
+            <div class="min-w-0 flex-1">
+              <p class="text-xs font-semibold uppercase tracking-wider text-[var(--color-muted)] mb-1">Sobre quem escreveu</p>
+              <div id="post-author-heading" class="text-xl font-semibold text-[var(--color-heading)]">
+                {author.data.name}
+              </div>
+              {author.data.role && (
+                <p class="mt-1 text-sm font-medium text-[var(--color-muted)]">{author.data.role}</p>
+              )}
+              {author.data.bio && (
+                <p class="mt-4 text-[var(--color-muted)] leading-relaxed text-[0.98rem]">{author.data.bio}</p>
+              )}
+              <a
+                href={`/authors/${author.id}`}
+                class="inline-flex items-center gap-2 mt-5 text-sm font-medium text-[var(--color-link)] no-underline hover:underline min-h-[44px]"
+              >
+                Ver perfil completo
+                <span aria-hidden="true">→</span>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    )
   )}
 
   {relatedPosts.length > 0 && (

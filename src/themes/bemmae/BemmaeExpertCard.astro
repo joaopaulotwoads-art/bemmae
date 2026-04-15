@@ -1,0 +1,70 @@
+---
+import { resolveBemmaeMediaUrl } from '../../utils/media-url';
+import type { BemmaeExpertCardData } from '../../utils/bemmae-article-experts';
+
+interface Props extends BemmaeExpertCardData {}
+
+const { name, badge, role, bio, photo, emoji, href } = Astro.props;
+
+const badgeStr = String(badge || '').trim();
+const roleLine = String(role || '').trim();
+const bioStr = String(bio || '').trim();
+const photoStr = String(photo || '').trim();
+const emojiStr = String(emoji || '').trim();
+const hrefStr = String(href || '').trim();
+
+const nameClass =
+  'inline-flex items-center gap-1 text-lg font-bold text-[var(--color-heading)]' +
+  (hrefStr ? ' hover:text-[var(--color-accent)] transition-colors' : '');
+---
+
+<div class="flex flex-row gap-5 md:gap-6 items-start p-6 md:p-8 rounded-2xl border border-[var(--color-border)] bg-white shadow-sm">
+  <div class="relative shrink-0">
+    {photoStr ? (
+      <img
+        src={resolveBemmaeMediaUrl(photoStr) || photoStr}
+        alt={name || 'Foto'}
+        width="112"
+        height="112"
+        class="w-28 h-28 rounded-full object-cover ring-2 ring-[var(--color-border)] bg-[var(--color-nude)]"
+        loading="lazy"
+        decoding="async"
+      />
+    ) : (
+      <div
+        class="w-28 h-28 rounded-full bg-[var(--color-heading)] flex items-center justify-center text-3xl text-white ring-2 ring-[var(--color-border)]"
+        aria-hidden="true"
+      >
+        {emojiStr || '👤'}
+      </div>
+    )}
+    {badgeStr && (
+      <span class="absolute -bottom-1 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-[#ea580c] px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-white shadow-sm">
+        {badgeStr}
+      </span>
+    )}
+  </div>
+  <div class="min-w-0 flex-1 pt-1">
+    {roleLine && (
+      <p class="text-xs font-medium uppercase tracking-wide text-[var(--color-muted)] mb-1">{roleLine}</p>
+    )}
+    {hrefStr ? (
+      <a href={hrefStr} class={nameClass}>
+        {name}
+        <span class="text-[var(--color-accent)] font-normal" aria-hidden="true">
+          ›
+        </span>
+      </a>
+    ) : (
+      <span class={nameClass}>
+        {name}
+        <span class="text-[var(--color-accent)] font-normal" aria-hidden="true">
+          ›
+        </span>
+      </span>
+    )}
+    {bioStr && (
+      <p class="text-[var(--color-muted)] mt-3 leading-relaxed text-[15px] md:text-[16px] text-pretty">{bioStr}</p>
+    )}
+  </div>
+</div>

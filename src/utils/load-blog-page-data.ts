@@ -17,6 +17,7 @@ import {
 } from './post-json-ld';
 import { resolveBemmaeMediaUrl } from './media-url';
 import { pickRelatedPosts } from './related-posts';
+import { buildBemmaeArticleExperts, type BemmaeExpertCardData } from './bemmae-article-experts';
 
 type Props =
   | { kind: 'post'; post: CollectionEntry<'posts'> }
@@ -48,6 +49,8 @@ export type BlogPageData = {
   relatedPosts: CollectionEntry<'posts'>[];
   blogPermalinkStructureResolved: BlogPermalinkStructure;
   blogUrlPrefixResolved: BlogUrlPrefix;
+  bemmaeArticleExperts: BemmaeExpertCardData[] | undefined;
+  bemmaeArticleExpertsSectionTitle: string;
 };
 
 export async function loadBlogPageData(
@@ -82,6 +85,8 @@ export async function loadBlogPageData(
   let relatedPosts: CollectionEntry<'posts'>[] = [];
   let blogPermalinkStructureResolved: BlogPermalinkStructure = 'postname';
   let blogUrlPrefixResolved: BlogUrlPrefix = 'blog';
+  let bemmaeArticleExperts: BemmaeExpertCardData[] | undefined = undefined;
+  let bemmaeArticleExpertsSectionTitle = '';
 
   if (props.kind === 'post') {
     post = props.post;
@@ -155,6 +160,14 @@ export async function loadBlogPageData(
     blogUrlPrefixResolved = (settings?.data?.blogUrlPrefix as BlogUrlPrefix) || 'blog';
     const allPostsForRelated = await getCollection('posts');
     relatedPosts = useBemmae ? pickRelatedPosts(post, allPostsForRelated, 3) : [];
+
+    if (useBemmae) {
+      const beAbout = (await readSingleton('about', 'bemmae')) as Record<string, unknown> | null;
+      bemmaeArticleExperts = buildBemmaeArticleExperts(author, beAbout);
+      bemmaeArticleExpertsSectionTitle = String(
+        beAbout?.teamSectionTitle || 'Conheça nossos especialistas',
+      ).trim();
+    }
   } else {
     category = props.category;
     const settings = await getEntry('siteSettings', 'settings').catch(() => null);
@@ -215,5 +228,7 @@ export async function loadBlogPageData(
     relatedPosts,
     blogPermalinkStructureResolved,
     blogUrlPrefixResolved,
+    bemmaeArticleExperts,
+    bemmaeArticleExpertsSectionTitle,
   };
 }

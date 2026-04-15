@@ -1,5 +1,6 @@
 ---
 import { resolveBemmaeMediaUrl } from '../../utils/media-url';
+import BemmaeExpertCard from './BemmaeExpertCard.astro';
 
 interface Props {
   data: Record<string, any>;
@@ -25,7 +26,7 @@ const processTitle = String(d.processTitle || 'Nosso processo de análise').trim
 const processSteps =
   Array.isArray(d.processSteps) && d.processSteps.length > 0 ? d.processSteps : defaultProcessSteps();
 
-const teamSectionTitle = String(d.teamSectionTitle || 'Nossa equipe').trim();
+const teamSectionTitle = String(d.teamSectionTitle || 'Conheça nossos especialistas').trim();
 
 const ctaBannerTitle = String(d.ctaBannerTitle || '').trim() || 'Pronta para escolher com mais calma?';
 const ctaBannerText =
@@ -175,42 +176,28 @@ function defaultProcessSteps() {
     </section>
   )}
 
-  <!-- Equipe -->
+  <!-- Equipe / especialistas -->
   {team.length > 0 && (
     <section class="px-4 sm:px-6 py-14 md:py-20 bg-[var(--color-surface)]" aria-labelledby="sobre-equipe">
-      <div class="max-w-5xl mx-auto">
+      <div class="max-w-3xl mx-auto">
         <h2 id="sobre-equipe" class="text-2xl md:text-3xl font-bold text-[var(--color-heading)] mb-10 text-center">
           {teamSectionTitle}
         </h2>
-        <div class="grid sm:grid-cols-2 gap-8">
+        <ul class="flex flex-col gap-8 list-none p-0 m-0">
           {team.map((m: any) => (
-            <div class="flex gap-5 items-start p-6 md:p-8 rounded-2xl border border-[var(--color-border)] bg-white shadow-sm">
-              {m.photo?.trim() ? (
-                <img
-                  src={resolveBemmaeMediaUrl(m.photo.trim()) || m.photo.trim()}
-                  alt={m.name || ''}
-                  width="112"
-                  height="112"
-                  class="shrink-0 w-24 h-24 md:w-28 md:h-28 rounded-2xl object-cover ring-2 ring-[var(--color-border)]"
-                  loading="lazy"
-                  decoding="async"
-                />
-              ) : (
-                <div
-                  class="shrink-0 w-24 h-24 md:w-28 md:h-28 rounded-2xl bg-[var(--color-nude)] flex items-center justify-center text-3xl ring-2 ring-[var(--color-border)]"
-                  aria-hidden="true"
-                >
-                  {m.emoji || '👤'}
-                </div>
-              )}
-              <div class="min-w-0">
-                <h3 class="text-lg font-semibold text-[var(--color-heading)]">{m.name}</h3>
-                {m.role && <p class="text-sm font-medium text-[var(--color-accent)] mt-1">{m.role}</p>}
-                {m.bio && <p class="text-[var(--color-muted)] mt-3 leading-relaxed text-[15px] md:text-base">{m.bio}</p>}
-              </div>
-            </div>
+            <li>
+              <BemmaeExpertCard
+                name={m.name}
+                badge={m.badge}
+                role={m.role}
+                bio={m.bio}
+                photo={m.photo}
+                emoji={m.emoji}
+                href={m.href}
+              />
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
     </section>
   )}
