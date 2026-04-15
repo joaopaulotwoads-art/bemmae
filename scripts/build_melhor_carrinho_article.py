@@ -13,35 +13,38 @@ _COLON_PROTECT_RE = re.compile(r"(https?:)|(?:NBR\s+[\d.\-]+:\d{4})")
 _ROUNDUP_ATTR_RE = re.compile(r'data-cnx-roundup="[^"]*"')
 
 
-def _remove_colon_space_segment(s: str) -> str:
-    """Remove ': ' e ':' antes de </p> no texto editorial, sem trocar por vírgula."""
-    parts: list[str] = []
-    pos = 0
-    for m in _COLON_PROTECT_RE.finditer(s):
-        chunk = s[pos : m.start()]
-        chunk = chunk.replace(": ", " ")
-        chunk = chunk.replace(":</p>", ".</p>")
-        chunk = re.sub(r" {2,}", " ", chunk)
-        parts.append(chunk)
-        parts.append(m.group(0))
-        pos = m.end()
-    chunk = s[pos:]
+def _strip_editorial_punctuation_chunk(chunk: str) -> str:
+    """Remove ': ' e ponto e vírgula editorial ('; ', ';</p>', ';</li>'), sem trocar por vírgula."""
+    chunk = chunk.replace("; ", " ")
+    chunk = chunk.replace(";</p>", ".</p>")
+    chunk = chunk.replace(";</li>", ".</li>")
     chunk = chunk.replace(": ", " ")
     chunk = chunk.replace(":</p>", ".</p>")
     chunk = re.sub(r" {2,}", " ", chunk)
-    parts.append(chunk)
+    return chunk
+
+
+def _sanitize_editorial_segment(s: str) -> str:
+    """Protege NBR e https:; aplica remoção de ':' e ';' no restante."""
+    parts: list[str] = []
+    pos = 0
+    for m in _COLON_PROTECT_RE.finditer(s):
+        parts.append(_strip_editorial_punctuation_chunk(s[pos : m.start()]))
+        parts.append(m.group(0))
+        pos = m.end()
+    parts.append(_strip_editorial_punctuation_chunk(s[pos:]))
     return "".join(parts)
 
 
-def replace_colon_space_html(html: str) -> str:
+def sanitize_editorial_punctuation_html(html: str) -> str:
     """Respeita o atributo data-cnx-roundup (JSON) e protege NBR / https:."""
     parts: list[str] = []
     pos = 0
     for m in _ROUNDUP_ATTR_RE.finditer(html):
-        parts.append(_remove_colon_space_segment(html[pos : m.start()]))
+        parts.append(_sanitize_editorial_segment(html[pos : m.start()]))
         parts.append(m.group(0))
         pos = m.end()
-    parts.append(_remove_colon_space_segment(html[pos:]))
+    parts.append(_sanitize_editorial_segment(html[pos:]))
     return "".join(parts)
 
 
@@ -51,18 +54,16 @@ def clean_editorial_html(html: str) -> str:
         html = re.sub(r"<strong>(.*?)</strong>", r"\1", html, flags=re.DOTALL)
     while "<em>" in html:
         html = re.sub(r"<em>(.*?)</em>", r"\1", html, flags=re.DOTALL)
-    html = html.replace("\u2014", "; ")
-    html = html.replace(" — ", "; ")
+    html = html.replace("\u2014", ", ")
+    html = html.replace(" — ", ", ")
     html = html.replace(" – ", ", ")
     html = html.replace("\u2013", ", ")
     html = re.sub(r"\s+,", ",", html)
     html = re.sub(r",\s{2,}", ", ", html)
-    html = re.sub(r";\s{2,}", "; ", html)
-    html = html.replace(" ; ", "; ")
     html = html.replace("bebê conforto + base", "bebê conforto e base")
     html = html.replace("carrinho + bebê conforto", "carrinho e bebê conforto")
     html = html.replace("\u201c", "").replace("\u201d", "")
-    html = replace_colon_space_html(html)
+    html = sanitize_editorial_punctuation_html(html)
     return html
 
 
@@ -660,11 +661,11 @@ def roundup_data_attr(products: list) -> str:
     items = [
         {
             "rank": p["rank"],
-            "itemBadge": _remove_colon_space_segment(p["badge_r"]),
-            "title": _remove_colon_space_segment(f'{p["title_short"]}, {p["brand"]}'),
+            "itemBadge": _strip_editorial_punctuation_chunk(p["badge_r"]),
+            "title": _strip_editorial_punctuation_chunk(f'{p["title_short"]}, {p["brand"]}'),
             "image": p["img"],
             "score": p["score"],
-            "features": [_remove_colon_space_segment(f) for f in p["features_r"]],
+            "features": [_strip_editorial_punctuation_chunk(f) for f in p["features_r"]],
             "cta1": "Ver na Amazon",
             "cta1Url": p["link"],
             "cta2": "",
