@@ -2,6 +2,7 @@
 """Gera o HTML do artigo melhor-carrinho-de-bebe.md (formato CNX)."""
 from pathlib import Path
 import html
+import json
 import re
 
 OUT = Path(__file__).resolve().parents[1] / "src/content/posts/melhor-carrinho-de-bebe.md"
@@ -617,6 +618,27 @@ def roundup_row(p: dict) -> str:
     )
 
 
+def roundup_data_attr(products: list) -> str:
+    """JSON no atributo data-cnx-roundup para o editor TipTap (affiliateRoundup)."""
+    items = [
+        {
+            "rank": p["rank"],
+            "itemBadge": p["badge_r"],
+            "title": f'{p["title_short"]}, {p["brand"]}',
+            "image": p["img"],
+            "score": p["score"],
+            "features": list(p["features_r"]),
+            "cta1": "Ver na Amazon",
+            "cta1Url": p["link"],
+            "cta2": "",
+            "cta2Url": "",
+        }
+        for p in products
+    ]
+    raw = json.dumps(items, ensure_ascii=False, separators=(",", ":"))
+    return html.escape(raw, quote=True)
+
+
 def main() -> None:
     head = """---
 title: Melhores Carrinhos de Bebê 2026, Top 16, Safety 1st, Chicco e mais
@@ -643,7 +665,7 @@ seoSchema: auto
 <h2 id="tabela-comparativa-rapida">Tabela comparativa rápida dos 16 em 2026</h2>
 <p>Use esta tabela para comparar de relance. As notas são editoriais, com base em experiência típica, relatos e ficha, não nota de loja. Toque em Ver na Amazon para ver preço e disponibilidade atuais.</p>
 
-<div class="cnx-aff-roundup cnx-aff-block-wrap">
+<div class="cnx-aff-roundup cnx-aff-block-wrap" data-cnx-roundup="{roundup_data_attr(PRODUCTS)}">
 <div class="cnx-aff-roundup-head" aria-hidden="true">
 <span class="cnx-aff-roundup-head-spacer"></span>
 <span>Imagem</span>
