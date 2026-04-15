@@ -43,6 +43,15 @@ html.dark .cnx-aff-block-wrap {
   --aff-red: #c2410c;
 }
 
+/* Título editorial imediatamente acima do card de produto (rankings) */
+.cnx-aff-rank-heading {
+  font-size: 1.35rem !important;
+  font-weight: 700 !important;
+  line-height: 1.3 !important;
+  margin: 2rem 0 0.5rem !important;
+  color: var(--aff-text) !important;
+}
+
 .cnx-aff-product {
   display: flex;
   flex-direction: column;
