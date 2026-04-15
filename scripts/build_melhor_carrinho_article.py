@@ -9,6 +9,34 @@ OUT = Path(__file__).resolve().parents[1] / "src/content/posts/melhor-carrinho-d
 
 REF = "ref=bemmae.com.br"
 
+_COLON_PROTECT_RE = re.compile(r"(https?:)|(?:NBR\s+[\d.\-]+:\d{4})")
+_ROUNDUP_ATTR_RE = re.compile(r'data-cnx-roundup="[^"]*"')
+
+
+def _replace_colon_space_segment(s: str) -> str:
+    """Troca ': ' por ', ' no texto editorial (evita 50+ dois-pontos no corpo)."""
+    parts: list[str] = []
+    pos = 0
+    for m in _COLON_PROTECT_RE.finditer(s):
+        parts.append(s[pos : m.start()].replace(": ", ", "))
+        parts.append(m.group(0))
+        pos = m.end()
+    parts.append(s[pos:].replace(": ", ", "))
+    return "".join(parts)
+
+
+def replace_colon_space_html(html: str) -> str:
+    """Respeita o atributo data-cnx-roundup (JSON) e protege NBR / https:."""
+    parts: list[str] = []
+    pos = 0
+    for m in _ROUNDUP_ATTR_RE.finditer(html):
+        parts.append(_replace_colon_space_segment(html[pos : m.start()]))
+        parts.append(m.group(0))
+        pos = m.end()
+    parts.append(_replace_colon_space_segment(html[pos:]))
+    return "".join(parts)
+
+
 def clean_editorial_html(html: str) -> str:
     """Sem negrito/itálico no corpo; troca travessões por vírgula; evita + editorial."""
     while "<strong>" in html:
@@ -26,6 +54,7 @@ def clean_editorial_html(html: str) -> str:
     html = html.replace("bebê conforto + base", "bebê conforto e base")
     html = html.replace("carrinho + bebê conforto", "carrinho e bebê conforto")
     html = html.replace("\u201c", "").replace("\u201d", "")
+    html = replace_colon_space_html(html)
     return html
 
 
@@ -623,11 +652,11 @@ def roundup_data_attr(products: list) -> str:
     items = [
         {
             "rank": p["rank"],
-            "itemBadge": p["badge_r"],
-            "title": f'{p["title_short"]}, {p["brand"]}',
+            "itemBadge": _replace_colon_space_segment(p["badge_r"]),
+            "title": _replace_colon_space_segment(f'{p["title_short"]}, {p["brand"]}'),
             "image": p["img"],
             "score": p["score"],
-            "features": list(p["features_r"]),
+            "features": [_replace_colon_space_segment(f) for f in p["features_r"]],
             "cta1": "Ver na Amazon",
             "cta1Url": p["link"],
             "cta2": "",
@@ -647,8 +676,8 @@ author: vitoria-caroline
 category: carrinhos-de-bebe
 publishedDate: "2026-03-23"
 thumbnail: /images/posts/1774272629165-familia-passeando-no-parque-com-seu-filho-no-carrinho-de-bebe.webp
-metaTitle: "Melhores carrinhos de bebê 2026: ranking 16 | Bem Mãe"
-metaDescription: "Os 16 melhores carrinhos de bebê em 2026: travel system, Inmetro e compactos. Comparativo, notas e links para preço na Amazon. Bem Mãe."
+metaTitle: "Melhores carrinhos de bebê 2026, ranking 16 | Bem Mãe"
+metaDescription: "Os 16 melhores carrinhos de bebê em 2026, travel system, Inmetro e compactos. Comparativo, notas e links para preço na Amazon. Bem Mãe."
 metaImage: https://bemmae.com.br/content/images/2026/02/familia-passeando-no-parque-com-seu-filho-no-carrinho-de-bebe.webp
 contentFormat: html
 articleLayout: reviewRoundup
@@ -735,7 +764,7 @@ seoSchema: auto
 <p>Quer aprofundar sem enlouquecer? O Bem Mãe tem o passo a passo em <a class="text-[#2563eb] hover:underline" href="https://bemmae.com.br/como-escolher-carrinho-de-bebe/">como escolher carrinho de bebê</a>.</p>
 
 <h2 id="carrinho-pequeno-pratico">Carrinho de bebê pequeno e prático, os compactos deste guia</h2>
-<p>Apartamento apertado, hatch e muito aplicativo pedem pouco volume dobrado. Neste artigo os nomes mais alinhados a esse perfil são:</p>
+<p>Apartamento apertado, hatch e muito aplicativo pedem pouco volume dobrado. Neste artigo os nomes mais alinhados a esse perfil aparecem na lista abaixo.</p>
 <ul class="list-disc pl-6 my-4 space-y-1">
 <li><a class="text-[#2563eb] hover:underline" href="#produto-5">Up!, Burigotto</a></li>
 <li><a class="text-[#2563eb] hover:underline" href="#produto-2">Eva, Maxi-Cosi</a></li>
@@ -759,7 +788,7 @@ seoSchema: auto
 <p>Ainda em dúvida na manobra? Veja <a class="text-[#2563eb] hover:underline" href="https://bemmae.com.br/como-fechar-carrinho-de-bebe/">como fechar carrinho de bebê</a> sem forçar trava nem estrutura.</p>
 
 <h2 id="carrinho-rodas-grandes">Carrinho com rodas maiores, terreno irregular e passeio longo</h2>
-<p>Rodas maiores costumam absorver melhor trecho com buraco, guia alta e calçada velha. Entre os 16, os perfis mais tanque de cidade, em troca de peso e largura, são:</p>
+<p>Rodas maiores costumam absorver melhor trecho com buraco, guia alta e calçada velha. Entre os 16, os perfis mais tanque de cidade, em troca de peso e largura, aparecem na lista abaixo.</p>
 <ul class="list-disc pl-6 my-4 space-y-1">
 <li><a class="text-[#2563eb] hover:underline" href="#produto-1">Travel System Mobi, Safety 1st</a></li>
 <li><a class="text-[#2563eb] hover:underline" href="#produto-3">Discover Trio Isofix, Safety 1st</a></li>
@@ -771,7 +800,7 @@ seoSchema: auto
 </ul>
 
 <h2 id="travel-system-bebe-conforto">Quais modelos acoplam bebê conforto em travel system</h2>
-<p>Nos primeiros meses, tirar o bebê do carro sem despertar vale ouro. Na nossa seleção, os conjuntos com lógica de travel system ou trio com bebê conforto incluem:</p>
+<p>Nos primeiros meses, tirar o bebê do carro sem despertar vale ouro. Na nossa seleção, os conjuntos com lógica de travel system ou trio com bebê conforto aparecem na lista abaixo.</p>
 <ul class="list-disc pl-6 my-4 space-y-1">
 <li><a class="text-[#2563eb] hover:underline" href="#produto-1">Mobi, Safety 1st</a></li>
 <li><a class="text-[#2563eb] hover:underline" href="#produto-3">Discover Isofix, Safety 1st</a></li>
@@ -784,7 +813,7 @@ seoSchema: auto
 <p>Passeios só com chassis ainda aparecem no mercado; se a prioridade é encaixe direto, filtre anúncios que mostram bebê conforto e base na mesma página.</p>
 
 <h2 id="carrinho-recem-nascido">Carrinho para recém-nascido, berço, reclinação e capota</h2>
-<p>Recém-nascido pede reclinação segura, apoio estável e capota que protege sol e vento. Entre os listados aqui, os que mais costumam encaixar nesse uso, sempre seguindo manual e peso do bebê, são:</p>
+<p>Recém-nascido pede reclinação segura, apoio estável e capota que protege sol e vento. Entre os listados aqui, os que mais costumam encaixar nesse uso, sempre seguindo manual e peso do bebê, aparecem na lista abaixo.</p>
 <ul class="list-disc pl-6 my-4 space-y-1">
 <li><a class="text-[#2563eb] hover:underline" href="#produto-1">Mobi</a>, <a class="text-[#2563eb] hover:underline" href="#produto-3">Discover</a>, <a class="text-[#2563eb] hover:underline" href="#produto-4">Poppy</a>, <a class="text-[#2563eb] hover:underline" href="#produto-6">Reverse</a>, <a class="text-[#2563eb] hover:underline" href="#produto-7">Ecco</a>, <a class="text-[#2563eb] hover:underline" href="#produto-8">Nexus</a> e <a class="text-[#2563eb] hover:underline" href="#produto-9">Toffy</a>, conforme a versão escolhida.</li>
 <li><a class="text-[#2563eb] hover:underline" href="#produto-10">Milano Rev, Galzerano</a>. Presença forte em berço reversível na faixa de preço nacional.</li>
@@ -835,8 +864,9 @@ seoSchema: auto
 <p>Não existe carrinho perfeito; existe o que cabe na sua vida. Mediu o porta-malas, cruzou com o elevador e a calçada do seu bairro? Aí sim, clique em Ver na Amazon, compare o preço do dia e boa compra.</p>
 """
 
-    body = head + intro + "\n".join(sections) + final_topics + faq + outro
-    body = clean_editorial_html(body)
+    body_main = intro + "\n".join(sections) + final_topics + faq + outro
+    body_main = clean_editorial_html(body_main)
+    body = head + body_main
     OUT.write_text(body, encoding="utf-8", newline="\n")
     print("OK", OUT, "chars", len(body))
 
