@@ -1,7 +1,38 @@
 /**
- * Divide parágrafos HTML longos em blocos mais curtos (≈2 frases / ~3 linhas na leitura),
- * separando em `. ` (ponto + espaço). Ignora `<p>` que já contém tags (ex.: <strong>).
+ * Divide parágrafos longos do corpo em reviews (layout reviewRoundup) em blocos
+ * mais curtos (~4 linhas na coluna editorial ~72ch), agrupando frases até um
+ * teto de palavras. Preserva <a href>...</a> no meio do texto.
  */
+
+const LINK_PLACEHOLDER = (i: number) => `⟦${i}⟧`;
+
+/** Largura alvo ~4 linhas em 72ch, ~10–11 palavras por linha em PT. */
+const MAX_WORDS_PER_PARAGRAPH = 40;
+
+const MIN_WORDS_TO_SPLIT = 45;
+
+function wordCount(text: string): number {
+  return text.trim().split(/\s+/).filter(Boolean).length;
+}
+
+function protectAnchors(html: string): { text: string; links: string[] } {
+  const links: string[] = [];
+  const text = html.replace(/<a\s[^>]*>[\s\S]*?<\/a>/gi, (m) => {
+    links.push(m);
+    return LINK_PLACEHOLDER(links.length - 1);
+  });
+  return { text, links };
+}
+
+function restoreAnchors(text: string, links: string[]): string {
+  return text.replace(/⟦(\d+)⟧/g, (_, d) => links[Number(d)] ?? _);
+}
+
+/** Só processa <p> que são texto + links; ignora strong, img, etc. */
+function isSimpleParagraphHtml(inner: string): boolean {
+  const withoutAnchors = inner.replace(/<a\s[^>]*>[\s\S]*?<\/a>/gi, '');
+  return !/<[a-z]/i.test(withoutAnchors);
+}
 
 function splitIntoSentences(text: string): string[] {
   const raw = text.trim();
@@ -16,29 +47,45 @@ function splitIntoSentences(text: string): string[] {
   });
 }
 
-/** Agrupa frases de 2 em 2 (último bloco pode ter 1). */
-function chunkSentences(sentences: string[], perParagraph: number): string[] {
+function packSentencesToWordBudget(sentences: string[], maxWords: number): string[] {
   const out: string[] = [];
-  for (let i = 0; i < sentences.length; i += perParagraph) {
-    out.push(sentences.slice(i, i + perParagraph).join(' '));
+  let cur = '';
+  let curWords = 0;
+
+  for (const sent of sentences) {
+    const w = wordCount(sent);
+    if (!cur) {
+      cur = sent;
+      curWords = w;
+      continue;
+    }
+    if (curWords + w <= maxWords) {
+      cur = `${cur} ${sent}`;
+      curWords += w;
+    } else {
+      out.push(cur);
+      cur = sent;
+      curWords = w;
+    }
   }
+  if (cur) out.push(cur);
   return out;
 }
 
-const MIN_CHARS_TO_SPLIT = 100;
-const SENTENCES_PER_PARAGRAPH = 2;
-
 export function splitReviewRoundupBodyParagraphs(html: string): string {
-  return html.replace(/<p>([^<]+)<\/p>/gi, (full, inner) => {
-    const t = inner.trim();
-    if (t.length < MIN_CHARS_TO_SPLIT) return full;
+  return html.replace(/<p>([\s\S]*?)<\/p>/gi, (full, inner: string) => {
+    const trimmed = inner.trim();
+    if (!trimmed || !isSimpleParagraphHtml(trimmed)) return full;
 
-    const sentences = splitIntoSentences(t);
+    const { text, links } = protectAnchors(trimmed);
+    if (wordCount(text) < MIN_WORDS_TO_SPLIT) return full;
+
+    const sentences = splitIntoSentences(text);
     if (sentences.length < 2) return full;
 
-    const chunks = chunkSentences(sentences, SENTENCES_PER_PARAGRAPH);
+    const chunks = packSentencesToWordBudget(sentences, MAX_WORDS_PER_PARAGRAPH);
     if (chunks.length <= 1) return full;
 
-    return chunks.map((c) => `<p>${c}</p>`).join('\n');
+    return chunks.map((c) => `<p>${restoreAnchors(c.trim(), links)}</p>`).join('');
   });
 }
