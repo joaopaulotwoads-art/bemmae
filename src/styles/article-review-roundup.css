@@ -6,8 +6,8 @@
 .article-review-roundup {
   --review-bg: #fff6f6;
   --review-card: #ffffff;
-  --review-orange: #ea580c;
-  --review-orange-soft: rgba(234, 88, 12, 0.12);
+  --review-orange: #ff875b;
+  --review-orange-soft: rgba(255, 135, 91, 0.15);
   --review-yellow: #facc15;
   --review-yellow-hover: #eab308;
   --review-green-bg: #ecfdf5;
@@ -40,9 +40,9 @@
   padding: 0.85rem 1rem 0.85rem 1.1rem;
   cursor: pointer;
   list-style: none;
-  font-weight: 800;
-  font-size: 0.9375rem;
-  color: var(--color-dark, #333);
+  font-weight: 700;
+  font-size: 1.25rem; /* text-xl — “Índice do Artigo” na referência */
+  color: var(--color-dark, #09090b);
   user-select: none;
 }
 
@@ -69,7 +69,7 @@
 
 .review-article-toc-nav {
   padding: 0 1rem 1rem 1.1rem;
-  border-top: 1px solid rgba(234, 88, 12, 0.12);
+  border-top: 1px solid rgba(255, 135, 91, 0.12);
 }
 
 .review-article-toc-list {
@@ -102,7 +102,7 @@
 
 /* Parágrafos do review: blocos mais curtos + respiro entre eles (legibilidade) */
 .article-review-roundup .bemmae-post-html > p {
-  margin-bottom: 1.35em;
+  margin-bottom: var(--bemmae-post-p-space, 27px);
 }
 
 .article-review-roundup .bemmae-post-html > p:last-child {
@@ -303,14 +303,22 @@
   color: var(--color-dark, #374151) !important;
 }
 
-/* Seções guia / FAQ */
+/* Seções guia / FAQ (h2.review-section-label no editor) — mesma escala que h2 de secção */
 .review-section-label {
-  font-size: 1.35rem !important;
-  font-weight: 800 !important;
+  font-size: 1.875rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.05em !important;
+  line-height: 1.2 !important;
   margin: 2rem 0 0.75rem 0 !important;
   padding-bottom: 0.35rem;
   border-bottom: 2px solid var(--review-orange-soft);
-  color: var(--color-heading, #111827) !important;
+  color: var(--color-heading, #09090b) !important;
+}
+
+@media (min-width: 768px) {
+  .review-section-label {
+    font-size: 2.25rem !important;
+  }
 }
 
 /* ── Caixa de produto (referência: borda cinza, fita canto, Recomendado + data, CTAs) ── */
@@ -420,10 +428,11 @@
 
 /* Título do produto dentro da caixa: azul sublinhado */
 .article-review-roundup .cnx-aff-product-title {
-  font-size: 1.125rem !important;
+  font-family: var(--font-product, "Geist Sans", system-ui, sans-serif) !important;
+  font-size: 1.25rem !important;
   font-weight: 700 !important;
   line-height: 1.35 !important;
-  color: var(--color-link, #2563eb) !important;
+  color: var(--color-link, #3b82f6) !important;
   text-decoration: underline !important;
   text-underline-offset: 3px;
   text-decoration-thickness: 1px;
@@ -432,6 +441,12 @@
 .article-review-roundup .cnx-aff-product-title a {
   color: inherit !important;
   text-decoration: inherit !important;
+}
+
+@media (min-width: 768px) {
+  .article-review-roundup .cnx-aff-product-title {
+    font-size: 1.5rem !important;
+  }
 }
 
 .article-review-roundup .cnx-aff-product-desc {
@@ -472,14 +487,14 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  background: #ffc107 !important;
-  color: #1a1a1a !important;
-  border: 1px solid #e0a800 !important;
-  font-weight: 800 !important;
+  background: #ffd814 !important;
+  color: #000 !important;
+  border: 1px solid rgba(234, 179, 8, 0.5) !important;
+  font-weight: 700 !important;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
   border-radius: 0.45rem !important;
-  padding: 0.6rem 0.95rem !important;
-  font-size: 0.875rem !important;
+  padding: 0.65rem 1rem !important;
+  font-size: 1.125rem !important;
 }
 
 .article-review-roundup .cnx-aff-product-cta a::after {
@@ -491,7 +506,7 @@
 }
 
 .article-review-roundup .cnx-aff-product-cta a:hover {
-  background: #ffca28 !important;
+  background: #f7ca00 !important;
   filter: none;
 }
 
@@ -505,7 +520,7 @@
 }
 
 .review-secondary-price a {
-  color: var(--color-link, #2563eb) !important;
+  color: var(--color-link, #3b82f6) !important;
   text-decoration: underline !important;
 }
 
@@ -673,11 +688,19 @@
   margin-bottom: 0.65rem !important;
   padding: 0.15rem 0 0 0.85rem !important;
   border-left: 4px solid var(--review-orange);
-  font-size: 1.125rem !important;
+  /* Referência: título numerado do produto ~ text-xl → text-2xl (não o h2 compacto antigo) */
+  font-size: 1.25rem !important;
   font-weight: 800 !important;
   line-height: 1.35 !important;
+  letter-spacing: -0.02em !important;
   color: #111827 !important;
   text-decoration: none !important;
+}
+
+@media (min-width: 768px) {
+  .article-review-roundup .bemmae-post-html > h2:has(+ .cnx-aff-product.cnx-aff-block-wrap) {
+    font-size: 1.5rem !important;
+  }
 }
 
 .article-review-roundup .bemmae-post-html > h2:has(+ .cnx-aff-product.cnx-aff-block-wrap)::before {
@@ -685,9 +708,19 @@
   font-weight: 800;
 }
 
-/* Outros h2 diretos no corpo (se existirem) */
+/* Secções do guia / FAQ: text-3xl → text-4xl como no Guia o Melhor (não reduzir para 1.35rem) */
 .article-review-roundup .bemmae-post-html > h2:not(:has(+ .cnx-aff-product.cnx-aff-block-wrap)) {
   margin-top: 2.25rem !important;
   padding-top: 0.25rem;
-  font-size: 1.35rem !important;
+  font-size: 1.875rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.05em !important;
+  line-height: 1.2 !important;
+  color: var(--color-heading, #09090b) !important;
+}
+
+@media (min-width: 768px) {
+  .article-review-roundup .bemmae-post-html > h2:not(:has(+ .cnx-aff-product.cnx-aff-block-wrap)) {
+    font-size: 2.25rem !important;
+  }
 }

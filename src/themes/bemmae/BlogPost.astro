@@ -86,7 +86,7 @@ const applyRoundupArticleScope =
       <span class="text-[var(--color-dark)] font-medium">{post.data.title}</span>
     </nav>
     <h1
-      class="text-3xl sm:text-[2rem] md:text-[2.125rem] font-extrabold tracking-tight text-[var(--color-heading)] leading-[1.2] [font-family:var(--font-heading)]"
+      class="text-2xl md:text-5xl font-extrabold tracking-tight text-[var(--color-heading)] leading-[1.2] [font-family:var(--font-heading)] mb-4"
     >
       {post.data.title}
     </h1>
@@ -162,7 +162,7 @@ const applyRoundupArticleScope =
     class:list={[
       'post-content max-w-none text-[var(--color-dark)]',
       !htmlContent &&
-        'prose prose-neutral prose-lg max-w-none prose-p:text-[18px] prose-p:leading-[1.6] prose-p:mb-[1.25em] prose-p:text-[var(--color-dark)] prose-headings:[font-family:var(--font-heading)] prose-headings:font-bold prose-headings:text-[var(--color-heading)] prose-h1:text-3xl prose-h1:tracking-tight prose-h2:text-2xl prose-h2:tracking-tight prose-h2:mt-6 prose-h2:mb-3 prose-h3:text-xl prose-h3:tracking-tight prose-h3:mt-6 prose-h3:mb-3 prose-h4:text-lg prose-h4:mt-6 prose-h4:mb-3 prose-h5:text-base prose-h5:font-semibold prose-h5:mt-6 prose-h5:mb-3 prose-h6:text-[0.8125rem] prose-h6:uppercase prose-h6:tracking-wide prose-h6:font-semibold prose-h6:text-[#64748b] prose-h6:mt-6 prose-h6:mb-3 prose-li:my-2 prose-a:font-medium prose-a:text-[var(--color-link)] prose-a:underline hover:prose-a:text-[var(--color-link-hover)]',
+        'prose prose-neutral prose-lg max-w-none prose-p:text-lg prose-p:leading-relaxed prose-p:mb-8 prose-p:text-[var(--color-dark)] prose-headings:[font-family:var(--font-heading)] prose-headings:font-bold prose-headings:text-[var(--color-heading)] prose-h1:text-2xl md:prose-h1:text-5xl prose-h1:font-extrabold prose-h1:tracking-tight prose-h1:mb-4 prose-h1:mt-8 prose-h2:text-3xl md:prose-h2:text-4xl prose-h2:tracking-tighter prose-h2:font-bold prose-h2:mt-8 prose-h2:mb-4 prose-h3:text-lg md:prose-h3:text-xl prose-h3:mt-6 prose-h3:mb-3 prose-h4:text-lg prose-h4:mt-6 prose-h4:mb-3 prose-h5:text-base prose-h5:font-semibold prose-h5:mt-6 prose-h5:mb-3 prose-h6:text-[0.8125rem] prose-h6:uppercase prose-h6:tracking-wide prose-h6:font-semibold prose-h6:text-[#64748b] prose-h6:mt-6 prose-h6:mb-3 prose-li:my-2 prose-a:font-medium prose-a:text-[var(--color-link)] prose-a:underline hover:prose-a:text-[var(--color-link-hover)]',
     ]}
   >
     {postHtmlBody ? (
@@ -206,7 +206,7 @@ const applyRoundupArticleScope =
     <section class="mt-12 pt-10 border-t border-[var(--color-border)]" aria-labelledby="post-experts-heading">
       <h2
         id="post-experts-heading"
-        class="text-2xl md:text-3xl font-bold text-[var(--color-heading)] mb-8 text-center sm:text-left [font-family:var(--font-heading)]"
+        class="text-3xl font-bold text-[var(--color-heading)] mb-8 text-center sm:text-left [font-family:var(--font-heading)] tracking-tight"
       >
         {articleExpertsSectionTitle}
       </h2>
@@ -272,13 +272,13 @@ const applyRoundupArticleScope =
     <section
       class:list={[
         'mt-12 pt-10 border-t',
-        isReviewRoundup ? 'border-orange-200/80' : 'border-[var(--color-border)]',
+        isReviewRoundup ? 'border-[rgba(255,135,91,0.35)]' : 'border-[var(--color-border)]',
       ]}
       aria-labelledby="related-posts-heading"
     >
       <h2
         id="related-posts-heading"
-        class="text-xl font-extrabold tracking-tight text-[var(--color-heading)] [font-family:var(--font-heading)]"
+        class="text-3xl md:text-4xl font-bold tracking-tighter text-[var(--color-heading)] [font-family:var(--font-heading)] mb-2"
       >
         Posts relacionados
       </h2>

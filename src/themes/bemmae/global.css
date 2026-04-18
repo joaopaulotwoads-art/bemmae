@@ -1,30 +1,32 @@
 @import '../../styles/affiliate-blocks.css';
 @import '../../styles/article-review-roundup.css';
 
-/* Tema Bem Mãe — fundo #fff6f6, texto #333, Open Sans, entrelinha editorial ~1.6 */
+/* Tema Bem Mãe — alinhado ao Guia o Melhor: Geist Sans, #fff6f6, primária #ff875b, texto #09090b */
 :root {
   --color-bg: #fff6f6;
-  --color-text: #333333;
-  --color-heading: #1a1a1a;
-  --color-muted: #6b7280;
-  /* Corpo do texto (parágrafos; próximo ao cinza escuro da referência) */
-  --color-dark: #333333;
-  /* CTAs e destaques da marca (botões; links do texto usam --color-link) */
-  --color-accent: #c4a77d;
+  --color-primary: #ff875b;
+  --color-text: #09090b;
+  --color-heading: #09090b;
+  --color-muted: #71717b;
+  --color-dark: #09090b;
+  --color-accent: #ff875b;
   --color-border: #e5e7eb;
-  /* Superfícies discretas (substitui bege/rosa antigos) */
   --color-surface: #f9fafb;
   --color-rosa: #f9fafb;
   --color-nude: #f3f4f6;
-  /* Links no corpo: azul sóbrio */
-  --color-link: #2563eb;
-  --color-link-hover: #1d4ed8;
-  --bemmae-font-sans: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  /* Links estilo referência (text-blue-500) */
+  --color-link: #3b82f6;
+  --color-link-hover: #2563eb;
+  --bemmae-font-sans: "Geist Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif;
   --font-body: var(--bemmae-font-sans);
-  --font-heading: "Open Sans", var(--bemmae-font-sans);
+  --font-heading: "Geist Sans", var(--bemmae-font-sans);
+  --font-product: "Geist Sans", var(--bemmae-font-sans);
   --bemmae-post-font: var(--font-body);
-  --bemmae-post-line: 1.6;
-  --bemmae-post-p-space: 1.25em;
+  /* leading-relaxed (~1.625) como no Tailwind da referência */
+  --bemmae-post-line: 1.625;
+  /* space-y-8 (~32px) entre blocos de texto */
+  --bemmae-post-p-space: 2rem;
 }
 
 .bemmae-scope body {
@@ -99,13 +101,21 @@
   margin-bottom: 0;
 }
 
-/* Títulos no fluxo do artigo: escala alinhada a text-3xl … text-sm */
+/* Hierarquia como guiaomelhor: h1 text-2xl→text-5xl; h2 text-3xl→text-4xl tracking-tighter; h3 text-lg→text-xl */
 .bemmae-post-html :where(h1, h2, h3, h4, h5, h6) {
   font-family: var(--font-heading);
-  line-height: 1.25;
   color: var(--color-heading);
   scroll-margin-top: 5rem;
   margin-top: 1.5rem;
+}
+
+.bemmae-post-html :where(h1, h2) {
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.bemmae-post-html :where(h3, h4, h5, h6) {
+  line-height: 1.25;
   margin-bottom: 0.75rem;
 }
 
@@ -114,21 +124,39 @@
 }
 
 .bemmae-post-html :where(h1) {
-  font-size: 1.875rem; /* ~text-3xl */
-  font-weight: 700;
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 800; /* extrabold */
   letter-spacing: -0.025em;
+}
+
+@media (min-width: 768px) {
+  .bemmae-post-html :where(h1) {
+    font-size: 3rem; /* text-5xl */
+  }
 }
 
 .bemmae-post-html :where(h2) {
-  font-size: 1.5rem; /* text-2xl */
+  font-size: 1.875rem; /* text-3xl */
   font-weight: 700;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.05em; /* tracking-tighter */
+}
+
+@media (min-width: 768px) {
+  .bemmae-post-html :where(h2) {
+    font-size: 2.25rem; /* text-4xl */
+  }
 }
 
 .bemmae-post-html :where(h3) {
-  font-size: 1.25rem; /* text-xl */
+  font-size: 1.125rem; /* text-lg */
   font-weight: 700;
   letter-spacing: -0.02em;
+}
+
+@media (min-width: 768px) {
+  .bemmae-post-html :where(h3) {
+    font-size: 1.25rem; /* text-xl */
+  }
 }
 
 .bemmae-post-html :where(h4) {

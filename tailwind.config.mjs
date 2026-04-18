@@ -6,8 +6,9 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['"Open Sans"', 'Segoe UI', 'system-ui', 'sans-serif'],
-                heading: ['"Open Sans"', 'Segoe UI', 'system-ui', 'sans-serif'],
+                sans: ['"Geist Sans"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+                heading: ['"Geist Sans"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+                product: ['"Geist Sans"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
             },
             colors: {
                 primary: 'rgb(var(--primary-rgb) / <alpha-value>)',
