@@ -2,7 +2,7 @@ siteName: Bem Mãe
 copyright: ""
 copyrightNote: ""
 description: ""
-tagline: Maternidade, saúde e lifestyle, conteúdo informativo para famílias.
+tagline: Guias práticos e comparativos reais para ajudar você a escolher o enxoval e os itens de segurança com mais tranquilidade.
 organizationLegalName: Bem Mãe
 contactEmail: contato@bemmae.com.br
 addressLine: ""
@@ -23,10 +23,13 @@ footerNav:
     href: /
   - label: Sobre
     href: /sobre
-  - label: Blog
-    href: /blog
-  - label: Contato
-    href: /contato
+  - label: Nossa Metodologia
+    href: /sobre#sobre-processo
+  - label: Privacidade
+    href: /politica-de-privacidade
+  - label: Termos de Uso
+    href: /termos
+affiliateTransparencyNote: Como participantes de programas de afiliados, podemos receber comissões por compras qualificadas, sem custo extra para você. Isso não afeta nossa independência editorial.
 legalLinks:
   - label: Política de Privacidade
     href: /politica-de-privacidade
