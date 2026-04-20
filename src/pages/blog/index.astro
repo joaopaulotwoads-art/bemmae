@@ -15,6 +15,7 @@ import { readSingleton } from '../../utils/singleton-utils';
 import { footerNavFromSingleton, logoSrcFromMenu, navFromMenu } from '../../utils/theme-nav';
 import { resolvePublicSiteUrl } from '../../utils/read-site-settings';
 import type { BlogPermalinkStructure, BlogUrlPrefix } from '../../utils/blog-permalink';
+import { filterPostsByBlogSearch, normalizeBlogSearchQuery } from '../../utils/blog-search';
 
 const settings = await getEntry('siteSettings', 'settings').catch(() => null);
 const siteMode = (settings?.data?.siteMode || 'blog') as 'blog' | 'local';
@@ -27,6 +28,8 @@ const blogUrlPrefix = (settings?.data?.blogUrlPrefix as BlogUrlPrefix) || 'blog'
 const allPosts = await getCollection('posts');
 const categories = await getCollection('categories');
 const categoriaSlug = Astro.url.searchParams.get('categoria')?.trim() || '';
+const searchRaw = Astro.url.searchParams.get('q')?.trim() || '';
+const searchQuery = normalizeBlogSearchQuery(searchRaw);
 const activeCategory = categoriaSlug
     ? categories.find((c) => c.id === categoriaSlug || c.data.slug === categoriaSlug)
     : undefined;
@@ -37,6 +40,10 @@ let publishedPosts = allPosts
 
 if (categoriaSlug) {
     publishedPosts = publishedPosts.filter((post) => post.data.category === categoriaSlug);
+}
+
+if (searchQuery) {
+    publishedPosts = filterPostsByBlogSearch(publishedPosts, searchQuery);
 }
 
 const siteName = settings?.data?.siteName || 'Site';
@@ -70,6 +77,8 @@ const beFootNav = beFoot ? footerNavFromSingleton(beFoot) : [];
         blogUrlPrefix={blogUrlPrefix}
         categoryName={activeCategory?.data?.name}
         categoryFilterActive={Boolean(categoriaSlug)}
+        categorySlug={categoriaSlug || undefined}
+        searchQuery={searchQuery || undefined}
     />
 </BaseLayoutBemmae>
 ) : (

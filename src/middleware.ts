@@ -65,6 +65,8 @@ export const onRequest = defineMiddleware(async (context, next) => {
                 if (slug && !slug.includes('/')) {
                     const u = new URL(context.url.href);
                     u.pathname = canonicalPathname(`/${encodeURIComponent(slug)}`);
+                    const qKeep = (searchParams.get('q') || '').trim();
+                    u.search = qKeep ? `?${new URLSearchParams({ q: qKeep }).toString()}` : '';
                     return context.redirect(u.toString(), 301);
                 }
             }
