@@ -1,6 +1,6 @@
 logoType: image
-logoText: Bem Mãe
-logoImage: /bemmae-logo.png
+logoText: Encontra Barato
+logoImage: /encontra-barato-logo.png
 items:
   - label: Início
     href: /
