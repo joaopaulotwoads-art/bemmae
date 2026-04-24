@@ -25,6 +25,7 @@ import {
 } from '../../utils/post-json-ld';
 import { resolveBemmaeMediaUrl } from '../../utils/media-url';
 import { buildBemmaeArticleExperts } from '../../utils/bemmae-article-experts';
+import { buildBemmaePostDocumentTitle } from '../../utils/post-document-title';
 
 export const prerender = true;
 
@@ -75,7 +76,17 @@ const beFoot = useBemmae ? await readSingleton('footer', 'bemmae') : null;
 const beNav = beMenu ? navFromMenu(beMenu) : [];
 const beFootNav = beFoot ? footerNavFromSingleton(beFoot) : [];
 const metaTitleTrim = post.data.metaTitle?.trim();
-const documentTitle = metaTitleTrim ? metaTitleTrim : `${post.data.title} - ${siteName}`;
+const displayBrand = (beMenu as { logoText?: string } | null)?.logoText || siteName;
+const documentTitle = useBemmae
+  ? buildBemmaePostDocumentTitle({
+      metaTitle: metaTitleTrim,
+      postTitle: post.data.title,
+      siteName,
+      brandName: displayBrand,
+    })
+  : metaTitleTrim
+    ? metaTitleTrim
+    : `${post.data.title} - ${siteName}`;
 
 const siteCfg = await readSiteSettings();
 const publicSiteUrl = resolvePublicSiteUrl(siteCfg.canonicalUrl as string | undefined, Astro.url.origin);

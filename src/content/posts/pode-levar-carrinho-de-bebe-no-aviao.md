@@ -5,7 +5,7 @@ author: vitoria-caroline
 category: carrinhos-de-bebe
 publishedDate: "2026-02-12"
 thumbnail: /images/posts/1774382124664-carrinho-de-bebe-no-aviao.webp
-metaTitle: Pode Levar Carrinho de bebê no avião - Bem Mãe
+metaTitle: Pode Levar Carrinho de bebê no avião
 metaDescription: Perdida com tantos modelos? Veja como escolher o carrinho de bebê ideal para sua rotina, o que checar na segurança e como não jogar dinheiro fora.
 metaImage: https://bemmae.com.br/content/images/2026/02/bebe-viajando-no-aviao.webp
 contentFormat: html

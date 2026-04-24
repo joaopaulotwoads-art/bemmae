@@ -18,6 +18,7 @@ import {
 import { resolveBemmaeMediaUrl } from './media-url';
 import { pickRelatedPosts } from './related-posts';
 import { buildBemmaeArticleExperts, type BemmaeExpertCardData } from './bemmae-article-experts';
+import { buildBemmaePostDocumentTitle } from './post-document-title';
 
 type Props =
   | { kind: 'post'; post: CollectionEntry<'posts'> }
@@ -117,7 +118,17 @@ export async function loadBlogPageData(
     beFootNav = beFoot ? footerNavFromSingleton(beFoot) : [];
     {
       const metaTitleTrim = post.data.metaTitle?.trim();
-      documentTitle = metaTitleTrim ? metaTitleTrim : `${post.data.title} - ${siteName}`;
+      const displayBrand = (beMenu as { logoText?: string } | null)?.logoText || siteName;
+      documentTitle = useBemmae
+        ? buildBemmaePostDocumentTitle({
+            metaTitle: metaTitleTrim,
+            postTitle: post.data.title,
+            siteName,
+            brandName: displayBrand,
+          })
+        : metaTitleTrim
+          ? metaTitleTrim
+          : `${post.data.title} - ${siteName}`;
     }
 
     const siteCfg = await readSiteSettings();
