@@ -6,6 +6,9 @@ import { verifyPassword, createSession, SESSION_COOKIE, COOKIE_OPTIONS } from '.
 const DEFAULT_ADMIN_EMAIL = 'admin@admin.com';
 const DEFAULT_ADMIN_SLUG  = 'admin';
 
+/** Quem abre a URL da API no navegador recebia 404 — só existe POST. Redireciona para a tela de login. */
+export const GET: APIRoute = ({ redirect }) => redirect('/admin/login/');
+
 export const POST: APIRoute = async ({ request, cookies, redirect }) => {
     const form = await request.formData();
     const email    = (form.get('email')    as string || '').trim().toLowerCase();

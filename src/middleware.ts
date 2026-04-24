@@ -48,7 +48,7 @@ export const onRequest = defineMiddleware(async (context, next) => {
         }
     }
 
-    // 301: /rota → /rota/ (páginas). Canonical e sitemap com barra; Astro usa trailingSlash: 'ignore'
+    // 301: /rota → /rota/ (páginas). Reforça canônico com barra; Astro aceita ambos com trailingSlash: 'ignore'
     if (context.request.method === 'GET' && shouldRedirectAddTrailingSlash(pathname)) {
         const u = new URL(context.url.href);
         u.pathname = canonicalPathname(pathname);
