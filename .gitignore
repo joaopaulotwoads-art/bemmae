@@ -39,8 +39,8 @@ ESTRUTURA-PROJETOS.md
 LEVANTAMENTO-PRODUCAO.md
 README-ESTRUTURA.md
 
-# imagens enviadas pelo usuário (conteúdo específico de cada site)
-public/images/posts/
+# Thumbnails/capas versionadas pelo CMS (GitHub). Não ignorar: alguns fluxos de deploy
+# tratam paths em .gitignore como ausentes no bundle estático, o que gera 404 em /images/posts/.
 
 # posts excluídos em ambiente local (soft delete)
 src/content/posts/_deleted/
