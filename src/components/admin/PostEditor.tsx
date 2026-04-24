@@ -103,6 +103,9 @@ export default function PostEditor({ post, authors, categories, templateId }: Pr
     const [publishedDate, setPublishedDate] = useState(post?.publishedDate || new Date().toISOString().split('T')[0]);
     const [thumbnail, setThumbnail] = useState(post?.thumbnail || '');
     const [thumbnailPreviewBlob, setThumbnailPreviewBlob] = useState<string | null>(null);
+    /** Ref síncrono: evita publicar antes do `setThumbnail` aplicar o URL novo (setState é assíncrono). */
+    const thumbnailUploadInProgressRef = useRef(false);
+    const [isThumbnailUploading, setIsThumbnailUploading] = useState(false);
     const [metaTitle, setMetaTitle] = useState(post?.metaTitle || '');
     const [metaDescription, setMetaDescription] = useState(post?.metaDescription || '');
     const [metaImage, setMetaImage] = useState(post?.metaImage || '');
@@ -182,6 +185,14 @@ export default function PostEditor({ post, authors, categories, templateId }: Pr
     const handleSave = async (isPublish: boolean) => {
         if (!title || !slug) {
             showToast('warning', 'Campos obrigatórios', 'Título e slug são obrigatórios');
+            return;
+        }
+        if (thumbnailUploadInProgressRef.current) {
+            showToast(
+                'warning',
+                'Upload em andamento',
+                'Aguarde terminar o envio da imagem de destaque antes de salvar ou publicar.',
+            );
             return;
         }
 
@@ -273,6 +284,8 @@ export default function PostEditor({ post, authors, categories, templateId }: Pr
         if (!file) return;
 
         const blobUrl = URL.createObjectURL(file);
+        thumbnailUploadInProgressRef.current = true;
+        setIsThumbnailUploading(true);
         setThumbnailPreviewBlob(blobUrl);
 
         const formData = new FormData();
@@ -285,18 +298,35 @@ export default function PostEditor({ post, authors, categories, templateId }: Pr
                 body: formData,
             });
 
-            const data = await response.json();
-            if (data.success) {
-                setThumbnail(data.url);
+            let data: { success?: boolean; url?: string; error?: string } = {};
+            try {
+                data = await response.json();
+            } catch {
+                showToast('error', 'Erro no upload', 'Resposta inválida do servidor.');
+                return;
+            }
+
+            if (response.ok && data.success && data.url) {
+                setThumbnail(String(data.url));
+                setThumbnailPreviewBlob(null);
+                URL.revokeObjectURL(blobUrl);
             } else {
-                showToast('error', 'Erro no upload', 'Não foi possível enviar a thumbnail');
+                showToast(
+                    'error',
+                    'Erro no upload',
+                    data.error || 'Não foi possível enviar a thumbnail',
+                );
+                setThumbnailPreviewBlob(null);
+                URL.revokeObjectURL(blobUrl);
             }
         } catch (error) {
             console.error('\x1b[31m✗ Erro no upload:\x1b[0m', error);
             showToast('error', 'Erro no upload', 'Não foi possível enviar a thumbnail');
-        } finally {
-            URL.revokeObjectURL(blobUrl);
             setThumbnailPreviewBlob(null);
+            URL.revokeObjectURL(blobUrl);
+        } finally {
+            thumbnailUploadInProgressRef.current = false;
+            setIsThumbnailUploading(false);
             e.target.value = '';
         }
     };
@@ -330,6 +360,7 @@ export default function PostEditor({ post, authors, categories, templateId }: Pr
     // Atalhos de teclado: Ctrl+S = rascunho, Ctrl+Enter = publicar
     useEffect(() => {
         const onKeyDown = (e: KeyboardEvent) => {
+            if (thumbnailUploadInProgressRef.current) return;
             if (e.ctrlKey && e.key === 's') {
                 e.preventDefault();
                 handleSave(false);
@@ -375,17 +406,17 @@ export default function PostEditor({ post, authors, categories, templateId }: Pr
                     </button>
                     <button
                         onClick={() => handleSave(false)}
-                        disabled={isSaving}
+                        disabled={isSaving || isThumbnailUploading}
                         className="admin-btn admin-btn-secondary disabled:opacity-50"
                     >
-                        {isSaving ? 'Salvando...' : '💾 Rascunho'}
+                        {isSaving ? 'Salvando...' : isThumbnailUploading ? 'Aguarde a thumbnail...' : '💾 Rascunho'}
                     </button>
                     <button
                         onClick={() => handleSave(true)}
-                        disabled={isSaving}
+                        disabled={isSaving || isThumbnailUploading}
                         className="admin-btn admin-btn-primary disabled:opacity-50"
                     >
-                        {isSaving ? 'Publicando...' : '🚀 Publicar'}
+                        {isSaving ? 'Publicando...' : isThumbnailUploading ? 'Aguarde a thumbnail...' : '🚀 Publicar'}
                     </button>
                 </div>
             </div>
@@ -492,6 +523,11 @@ export default function PostEditor({ post, authors, categories, templateId }: Pr
                                         {thumbnail || thumbnailPreviewBlob ? '🔄 Trocar Thumbnail' : '📷 Adicionar Thumbnail'}
                                     </span>
                                 </label>
+                                {isThumbnailUploading && (
+                                    <p className="text-xs text-amber-400/90">
+                                        A enviar imagem… só salve depois de terminar.
+                                    </p>
+                                )}
                                 <p className="text-xs text-[#737373]">
                                     Esta imagem aparece nos cards do blog e na página do post
                                 </p>
