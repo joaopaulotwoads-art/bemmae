@@ -189,14 +189,17 @@ export default function PostEditor({ post, authors, categories, templateId }: Pr
         try {
             const hasAffiliateBlocks = Boolean(content && content.includes('cnx-aff-'));
             const hasProductReviewBlocks = Boolean(content && content.includes('product-review'));
+            const hasNativeTableTag = Boolean(content && /<table[\s>]/i.test(content));
 
             // Estes blocos são HTML "rich" (tabelas, grid, classes).
             // Converter para markdown pode destruir a estrutura e causar perda após reload.
             // Então, se existir qualquer bloco cnx-aff ou product-review no HTML, salvamos como HTML.
             const forceAffiliateBlocksHtml = !contentFormatHtml && hasAffiliateBlocks;
             const forceProductReviewHtml = !contentFormatHtml && hasProductReviewBlocks;
+            const forceTableHtml = !contentFormatHtml && hasNativeTableTag;
             let bodyContent = content;
-            let finalContentFormatHtml = contentFormatHtml || forceAffiliateBlocksHtml || forceProductReviewHtml;
+            let finalContentFormatHtml =
+                contentFormatHtml || forceAffiliateBlocksHtml || forceProductReviewHtml || forceTableHtml;
 
             if (!finalContentFormatHtml && content && content.trim().startsWith('<')) {
                 try {

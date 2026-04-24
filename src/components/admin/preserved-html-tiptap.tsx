@@ -11,16 +11,33 @@ function makePreservedDiv(outerHtml: string): string {
     return `<div class="cms-preserved-html-root" data-cms-preserved-html="${enc}"></div>`;
 }
 
+/** TipTap não inclui schema de <table>; sem isto o editor achata tudo a texto corrido. */
+function shouldPreserveTableBlock(el: HTMLElement): boolean {
+    if (el.classList.contains('product-review')) return false;
+    const tableEl = el.tagName === 'TABLE' ? el : el.querySelector('table');
+    if (!tableEl) return false;
+    const wrapperCls = typeof el.className === 'string' ? el.className : '';
+    const tableCls =
+        typeof (tableEl as HTMLElement).className === 'string'
+            ? (tableEl as HTMLElement).className
+            : '';
+    if (wrapperCls.includes('cnx-aff-') || tableCls.includes('cnx-aff-')) return false;
+    if ((tableEl as HTMLElement).classList.contains('product-review-table')) return false;
+    return true;
+}
+
 /** Antes de setContent: section/div de layout → nó preservado (o resto continua HTML normal). */
 export function preprocessHtmlForTipTap(html: string): string {
     if (!html || !html.trim()) return html;
     if (typeof document === 'undefined') return html;
+    /** DOM Element — não usar `Node.ELEMENT_NODE` (o import de `@tiptap/core` sombreia `Node`). */
+    const ELEMENT_NODE = 1;
     try {
         const wrap = document.createElement('div');
         wrap.innerHTML = html.trim();
         const out: string[] = [];
         for (const child of Array.from(wrap.childNodes)) {
-            if (child.nodeType !== Node.ELEMENT_NODE) {
+            if (child.nodeType !== ELEMENT_NODE) {
                 continue;
             }
             const el = child as HTMLElement;
@@ -32,6 +49,10 @@ export function preprocessHtmlForTipTap(html: string): string {
                 continue;
             }
             if (el.matches?.('div.review-highlight-box')) {
+                out.push(makePreservedDiv(el.outerHTML));
+                continue;
+            }
+            if (shouldPreserveTableBlock(el)) {
                 out.push(makePreservedDiv(el.outerHTML));
                 continue;
             }
@@ -74,7 +95,7 @@ function PreservedHtmlNodeView({ node }: { node: { attrs: { encoded?: string } }
                 dangerouslySetInnerHTML={{ __html: inner }}
             />
             <p className="text-[10px] text-[#737373] mt-1.5 px-0.5">
-                Bloco de layout (destaques / visão geral) — preservado ao salvar
+                Bloco HTML preservado (destaques, tabelas, etc.) — mantém-se ao salvar
             </p>
         </NodeViewWrapper>
     );
