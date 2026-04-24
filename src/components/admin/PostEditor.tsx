@@ -292,7 +292,8 @@ export default function PostEditor({ post, authors, categories, templateId }: Pr
 
         const formData = new FormData();
         formData.append('file', file);
-        formData.append('type', 'posts');
+        // Capas de post em `general/`: na Vercel, ficheiros novos em `public/images/posts/` chegaram a ficar de fora do bundle estático (404 no site público).
+        formData.append('type', 'general');
 
         try {
             const response = await fetch('/api/admin/upload', {
@@ -341,7 +342,7 @@ export default function PostEditor({ post, authors, categories, templateId }: Pr
 
         const formData = new FormData();
         formData.append('file', file);
-        formData.append('type', 'posts');
+        formData.append('type', 'general');
 
         try {
             const response = await fetch('/api/admin/upload', {
