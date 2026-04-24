@@ -793,24 +793,63 @@ html.dark .cnx-aff-versus--with-media .cnx-aff-versus-side {
 /* ── Ficha técnica (especificações) ───────────────────────────────────────── */
 .cnx-aff-tech-sheet.cnx-aff-block-wrap {
   border: 2px solid #00a884;
-  box-shadow: none;
+  box-shadow:
+    0 12px 32px rgba(0, 168, 132, 0.1),
+    0 4px 12px rgba(0, 0, 0, 0.05);
   padding: 0;
   overflow: hidden;
-  border-radius: 0.5rem;
+  border-radius: 0.85rem;
   background: #fff;
   max-width: 100%;
 }
 .cnx-aff-tech-head {
-  padding: 0.875rem 1rem;
-  border-bottom: 1px solid rgba(0, 168, 132, 0.25);
-  background: #fff;
+  position: relative;
+  padding: 1rem 1.15rem 1.05rem;
+  border-bottom: 1px solid rgba(0, 168, 132, 0.22);
+  background: linear-gradient(135deg, rgba(0, 168, 132, 0.09) 0%, rgba(52, 211, 153, 0.06) 45%, #fff 100%);
+}
+.cnx-aff-tech-head::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #00a884 0%, #14b8a6 40%, #5eead4 100%);
 }
 .cnx-aff-tech-title {
-  font-size: 1rem !important;
-  font-weight: 700 !important;
+  font-size: 1.05rem !important;
+  font-weight: 800 !important;
   margin: 0 !important;
-  color: #00a884 !important;
-  letter-spacing: 0.02em;
+  color: #047857 !important;
+  letter-spacing: -0.02em;
+  line-height: 1.25 !important;
+}
+.cnx-aff-tech-sub {
+  margin: 0.45rem 0 0 0 !important;
+  font-size: 0.8125rem !important;
+  font-weight: 500 !important;
+  line-height: 1.5 !important;
+  color: #4b5563 !important;
+}
+.prose-invert .cnx-aff-tech-sub,
+html.dark .cnx-aff-tech-sub {
+  color: #a1a1aa !important;
+}
+.prose-invert .cnx-aff-tech-sheet.cnx-aff-block-wrap,
+html.dark .cnx-aff-tech-sheet.cnx-aff-block-wrap {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(45, 212, 191, 0.55);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+}
+.prose-invert .cnx-aff-tech-head,
+html.dark .cnx-aff-tech-head {
+  background: linear-gradient(135deg, rgba(45, 212, 191, 0.12) 0%, rgba(255, 255, 255, 0.03) 100%);
+  border-bottom-color: rgba(45, 212, 191, 0.25);
+}
+.prose-invert .cnx-aff-tech-title,
+html.dark .cnx-aff-tech-title {
+  color: #5eead4 !important;
 }
 .cnx-aff-tech-scroll {
   overflow-x: auto;
@@ -849,6 +888,25 @@ html.dark .cnx-aff-versus--with-media .cnx-aff-versus-side {
 .cnx-aff-tech-table tbody tr:last-child th,
 .cnx-aff-tech-table tbody tr:last-child td {
   border-bottom: none;
+}
+.prose-invert .cnx-aff-tech-table,
+html.dark .cnx-aff-tech-table {
+  color: #e4e4e7;
+}
+.prose-invert .cnx-aff-tech-table th,
+.prose-invert .cnx-aff-tech-table td,
+html.dark .cnx-aff-tech-table th,
+html.dark .cnx-aff-tech-table td {
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+  border-right-color: rgba(255, 255, 255, 0.06);
+}
+.prose-invert .cnx-aff-tech-table tbody tr:nth-child(odd),
+html.dark .cnx-aff-tech-table tbody tr:nth-child(odd) {
+  background: transparent;
+}
+.prose-invert .cnx-aff-tech-table tbody tr:nth-child(even),
+html.dark .cnx-aff-tech-table tbody tr:nth-child(even) {
+  background: rgba(45, 212, 191, 0.09);
 }
 @media (max-width: 480px) {
   .cnx-aff-tech-table th,
