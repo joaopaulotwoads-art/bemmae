@@ -111,6 +111,15 @@ export default function PostEditor({ post, authors, categories, templateId }: Pr
     const [metaTitle, setMetaTitle] = useState(post?.metaTitle || '');
     const [metaDescription, setMetaDescription] = useState(post?.metaDescription || '');
     const [metaImage, setMetaImage] = useState(post?.metaImage || '');
+
+    // Em alguns ciclos de hidratação/redirect o `post` chega depois do estado inicial.
+    // Mantemos thumbnail/ref sincronizados para não "sumir" no editor/salvamento.
+    useEffect(() => {
+        const incoming = (post?.thumbnail || '').trim();
+        if (!incoming) return;
+        setThumbnail((prev) => (prev && prev.trim() ? prev : incoming));
+        if (!thumbnailUrlRef.current?.trim()) thumbnailUrlRef.current = incoming;
+    }, [post?.thumbnail]);
     
     // Converter Markdown para HTML para o editor WYSIWYG
     const getInitialContent = () => {
@@ -227,7 +236,7 @@ export default function PostEditor({ post, authors, categories, templateId }: Pr
             }
 
             const normalizedSlug = normalizeSlug(slug);
-            const thumbSaved = (thumbnailUrlRef.current || thumbnail).trim();
+            const thumbSaved = (thumbnailUrlRef.current || thumbnail || post?.thumbnail || '').trim();
 
             // JSON.stringify omite `undefined` — usar `null` nos opcionais evita apagar thumbnail/meta no YAML ao guardar.
             const apiSlug = post?.slug ? encodeURIComponent(post.slug) : '';
@@ -292,8 +301,7 @@ export default function PostEditor({ post, authors, categories, templateId }: Pr
 
         const formData = new FormData();
         formData.append('file', file);
-        // Capas de post em `general/`: na Vercel, ficheiros novos em `public/images/posts/` chegaram a ficar de fora do bundle estático (404 no site público).
-        formData.append('type', 'general');
+        formData.append('type', 'posts');
 
         try {
             const response = await fetch('/api/admin/upload', {
