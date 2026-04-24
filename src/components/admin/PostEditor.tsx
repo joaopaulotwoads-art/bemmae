@@ -103,6 +103,8 @@ export default function PostEditor({ post, authors, categories, templateId }: Pr
     const [publishedDate, setPublishedDate] = useState(post?.publishedDate || new Date().toISOString().split('T')[0]);
     const [thumbnail, setThumbnail] = useState(post?.thumbnail || '');
     const [thumbnailPreviewBlob, setThumbnailPreviewBlob] = useState<string | null>(null);
+    /** URL final da thumbnail — atualizado no mesmo tick do upload (setState pode atrasar o próximo clique em Publicar). */
+    const thumbnailUrlRef = useRef(post?.thumbnail || '');
     /** Ref síncrono: evita publicar antes do `setThumbnail` aplicar o URL novo (setState é assíncrono). */
     const thumbnailUploadInProgressRef = useRef(false);
     const [isThumbnailUploading, setIsThumbnailUploading] = useState(false);
@@ -224,32 +226,32 @@ export default function PostEditor({ post, authors, categories, templateId }: Pr
                 bodyContent = normalizeInternalLinksToFollow(bodyContent);
             }
 
-            const postData: PostData = {
-                title,
-                slug: normalizeSlug(slug),
-                author: author || undefined,
-                category: category || undefined,
-                publishedDate: isPublish ? (publishedDate || new Date().toISOString().split('T')[0]) : undefined,
-                thumbnail: thumbnail || undefined,
-                metaTitle: metaTitle || undefined,
-                metaDescription: metaDescription || undefined,
-                metaImage: metaImage || undefined,
-                contentFormat: finalContentFormatHtml ? 'html' : undefined,
-                seoSchema,
-                content: bodyContent,
-            };
-            
+            const normalizedSlug = normalizeSlug(slug);
+            const thumbSaved = (thumbnailUrlRef.current || thumbnail).trim();
+
+            // JSON.stringify omite `undefined` — usar `null` nos opcionais evita apagar thumbnail/meta no YAML ao guardar.
             const apiSlug = post?.slug ? encodeURIComponent(post.slug) : '';
             const url = post ? `/api/admin/posts/${apiSlug}/` : '/api/admin/posts/';
             const method = post ? 'PUT' : 'POST';
-            
+
             const response = await fetch(url, {
                 method,
                 credentials: 'same-origin',
                 headers: { 'Content-Type': 'application/json; charset=utf-8' },
                 body: JSON.stringify({
-                    ...postData,
-                    newSlug: postData.slug !== post?.slug ? postData.slug : undefined,
+                    title,
+                    slug: normalizedSlug,
+                    author: author.trim() ? author : null,
+                    category: category.trim() ? category : null,
+                    publishedDate: isPublish ? (publishedDate || new Date().toISOString().split('T')[0]) : null,
+                    thumbnail: thumbSaved ? thumbSaved : null,
+                    metaTitle: metaTitle.trim() ? metaTitle : null,
+                    metaDescription: metaDescription.trim() ? metaDescription : null,
+                    metaImage: metaImage.trim() ? metaImage : null,
+                    contentFormat: finalContentFormatHtml ? 'html' : null,
+                    seoSchema,
+                    content: bodyContent,
+                    newSlug: normalizedSlug !== post?.slug ? normalizedSlug : null,
                 }),
             });
 
@@ -266,7 +268,7 @@ export default function PostEditor({ post, authors, categories, templateId }: Pr
 
             if (response.ok && result.success) {
                 showToast('success', isPublish ? 'Post publicado!' : 'Rascunho salvo!');
-                setTimeout(() => { window.location.href = `/admin/posts/${postData.slug}`; }, 1000);
+                setTimeout(() => { window.location.href = `/admin/posts/${normalizedSlug}`; }, 1000);
             } else {
                 const msg = result.error || `Falha ao salvar (HTTP ${response.status})`;
                 showToast('error', 'Erro ao salvar', msg);
@@ -307,7 +309,9 @@ export default function PostEditor({ post, authors, categories, templateId }: Pr
             }
 
             if (response.ok && data.success && data.url) {
-                setThumbnail(String(data.url));
+                const u = String(data.url);
+                thumbnailUrlRef.current = u;
+                setThumbnail(u);
                 setThumbnailPreviewBlob(null);
                 URL.revokeObjectURL(blobUrl);
             } else {
@@ -503,7 +507,11 @@ export default function PostEditor({ post, authors, categories, templateId }: Pr
                                         />
                                         <button
                                             type="button"
-                                            onClick={() => { setThumbnail(''); setThumbnailPreviewBlob(null); }}
+                                            onClick={() => {
+                                                thumbnailUrlRef.current = '';
+                                                setThumbnail('');
+                                                setThumbnailPreviewBlob(null);
+                                            }}
                                             className="absolute top-2 right-2 bg-red-500/80 hover:bg-red-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold transition-colors"
                                             title="Remover thumbnail"
                                         >

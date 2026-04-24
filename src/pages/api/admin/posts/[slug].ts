@@ -20,6 +20,13 @@ function parseSeoSchema(v: unknown): PostData['seoSchema'] {
     return (SEO_SCHEMA_VALUES as readonly string[]).includes(v) ? (v as PostData['seoSchema']) : undefined;
 }
 
+/** Aceita `null` do JSON (cliente envia null em vez de omitir o campo). */
+function optJsonString(v: unknown): string | undefined {
+    if (v == null) return undefined;
+    const s = String(v).trim();
+    return s || undefined;
+}
+
 export const GET: APIRoute = async ({ params }) => {
     try {
         const { slug } = params;
@@ -84,7 +91,8 @@ export const PUT: APIRoute = async ({ params, request }) => {
         const body = await request.json();
         const { title, newSlug, author, category, publishedDate, thumbnail, metaTitle, metaDescription, metaImage, content, contentFormat, seoSchema } = body;
         const normalizedCurrentSlug = generateSlug(rawCurrentSlug);
-        const normalizedNewSlug = newSlug ? generateSlug(String(newSlug)) : '';
+        const normalizedNewSlug =
+            newSlug != null && String(newSlug).trim() !== '' ? generateSlug(String(newSlug)) : '';
         
         if (!slug || !normalizedCurrentSlug) {
             return new Response(JSON.stringify({
@@ -116,13 +124,13 @@ export const PUT: APIRoute = async ({ params, request }) => {
         const postData: PostData = {
             title: title || '',
             slug: finalSlug,
-            author: author || undefined,
-            category: category || undefined,
-            publishedDate: publishedDate || undefined,
-            thumbnail: thumbnail || undefined,
-            metaTitle: metaTitle || undefined,
-            metaDescription: metaDescription || undefined,
-            metaImage: metaImage || undefined,
+            author: optJsonString(author),
+            category: optJsonString(category),
+            publishedDate: optJsonString(publishedDate),
+            thumbnail: optJsonString(thumbnail),
+            metaTitle: optJsonString(metaTitle),
+            metaDescription: optJsonString(metaDescription),
+            metaImage: optJsonString(metaImage),
             contentFormat: contentFormat === 'html' ? 'html' : undefined,
             seoSchema: parseSeoSchema(seoSchema),
         };

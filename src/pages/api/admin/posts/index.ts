@@ -10,6 +10,12 @@ function parseSeoSchema(v: unknown): PostData['seoSchema'] {
     return (SEO_SCHEMA_VALUES as readonly string[]).includes(v) ? (v as PostData['seoSchema']) : undefined;
 }
 
+function optJsonString(v: unknown): string | undefined {
+    if (v == null) return undefined;
+    const s = String(v).trim();
+    return s || undefined;
+}
+
 /**
  * api/admin/posts/index.ts
  * 
@@ -94,13 +100,13 @@ export const POST: APIRoute = async ({ request }) => {
         const postData: PostData = {
             title,
             slug: normalizedSlug,
-            author: author || undefined,
-            category: category || undefined,
-            publishedDate: publishedDate || undefined,
-            thumbnail: thumbnail || undefined,
-            metaTitle: metaTitle || undefined,
-            metaDescription: metaDescription || undefined,
-            metaImage: metaImage || undefined,
+            author: optJsonString(author),
+            category: optJsonString(category),
+            publishedDate: optJsonString(publishedDate),
+            thumbnail: optJsonString(thumbnail),
+            metaTitle: optJsonString(metaTitle),
+            metaDescription: optJsonString(metaDescription),
+            metaImage: optJsonString(metaImage),
             contentFormat: contentFormat === 'html' ? 'html' : undefined,
             seoSchema: parseSeoSchema(seoSchema),
         };
