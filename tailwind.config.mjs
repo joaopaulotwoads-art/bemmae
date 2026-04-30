@@ -6,9 +6,10 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['"Geist Sans"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-                heading: ['"Geist Sans"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-                product: ['"Geist Sans"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+                sans: ['Outfit', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+                heading: ['Fraunces', 'Georgia', 'Times New Roman', 'serif'],
+                serif: ['"Source Serif 4"', 'Georgia', 'Times New Roman', 'serif'],
+                product: ['Outfit', 'ui-sans-serif', 'system-ui', 'sans-serif'],
             },
             colors: {
                 primary: 'rgb(var(--primary-rgb) / <alpha-value>)',

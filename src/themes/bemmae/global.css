@@ -1,37 +1,97 @@
 @import '../../styles/affiliate-blocks.css';
 @import '../../styles/article-review-roundup.css';
 
-/* Tema Bem Mãe — alinhado ao Guia o Melhor: Geist Sans, #fff6f6, primária #ff875b, texto #09090b */
+/* Tema Bem Mãe — direção editorial: papel quente, serifas na leitura, Outfit na UI, coral como acento */
 :root {
-  --color-bg: #fff6f6;
-  --color-primary: #ff875b;
-  --color-text: #09090b;
-  --color-heading: #09090b;
-  --color-muted: #71717b;
-  --color-dark: #09090b;
-  --color-accent: #ff875b;
-  --color-border: #e5e7eb;
-  --color-surface: #f9fafb;
-  --color-rosa: #f9fafb;
-  --color-nude: #f3f4f6;
-  /* Links estilo referência (text-blue-500) */
-  --color-link: #3b82f6;
-  --color-link-hover: #2563eb;
-  --bemmae-font-sans: "Geist Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
-    Arial, sans-serif;
-  --font-body: var(--bemmae-font-sans);
-  --font-heading: "Geist Sans", var(--bemmae-font-sans);
-  --font-product: "Geist Sans", var(--bemmae-font-sans);
+  --color-bg: #fff8f5;
+  --color-primary: #e85d32;
+  --color-text: #1c1917;
+  --color-heading: #14110f;
+  --color-muted: #57534e;
+  --color-dark: #1c1917;
+  --color-accent: #e85d32;
+  --color-border: #e7e5e4;
+  --color-surface: #ffffff;
+  --color-rosa: #fff5f0;
+  --color-nude: #faf7f5;
+  --color-link: #1a6b73;
+  --color-link-hover: #0f4f55;
+  --font-ui: "Outfit", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-heading: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --bemmae-font-sans: var(--font-ui);
+  --font-product: var(--font-ui);
   --bemmae-post-font: var(--font-body);
-  /* leading-relaxed (~1.625) como no Tailwind da referência */
-  --bemmae-post-line: 1.625;
-  /* space-y-8 (~32px) entre blocos de texto */
+  --bemmae-post-line: 1.65;
   --bemmae-post-p-space: 2rem;
+  --bemmae-radius-card: 1.25rem;
+}
+
+@keyframes bemmae-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .bemmae-hero-reveal > * {
+    animation: bemmae-fade-up 0.72s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .bemmae-hero-reveal > *:nth-child(1) {
+    animation-delay: 0.06s;
+  }
+  .bemmae-hero-reveal > *:nth-child(2) {
+    animation-delay: 0.14s;
+  }
+  .bemmae-hero-reveal > *:nth-child(3) {
+    animation-delay: 0.22s;
+  }
+  .bemmae-hero-reveal > *:nth-child(4) {
+    animation-delay: 0.3s;
+  }
+}
+
+.bemmae-body-surface {
+  position: relative;
+  isolation: isolate;
+  min-height: 100vh;
+  font-family: var(--font-ui);
+  background-color: transparent;
+  color: var(--color-dark);
+}
+
+.bemmae-body-surface::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 140% 80% at 50% -30%, rgba(232, 93, 50, 0.11), transparent 52%),
+    radial-gradient(ellipse 90% 60% at 100% 40%, rgba(255, 210, 190, 0.22), transparent 48%),
+    radial-gradient(ellipse 70% 50% at 0% 80%, rgba(26, 107, 115, 0.04), transparent 45%),
+    var(--color-bg);
+}
+
+.bemmae-body-surface::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
 .bemmae-scope body {
-  font-family: var(--font-body);
-  background-color: var(--color-bg);
+  font-family: var(--font-ui);
+  background-color: transparent;
   color: var(--color-dark);
 }
 

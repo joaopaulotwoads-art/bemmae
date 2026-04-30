@@ -2,12 +2,17 @@
 import Header from './Header.astro';
 import Footer from './Footer.astro';
 import type { NavItem } from './types';
-/** Geist Sans — alinhado ao Guia o Melhor (Next.js / font-sans) */
-import '@fontsource/geist-sans/400.css';
-import '@fontsource/geist-sans/500.css';
-import '@fontsource/geist-sans/600.css';
-import '@fontsource/geist-sans/700.css';
-import '@fontsource/geist-sans/800.css';
+/** Tipografia editorial Bem Mãe — Fraunces títulos, Source Serif 4 leitura, Outfit UI */
+import '@fontsource/fraunces/500.css';
+import '@fontsource/fraunces/600.css';
+import '@fontsource/fraunces/700.css';
+import '@fontsource/fraunces/800.css';
+import '@fontsource/source-serif-4/400.css';
+import '@fontsource/source-serif-4/600.css';
+import '@fontsource/outfit/400.css';
+import '@fontsource/outfit/500.css';
+import '@fontsource/outfit/600.css';
+import '@fontsource/outfit/700.css';
 import './global.css';
 import { buildCanonicalPageUrl, ensureApexSiteOrigin } from '../../utils/read-site-settings';
 import { buildBemmaeDefaultSiteJsonLd } from '../../utils/post-json-ld';
@@ -67,7 +72,7 @@ const jsonLdGraph = extraJsonLd ?? buildBemmaeDefaultSiteJsonLd({
     <link rel="preconnect" href="https://m.media-amazon.com" crossorigin />
   )}
   <FaviconLinks />
-  <meta name="theme-color" content="#ff875b" />
+  <meta name="theme-color" content="#e85d32" />
   <title>{fullTitle}</title>
   <meta name="description" content={fullDescription} />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
@@ -90,7 +95,7 @@ const jsonLdGraph = extraJsonLd ?? buildBemmaeDefaultSiteJsonLd({
   {ogImageAbs && <meta name="twitter:image" content={ogImageAbs} />}
   <script type="application/ld+json" set:html={JSON.stringify(jsonLdGraph)} />
 </head>
-<body class="bemmae-scope bg-[var(--color-bg)] text-[var(--color-text)] antialiased">
+<body class="bemmae-scope bemmae-body-surface text-[var(--color-text)] antialiased">
   <Header siteName={siteName} logoSrc={logoSrc} nav={nav} />
   <main><slot /></main>
   <Footer siteName={siteName} footerNav={footerNav} contentThemeId={contentThemeId} />

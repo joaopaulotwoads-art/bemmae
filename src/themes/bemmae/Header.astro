@@ -9,35 +9,41 @@ interface Props {
 
 const { siteName, nav, logoSrc } = Astro.props;
 ---
-<header class="sticky top-0 z-50 w-full border-b border-[rgba(255,135,91,0.2)] bg-[#ff875b] shadow-[0_1px_0_rgba(0,0,0,0.06)]">
+<header
+  class="sticky top-0 z-50 w-full border-b border-stone-200/90 bg-[var(--color-bg)]/[0.88] shadow-[0_1px_0_rgba(28,25,23,0.04)] backdrop-blur-xl backdrop-saturate-150 supports-[backdrop-filter]:bg-[var(--color-bg)]/75"
+>
+  <div
+    class="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-[var(--color-accent)]/45 to-transparent pointer-events-none"
+    aria-hidden="true"
+  />
   <div class="max-w-4xl mx-auto px-4 py-2.5 sm:py-3 flex w-full items-center gap-3 md:gap-4">
-    <a href="/" class="flex items-center min-h-[40px] shrink-0" aria-label={siteName}>
+    <a href="/" class="flex items-center min-h-[40px] shrink-0 group" aria-label={siteName}>
       {logoSrc ? (
         <img
           src={logoSrc}
           alt=""
           width="480"
           height="120"
-          class="h-10 w-auto sm:h-11 md:h-12 max-h-[3.25rem] sm:max-h-[3.5rem] md:max-h-16 max-w-[min(88vw,20rem)] sm:max-w-[min(85vw,22rem)] object-contain object-left"
+          class="h-10 w-auto sm:h-11 md:h-12 max-h-[3.25rem] sm:max-h-[3.5rem] md:max-h-16 max-w-[min(88vw,20rem)] sm:max-w-[min(85vw,22rem)] object-contain object-left transition-[filter,transform] duration-300 group-hover:brightness-95 group-hover:scale-[1.01]"
           decoding="async"
           fetchpriority="low"
         />
       ) : (
-        <span class="text-base font-semibold text-white">{siteName}</span>
+        <span class="font-heading text-lg font-bold tracking-tight text-[var(--color-heading)]">{siteName}</span>
       )}
     </a>
-    <nav class="ml-auto hidden md:flex items-center gap-0.5 shrink-0" aria-label="Navegação">
+    <nav class="ml-auto hidden md:flex items-center gap-1 shrink-0" aria-label="Navegação">
       {nav.map((item) => (
         <a
           href={item.href}
-          class="text-sm font-semibold text-white no-underline hover:bg-white/15 rounded-md px-3 min-h-[40px] flex items-center"
+          class="relative text-sm font-semibold text-stone-700 no-underline rounded-lg px-3 min-h-[40px] flex items-center transition-colors hover:text-[var(--color-accent)] after:absolute after:left-3 after:right-3 after:bottom-1 after:h-0.5 after:origin-left after:scale-x-0 after:bg-[var(--color-accent)] after:transition-transform after:duration-300 hover:after:scale-x-100"
         >
           {item.label}
         </a>
       ))}
       <a
         href="/blog#buscar"
-        class="text-white no-underline hover:bg-white/15 rounded-md p-2 min-h-[40px] min-w-[40px] flex items-center justify-center shrink-0 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
+        class="text-stone-600 no-underline hover:text-[var(--color-accent)] rounded-lg p-2 min-h-[40px] min-w-[40px] flex items-center justify-center shrink-0 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]/40"
         aria-label="Buscar artigos no blog"
       >
         <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -46,23 +52,23 @@ const { siteName, nav, logoSrc } = Astro.props;
       </a>
     </nav>
     <div class="flex-1 md:hidden" aria-hidden="true" />
-    <button type="button" id="bem-mobile-menu-btn" class="md:hidden p-2 min-h-[40px] min-w-[40px] flex items-center justify-center text-white rounded-md hover:bg-white/15 shrink-0" aria-label="Abrir menu">
+    <button type="button" id="bem-mobile-menu-btn" class="md:hidden p-2 min-h-[40px] min-w-[40px] flex items-center justify-center text-stone-800 rounded-lg hover:bg-stone-900/[0.05] shrink-0 transition-colors" aria-label="Abrir menu">
       <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
     </button>
   </div>
-  <div id="bem-mobile-menu" class="md:hidden hidden border-t border-white/20 bg-[#ff875b] px-4 py-3">
+  <div id="bem-mobile-menu" class="md:hidden hidden border-t border-stone-200/80 bg-[var(--color-bg)]/97 backdrop-blur-lg px-4 py-3 shadow-inner">
     <nav class="flex flex-col gap-1">
       {nav.map((item) => (
         <a
           href={item.href}
-          class="bem-mobile-nav-link py-2.5 min-h-[44px] flex items-center text-sm font-semibold text-white no-underline hover:bg-white/15 rounded-md px-2"
+          class="bem-mobile-nav-link py-2.5 min-h-[44px] flex items-center text-sm font-semibold text-stone-800 no-underline hover:bg-stone-900/[0.05] rounded-lg px-2 transition-colors"
         >
           {item.label}
         </a>
       ))}
       <a
         href="/blog#buscar"
-        class="bem-mobile-search-link flex items-center justify-center py-2.5 min-h-[44px] text-white no-underline hover:bg-white/15 rounded-md"
+        class="bem-mobile-search-link flex items-center justify-center py-2.5 min-h-[44px] text-stone-700 no-underline hover:bg-stone-900/[0.05] rounded-lg transition-colors"
         aria-label="Buscar artigos no blog"
       >
         <svg class="h-6 w-6 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">

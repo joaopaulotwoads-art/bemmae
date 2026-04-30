@@ -428,7 +428,7 @@
 
 /* Título do produto dentro da caixa: azul sublinhado */
 .article-review-roundup .cnx-aff-product-title {
-  font-family: var(--font-product, "Geist Sans", system-ui, sans-serif) !important;
+  font-family: var(--font-product, "Outfit", system-ui, sans-serif) !important;
   font-size: 1.25rem !important;
   font-weight: 700 !important;
   line-height: 1.35 !important;
