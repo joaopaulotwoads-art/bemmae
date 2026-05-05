@@ -1,4 +1,16 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "trailingSlash": true
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/melhores-carrinhos-de-bebe-para-gemeos",
+      "destination": "/melhor-carrinho-de-bebe-para-gemeos/",
+      "permanent": true
+    },
+    {
+      "source": "/melhores-carrinhos-de-bebe-para-gemeos/",
+      "destination": "/melhor-carrinho-de-bebe-para-gemeos/",
+      "permanent": true
+    }
+  ]
 }
