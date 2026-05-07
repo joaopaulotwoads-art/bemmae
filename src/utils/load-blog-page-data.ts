@@ -7,7 +7,7 @@ import type { CollectionEntry } from 'astro:content';
 import { readSingleton } from './singleton-utils';
 import { footerNavFromSingleton, logoSrcFromMenu, navFromMenu } from './theme-nav';
 import { readPost } from './post-utils';
-import type { BlogPermalinkStructure, BlogUrlPrefix } from './blog-permalink';
+import { getPostUrl, type BlogPermalinkStructure, type BlogUrlPrefix } from './blog-permalink';
 import { readSiteSettings, resolvePublicSiteUrl, buildCanonicalPageUrl } from './read-site-settings';
 import {
   buildAuthorAbsoluteUrl,
@@ -148,6 +148,38 @@ export async function loadBlogPageData(
         categoryPath = `/${cat.id}`;
       }
     }
+    blogPermalinkStructureResolved =
+      (settings?.data?.blogPermalinkStructure as BlogPermalinkStructure) || 'postname';
+    blogUrlPrefixResolved = (settings?.data?.blogUrlPrefix as BlogUrlPrefix) || 'blog';
+    const allPostsForRelated = await getCollection('posts');
+    relatedPosts = useBemmae ? pickRelatedPosts(post, allPostsForRelated, 3) : [];
+
+    const relatedPostUrls = useBemmae
+      ? relatedPosts.map((p) =>
+          buildCanonicalPageUrl(
+            publicSiteUrl,
+            getPostUrl(
+              { ...p, data: { ...p.data, slug: p.data.slug || p.id } },
+              blogPermalinkStructureResolved,
+              blogUrlPrefixResolved,
+            ),
+          ),
+        )
+      : [];
+
+    const kw = post.data.keywords;
+    const keywordsStr = Array.isArray(kw)
+      ? kw.map((s) => s.trim()).filter(Boolean).join(', ')
+      : typeof kw === 'string'
+        ? kw.trim()
+        : undefined;
+
+    const authorAvatarRaw = author?.data?.avatar;
+    const authorImageAbs =
+      author && authorAvatarRaw
+        ? toAbsoluteUrl(publicSiteUrl, resolveBemmaeMediaUrl(authorAvatarRaw) || authorAvatarRaw)
+        : undefined;
+
     postJsonLd = useBemmae
       ? buildPostJsonLd({
           seoSchema: post.data.seoSchema,
@@ -160,17 +192,17 @@ export async function loadBlogPageData(
           imageUrl: ogImageAbs,
           authorName: author?.data?.name,
           authorUrl: author ? buildAuthorAbsoluteUrl(publicSiteUrl, author.id) : undefined,
+          authorImageUrl: authorImageAbs,
+          authorJobTitle: author?.data?.jobTitle?.trim() || author?.data?.role,
+          authorDescription: author?.data?.seoDescription?.trim() || author?.data?.bio,
+          authorSameAs: author?.data?.sameAs,
           htmlContent,
           categoryName,
           categoryPath,
+          keywords: keywordsStr || undefined,
+          relatedPostUrls: relatedPostUrls.length ? relatedPostUrls : undefined,
         })
       : null;
-
-    blogPermalinkStructureResolved =
-      (settings?.data?.blogPermalinkStructure as BlogPermalinkStructure) || 'postname';
-    blogUrlPrefixResolved = (settings?.data?.blogUrlPrefix as BlogUrlPrefix) || 'blog';
-    const allPostsForRelated = await getCollection('posts');
-    relatedPosts = useBemmae ? pickRelatedPosts(post, allPostsForRelated, 3) : [];
 
     if (useBemmae) {
       const beAbout = (await readSingleton('about', 'bemmae')) as Record<string, unknown> | null;

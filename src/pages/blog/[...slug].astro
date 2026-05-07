@@ -14,7 +14,7 @@ import BemMaeBlogPost from '../../themes/bemmae/BlogPost.astro';
 import { readSingleton } from '../../utils/singleton-utils';
 import { footerNavFromSingleton, logoSrcFromMenu, navFromMenu } from '../../utils/theme-nav';
 import { readPost } from '../../utils/post-utils';
-import { buildPostPath, type BlogPermalinkStructure, type BlogUrlPrefix } from '../../utils/blog-permalink';
+import { buildPostPath, getPostUrl, type BlogPermalinkStructure, type BlogUrlPrefix } from '../../utils/blog-permalink';
 import { pickRelatedPosts } from '../../utils/related-posts';
 import { readSiteSettings, resolvePublicSiteUrl, buildCanonicalPageUrl } from '../../utils/read-site-settings';
 import {
@@ -103,6 +103,37 @@ if (post.data.category) {
     categoryPath = `/${cat.id}`;
   }
 }
+
+const blogPermalinkStructure = (settings?.data?.blogPermalinkStructure as BlogPermalinkStructure) || 'postname';
+const blogUrlPrefix = (settings?.data?.blogUrlPrefix as BlogUrlPrefix) || 'blog';
+const allPosts = await getCollection('posts');
+const relatedPosts = useBemmae ? pickRelatedPosts(post, allPosts, 3) : [];
+const relatedPostUrls = useBemmae
+  ? relatedPosts.map((p) =>
+      buildCanonicalPageUrl(
+        publicSiteUrl,
+        getPostUrl(
+          { ...p, data: { ...p.data, slug: p.data.slug || p.id } },
+          blogPermalinkStructure,
+          blogUrlPrefix,
+        ),
+      ),
+    )
+  : [];
+
+const kw = post.data.keywords;
+const keywordsStr = Array.isArray(kw)
+  ? kw.map((s) => s.trim()).filter(Boolean).join(', ')
+  : typeof kw === 'string'
+    ? kw.trim()
+    : undefined;
+
+const authorAvatarRaw = author?.data?.avatar;
+const authorImageAbs =
+  author && authorAvatarRaw
+    ? toAbsoluteUrl(publicSiteUrl, resolveBemmaeMediaUrl(authorAvatarRaw) || authorAvatarRaw)
+    : undefined;
+
 const postJsonLd = useBemmae
   ? buildPostJsonLd({
       seoSchema: post.data.seoSchema,
@@ -115,16 +146,18 @@ const postJsonLd = useBemmae
       imageUrl: ogImageAbs,
       authorName: author?.data?.name,
       authorUrl: author ? buildAuthorAbsoluteUrl(publicSiteUrl, author.id) : undefined,
+      authorImageUrl: authorImageAbs,
+      authorJobTitle: author?.data?.jobTitle?.trim() || author?.data?.role,
+      authorDescription: author?.data?.seoDescription?.trim() || author?.data?.bio,
+      authorSameAs: author?.data?.sameAs,
       htmlContent,
       categoryName,
       categoryPath,
+      keywords: keywordsStr || undefined,
+      relatedPostUrls: relatedPostUrls.length ? relatedPostUrls : undefined,
     })
   : null;
 
-const blogPermalinkStructure = (settings?.data?.blogPermalinkStructure as BlogPermalinkStructure) || 'postname';
-const blogUrlPrefix = (settings?.data?.blogUrlPrefix as BlogUrlPrefix) || 'blog';
-const allPosts = await getCollection('posts');
-const relatedPosts = useBemmae ? pickRelatedPosts(post, allPosts, 3) : [];
 const beAbout = useBemmae ? await readSingleton('about', 'bemmae') : null;
 const articleExperts = useBemmae ? buildBemmaeArticleExperts(author, beAbout as Record<string, unknown> | null) : undefined;
 const articleExpertsSectionTitle = useBemmae

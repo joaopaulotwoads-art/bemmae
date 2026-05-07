@@ -461,6 +461,15 @@
   color: #6b7280 !important;
 }
 
+/* Destaques do card (bullets com ✓): contraste alto no fundo branco */
+.article-review-roundup .cnx-aff-product-features {
+  color: var(--color-heading, #14110f) !important;
+}
+
+.article-review-roundup .cnx-aff-product-features li {
+  color: inherit !important;
+}
+
 /* Botões: fila ou único */
 .article-review-roundup .cnx-aff-product-cta-row {
   display: flex;
@@ -677,13 +686,9 @@
   filter: none;
 }
 
-/* Título acima da caixa: barra laranja + numeração automática (1. 2. …) */
-.article-review-roundup .bemmae-post-html {
-  counter-reset: review-product;
-}
-
+/* Título acima da caixa: barra laranja. O número (1. 2. …) vem do texto do <h2> no conteúdo,
+ * para não duplicar com ::before (ex.: "5. 5. Produto"). */
 .article-review-roundup .bemmae-post-html > h2:has(+ .cnx-aff-product.cnx-aff-block-wrap) {
-  counter-increment: review-product;
   margin-top: 2.35rem !important;
   margin-bottom: 0.65rem !important;
   padding: 0.15rem 0 0 0.85rem !important;
@@ -701,11 +706,6 @@
   .article-review-roundup .bemmae-post-html > h2:has(+ .cnx-aff-product.cnx-aff-block-wrap) {
     font-size: 1.5rem !important;
   }
-}
-
-.article-review-roundup .bemmae-post-html > h2:has(+ .cnx-aff-product.cnx-aff-block-wrap)::before {
-  content: counter(review-product) '. ';
-  font-weight: 800;
 }
 
 /* Secções do guia / FAQ: text-3xl → text-4xl como no Guia o Melhor (não reduzir para 1.35rem) */

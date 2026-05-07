@@ -4,12 +4,22 @@
   "redirects": [
     {
       "source": "/melhores-carrinhos-de-bebe-para-gemeos",
-      "destination": "/melhor-carrinho-de-bebe-para-gemeos/",
+      "destination": "/melhor-carrinhos-de-bebe-para-gemeos/",
       "permanent": true
     },
     {
       "source": "/melhores-carrinhos-de-bebe-para-gemeos/",
-      "destination": "/melhor-carrinho-de-bebe-para-gemeos/",
+      "destination": "/melhor-carrinhos-de-bebe-para-gemeos/",
+      "permanent": true
+    },
+    {
+      "source": "/melhor-carrinho-de-bebe-para-gemeos",
+      "destination": "/melhor-carrinhos-de-bebe-para-gemeos/",
+      "permanent": true
+    },
+    {
+      "source": "/melhor-carrinho-de-bebe-para-gemeos/",
+      "destination": "/melhor-carrinhos-de-bebe-para-gemeos/",
       "permanent": true
     }
   ]

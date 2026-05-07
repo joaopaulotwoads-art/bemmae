@@ -172,7 +172,8 @@ html.dark .cnx-aff-block-wrap {
   flex-direction: column;
   gap: 0.45rem;
   font-size: 0.9rem !important;
-  color: var(--aff-text) !important;
+  /* Fundo do card é branco: usar cor de texto editorial escura, não só --aff-text (evita cinza claro). */
+  color: var(--color-heading, var(--color-text, #1c1917)) !important;
 }
 
 .cnx-aff-product-features li {

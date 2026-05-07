@@ -19,6 +19,8 @@ const posts = defineCollection({
         metaTitle: z.string().optional(),
         metaDescription: z.string().optional(),
         metaImage: z.string().optional(),
+        /** Palavras-chave SEO (texto ou lista), ex.: "carrinho, bebê, travel system". */
+        keywords: z.union([z.string(), z.array(z.string())]).optional(),
         /** `html` = corpo guardado como HTML (ex.: import Ghost); render com set:html. */
         contentFormat: z.enum(['markdown', 'html']).optional(),
         /**
@@ -38,6 +40,12 @@ const authors = defineCollection({
         slug: z.string(),
         role: z.string(),
         avatar: z.string().optional(),
+        /** Cargo para JSON-LD Person (E-E-A-T); se vazio, usa `role`. */
+        jobTitle: z.string().optional(),
+        /** URLs de redes ou perfis (JSON-LD sameAs). */
+        sameAs: z.array(z.string()).optional(),
+        /** Descrição longa só para schema; se vazio, usa `bio`. */
+        seoDescription: z.string().optional(),
         bio: z.string(),
         // Campos de acesso ao painel admin
         email: z.string().optional(),

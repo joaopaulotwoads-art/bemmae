@@ -40,6 +40,7 @@ export interface PostData {
     metaTitle?: string;
     metaDescription?: string;
     metaImage?: string;
+    keywords?: string | string[];
     contentFormat?: 'markdown' | 'html';
     seoSchema?: 'auto' | 'blogPosting' | 'articleItemList' | 'none';
 }

@@ -830,7 +830,7 @@ seoSchema: auto
 </ul>
 
 <h2 id="carrinho-gemeos">Carrinho para dois bebês, gêmeos ou irmãos próximos</h2>
-<p>Carrinho duplo não entra num ranking de um assento só sem distorcer a comparação. Se a sua realidade é dois pequenos, trate este texto como base nos critérios de peso, largura de porta e fecho, e abra o guia dedicado: <a class="text-[#2563eb] hover:underline" href="https://bemmae.com.br/melhor-carrinho-de-bebe-para-gemeos/">melhores carrinhos de bebê para gêmeos</a>.</p>
+<p>Carrinho duplo não entra num ranking de um assento só sem distorcer a comparação. Se a sua realidade é dois pequenos, trate este texto como base nos critérios de peso, largura de porta e fecho, e abra o guia dedicado: <a class="text-[#2563eb] hover:underline" href="https://bemmae.com.br/melhor-carrinhos-de-bebe-para-gemeos/">melhores carrinhos de bebê para gêmeos</a>.</p>
 """
 
     faq = """

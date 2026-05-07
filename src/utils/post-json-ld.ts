@@ -48,6 +48,66 @@ function siteRootOnly(siteUrl: string): string {
     return siteUrl.replace(/\/+$/, '');
 }
 
+function normalizeKeywords(kw: string | string[] | undefined): string | undefined {
+    if (kw === undefined || kw === null) return undefined;
+    const s = Array.isArray(kw) ? kw.map((x) => String(x).trim()).filter(Boolean).join(', ') : String(kw).trim();
+    return s || undefined;
+}
+
+function stripToPlainText(html: string): string {
+    return html
+        .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+        .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+        .replace(/<[^>]+>/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+}
+
+/**
+ * Extrai perguntas e respostas para FAQPage (JSON-LD).
+ * HTML: só dentro da seção após &lt;h2&gt;Perguntas frequentes / FAQ (evita capturar títulos de produto).
+ * Markdown: **Pergunta?** seguida de parágrafo de resposta.
+ */
+export function extractFAQ(content: string | null | undefined): Array<{ question: string; answer: string }> {
+    if (!content?.trim()) return [];
+    const raw = content.trim();
+
+    const faqHeading = /<h2[^>]*>\s*(?:Perguntas\s+frequentes|FAQ)\s*<\/h2>/i;
+    const hm = raw.match(faqHeading);
+    let segment = '';
+    if (hm && hm.index !== undefined) {
+        const start = hm.index + hm[0].length;
+        const rest = raw.slice(start);
+        const nextH2 = rest.search(/<h2\b/i);
+        segment = nextH2 === -1 ? rest : rest.slice(0, nextH2);
+    }
+
+    const items: Array<{ question: string; answer: string }> = [];
+    if (segment) {
+        const re = /<h3[^>]*>([\s\S]*?)<\/h3>\s*<p[^>]*>([\s\S]*?)<\/p>/gi;
+        let m;
+        while ((m = re.exec(segment)) !== null) {
+            const q = stripToPlainText(m[1]);
+            let a = stripToPlainText(m[2]);
+            if (!q || !a) continue;
+            if (a.length > 2000) a = `${a.slice(0, 2000)}…`;
+            items.push({ question: q, answer: a });
+        }
+    }
+    if (items.length > 0) return items.slice(0, 8);
+
+    const mdItems: Array<{ question: string; answer: string }> = [];
+    const mdRe = /\*\*([^*]+\?)\*\*\s*\n([\s\S]+?)(?=\n\*\*[^*]+\?\*\*|$)/g;
+    let mdMatch;
+    while ((mdMatch = mdRe.exec(raw)) !== null) {
+        const question = mdMatch[1].trim();
+        let answer = mdMatch[2].trim().replace(/\n+/g, ' ').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
+        if (answer.length > 2000) answer = `${answer.slice(0, 2000)}…`;
+        if (question && answer) mdItems.push({ question, answer });
+    }
+    return mdItems.slice(0, 8);
+}
+
 /** IDs absolutos com fragmento (ex.: https://domínio/#website). */
 function idFragment(siteRoot: string, fragment: string): string {
     return `${siteRoot}/#${fragment}`;
@@ -107,14 +167,31 @@ export function buildBemmaeDefaultSiteJsonLd(opts: {
     };
 }
 
-function personNode(name: string, authorPageUrl: string): Record<string, unknown> {
-    const base = authorPageUrl.replace(/\/+$/, '');
-    return {
+function buildAuthorPersonNode(opts: {
+    name: string;
+    authorPageUrl: string;
+    imageUrl?: string;
+    jobTitle?: string;
+    description?: string;
+    sameAs?: string[];
+}): Record<string, unknown> {
+    const base = opts.authorPageUrl.replace(/\/+$/, '');
+    const node: Record<string, unknown> = {
         '@type': 'Person',
         '@id': `${base}#author`,
-        name,
+        name: opts.name,
         url: schemaPageUrl(`${base}/`),
     };
+    if (opts.imageUrl) {
+        node.image = {
+            '@type': 'ImageObject',
+            url: schemaPageUrl(opts.imageUrl),
+        };
+    }
+    if (opts.jobTitle?.trim()) node.jobTitle = opts.jobTitle.trim();
+    if (opts.description?.trim()) node.description = opts.description.trim();
+    if (opts.sameAs?.length) node.sameAs = opts.sameAs.map((u) => u.trim()).filter(Boolean);
+    return node;
 }
 
 export function buildPostJsonLd(opts: {
@@ -132,10 +209,18 @@ export function buildPostJsonLd(opts: {
     imageHeight?: number;
     authorName?: string;
     authorUrl?: string;
+    authorImageUrl?: string;
+    authorJobTitle?: string;
+    authorDescription?: string;
+    authorSameAs?: string[];
     htmlContent?: string | null;
     /** Categoria do post: nome e path canônico (ex. /carrinhos-de-bebe/) */
     categoryName?: string;
     categoryPath?: string;
+    /** Palavras-chave (texto separado por vírgulas ou vindo do frontmatter) */
+    keywords?: string | string[];
+    /** URLs absolutas de posts relacionados (WebPage relatedLink) */
+    relatedPostUrls?: string[];
 }): Record<string, unknown> | null {
     let mode: PostSeoSchema = opts.seoSchema || 'auto';
     const items = extractBemmaeRankedProductNames(opts.htmlContent);
@@ -156,8 +241,18 @@ export function buildPostJsonLd(opts: {
     const caption = opts.headline;
 
     const authorPageUrl = opts.authorUrl ? opts.authorUrl.replace(/\/+$/, '') + '/' : undefined;
+    const keywordsNorm = normalizeKeywords(opts.keywords);
     const authorNode =
-        opts.authorName && authorPageUrl ? personNode(opts.authorName, authorPageUrl) : null;
+        opts.authorName && authorPageUrl
+            ? buildAuthorPersonNode({
+                  name: opts.authorName,
+                  authorPageUrl,
+                  imageUrl: opts.authorImageUrl,
+                  jobTitle: opts.authorJobTitle,
+                  description: opts.authorDescription,
+                  sameAs: opts.authorSameAs,
+              })
+            : null;
 
     const imageId = idPage(pageUrl, 'primaryimage');
     const webPageId = idPage(pageUrl, 'webpage');
@@ -207,6 +302,23 @@ export function buildPostJsonLd(opts: {
         item: pageUrl,
     });
 
+    const faqItems = extractFAQ(opts.htmlContent);
+    const faqPageNode: Record<string, unknown> | null =
+        faqItems.length > 0
+            ? {
+                  '@type': 'FAQPage',
+                  '@id': idPage(pageUrl, 'faqpage'),
+                  mainEntity: faqItems.map((item) => ({
+                      '@type': 'Question',
+                      name: item.question,
+                      acceptedAnswer: {
+                          '@type': 'Answer',
+                          text: item.answer,
+                      },
+                  })),
+              }
+            : null;
+
     const publisherRef = { '@id': orgId };
     const webSiteRef = { '@id': webSiteId };
 
@@ -218,6 +330,9 @@ export function buildPostJsonLd(opts: {
         isPartOf: webSiteRef,
         inLanguage: 'pt-BR',
         ...(imgUrl ? { primaryImageOfPage: { '@id': imageId } } : {}),
+        ...(opts.relatedPostUrls?.length
+            ? { relatedLink: opts.relatedPostUrls.map((u) => schemaPageUrl(u)) }
+            : {}),
     };
 
     const articleCommon: Record<string, unknown> = {
@@ -231,11 +346,8 @@ export function buildPostJsonLd(opts: {
         publisher: publisherRef,
         isPartOf: webSiteRef,
         mainEntityOfPage: { '@id': webPageId },
-        ...(imgUrl
-            ? {
-                  image: { '@id': imageId },
-              }
-            : {}),
+        ...(keywordsNorm ? { keywords: keywordsNorm } : {}),
+        ...(imgUrl ? { image: { '@id': imageId }, thumbnailUrl: schemaPageUrl(imgUrl) } : {}),
     };
 
     let mainEntity: Record<string, unknown>;
@@ -295,6 +407,7 @@ export function buildPostJsonLd(opts: {
             '@id': breadcrumbId,
             itemListElement: breadcrumbItems,
         },
+        ...(faqPageNode ? [faqPageNode] : []),
     ];
 
     return {
