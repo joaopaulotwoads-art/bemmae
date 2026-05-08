@@ -21,6 +21,16 @@
       "source": "/melhor-carrinho-de-bebe-para-gemeos/",
       "destination": "/melhor-carrinhos-de-bebe-para-gemeos/",
       "permanent": true
+    },
+    {
+      "source": "/melhor-carrinho-de-bebe-com-bebe-conforto",
+      "destination": "/melhor-carrinho-de-bebe-com-moises-e-bebe-conforto/",
+      "permanent": true
+    },
+    {
+      "source": "/melhor-carrinho-de-bebe-com-bebe-conforto/",
+      "destination": "/melhor-carrinho-de-bebe-com-moises-e-bebe-conforto/",
+      "permanent": true
     }
   ]
 }
