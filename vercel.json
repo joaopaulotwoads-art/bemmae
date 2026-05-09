@@ -23,13 +23,13 @@
       "permanent": true
     },
     {
-      "source": "/melhor-carrinho-de-bebe-com-bebe-conforto",
-      "destination": "/melhor-carrinho-de-bebe-com-moises-e-bebe-conforto/",
+      "source": "/melhor-carrinho-de-bebe-com-moises-e-bebe-conforto",
+      "destination": "/melhor-carrinho-de-bebe-com-bebe-conforto/",
       "permanent": true
     },
     {
-      "source": "/melhor-carrinho-de-bebe-com-bebe-conforto/",
-      "destination": "/melhor-carrinho-de-bebe-com-moises-e-bebe-conforto/",
+      "source": "/melhor-carrinho-de-bebe-com-moises-e-bebe-conforto/",
+      "destination": "/melhor-carrinho-de-bebe-com-bebe-conforto/",
       "permanent": true
     }
   ]
