@@ -1,6 +1,6 @@
 ---
 title: "Melhor carrinho de bebê custo benefício em 2026: 7 opções"
-slug: melhor-carrinho-de-bebe-custo-beneficio
+slug: melhor-carrinho-de-bebe-custo-beneficio-7-opcoes
 author: vitoria-caroline
 category: carrinhos-de-bebe
 publishedDate: "2026-04-16"

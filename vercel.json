@@ -31,6 +31,16 @@
       "source": "/melhor-carrinho-de-bebe-com-moises-e-bebe-conforto/",
       "destination": "/melhor-carrinho-de-bebe-com-bebe-conforto/",
       "permanent": true
+    },
+    {
+      "source": "/melhor-carrinho-de-bebe-custo-beneficio-praticidade-e-seguranca",
+      "destination": "/melhor-carrinho-de-bebe-custo-beneficio/",
+      "permanent": true
+    },
+    {
+      "source": "/melhor-carrinho-de-bebe-custo-beneficio-praticidade-e-seguranca/",
+      "destination": "/melhor-carrinho-de-bebe-custo-beneficio/",
+      "permanent": true
     }
   ]
 }
