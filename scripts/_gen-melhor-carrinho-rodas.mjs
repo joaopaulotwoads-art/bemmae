@@ -113,7 +113,7 @@ ${data.map(roundupItem).join("\n")}
 
 const frontmatter = `---
 title: "Melhor Carrinho 3 Rodas Manobrabilidade e Conforto"
-slug: melhor-carrinho-rodas
+slug: melhor-carrinho-de-bebe-3-rodas
 author: vitoria-caroline
 category: carrinhos-de-bebe
 publishedDate: "2026-05-13T12:00:00-03:00"
@@ -230,6 +230,6 @@ const out =
   "\n" +
   tail;
 
-const dest = path.join(__dirname, "../src/content/posts/melhor-carrinho-rodas.mdoc");
+const dest = path.join(__dirname, "../src/content/posts/melhor-carrinho-de-bebe-3-rodas.mdoc");
 fs.writeFileSync(dest, out, "utf8");
 console.log("Wrote", dest);

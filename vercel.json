@@ -51,6 +51,16 @@
       "source": "/melhor-carrinho-de-bebe-custo-beneficio-7-opcoes/",
       "destination": "/melhor-carrinho-de-bebe-custo-beneficio/",
       "permanent": true
+    },
+    {
+      "source": "/melhor-carrinho-rodas",
+      "destination": "/melhor-carrinho-de-bebe-3-rodas/",
+      "permanent": true
+    },
+    {
+      "source": "/melhor-carrinho-rodas/",
+      "destination": "/melhor-carrinho-de-bebe-3-rodas/",
+      "permanent": true
     }
   ]
 }
