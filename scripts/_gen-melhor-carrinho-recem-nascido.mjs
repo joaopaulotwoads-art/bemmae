@@ -8,7 +8,7 @@ const data = [
   {
     title: "Cosco Kids Carrinho de Bebê Toffy – cinza mescla",
     image: "https://m.media-amazon.com/images/I/61Mh0acD-zL._AC_SY300_SX300_QL70_ML2_.jpg",
-    url: "https://www.amazon.com.br/dp/B0CCG9KL19",
+    url: "https://amzn.to/4nxtO6r",
     badge: "Melhor escolha",
     features: [
       "Carrinho leve e reclinável em múltiplas posições",
@@ -26,7 +26,7 @@ const data = [
   {
     title: "Cosco Kids Carrinho de Bebê Toffy – preto absoluto",
     image: "https://m.media-amazon.com/images/I/51BGkbJKYWL._AC_SY300_SX300_QL70_ML2_.jpg",
-    url: "https://www.amazon.com.br/dp/B09ZNX93JK",
+    url: "https://amzn.to/3PHA8vF",
     features: [
       "Carrinho leve e reclinável em múltiplas posições",
       "Roda dianteira dupla com giro 360°",
@@ -43,7 +43,7 @@ const data = [
   {
     title: "Maxi Baby Carrinho de Bebê Guarda Chuva",
     image: "https://m.media-amazon.com/images/I/51e3h2AkhsL._AC_SY300_SX300_QL70_ML2_.jpg",
-    url: "https://www.amazon.com.br/dp/B0CPN61P1H",
+    url: "https://amzn.to/4wApPKI",
     features: ["Estrutura leve e compacta", "Fechamento estilo guarda-chuva", "Cinto de segurança de 5 pontos"],
     rating: { aria: "Nota 4.5 de 5", stars: "★★★★⯨", score: "4.5", count: "435 avaliações" },
     paras: [
@@ -56,7 +56,7 @@ const data = [
   {
     title: "Cosco Kids Travel System Reverse Duo",
     image: "https://m.media-amazon.com/images/I/61LpFH49WdL._AC_SY300_SX300_QL70_ML2_.jpg",
-    url: "https://www.amazon.com.br/dp/B0CZSCDB97",
+    url: "https://amzn.to/4nrYHJo",
     features: ["Alça reversível para maior conforto", "Inclinação tipo berço para descanso", "Bandeja com porta-copos removível"],
     rating: { aria: "Nota 4.5 de 5", stars: "★★★★⯨", score: "4.5", count: "12.541 avaliações" },
     paras: [
@@ -69,7 +69,7 @@ const data = [
   {
     title: "Maxi Baby Carrinho de Bebê Passeio Allday",
     image: "https://m.media-amazon.com/images/I/61b4XvsBxSL._AC_SY300_SX300_QL70_ML2_.jpg",
-    url: "https://www.amazon.com.br/dp/B0CPN8T65Y",
+    url: "https://amzn.to/4tLGIiY",
     features: ["Reclinação total em modo berço", "Capota retrátil com visor", "Cinto de segurança de 5 pontos"],
     rating: { aria: "Nota 4.5 de 5", stars: "★★★★⯨", score: "4.5", count: "311 avaliações" },
     paras: [
@@ -82,7 +82,7 @@ const data = [
   {
     title: "Burigotto Carrinho de Bebê Zap",
     image: "https://m.media-amazon.com/images/I/71yjfE5U1XL._AC_SY300_SX300_QL70_ML2_.jpg",
-    url: "https://www.amazon.com.br/dp/B0C5NQFRGB",
+    url: "https://amzn.to/437cko3",
     features: [
       "Encosto com múltiplas posições de regulagem",
       "Capota regulável e extensível com visor",
@@ -99,7 +99,7 @@ const data = [
   {
     title: "Galzerano Milano Carrinho de Bebê Reversível",
     image: "https://m.media-amazon.com/images/I/51FlYCuvmPL._AC_SY300_SX300_QL70_ML2_.jpg",
-    url: "https://www.amazon.com.br/dp/B0FTMS5F69",
+    url: "https://amzn.to/3R9zaJe",
     features: ["Desarme automático do encosto", "Capota removível e retrátil", "Cabo reversível para melhor visibilidade"],
     rating: { aria: "Nota 5.0 de 5", stars: "★★★★★", score: "5.0", count: "37 avaliações" },
     paras: [
@@ -112,7 +112,7 @@ const data = [
   {
     title: "Safety 1st Carrinho Spark Splus",
     image: "https://m.media-amazon.com/images/I/51T4nvapEuL._AC_SY300_SX300_QL70_ML2_.jpg",
-    url: "https://www.amazon.com.br/dp/B0DMTK6XQJ",
+    url: "https://amzn.to/4ns3jiK",
     features: ["Fechamento automático com uma mão", "Assento acolchoado e confortável", "Capota com proteção UV50+"],
     rating: { aria: "Nota 5.0 de 5", stars: "★★★★★", score: "5.0", count: "166 avaliações" },
     paras: [
@@ -125,7 +125,7 @@ const data = [
   {
     title: "Cosco Kids Carrinho de Bebê Hobby",
     image: "https://m.media-amazon.com/images/I/51ywQT5qEnL._AC_SY300_SX300_QL70_ML2_.jpg",
-    url: "https://www.amazon.com.br/dp/B0BKFX9VYH",
+    url: "https://amzn.to/4uMn6Ma",
     features: ["3 posições de inclinação do assento", "Capota ampla com proteção UV50+", "Barra frontal macia e forrada"],
     rating: { aria: "Nota 4.5 de 5", stars: "★★★★⯨", score: "4.5", count: "461 avaliações" },
     paras: [
@@ -138,7 +138,7 @@ const data = [
   {
     title: "Maxi Baby Carrinho Guarda Chuva LINK",
     image: "https://m.media-amazon.com/images/I/51m2jYYIG6L._AC_SY300_SX300_QL70_ML2_.jpg",
-    url: "https://www.amazon.com.br/dp/B0CPN7TJ4F",
+    url: "https://amzn.to/4eNwryW",
     features: ["Apoio dos pés ajustável", "Recline total tipo berço", "Cinto de segurança de 5 pontos"],
     rating: { aria: "Nota 3.5 de 5", stars: "★★★⯨☆", score: "3.5", count: "139 avaliações" },
     paras: [
