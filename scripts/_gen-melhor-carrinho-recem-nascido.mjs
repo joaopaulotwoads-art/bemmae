@@ -6,7 +6,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const data = [
   {
-    title: "Cosco Kids Carrinho de Bebê Toffy",
+    title: "Cosco Kids Carrinho de Bebê Toffy – cinza mescla",
     image: "https://m.media-amazon.com/images/I/61Mh0acD-zL._AC_SY300_SX300_QL70_ML2_.jpg",
     url: "https://www.amazon.com.br/dp/B0CCG9KL19",
     badge: "Melhor escolha",
@@ -17,14 +17,14 @@ const data = [
     ],
     rating: { aria: "Nota 4.5 de 5", stars: "★★★★⯨", score: "4.5", count: "4.383 avaliações" },
     paras: [
-      "O Cosco Kids Carrinho de Bebê Toffy destaca-se por seu design leve e moderno de 3 rodas, além de oferecer inclinação em múltiplas posições, o que proporciona conforto ajustável para o bebê. O colchonete macio e removível facilita a limpeza, enquanto a capota ampla com visor permite aos pais monitorar a criança durante os passeios. A roda dianteira dupla com giro 360° e trava de movimento garante manobrabilidade e segurança.",
-      "Indicado para pais que buscam conforto e praticidade desde o nascimento do bebê, o carrinho Toffy é ideal para acompanhar o crescimento da criança, adaptando-se às necessidades diárias. Um ponto de atenção é verificar se o espaço disponível para armazenamento é suficiente, pois alguns usuários podem encontrar limitações dependendo do uso.",
+      "O Cosco Kids Carrinho de Bebê Toffy na cor cinza mescla destaca-se por seu design leve e moderno de 3 rodas, além de oferecer inclinação em múltiplas posições, o que proporciona conforto ajustável para o bebê. O colchonete macio e removível facilita a limpeza, enquanto a capota ampla com visor permite aos pais monitorar a criança durante os passeios. A roda dianteira dupla com giro 360° e trava de movimento garante manobrabilidade e segurança.",
+      "Indicado para pais que buscam conforto e praticidade desde o nascimento do bebê, o Toffy cinza mescla é ideal para acompanhar o crescimento da criança, adaptando-se às necessidades diárias. Um ponto de atenção é verificar se o espaço disponível para armazenamento é suficiente, pois alguns usuários podem encontrar limitações dependendo do uso.",
     ],
     pros: ["Apoio dos pés ajustável para conforto", "Capota ampla com visor para o bebê", "Cintos de 5 pontos ajustáveis em altura"],
     cons: ["Peso não especificado, pode ser um fator"],
   },
   {
-    title: "Cosco Kids Carrinho de Bebê Toffy",
+    title: "Cosco Kids Carrinho de Bebê Toffy – preto absoluto",
     image: "https://m.media-amazon.com/images/I/51BGkbJKYWL._AC_SY300_SX300_QL70_ML2_.jpg",
     url: "https://www.amazon.com.br/dp/B09ZNX93JK",
     features: [
@@ -34,8 +34,8 @@ const data = [
     ],
     rating: { aria: "Nota 4.5 de 5", stars: "★★★★⯨", score: "4.5", count: "4.383 avaliações" },
     paras: [
-      "O carrinho de bebê Toffy da Cosco destaca-se pela leveza e praticidade, graças ao design de 3 rodas e ao sistema de fechamento fácil. A inclinação em múltiplas posições, aliada ao ajuste do apoio dos pés, proporciona conforto tanto para recém-nascidos quanto para crianças maiores. A segurança é reforçada com cintos de 5 pontos, além de rodas dianteiras com giro de 360° e trava, garantindo estabilidade e mobilidade.",
-      "Indicado para pais que buscam conforto e modernidade, o carrinho é ideal desde o nascimento até a infância. A capota ampla com visor e bolso é prática para o dia a dia, mas é preciso atenção à manutenção do colchonete removível, que requer lavagem regular para manter a higiene.",
+      "O carrinho de bebê Toffy da Cosco na cor preto absoluto destaca-se pela leveza e praticidade, graças ao design de 3 rodas e ao sistema de fechamento fácil. A inclinação em múltiplas posições, aliada ao ajuste do apoio dos pés, proporciona conforto tanto para recém-nascidos quanto para crianças maiores. A segurança é reforçada com cintos de 5 pontos, além de rodas dianteiras com giro de 360° e trava, garantindo estabilidade e mobilidade.",
+      "Indicado para pais que buscam conforto e modernidade, o Toffy preto absoluto é ideal desde o nascimento até a infância. A capota ampla com visor e bolso é prática para o dia a dia, mas é preciso atenção à manutenção do colchonete removível, que requer lavagem regular para manter a higiene.",
     ],
     pros: ["Colchonete macio e removível", "Apoio dos pés ajustável para berço", "Fecha rapidamente com uma mão"],
     cons: ["Aprovado para crianças até 15kg apenas"],
@@ -313,7 +313,7 @@ const tail = `<h2>Carrinhos reversíveis vs direcionais — qual a melhor opçã
 <p>Em termos de segurança, ambos os tipos devem seguir normas rigorosas. Produtos como o Safety 1st Carrinho Spark Splus são projetados para oferecer estabilidade e proteção, independentemente do tipo. É importante considerar o custo-benefício, já que carrinhos reversíveis tendem a ser mais caros, mas oferecem mais funcionalidades. A escolha entre reversível e direcional deve considerar o estilo de vida e as necessidades específicas de quem vai utilizá-lo.</p>
 
 <h2>Portabilidade e facilidade de uso no dia a dia</h2>
-<p>Quando se trata de portabilidade, o Maxi Baby Carrinho de Bebê Guarda Chuva se destaca pela estrutura leve e pelo fechamento compacto, ideal para passeios rápidos e viagens. Comparado ao Cosco Kids Carrinho de Bebê Toffy, que também é leve, o Maxi Baby oferece um manuseio mais fácil devido ao seu design simplificado. Já o Burigotto Carrinho de Bebê Zap, embora robusto, pode ser um pouco mais difícil de transportar em espaços apertados.</p>
+<p>Quando se trata de portabilidade, o Maxi Baby Carrinho de Bebê Guarda Chuva se destaca pela estrutura leve e pelo fechamento compacto, ideal para passeios rápidos e viagens. Comparado ao Cosco Kids Toffy (cinza mescla ou preto absoluto), que também é leve, o Maxi Baby oferece um manuseio mais fácil devido ao seu design simplificado. Já o Burigotto Carrinho de Bebê Zap, embora robusto, pode ser um pouco mais difícil de transportar em espaços apertados.</p>
 <p>O Cosco Kids Travel System Reverse Duo oferece a vantagem de um sistema completo, mas pode ser mais volumoso para quem busca praticidade no dia a dia. Em contrapartida, o Safety 1st Carrinho Spark Splus proporciona uma experiência de uso fluida com seu sistema de fechamento com uma mão, ideal para pais que precisam de agilidade. O Galzerano Milano Carrinho de Bebê Reversível também é prático, mas exige um pouco mais de esforço para ajustar as posições.</p>
 <p>Para quem busca um carrinho que combine facilidade de uso com funcionalidade, o Maxi Baby Carrinho de Bebê Passeio Allday é uma excelente opção. Ele equilibra bem a portabilidade com recursos adicionais, como porta-objetos acessível. Em comparação, o Cosco Kids Carrinho de Bebê Hobby é mais básico, mas ainda assim eficiente para quem busca simplicidade. A escolha entre esses modelos dependerá das necessidades específicas de cada rotina familiar.</p>
 
@@ -328,7 +328,7 @@ const tail = `<h2>Carrinhos reversíveis vs direcionais — qual a melhor opçã
 <h3>Qual carrinho é mais confortável para longos passeios?</h3>
 <p>O Galzerano Milano Carrinho de Bebê Reversível tem assento acolchoado e reclinável, proporcionando conforto em passeios prolongados.</p>
 <h3>Qual carrinho tem melhor custo-benefício para uso diário?</h3>
-<p>O Cosco Kids Carrinho de Bebê Toffy oferece boa durabilidade e funcionalidades essenciais a um preço acessível.</p>
+<p>O Cosco Kids Toffy nas cores cinza mescla e preto absoluto oferece boa durabilidade e funcionalidades essenciais a um preço acessível.</p>
 <h3>Qual é o mais indicado para terrenos irregulares?</h3>
 <p>O Burigotto Carrinho de Bebê Zap possui rodas robustas e suspensão eficiente, ideal para terrenos acidentados.</p>
 <h3>Qual carrinho é mais adequado para espaços pequenos?</h3>
