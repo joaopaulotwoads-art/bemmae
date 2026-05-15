@@ -919,3 +919,32 @@ html.dark .cnx-aff-tech-table tbody tr:nth-child(even) {
     padding: 0.75rem;
   }
 }
+
+/* Mini rating (Amazon-style) abaixo do card de produto em reviews */
+.cnx-aff-rating.cnx-aff-rating--mini {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+  margin: 0.75rem 0 1rem;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: var(--aff-muted);
+}
+.cnx-aff-rating--mini .cnx-aff-rating-stars {
+  color: #e8a020;
+  letter-spacing: 0.04em;
+  font-size: 1rem;
+  line-height: 1;
+}
+.cnx-aff-rating--mini .cnx-aff-rating-score {
+  font-weight: 600;
+  color: var(--aff-text);
+}
+.cnx-aff-rating--mini .cnx-aff-rating-count {
+  color: var(--aff-muted);
+}
+.prose-invert .cnx-aff-rating--mini .cnx-aff-rating-stars,
+html.dark .cnx-aff-rating--mini .cnx-aff-rating-stars {
+  color: #fbbf24;
+}
