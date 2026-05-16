@@ -18,7 +18,7 @@ contentFormat: html
 
 <h2>Lista das melhores fraldas para evitar assaduras e alergias</h2>
 
-<div class="cnx-aff-roundup cnx-aff-block-wrap" data-cnx-roundup="[{&quot;rank&quot;:&quot;1&quot;,&quot;itemBadge&quot;:&quot;Melhor escolha&quot;,&quot;title&quot;:&quot;Pampers Fralda Premium Care Tamanho G&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/61dNIGofgEL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Loção hipoalergênica para proteção&quot;,&quot;Ajuste elástico nas costas&quot;,&quot;Canais de ar para frescor&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/4tEKpa4&quot;,&quot;cta2&quot;:&quot;&quot;,&quot;cta2Url&quot;:&quot;&quot;},{&quot;rank&quot;:&quot;2&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Pampers Fralda Descartável Infantil Supersec&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/61cQTj+Mc3L._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Eficaz contra vazamentos&quot;,&quot;Centro absorvente melhorado&quot;,&quot;Barreiras antivazamentos reforçadas&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/4uRoE7I&quot;,&quot;cta2&quot;:&quot;&quot;,&quot;cta2Url&quot;:&quot;&quot;},{&quot;rank&quot;:&quot;3&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Fralda Descartável Supreme Care Tamanho G&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/81fNk6kKaoL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Suavidade sem precedentes para o bebê&quot;,&quot;Proteção noturna duas vezes maior&quot;,&quot;Máxima flexibilidade e ajuste anatômico&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/3PGA1k2&quot;,&quot;cta2&quot;:&quot;&quot;,&quot;cta2Url&quot;:&quot;&quot;},{&quot;rank&quot;:&quot;4&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Fralda Descartável Premium Natural Care&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/71DAxC1Pu4L._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;0% fragrância e 0% parabenos&quot;,&quot;Fibras naturais para cuidado puro&quot;,&quot;Indicador de fralda cheia&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/49xOohi&quot;,&quot;cta2&quot;:&quot;&quot;,&quot;cta2Url&quot;:&quot;&quot;},{&quot;rank&quot;:&quot;5&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Babysec Fralda Ultrasec Galinha Pintadinha&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/51Lip4srzpL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Proteção de até 12 horas&quot;,&quot;Cobertura suave ao toque&quot;,&quot;Fechos reposicionáveis e ajustáveis&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/4uaP04F&quot;,&quot;cta2&quot;:&quot;&quot;,&quot;cta2Url&quot;:&quot;&quot;},{&quot;rank&quot;:&quot;6&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;MamyPoko Fralda-Calça Premium Seca&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/71DgEyR7XdL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Ondas de Absorção para xixi imediato&quot;,&quot;Absorve até 5 copos de líquidos&quot;,&quot;Barreira Dupla evita vazamentos&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/4wDz24Y&quot;,&quot;cta2&quot;:&quot;&quot;,&quot;cta2Url&quot;:&quot;&quot;},{&quot;rank&quot;:&quot;7&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Fralda Turma da Mônica Baby Mega P&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/61GqSAiDmHL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Tecnologia Qu4troSec para proteção&quot;,&quot;Cintura elástica para ajuste perfeito&quot;,&quot;Sistema de canais super absorventes&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/4dOi9wI&quot;,&quot;cta2&quot;:&quot;&quot;,&quot;cta2Url&quot;:&quot;&quot;},{&quot;rank&quot;:&quot;8&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Cremer Fralda Jumbo M 26 Unidades&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/71fXFu9QhYL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Mais fina e confortável&quot;,&quot;Proteção até 12 horas&quot;,&quot;Sistema antivazamento eficiente&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/4deTz87&quot;,&quot;cta2&quot;:&quot;&quot;,&quot;cta2Url&quot;:&quot;&quot;},{&quot;rank&quot;:&quot;9&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Pampers Splashers Fralda Para Nadar&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/71Dq9Rj4w6L._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Não incha em contato com água&quot;,&quot;Dupla barreira anti vazamento&quot;,&quot;Ajuste elástico 360º na cintura&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/4eQJ24m&quot;,&quot;cta2&quot;:&quot;&quot;,&quot;cta2Url&quot;:&quot;&quot;},{&quot;rank&quot;:&quot;10&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Little Swimmers Fralda M/G&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/611GtSZv2fL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Desenvolvida especialmente para água&quot;,&quot;Tecnologia à prova d'água&quot;,&quot;Não infla na água&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/3R8RfXP&quot;,&quot;cta2&quot;:&quot;&quot;,&quot;cta2Url&quot;:&quot;&quot;}]">
+<div class="cnx-aff-roundup cnx-aff-block-wrap" data-cnx-roundup="[{&quot;rank&quot;:&quot;1&quot;,&quot;itemBadge&quot;:&quot;Melhor escolha&quot;,&quot;title&quot;:&quot;Pampers Fralda Premium Care Tamanho G&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/61dNIGofgEL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Loção hipoalergênica para proteção&quot;,&quot;Ajuste elástico nas costas&quot;,&quot;Canais de ar para frescor&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/4tEKpa4&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;https://meli.la/1wBqEnK&quot;},{&quot;rank&quot;:&quot;2&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Pampers Fralda Descartável Infantil Supersec&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/61cQTj+Mc3L._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Eficaz contra vazamentos&quot;,&quot;Centro absorvente melhorado&quot;,&quot;Barreiras antivazamentos reforçadas&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/4uRoE7I&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;https://meli.la/2eugpm2&quot;},{&quot;rank&quot;:&quot;3&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Fralda Descartável Supreme Care Tamanho G&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/81fNk6kKaoL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Suavidade sem precedentes para o bebê&quot;,&quot;Proteção noturna duas vezes maior&quot;,&quot;Máxima flexibilidade e ajuste anatômico&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/3PGA1k2&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;https://meli.la/2fsuEa4&quot;},{&quot;rank&quot;:&quot;4&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Fralda Descartável Premium Natural Care&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/71DAxC1Pu4L._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;0% fragrância e 0% parabenos&quot;,&quot;Fibras naturais para cuidado puro&quot;,&quot;Indicador de fralda cheia&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/49xOohi&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;https://meli.la/1tbccwn&quot;},{&quot;rank&quot;:&quot;5&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Babysec Fralda Ultrasec Galinha Pintadinha&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/51Lip4srzpL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Proteção de até 12 horas&quot;,&quot;Cobertura suave ao toque&quot;,&quot;Fechos reposicionáveis e ajustáveis&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/4uaP04F&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;https://meli.la/2b6CEbK&quot;},{&quot;rank&quot;:&quot;6&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;MamyPoko Fralda-Calça Premium Seca&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/71DgEyR7XdL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Ondas de Absorção para xixi imediato&quot;,&quot;Absorve até 5 copos de líquidos&quot;,&quot;Barreira Dupla evita vazamentos&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/4wDz24Y&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;https://meli.la/2WWLBzv&quot;},{&quot;rank&quot;:&quot;7&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Fralda Turma da Mônica Baby Mega P&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/61GqSAiDmHL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Tecnologia Qu4troSec para proteção&quot;,&quot;Cintura elástica para ajuste perfeito&quot;,&quot;Sistema de canais super absorventes&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/4dOi9wI&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;https://meli.la/14mM1KU&quot;},{&quot;rank&quot;:&quot;8&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Cremer Fralda Jumbo M 26 Unidades&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/71fXFu9QhYL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Mais fina e confortável&quot;,&quot;Proteção até 12 horas&quot;,&quot;Sistema antivazamento eficiente&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/4deTz87&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;https://meli.la/1FaGP1b&quot;},{&quot;rank&quot;:&quot;9&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Pampers Splashers Fralda Para Nadar&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/71Dq9Rj4w6L._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Não incha em contato com água&quot;,&quot;Dupla barreira anti vazamento&quot;,&quot;Ajuste elástico 360º na cintura&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/4eQJ24m&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;https://meli.la/2dYBiTn&quot;},{&quot;rank&quot;:&quot;10&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Little Swimmers Fralda M/G&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/611GtSZv2fL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Desenvolvida especialmente para água&quot;,&quot;Tecnologia à prova d'água&quot;,&quot;Não infla na água&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/3R8RfXP&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;https://meli.la/2BMu9tv&quot;}]">
   <div class="cnx-aff-roundup-head" aria-hidden="true">
     <span class="cnx-aff-roundup-head-spacer"></span>
     <span>Imagem</span>
@@ -41,6 +41,7 @@ contentFormat: html
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
         <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4tEKpa4" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/1wBqEnK" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -59,6 +60,7 @@ contentFormat: html
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
         <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4uRoE7I" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2eugpm2" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -77,6 +79,7 @@ contentFormat: html
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
         <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/3PGA1k2" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2fsuEa4" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -95,6 +98,7 @@ contentFormat: html
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
         <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/49xOohi" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/1tbccwn" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -113,6 +117,7 @@ contentFormat: html
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
         <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4uaP04F" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2b6CEbK" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -131,6 +136,7 @@ contentFormat: html
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
         <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4wDz24Y" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2WWLBzv" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -149,6 +155,7 @@ contentFormat: html
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
         <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4dOi9wI" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/14mM1KU" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -167,6 +174,7 @@ contentFormat: html
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
         <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4deTz87" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/1FaGP1b" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -185,6 +193,7 @@ contentFormat: html
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
         <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4eQJ24m" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2dYBiTn" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -203,6 +212,7 @@ contentFormat: html
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
         <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/3R8RfXP" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2BMu9tv" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -230,10 +240,13 @@ contentFormat: html
         <li>Ajuste elástico nas costas</li>
         <li>Canais de ar para frescor</li>
       </ul>
-      <div class="cnx-aff-product-cta">
-        <a href="https://amzn.to/4tEKpa4" target="_blank" rel="nofollow sponsored noopener noreferrer">
-          Ver na Amazon
-        </a>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="https://amzn.to/4tEKpa4" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="https://meli.la/1wBqEnK" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
       </div>
     </div>
   </div>
@@ -268,10 +281,9 @@ contentFormat: html
       </ul>
     </section>
   </div>
-  <div class="cnx-aff-pros-cons-cta">
-      <a href="https://amzn.to/4tEKpa4" target="_blank" rel="nofollow sponsored noopener noreferrer">
-        Ver na Amazon
-      </a>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+      <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4tEKpa4" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+      <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/1wBqEnK" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
     </div>
 </div>
 
@@ -291,10 +303,13 @@ contentFormat: html
         <li>Centro absorvente melhorado</li>
         <li>Barreiras antivazamentos reforçadas</li>
       </ul>
-      <div class="cnx-aff-product-cta">
-        <a href="https://amzn.to/4uRoE7I" target="_blank" rel="nofollow sponsored noopener noreferrer">
-          Ver na Amazon
-        </a>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="https://amzn.to/4uRoE7I" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="https://meli.la/2eugpm2" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
       </div>
     </div>
   </div>
@@ -329,10 +344,9 @@ contentFormat: html
       </ul>
     </section>
   </div>
-  <div class="cnx-aff-pros-cons-cta">
-      <a href="https://amzn.to/4uRoE7I" target="_blank" rel="nofollow sponsored noopener noreferrer">
-        Ver na Amazon
-      </a>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+      <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4uRoE7I" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+      <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2eugpm2" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
     </div>
 </div>
 
@@ -352,10 +366,13 @@ contentFormat: html
         <li>Proteção noturna duas vezes maior</li>
         <li>Máxima flexibilidade e ajuste anatômico</li>
       </ul>
-      <div class="cnx-aff-product-cta">
-        <a href="https://amzn.to/3PGA1k2" target="_blank" rel="nofollow sponsored noopener noreferrer">
-          Ver na Amazon
-        </a>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="https://amzn.to/3PGA1k2" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="https://meli.la/2fsuEa4" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
       </div>
     </div>
   </div>
@@ -390,10 +407,9 @@ contentFormat: html
       </ul>
     </section>
   </div>
-  <div class="cnx-aff-pros-cons-cta">
-      <a href="https://amzn.to/3PGA1k2" target="_blank" rel="nofollow sponsored noopener noreferrer">
-        Ver na Amazon
-      </a>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+      <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/3PGA1k2" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+      <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2fsuEa4" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
     </div>
 </div>
 
@@ -413,10 +429,13 @@ contentFormat: html
         <li>Fibras naturais para cuidado puro</li>
         <li>Indicador de fralda cheia</li>
       </ul>
-      <div class="cnx-aff-product-cta">
-        <a href="https://amzn.to/49xOohi" target="_blank" rel="nofollow sponsored noopener noreferrer">
-          Ver na Amazon
-        </a>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="https://amzn.to/49xOohi" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="https://meli.la/1tbccwn" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
       </div>
     </div>
   </div>
@@ -451,10 +470,9 @@ contentFormat: html
       </ul>
     </section>
   </div>
-  <div class="cnx-aff-pros-cons-cta">
-      <a href="https://amzn.to/49xOohi" target="_blank" rel="nofollow sponsored noopener noreferrer">
-        Ver na Amazon
-      </a>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+      <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/49xOohi" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+      <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/1tbccwn" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
     </div>
 </div>
 
@@ -474,10 +492,13 @@ contentFormat: html
         <li>Cobertura suave ao toque</li>
         <li>Fechos reposicionáveis e ajustáveis</li>
       </ul>
-      <div class="cnx-aff-product-cta">
-        <a href="https://amzn.to/4uaP04F" target="_blank" rel="nofollow sponsored noopener noreferrer">
-          Ver na Amazon
-        </a>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="https://amzn.to/4uaP04F" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="https://meli.la/2b6CEbK" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
       </div>
     </div>
   </div>
@@ -512,10 +533,9 @@ contentFormat: html
       </ul>
     </section>
   </div>
-  <div class="cnx-aff-pros-cons-cta">
-      <a href="https://amzn.to/4uaP04F" target="_blank" rel="nofollow sponsored noopener noreferrer">
-        Ver na Amazon
-      </a>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+      <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4uaP04F" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+      <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2b6CEbK" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
     </div>
 </div>
 
@@ -536,10 +556,13 @@ contentFormat: html
         <li>Absorve até 5 copos de líquidos</li>
         <li>Barreira Dupla evita vazamentos</li>
       </ul>
-      <div class="cnx-aff-product-cta">
-        <a href="https://amzn.to/4wDz24Y" target="_blank" rel="nofollow sponsored noopener noreferrer">
-          Ver na Amazon
-        </a>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="https://amzn.to/4wDz24Y" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="https://meli.la/2WWLBzv" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
       </div>
     </div>
   </div>
@@ -574,10 +597,9 @@ contentFormat: html
       </ul>
     </section>
   </div>
-  <div class="cnx-aff-pros-cons-cta">
-      <a href="https://amzn.to/4wDz24Y" target="_blank" rel="nofollow sponsored noopener noreferrer">
-        Ver na Amazon
-      </a>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+      <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4wDz24Y" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+      <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2WWLBzv" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
     </div>
 </div>
 
@@ -597,10 +619,13 @@ contentFormat: html
         <li>Cintura elástica para ajuste perfeito</li>
         <li>Sistema de canais super absorventes</li>
       </ul>
-      <div class="cnx-aff-product-cta">
-        <a href="https://amzn.to/4dOi9wI" target="_blank" rel="nofollow sponsored noopener noreferrer">
-          Ver na Amazon
-        </a>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="https://amzn.to/4dOi9wI" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="https://meli.la/14mM1KU" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
       </div>
     </div>
   </div>
@@ -635,10 +660,9 @@ contentFormat: html
       </ul>
     </section>
   </div>
-  <div class="cnx-aff-pros-cons-cta">
-      <a href="https://amzn.to/4dOi9wI" target="_blank" rel="nofollow sponsored noopener noreferrer">
-        Ver na Amazon
-      </a>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+      <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4dOi9wI" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+      <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/14mM1KU" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
     </div>
 </div>
 
@@ -658,10 +682,13 @@ contentFormat: html
         <li>Proteção até 12 horas</li>
         <li>Sistema antivazamento eficiente</li>
       </ul>
-      <div class="cnx-aff-product-cta">
-        <a href="https://amzn.to/4deTz87" target="_blank" rel="nofollow sponsored noopener noreferrer">
-          Ver na Amazon
-        </a>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="https://amzn.to/4deTz87" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="https://meli.la/1FaGP1b" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
       </div>
     </div>
   </div>
@@ -696,10 +723,9 @@ contentFormat: html
       </ul>
     </section>
   </div>
-  <div class="cnx-aff-pros-cons-cta">
-      <a href="https://amzn.to/4deTz87" target="_blank" rel="nofollow sponsored noopener noreferrer">
-        Ver na Amazon
-      </a>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+      <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4deTz87" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+      <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/1FaGP1b" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
     </div>
 </div>
 
@@ -719,10 +745,13 @@ contentFormat: html
         <li>Dupla barreira anti vazamento</li>
         <li>Ajuste elástico 360º na cintura</li>
       </ul>
-      <div class="cnx-aff-product-cta">
-        <a href="https://amzn.to/4eQJ24m" target="_blank" rel="nofollow sponsored noopener noreferrer">
-          Ver na Amazon
-        </a>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="https://amzn.to/4eQJ24m" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="https://meli.la/2dYBiTn" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
       </div>
     </div>
   </div>
@@ -757,10 +786,9 @@ contentFormat: html
       </ul>
     </section>
   </div>
-  <div class="cnx-aff-pros-cons-cta">
-      <a href="https://amzn.to/4eQJ24m" target="_blank" rel="nofollow sponsored noopener noreferrer">
-        Ver na Amazon
-      </a>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+      <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4eQJ24m" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+      <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2dYBiTn" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
     </div>
 </div>
 
@@ -780,10 +808,13 @@ contentFormat: html
         <li>Tecnologia à prova d'água</li>
         <li>Não infla na água</li>
       </ul>
-      <div class="cnx-aff-product-cta">
-        <a href="https://amzn.to/3R8RfXP" target="_blank" rel="nofollow sponsored noopener noreferrer">
-          Ver na Amazon
-        </a>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="https://amzn.to/3R8RfXP" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="https://meli.la/2BMu9tv" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
       </div>
     </div>
   </div>
@@ -818,10 +849,9 @@ contentFormat: html
       </ul>
     </section>
   </div>
-  <div class="cnx-aff-pros-cons-cta">
-      <a href="https://amzn.to/3R8RfXP" target="_blank" rel="nofollow sponsored noopener noreferrer">
-        Ver na Amazon
-      </a>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+      <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/3R8RfXP" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+      <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2BMu9tv" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
     </div>
 </div>
 

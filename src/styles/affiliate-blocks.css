@@ -565,12 +565,32 @@ html.dark .cnx-aff-block-wrap {
 }
 
 .cnx-aff-roundup-ctas a.cnx-aff-roundup-cta-secondary {
-  font-size: 0.72rem !important;
-  font-weight: 600 !important;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.8125rem !important;
+  font-weight: 700 !important;
   text-align: center;
-  color: var(--aff-text) !important;
-  text-decoration: underline !important;
-  text-underline-offset: 2px;
+  text-decoration: none !important;
+  padding: 0.55rem 0.85rem !important;
+  border-radius: 0.45rem !important;
+  color: #fff !important;
+  background: #3483fa !important;
+  border: 1px solid #2968c8 !important;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+}
+
+.cnx-aff-roundup-ctas a.cnx-aff-roundup-cta-secondary:hover {
+  background: #2968c8 !important;
+}
+
+.cnx-aff-roundup-ctas a.cnx-aff-roundup-cta-secondary::after {
+  content: '\2192';
+  font-size: 1rem;
+  line-height: 1;
+  opacity: 0.9;
+  margin-left: 0.1rem;
 }
 
 @media (max-width: 900px) {
