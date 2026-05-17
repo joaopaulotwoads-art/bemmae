@@ -22,6 +22,31 @@ export function extractBemmaeRankedProductNames(html: string | null | undefined)
     return names;
 }
 
+export function extractRankedProducts(html: string | null | undefined): { name: string; url?: string }[] {
+    if (!html) return [];
+
+    const dataAttrMatch = html.match(/data-cnx-roundup="([^"]+)"/);
+    if (dataAttrMatch) {
+        try {
+            const decoded = dataAttrMatch[1].replace(/&quot;/g, '"');
+            const parsed: unknown = JSON.parse(decoded);
+            if (Array.isArray(parsed) && parsed.length > 0) {
+                return (parsed as Record<string, string>[])
+                    .filter((item) => item.title?.trim())
+                    .sort((a, b) => Number(a.rank) - Number(b.rank))
+                    .map((item) => ({
+                        name: item.title.trim(),
+                        url: item.cta1Url?.trim() || undefined,
+                    }));
+            }
+        } catch {
+            // fall through
+        }
+    }
+
+    return extractBemmaeRankedProductNames(html).map((name) => ({ name }));
+}
+
 export function toAbsoluteUrl(siteOrigin: string, img?: string | null): string | undefined {
     if (!img?.trim()) return undefined;
     const t = img.trim();
@@ -223,7 +248,7 @@ export function buildPostJsonLd(opts: {
     relatedPostUrls?: string[];
 }): Record<string, unknown> | null {
     let mode: PostSeoSchema = opts.seoSchema || 'auto';
-    const items = extractBemmaeRankedProductNames(opts.htmlContent);
+    const items = extractRankedProducts(opts.htmlContent);
 
     if (mode === 'auto') {
         mode = items.length >= 2 ? 'articleItemList' : 'blogPosting';
@@ -258,6 +283,7 @@ export function buildPostJsonLd(opts: {
     const webPageId = idPage(pageUrl, 'webpage');
     const articleId = idPage(pageUrl, mode === 'articleItemList' ? 'article' : 'blogposting');
     const breadcrumbId = idPage(pageUrl, 'breadcrumb');
+    const itemListId = idPage(pageUrl, 'itemlist');
 
     const imageObject: Record<string, unknown> = {
         '@type': 'ImageObject',
@@ -357,15 +383,7 @@ export function buildPostJsonLd(opts: {
             '@type': 'Article',
             '@id': articleId,
             ...articleCommon,
-            mainEntity: {
-                '@type': 'ItemList',
-                numberOfItems: items.length,
-                itemListElement: items.map((name, i) => ({
-                    '@type': 'ListItem',
-                    position: i + 1,
-                    name,
-                })),
-            },
+            mainEntity: { '@id': itemListId },
         };
     } else {
         mainEntity = {
@@ -374,6 +392,25 @@ export function buildPostJsonLd(opts: {
             ...articleCommon,
         };
     }
+
+    const itemListNode: Record<string, unknown> | null =
+        items.length >= 2
+            ? {
+                  '@type': 'ItemList',
+                  '@id': itemListId,
+                  name: opts.headline,
+                  numberOfItems: items.length,
+                  itemListElement: items.map((item, i) => {
+                      const listItem: Record<string, unknown> = {
+                          '@type': 'ListItem',
+                          position: i + 1,
+                          name: item.name,
+                      };
+                      if (item.url) listItem.url = item.url;
+                      return listItem;
+                  }),
+              }
+            : null;
 
     const graph: Record<string, unknown>[] = [
         {
@@ -407,6 +444,7 @@ export function buildPostJsonLd(opts: {
             '@id': breadcrumbId,
             itemListElement: breadcrumbItems,
         },
+        ...(itemListNode ? [itemListNode] : []),
         ...(faqPageNode ? [faqPageNode] : []),
     ];
 
