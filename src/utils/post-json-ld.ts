@@ -25,7 +25,7 @@ export function extractBemmaeRankedProductNames(html: string | null | undefined)
 export function extractRankedProducts(html: string | null | undefined): { name: string; url?: string }[] {
     if (!html) return [];
 
-    const dataAttrMatch = html.match(/data-cnx-roundup="([^"]+)"/);
+    const dataAttrMatch = html.match(/data-cnx-roundup="([^"]+)"/) || html.match(/data-cnx-roundup='([^']+)'/);
     if (dataAttrMatch) {
         try {
             const decoded = dataAttrMatch[1].replace(/&quot;/g, '"');
