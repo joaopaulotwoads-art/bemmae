@@ -5,8 +5,8 @@ author: vitoria-caroline
 category: fraldas
 publishedDate: '2026-06-02T13:00:00-03:00'
 thumbnail: /images/og/melhores-fraldas.jpg
-metaTitle: 'Melhores Marcas de Fralda em 2026: Ranking das 10 Melhores'
-metaDescription: 'Quais as melhores marcas de fralda em 2026? Huggies, Pampers, MamyPoko, Pom Pom e mais. Ranking com custo por unidade, comparativo Pampers vs Huggies e guia por fase do bebê.'
+metaTitle: 'Melhores Marcas de Fralda em 2026: Top 10'
+metaDescription: 'Ranking das 10 melhores marcas de fralda em 2026. Huggies, Pampers, MamyPoko e mais. Com custo por unidade e guia por fase do bebê.'
 metaImage: /images/og/melhores-fraldas.jpg
 seoSchema: articleItemList
 articleLayout: reviewRoundup
