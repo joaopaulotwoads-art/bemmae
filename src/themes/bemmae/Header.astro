@@ -24,12 +24,12 @@ const { siteName, nav, logoSrc } = Astro.props;
           alt=""
           width="480"
           height="120"
-          class="h-10 w-auto sm:h-11 md:h-12 max-h-[3.25rem] sm:max-h-[3.5rem] md:max-h-16 max-w-[min(88vw,20rem)] sm:max-w-[min(85vw,22rem)] object-contain object-left transition-[filter,transform] duration-300 group-hover:brightness-95 group-hover:scale-[1.01]"
+          class="h-10 w-auto sm:h-11 md:h-12 max-h-[3.25rem] sm:max-h-[3.5rem] md:max-h-16 max-w-[min(88vw,20rem)] sm:max-w-[min(85vw,22rem)] object-contain object-left bg-transparent transition-[filter,transform] duration-300 group-hover:brightness-95 group-hover:scale-[1.01]"
           decoding="async"
           fetchpriority="low"
         />
       ) : (
-        <span class="font-heading text-lg font-bold tracking-tight text-[var(--color-heading)]">{siteName}</span>
+        <span class="font-heading text-2xl font-bold tracking-tight leading-none text-[#e85d32]">{siteName}</span>
       )}
     </a>
     <nav class="ml-auto hidden md:flex items-center gap-1 shrink-0" aria-label="Navegação">

@@ -397,6 +397,210 @@ html.dark .cnx-aff-block-wrap {
   background: #fff;
 }
 
+/* Ranking compacto: # | imagem | produto | CTA (sem coluna Destaques) */
+.cnx-aff-roundup--no-features.cnx-aff-block-wrap {
+  --roundup-cols: minmax(1.75rem, 2.25rem) minmax(4.25rem, 5.5rem) minmax(0, 1fr) minmax(8.5rem, 11rem);
+}
+
+.cnx-aff-roundup--no-features .cnx-aff-roundup-features-col {
+  display: none !important;
+}
+
+.cnx-aff-roundup--no-features .cnx-aff-roundup-head > span:nth-child(4) {
+  display: none !important;
+}
+
+/* Lista em cards (layout limpo: imagem + título + destaque + CTA) */
+.cnx-aff-roundup--cards.cnx-aff-block-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  overflow: visible;
+  background: transparent;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-head {
+  display: none !important;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-item {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0.95rem 1rem 0.95rem 1rem;
+  border: 1px solid #e8e8ec;
+  border-radius: 0.75rem;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05);
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-rank {
+  display: none;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-card-body {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) 1px auto;
+  align-items: center;
+  column-gap: 1rem;
+  row-gap: 0.35rem;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-item:has(.cnx-aff-roundup-score-badge) .cnx-aff-roundup-product-col {
+  padding-right: 0;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-img-cell {
+  max-height: none;
+  width: 4.5rem;
+  flex-shrink: 0;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-img {
+  max-width: 4.5rem;
+  max-height: 4.5rem;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-product-col {
+  padding-right: 4.5rem;
+  min-width: 0;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-item-title {
+  font-size: 1rem !important;
+  margin: 0 !important;
+  line-height: 1.35 !important;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-item-badge {
+  margin-bottom: 0.3rem;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-highlight {
+  margin: 0.35rem 0 0;
+  font-size: 0.8125rem;
+  line-height: 1.4;
+  color: #6b7280;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-highlight-label {
+  color: #9ca3af;
+  font-weight: 500;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-card-divider {
+  width: 1px;
+  height: 3.25rem;
+  background: #e5e7eb;
+  align-self: center;
+  margin: 0;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-cta-col {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: 0.45rem;
+  min-width: 9.25rem;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-cta-col .cnx-aff-roundup-score-badge {
+  position: static;
+  align-self: flex-end;
+  margin: 0 0 0.1rem 0;
+  white-space: nowrap;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-cta-col > .cnx-aff-roundup-score-badge {
+  order: -1;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-item > .cnx-aff-roundup-score-badge {
+  display: none;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-ctas {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 100%;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-ctas a {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-ctas a.cnx-aff-roundup-cta-primary,
+.cnx-aff-roundup--cards .cnx-aff-roundup-ctas a.cnx-aff-roundup-cta-secondary {
+  white-space: nowrap;
+  padding: 0.5rem 0.85rem !important;
+  font-size: 0.75rem !important;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-ctas a.cnx-aff-roundup-cta-primary::after,
+.cnx-aff-roundup--cards .cnx-aff-roundup-ctas a.cnx-aff-roundup-cta-secondary::after {
+  display: none;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-score-badge {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.12rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: #6b7280;
+  line-height: 1;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-score-star {
+  color: #f59e0b;
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-score-value {
+  font-weight: 800;
+  color: #374151;
+}
+
+.cnx-aff-roundup--cards .cnx-aff-roundup-score-suffix {
+  font-weight: 600;
+  font-size: 0.75rem;
+  color: #9ca3af;
+}
+
+@media (max-width: 720px) {
+  .cnx-aff-roundup--cards .cnx-aff-roundup-card-body {
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 0.85rem;
+  }
+
+  .cnx-aff-roundup--cards .cnx-aff-roundup-card-divider {
+    display: none;
+  }
+
+  .cnx-aff-roundup--cards .cnx-aff-roundup-cta-col {
+    grid-column: 1 / -1;
+    min-width: 0;
+    margin-top: 0.35rem;
+  }
+
+  .cnx-aff-roundup--cards .cnx-aff-roundup-ctas a.cnx-aff-roundup-cta-primary {
+    width: 100%;
+  }
+
+  .cnx-aff-roundup--cards .cnx-aff-roundup-product-col {
+    padding-right: 3.75rem;
+  }
+}
+
 .cnx-aff-roundup-head {
   display: grid;
   grid-template-columns: var(--roundup-cols);
@@ -598,14 +802,24 @@ html.dark .cnx-aff-block-wrap {
     display: none;
   }
 
-  .cnx-aff-roundup-item {
+  .cnx-aff-roundup--cards .cnx-aff-roundup-item {
+    display: block;
+    padding: 0.95rem 1rem;
+    gap: 0;
+  }
+
+  .cnx-aff-roundup--cards .cnx-aff-roundup-rank {
+    display: none;
+  }
+
+  .cnx-aff-roundup:not(.cnx-aff-roundup--cards) .cnx-aff-roundup-item {
     grid-template-columns: 1fr;
     padding: 1rem 0.85rem;
     gap: 0.65rem;
     align-items: stretch;
   }
 
-  .cnx-aff-roundup-rank {
+  .cnx-aff-roundup:not(.cnx-aff-roundup--cards) .cnx-aff-roundup-rank {
     position: absolute;
     top: 0.65rem;
     right: 0.75rem;
@@ -621,14 +835,14 @@ html.dark .cnx-aff-block-wrap {
     font-size: 0.8rem;
   }
 
-  .cnx-aff-roundup-img-cell {
+  .cnx-aff-roundup:not(.cnx-aff-roundup--cards) .cnx-aff-roundup-img-cell {
     justify-content: center;
     align-items: center;
     width: 100%;
     max-height: none;
   }
 
-  .cnx-aff-roundup-product-col {
+  .cnx-aff-roundup:not(.cnx-aff-roundup--cards) .cnx-aff-roundup-product-col {
     padding-right: 2.5rem;
   }
 }

@@ -5,8 +5,6 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 import { readSiteSettings, normalizeCanonicalUrl, stripWwwFromOrigin, canonicalPathname } from './read-site-settings';
-import { listLocations } from './location-utils';
-import { listServices } from './service-utils';
 import {
     buildPostPath,
     getPostUrl,
@@ -36,7 +34,6 @@ function urlNode(base: string, path: string, lastmod?: string): string {
 export const getSitemapXmlResponse: APIRoute = async ({ request }) => {
     const settings = await readSiteSettings();
     const generate = settings.generateSitemap !== false;
-    const siteMode = (settings.siteMode as string) || 'blog';
     let base = normalizeCanonicalUrl(settings.canonicalUrl as string | undefined);
     if (!base) {
         try {
@@ -70,7 +67,6 @@ ${stylesheet}
     const staticPaths = [
         '/',
         '/blog',
-        ...(siteMode === 'local' ? ['/servicos'] : []),
         '/contato',
         '/sobre',
         '/termos',
@@ -142,30 +138,6 @@ ${stylesheet}
         }
     } catch (e) {
         console.error('\x1b[31m✗ Erro ao coletar autores para sitemap:\x1b[0m', e);
-    }
-
-    if (siteMode === 'local') {
-        try {
-            const [locations, services] = await Promise.all([listLocations(), listServices()]);
-            const activeServices = services.filter(s => s.data.active !== false);
-            const validLocations = locations.filter(
-                l => l.data.active || l.data.type === 'cidade',
-            );
-
-            if (validLocations.length > 0 && activeServices.length > 0) {
-                for (const loc of validLocations) {
-                    for (const svc of activeServices) {
-                        urls.push(urlNode(base, canonicalPathname(`/${loc.data.slug}/${svc.data.slug}`), today));
-                    }
-                }
-            } else if (activeServices.length > 0) {
-                for (const svc of activeServices) {
-                    urls.push(urlNode(base, canonicalPathname(`/servicos/${svc.data.slug}`), today));
-                }
-            }
-        } catch (e) {
-            console.error('\x1b[31m✗ Erro ao coletar páginas locais para sitemap:\x1b[0m', e);
-        }
     }
 
     const xml = `<?xml version="1.0" encoding="UTF-8"?>

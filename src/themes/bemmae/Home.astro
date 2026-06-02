@@ -27,6 +27,7 @@ const categoryLabel = (slug: string | undefined) => {
 };
 
 const heroBg = h.heroBgImage || '/images/bemmae/hero-home.png';
+const featuredGuides = Array.isArray(h.featuredGuides) ? h.featuredGuides : [];
 const categoryCards = Array.isArray(h.categoryCards) ? h.categoryCards : [];
 const homeHighlights = Array.isArray(h.homeHighlights) ? h.homeHighlights.filter(Boolean) : [];
 const aboutText = String(h.aboutText || '').trim();
@@ -149,6 +150,61 @@ function categoryIconKind(title: string): 'sun' | 'leaf' | 'heart' | 'layout' {
           </li>
         ))}
       </ul>
+    </div>
+  )}
+
+  {featuredGuides.length > 0 && (
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 mb-16 md:mb-20">
+      <section aria-labelledby="guias-title">
+        <div class="text-center max-w-2xl mx-auto mb-10">
+          <h2 id="guias-title" class="font-heading text-2xl md:text-3xl font-bold tracking-tight text-[var(--color-heading)]">
+            {h.featuredGuidesTitle || 'Guias Completos'}
+          </h2>
+          {(h.featuredGuidesSubtitle || '').trim() && (
+            <p class="mt-2 text-[var(--color-muted)] text-[15px] leading-relaxed">
+              {String(h.featuredGuidesSubtitle).trim()}
+            </p>
+          )}
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6">
+          {featuredGuides.map((g: any, i: number) => {
+            const isMain = i === 0;
+            return (
+              <a
+                href={g.href}
+                class={`group flex flex-col gap-3 rounded-2xl border bg-white p-6 md:p-7 shadow-[0_1px_3px_rgba(0,0,0,0.04),0_4px_14px_rgba(0,0,0,0.04)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_4px_20px_rgba(0,0,0,0.08)] ${isMain ? 'border-[var(--color-accent)]/30 ring-1 ring-[var(--color-accent)]/15 sm:col-span-2 lg:col-span-1' : 'border-[var(--color-border)] hover:border-[var(--color-accent)]/30'}`}
+              >
+                <div class="flex items-start justify-between gap-2">
+                  <span
+                    class={`flex h-10 w-10 shrink-0 items-center justify-center rounded-xl text-white text-lg font-bold ${isMain ? 'bg-[var(--color-accent)]' : 'bg-[var(--color-accent)]/10 text-[var(--color-accent)]'}`}
+                    aria-hidden="true"
+                  >
+                    {isMain ? '🏆' : '📋'}
+                  </span>
+                  {g.badge && (
+                    <span class="inline-flex items-center rounded-full bg-[var(--color-accent)] px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-white">
+                      {g.badge}
+                    </span>
+                  )}
+                </div>
+                <div>
+                  <h3 class={`font-heading font-bold leading-snug text-[var(--color-heading)] group-hover:text-[var(--color-accent)] transition-colors ${isMain ? 'text-[1.15rem]' : 'text-base'}`}>
+                    {g.title}
+                  </h3>
+                  {g.description && (
+                    <p class="mt-1.5 text-sm leading-relaxed text-[var(--color-muted)]">
+                      {g.description}
+                    </p>
+                  )}
+                </div>
+                <span class="mt-auto inline-flex items-center gap-1 text-sm font-semibold text-[var(--color-accent)] opacity-90 group-hover:opacity-100">
+                  Ler guia completo <span aria-hidden="true" class="transition-transform group-hover:translate-x-0.5">→</span>
+                </span>
+              </a>
+            );
+          })}
+        </div>
+      </section>
     </div>
   )}
 

@@ -4,6 +4,12 @@
  */
 
 import '../../styles/article-review-roundup.css';
+import {
+    ML_CTA_LABEL,
+    PRICE_CTA_LABEL,
+    mercadoLivreSearchUrl,
+    withDefaultMercadoLivreCta,
+} from '../../utils/affiliate-cta-defaults';
 import type { CSSProperties } from 'react';
 import { useEffect, useState } from 'react';
 import { Node, mergeAttributes } from '@tiptap/core';
@@ -826,6 +832,7 @@ type RoundupItem = {
     title: string;
     image: string;
     score: string;
+    highlight?: string;
     features: string[];
     cta1: string;
     cta1Url: string;
@@ -833,39 +840,49 @@ type RoundupItem = {
     cta2Url: string;
 };
 
+function defaultRoundupItem(rank = '1', title = 'Novo produto — edite o título'): RoundupItem {
+    return {
+        rank,
+        itemBadge: '',
+        title,
+        image: '',
+        score: '',
+        highlight: '',
+        features: [''],
+        cta1: PRICE_CTA_LABEL,
+        cta1Url: '',
+        cta2: ML_CTA_LABEL,
+        cta2Url: mercadoLivreSearchUrl(title),
+    };
+}
+
 function defaultRoundup(): RoundupItem[] {
-    return [
-        {
-            rank: '1',
-            itemBadge: '',
-            title: 'Novo produto — edite o título',
-            image: '',
-            score: '',
-            features: [''],
-            cta1: 'Ver na Amazon',
-            cta1Url: '',
-            cta2: '',
-            cta2Url: '',
-        },
-    ];
+    return [defaultRoundupItem()];
 }
 
 function parseRoundup(raw: string): RoundupItem[] {
     try {
         const j = JSON.parse(raw) as RoundupItem[];
-        return Array.isArray(j) && j.length ? j : defaultRoundup();
+        const list = Array.isArray(j) && j.length ? j : defaultRoundup();
+        return list.map((it) => withDefaultMercadoLivreCta(it));
     } catch {
         return defaultRoundup();
     }
 }
 
+function roundupWrapClass(layoutCards: boolean): string {
+    const base = 'cnx-aff-roundup cnx-aff-block-wrap';
+    return layoutCards ? `${base} cnx-aff-roundup--no-features cnx-aff-roundup--cards` : base;
+}
+
 function RoundupView({ node, updateAttributes, deleteNode }: any) {
+    const layoutCards = node.attrs.layoutCards !== false;
     const items = parseRoundup(node.attrs.itemsJson || '[]');
     const [open, setOpen] = useState(false);
     const [edit, setEdit] = useState<RoundupItem[]>(items);
 
     const renderItems = (list: RoundupItem[]) => (
-        <div className="cnx-aff-roundup cnx-aff-block-wrap">
+        <div className={roundupWrapClass(layoutCards)}>
             <div className="cnx-aff-roundup-head" aria-hidden="true">
                 <span className="cnx-aff-roundup-head-spacer" />
                 <span>Imagem</span>
@@ -949,7 +966,20 @@ function RoundupView({ node, updateAttributes, deleteNode }: any) {
                                 </div>
                                 <input className={inputCls} placeholder="Nome do produto" value={it.title} onChange={(e) => {
                                     const n = [...edit];
-                                    n[idx] = { ...it, title: e.target.value };
+                                    const title = e.target.value;
+                                    n[idx] = withDefaultMercadoLivreCta({
+                                        ...it,
+                                        title,
+                                        cta2Url:
+                                            !it.cta2Url || it.cta2Url === mercadoLivreSearchUrl(it.title)
+                                                ? mercadoLivreSearchUrl(title)
+                                                : it.cta2Url,
+                                    });
+                                    setEdit(n);
+                                }} />
+                                <input className={inputCls} placeholder="Destaque curto (ex.: Absorção)" value={it.highlight || ''} onChange={(e) => {
+                                    const n = [...edit];
+                                    n[idx] = { ...it, highlight: e.target.value };
                                     setEdit(n);
                                 }} />
                                 <input className={inputCls} placeholder="URL imagem" value={it.image} onChange={(e) => {
@@ -984,12 +1014,12 @@ function RoundupView({ node, updateAttributes, deleteNode }: any) {
                                         n[idx] = { ...it, cta1Url: e.target.value };
                                         setEdit(n);
                                     }} />
-                                    <input className={inputCls} placeholder="CTA 2 texto" value={it.cta2} onChange={(e) => {
+                                    <input className={inputCls} placeholder={`CTA 2 (${ML_CTA_LABEL})`} value={it.cta2} onChange={(e) => {
                                         const n = [...edit];
                                         n[idx] = { ...it, cta2: e.target.value };
                                         setEdit(n);
                                     }} />
-                                    <input className={inputCls} placeholder="CTA 2 URL" value={it.cta2Url} onChange={(e) => {
+                                    <input className={inputCls} placeholder="URL Mercado Livre (meli.la)" value={it.cta2Url} onChange={(e) => {
                                         const n = [...edit];
                                         n[idx] = { ...it, cta2Url: e.target.value };
                                         setEdit(n);
@@ -1001,21 +1031,7 @@ function RoundupView({ node, updateAttributes, deleteNode }: any) {
                             <button
                                 type="button"
                                 onClick={() =>
-                                    setEdit([
-                                        ...edit,
-                                        {
-                                            rank: String(edit.length + 1),
-                                            itemBadge: '',
-                                            title: '',
-                                            image: '',
-                                            score: '',
-                                            features: [''],
-                                            cta1: 'Ver na Amazon',
-                                            cta1Url: '',
-                                            cta2: '',
-                                            cta2Url: '',
-                                        },
-                                    ])
+                                    setEdit([...edit, defaultRoundupItem(String(edit.length + 1))])
                                 }
                                 className="px-3 py-1.5 rounded-lg bg-[#222] text-[#e5e5e5] text-xs"
                             >
@@ -1034,7 +1050,11 @@ function RoundupView({ node, updateAttributes, deleteNode }: any) {
                         <button
                             type="button"
                             onClick={() => {
-                                updateAttributes({ itemsJson: JSON.stringify(edit) });
+                                const normalized = edit.map((it) => withDefaultMercadoLivreCta(it));
+                                updateAttributes({
+                                    itemsJson: JSON.stringify(normalized),
+                                    layoutCards: true,
+                                });
                                 setOpen(false);
                             }}
                             className="w-full py-2 rounded-lg bg-[#3b82f6] text-white text-sm font-semibold"
@@ -1058,22 +1078,30 @@ export const AffiliateRoundupExtension = Node.create({
                 default: JSON.stringify(defaultRoundup()),
                 parseHTML: (el) => (el as HTMLElement).getAttribute('data-cnx-roundup') || JSON.stringify(defaultRoundup()),
             },
+            layoutCards: {
+                default: true,
+                parseHTML: (el) => (el as HTMLElement).classList.contains('cnx-aff-roundup--cards'),
+            },
         };
     },
     parseHTML() {
         return [
             {
                 tag: 'div.cnx-aff-roundup.cnx-aff-block-wrap',
-                getAttrs: (el) => ({
-                    itemsJson:
-                        (el as HTMLElement).getAttribute('data-cnx-roundup') || JSON.stringify(defaultRoundup()),
-                }),
+                getAttrs: (el) => {
+                    const htmlEl = el as HTMLElement;
+                    return {
+                        itemsJson: htmlEl.getAttribute('data-cnx-roundup') || JSON.stringify(defaultRoundup()),
+                        layoutCards: htmlEl.classList.contains('cnx-aff-roundup--cards'),
+                    };
+                },
             },
         ];
     },
     renderHTML({ node }) {
         const list = parseRoundup(node.attrs.itemsJson);
-        const headRow = [
+        const layoutCards = node.attrs.layoutCards !== false;
+        const headRow = layoutCards ? null : [
             'div',
             { class: 'cnx-aff-roundup-head', 'aria-hidden': 'true' },
             ['span', { class: 'cnx-aff-roundup-head-spacer' }],
@@ -1082,23 +1110,67 @@ export const AffiliateRoundupExtension = Node.create({
             ['span', {}, 'Destaques'],
             ['span', {}, 'Preço'],
         ];
-        const children = list.map((it) => {
-            const feats = it.features.filter((f) => f.trim()).map((f) => ['li', {}, f]);
+        const rel = 'nofollow sponsored noopener noreferrer';
+        const buildCtas = (it: RoundupItem) => {
             const ctas: any[] = [];
             if (it.cta1 && it.cta1Url) {
-                ctas.push(['a', { class: 'cnx-aff-roundup-cta-primary', href: it.cta1Url, target: '_blank', rel: 'nofollow sponsored noopener noreferrer' }, it.cta1]);
+                ctas.push(['a', { class: 'cnx-aff-roundup-cta-primary', href: it.cta1Url, target: '_blank', rel }, it.cta1]);
             }
             if (it.cta2 && it.cta2Url) {
-                ctas.push(['a', { class: 'cnx-aff-roundup-cta-secondary', href: it.cta2Url, target: '_blank', rel: 'nofollow sponsored noopener noreferrer' }, it.cta2]);
+                ctas.push(['a', { class: 'cnx-aff-roundup-cta-secondary', href: it.cta2Url, target: '_blank', rel }, it.cta2]);
             }
-            const imgCell = it.image
-                ? ['div', { class: 'cnx-aff-roundup-img-cell' }, ['img', { src: it.image, alt: '', class: 'cnx-aff-roundup-img' }]]
+            return ['div', { class: 'cnx-aff-roundup-ctas' }, ...ctas];
+        };
+        const imgCellFor = (it: RoundupItem) =>
+            it.image
+                ? ['div', { class: 'cnx-aff-roundup-img-cell' }, ['img', { src: it.image, alt: it.title, class: 'cnx-aff-roundup-img', loading: 'lazy', decoding: 'async' }]]
                 : ['div', { class: 'cnx-aff-roundup-img-cell cnx-aff-roundup-img-cell--empty', 'aria-hidden': 'true' }];
+
+        const children = list.map((it) => {
+            if (layoutCards) {
+                const productInner: any[] = [
+                    ...(it.itemBadge ? [['div', { class: 'cnx-aff-roundup-item-badge' }, it.itemBadge]] : []),
+                    ['h3', { class: 'cnx-aff-roundup-item-title' }, it.title],
+                ];
+                if (it.highlight?.trim()) {
+                    productInner.push([
+                        'p',
+                        { class: 'cnx-aff-roundup-highlight' },
+                        ['span', { class: 'cnx-aff-roundup-highlight-label' }, 'Destaque:'],
+                        ` ${it.highlight.trim()}`,
+                    ]);
+                }
+                return [
+                    'div',
+                    { class: 'cnx-aff-roundup-item' },
+                    ['div', { class: 'cnx-aff-roundup-rank' }, it.rank],
+                    ...(it.score
+                        ? [
+                              [
+                                  'div',
+                                  { class: 'cnx-aff-roundup-score-badge', 'aria-label': `Nota ${it.score} de 10` },
+                                  ['span', { class: 'cnx-aff-roundup-score-star', 'aria-hidden': 'true' }, '★'],
+                                  ['span', { class: 'cnx-aff-roundup-score-value' }, it.score],
+                                  ['span', { class: 'cnx-aff-roundup-score-suffix' }, '/10'],
+                              ],
+                          ]
+                        : []),
+                    [
+                        'div',
+                        { class: 'cnx-aff-roundup-card-body' },
+                        imgCellFor(it),
+                        ['div', { class: 'cnx-aff-roundup-product-col' }, ...productInner],
+                        ['div', { class: 'cnx-aff-roundup-card-divider', 'aria-hidden': 'true' }],
+                        ['div', { class: 'cnx-aff-roundup-cta-col' }, buildCtas(it)],
+                    ],
+                ];
+            }
+            const feats = it.features.filter((f) => f.trim()).map((f) => ['li', {}, f]);
             return [
                 'div',
                 { class: 'cnx-aff-roundup-item' },
                 ['div', { class: 'cnx-aff-roundup-rank' }, it.rank],
-                imgCell,
+                imgCellFor(it),
                 [
                     'div',
                     { class: 'cnx-aff-roundup-product-col' },
@@ -1107,7 +1179,7 @@ export const AffiliateRoundupExtension = Node.create({
                     ...(it.score ? [['div', { class: 'cnx-aff-roundup-item-score' }, `Nota ${it.score}`]] : []),
                 ],
                 ['div', { class: 'cnx-aff-roundup-features-col' }, ...(feats.length ? [['ul', {}, ...feats]] : [])],
-                ['div', { class: 'cnx-aff-roundup-cta-col' }, ['div', { class: 'cnx-aff-roundup-ctas' }, ...ctas]],
+                ['div', { class: 'cnx-aff-roundup-cta-col' }, buildCtas(it)],
             ];
         });
         return [
@@ -1115,13 +1187,14 @@ export const AffiliateRoundupExtension = Node.create({
             mergeAttributes(
                 {},
                 {
-                    class: 'cnx-aff-roundup cnx-aff-block-wrap',
+                    class: roundupWrapClass(layoutCards),
                     'data-cnx-roundup': JSON.stringify(list),
                 },
             ),
-            headRow,
+            ...(headRow ? [headRow] : []),
             ...children,
         ] as any;
+
     },
     addNodeView() {
         return ReactNodeViewRenderer(RoundupView);

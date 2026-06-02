@@ -5,8 +5,6 @@
  * Não linkar esta URL; o utilizador vê sempre /slug-do-post/ na barra de endereço.
  */
 import type { CollectionEntry } from 'astro:content';
-import BlogPost from '../../themes/classic/BlogPost.astro';
-import BlogList from '../../themes/classic/BlogList.astro';
 import BaseLayoutBemmae from '../../themes/bemmae/BaseLayout.astro';
 import BemMaeBlogPost from '../../themes/bemmae/BlogPost.astro';
 import BemMaeBlogList from '../../themes/bemmae/BlogList.astro';
@@ -62,78 +60,56 @@ const {
 
 {
   props.kind === 'post' && post ? (
-    useBemmae ? (
-      <BaseLayoutBemmae
-        title={documentTitle}
-        description={post.data.metaDescription || ''}
-        siteName={(beMenu as { logoText?: string } | null)?.logoText || siteName}
-        logoSrc={logoSrcFromMenu(beMenu as Record<string, unknown>)}
-        siteUrl={publicSiteUrl}
-        nav={beNav}
-        footerNav={beFootNav}
-        contentThemeId="bemmae"
-        ogType="article"
-        ogImageAbs={ogImageAbs}
-        articlePublishedTime={articleIso}
-        articleModifiedTime={articleIso}
-        extraJsonLd={postJsonLd}
-      >
-        <BemMaeBlogPost
-          post={post}
-          author={author}
-          Content={Content}
-          htmlContent={htmlContent}
-          relatedPosts={relatedPosts}
-          blogPermalinkStructure={blogPermalinkStructureResolved}
-          blogUrlPrefix={blogUrlPrefixResolved}
-          articleExperts={bemmaeArticleExperts}
-          articleExpertsSectionTitle={bemmaeArticleExpertsSectionTitle}
-        />
-      </BaseLayoutBemmae>
-    ) : (
-      <BlogPost
+    <BaseLayoutBemmae
+      title={documentTitle}
+      description={post.data.metaDescription || ''}
+      siteName={(beMenu as { logoText?: string } | null)?.logoText || siteName}
+      logoSrc={logoSrcFromMenu(beMenu as Record<string, unknown>)}
+      siteUrl={publicSiteUrl}
+      nav={beNav}
+      footerNav={beFootNav}
+      contentThemeId="bemmae"
+      ogType="article"
+      ogImageAbs={ogImageAbs}
+      articlePublishedTime={articleIso}
+      articleModifiedTime={articleIso}
+      extraJsonLd={postJsonLd}
+    >
+      <BemMaeBlogPost
         post={post}
         author={author}
         Content={Content}
         htmlContent={htmlContent}
-        themeId="classic"
-        layoutType={layoutType}
+        relatedPosts={relatedPosts}
+        blogPermalinkStructure={blogPermalinkStructureResolved}
+        blogUrlPrefix={blogUrlPrefixResolved}
+        articleExperts={bemmaeArticleExperts}
+        articleExpertsSectionTitle={bemmaeArticleExpertsSectionTitle}
       />
-    )
+    </BaseLayoutBemmae>
   ) : null
 }
 
 {
   props.kind === 'category' && category ? (
-    useBemmae ? (
-      <BaseLayoutBemmae
-        title={`${category.data.name} - ${siteName}`}
-        description={pageDesc}
-        siteName={(beMenu as { logoText?: string } | null)?.logoText || siteName}
-        logoSrc={logoSrcFromMenu(beMenu as Record<string, unknown>)}
-        siteUrl={publicSiteUrl}
-        nav={beNav}
-        footerNav={beFootNav}
-        contentThemeId="bemmae"
-      >
-        <BemMaeBlogList
-          posts={publishedPosts}
-          blogData={beBlog}
-          blogPermalinkStructure={blogPermalinkStructure}
-          blogUrlPrefix={blogUrlPrefix}
-          categoryName={category.data.name}
-          categoryFilterActive={true}
-        />
-      </BaseLayoutBemmae>
-    ) : (
-      <BlogList
+    <BaseLayoutBemmae
+      title={`${category.data.name} - ${siteName}`}
+      description={pageDesc}
+      siteName={(beMenu as { logoText?: string } | null)?.logoText || siteName}
+      logoSrc={logoSrcFromMenu(beMenu as Record<string, unknown>)}
+      siteUrl={publicSiteUrl}
+      nav={beNav}
+      footerNav={beFootNav}
+      contentThemeId="bemmae"
+    >
+      <BemMaeBlogList
         posts={publishedPosts}
-        themeId="classic"
-        layoutType={layoutType}
+        blogData={beBlog}
         blogPermalinkStructure={blogPermalinkStructure}
         blogUrlPrefix={blogUrlPrefix}
-        listTitle={`${category.data.name} — ${siteName}`}
+        categoryName={category.data.name}
+        categoryFilterActive={true}
       />
-    )
+    </BaseLayoutBemmae>
   ) : null
 }

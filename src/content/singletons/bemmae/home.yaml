@@ -5,7 +5,7 @@ metaTitle: "Bem Mãe Dicas Reais de Maternidade e Cuidados com o Bebê"
 metaDescription: "Bem Mãe O guia para facilitar sua rotina com o bebê. Dicas de alimentação, saúde, melhores produtos e cuidados práticos para mães que buscam o melhor."
 heroBgImage: /images/bemmae/hero-home.png
 heroCtaPrimaryText: Ver artigos
-heroCtaPrimaryHref: /blog
+heroCtaPrimaryHref: /carrinhos-de-bebe
 heroCtaSecondaryText: Quem somos
 heroCtaSecondaryHref: /sobre
 aboutTitle: Sobre nós
@@ -16,12 +16,39 @@ aboutText: |-
 aboutImage: https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=960&q=80
 aboutCtaText: Saiba mais sobre o projeto
 aboutCtaHref: /sobre
+featuredGuidesTitle: Recomendações das Mães
+featuredGuidesSubtitle: Análises detalhadas para você tomar a melhor decisão na hora da compra.
+featuredGuides:
+  - href: /melhor-carrinho-de-bebe
+    title: Melhor Carrinho de Bebê 2026
+    description: Testamos 16 modelos e elegemos o melhor para cada tipo de família e orçamento.
+    badge: Mais Completo
+  - href: /melhor-carrinho-de-bebe-custo-beneficio
+    title: Melhor Custo-Benefício
+    description: Segurança e praticidade sem gastar além do necessário.
+    badge: ""
+  - href: /melhor-carrinho-de-bebe-compacto
+    title: Carrinhos Compactos
+    description: Os melhores modelos para quem precisa de leveza e facilidade no dia a dia.
+    badge: ""
+  - href: /melhor-carrinho-de-bebe-para-recem-nascido
+    title: Para Recém-Nascido
+    description: Qual carrinho oferece mais segurança e conforto nos primeiros meses.
+    badge: ""
+  - href: /melhor-carrinho-de-bebe-com-bebe-conforto
+    title: Com Bebê Conforto
+    description: Os melhores conjuntos travel system para facilitar sua rotina.
+    badge: ""
+  - href: /melhores-fraldas/
+    title: Melhores Fraldas
+    description: Quais fraldas protegem mais e custam menos — sem assaduras ou vazamentos.
+    badge: ""
 categoriesSectionTitle: O que você encontra aqui
 categoryCards:
-  - href: /blog
-    icon: ☀️
-    title: Rotina
-    description: Organização do dia a dia com os pequenos.
+  - href: /carrinhos-de-bebe
+    icon: 🛒
+    title: Carrinhos de Bebê
+    description: Comparativos e análises dos melhores modelos do mercado.
   - href: /blog
     icon: 🥗
     title: Alimentação

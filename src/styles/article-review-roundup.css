@@ -122,6 +122,44 @@
   background: var(--review-card) !important;
 }
 
+/* Roundup em cards (lista limpa) */
+.article-review-roundup .cnx-aff-roundup--cards.cnx-aff-block-wrap {
+  margin: 0 0 1.75rem 0 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  gap: 0.75rem !important;
+}
+
+.article-review-roundup .cnx-aff-roundup--cards .cnx-aff-roundup-item {
+  border-color: rgba(234, 88, 12, 0.14) !important;
+  box-shadow: 0 1px 4px rgba(234, 88, 12, 0.06) !important;
+}
+
+.article-review-roundup .cnx-aff-roundup--cards .cnx-aff-roundup-card-divider {
+  background: rgba(234, 88, 12, 0.15) !important;
+}
+
+.article-review-roundup .cnx-aff-roundup--cards .cnx-aff-roundup-score-star {
+  color: #ea580c !important;
+}
+
+.article-review-roundup .cnx-aff-roundup--cards .cnx-aff-roundup-score-value {
+  color: #9a3412 !important;
+}
+
+.article-review-roundup .cnx-aff-roundup--cards .cnx-aff-roundup-ctas a.cnx-aff-roundup-cta-primary::after,
+.article-review-roundup .cnx-aff-roundup--cards .cnx-aff-roundup-ctas a.cnx-aff-roundup-cta-secondary::after {
+  display: none !important;
+  content: none !important;
+}
+
+.article-review-roundup .cnx-aff-roundup--cards .cnx-aff-roundup-ctas a.cnx-aff-roundup-cta-primary,
+.article-review-roundup .cnx-aff-roundup--cards .cnx-aff-roundup-ctas a.cnx-aff-roundup-cta-secondary {
+  font-family: inherit !important;
+}
+
 .article-review-roundup .cnx-aff-roundup-head {
   background: linear-gradient(90deg, #9a3412 0%, #ea580c 50%, #f59e0b 100%) !important;
   padding: 0.6rem 0.85rem !important;
@@ -203,7 +241,7 @@
 }
 
 @media (max-width: 900px) {
-  .article-review-roundup .cnx-aff-roundup-rank {
+  .article-review-roundup .cnx-aff-roundup:not(.cnx-aff-roundup--cards) .cnx-aff-roundup-rank {
     background: linear-gradient(145deg, #ea580c, #c2410c) !important;
     color: #fff !important;
   }

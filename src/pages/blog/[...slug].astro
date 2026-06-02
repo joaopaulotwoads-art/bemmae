@@ -8,7 +8,6 @@
  */
 
 import { getCollection, getEntry, render } from 'astro:content';
-import BlogPost from '../../themes/classic/BlogPost.astro';
 import BaseLayoutBemmae from '../../themes/bemmae/BaseLayout.astro';
 import BemMaeBlogPost from '../../themes/bemmae/BlogPost.astro';
 import { readSingleton } from '../../utils/singleton-utils';
@@ -65,14 +64,9 @@ if (!htmlContent) {
 const author = post.data.author ? await getEntry('authors', post.data.author) : null;
 
 const settings = await getEntry('siteSettings', 'settings').catch(() => null);
-const siteMode = (settings?.data?.siteMode || 'blog') as 'blog' | 'local';
-const layoutType = siteMode === 'local' ? 'local' : 'main';
-const activeTheme = (settings?.data?.activeTheme || 'classic') as string;
-const useBemmae = siteMode !== 'local' && activeTheme === 'bemmae';
-
 const siteName = settings?.data?.siteName || 'Site';
-const beMenu = useBemmae ? await readSingleton('menu', 'bemmae') : null;
-const beFoot = useBemmae ? await readSingleton('footer', 'bemmae') : null;
+const beMenu = await readSingleton('menu', 'bemmae');
+const beFoot = await readSingleton('footer', 'bemmae');
 const beNav = beMenu ? navFromMenu(beMenu) : [];
 const beFootNav = beFoot ? footerNavFromSingleton(beFoot) : [];
 const metaTitleTrim = post.data.metaTitle?.trim();
@@ -165,7 +159,6 @@ const articleExpertsSectionTitle = useBemmae
   : '';
 ---
 
-{useBemmae ? (
 <BaseLayoutBemmae
     title={documentTitle}
     description={post.data.metaDescription || ''}
@@ -193,13 +186,3 @@ const articleExpertsSectionTitle = useBemmae
       articleExpertsSectionTitle={articleExpertsSectionTitle}
     />
 </BaseLayoutBemmae>
-) : (
-<BlogPost
-    post={post}
-    author={author}
-    Content={Content}
-    htmlContent={htmlContent}
-    themeId="classic"
-    layoutType={layoutType}
-/>
-)}

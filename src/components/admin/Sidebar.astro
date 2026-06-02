@@ -7,9 +7,6 @@
  * Exibe seção Modo Local (Keywords, Bairros, etc.) quando siteMode === 'local'.
  */
 
-import { getEntry } from 'astro:content';
-import { getEffectiveSiteMode } from '../../utils/admin-site-mode';
-
 interface Props {
     user?: { slug: string; name: string; adminRole: 'admin' | 'editor' } | undefined;
 }
@@ -17,10 +14,6 @@ interface Props {
 const { user } = Astro.props;
 const p       = Astro.url.pathname;
 const isAdmin = user?.adminRole === 'admin';
-
-const settings  = await getEntry('siteSettings', 'settings').catch(() => null);
-const siteMode  = getEffectiveSiteMode(Astro.cookies, settings);
-const isLocal   = siteMode === 'local';
 
 const active = (href: string) =>
     href === '/admin'
@@ -41,9 +34,6 @@ const mainItems = [
     { label: 'Posts',           icon: '📝', href: '/admin/posts'         },
     { label: 'Autores',         icon: '👤', href: '/admin/authors'       },
     { label: 'Categorias',      icon: '🏷️', href: '/admin/categories'    },
-    ...(isLocal ? [
-        { label: 'Page Generator',  icon: '🚀', href: '/admin/gerar-paginas' },
-    ] : []),
     { label: 'Mídia',           icon: '📷', href: '/admin/media'         },
     { label: 'Páginas',         icon: '📄', href: '/admin/pages'          },
     { label: 'Leads',           icon: '📋', href: '/admin/leads'          },
@@ -143,15 +133,6 @@ const mainItems = [
             </div>
         </details>
 
-        {isLocal ? (
-            <a
-                href="/admin/templates"
-                class={`admin-sidebar-item mt-1 ${active('/admin/templates') ? 'active' : ''}`}
-            >
-                <span class="text-lg">🎨</span>
-                <span class="font-medium text-sm flex-1">Template</span>
-            </a>
-        ) : null}
     </nav>
 
     <!-- Footer -->

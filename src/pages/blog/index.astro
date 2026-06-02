@@ -8,7 +8,6 @@
  */
 
 import { getCollection, getEntry } from 'astro:content';
-import BlogList from '../../themes/classic/BlogList.astro';
 import BaseLayoutBemmae from '../../themes/bemmae/BaseLayout.astro';
 import BemMaeBlogList from '../../themes/bemmae/BlogList.astro';
 import { readSingleton } from '../../utils/singleton-utils';
@@ -18,10 +17,6 @@ import type { BlogPermalinkStructure, BlogUrlPrefix } from '../../utils/blog-per
 import { filterPostsByBlogSearch, normalizeBlogSearchQuery } from '../../utils/blog-search';
 
 const settings = await getEntry('siteSettings', 'settings').catch(() => null);
-const siteMode = (settings?.data?.siteMode || 'blog') as 'blog' | 'local';
-const layoutType = siteMode === 'local' ? 'local' : 'main';
-const activeTheme = (settings?.data?.activeTheme || 'classic') as string;
-const useBemmae = siteMode !== 'local' && activeTheme === 'bemmae';
 const blogPermalinkStructure = (settings?.data?.blogPermalinkStructure as BlogPermalinkStructure) || 'postname';
 const blogUrlPrefix = (settings?.data?.blogUrlPrefix as BlogUrlPrefix) || 'blog';
 
@@ -48,14 +43,13 @@ if (searchQuery) {
 
 const siteName = settings?.data?.siteName || 'Site';
 const siteUrl = resolvePublicSiteUrl(settings?.data?.canonicalUrl as string | undefined, Astro.url.origin);
-const beMenu = useBemmae ? await readSingleton('menu', 'bemmae') : null;
-const beFoot = useBemmae ? await readSingleton('footer', 'bemmae') : null;
-const beBlog = useBemmae ? (await readSingleton('blog', 'bemmae')) || {} : {};
+const beMenu = await readSingleton('menu', 'bemmae');
+const beFoot = await readSingleton('footer', 'bemmae');
+const beBlog = (await readSingleton('blog', 'bemmae')) || {};
 const beNav = beMenu ? navFromMenu(beMenu) : [];
 const beFootNav = beFoot ? footerNavFromSingleton(beFoot) : [];
 ---
 
-{useBemmae ? (
 <BaseLayoutBemmae
     title={
         activeCategory?.data?.name
@@ -81,17 +75,3 @@ const beFootNav = beFoot ? footerNavFromSingleton(beFoot) : [];
         searchQuery={searchQuery || undefined}
     />
 </BaseLayoutBemmae>
-) : (
-<BlogList
-    posts={publishedPosts}
-    themeId="classic"
-    layoutType={layoutType}
-    blogPermalinkStructure={blogPermalinkStructure}
-    blogUrlPrefix={blogUrlPrefix}
-    listTitle={
-        activeCategory?.data?.name
-            ? `${activeCategory.data.name} · ${siteName}`
-            : undefined
-    }
-/>
-)}
