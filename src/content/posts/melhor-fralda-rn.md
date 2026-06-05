@@ -49,7 +49,7 @@ articleLayout: reviewRoundup
 
 <h2>As 8 Melhores Fraldas RN de 2026</h2>
 
-<div class="cnx-aff-roundup cnx-aff-block-wrap" data-cnx-roundup="[{&quot;rank&quot;:&quot;1&quot;,&quot;itemBadge&quot;:&quot;Melhor no geral&quot;,&quot;title&quot;:&quot;Pampers Premium Care RN&quot;,&quot;image&quot;:&quot;PLACEHOLDER_IMG_PAMPERS_RN&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Corte umbilical especial&quot;,&quot;Material 100% algodão&quot;,&quot;Indicador de umidade incluso&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://www.amazon.com.br/dp/B07GPV56NS?tag=eumaecarrinho-20&quot;,&quot;cta2&quot;:&quot;Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_PAMPERS_RN&quot;},{&quot;rank&quot;:&quot;2&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Natural Care RN&quot;,&quot;image&quot;:&quot;PLACEHOLDER_IMG_HUGGIES_NC_RN&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Sem fragrância e sem parabenos&quot;,&quot;Corte umbilical&quot;,&quot;Ideal para dermatite atópica&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://www.amazon.com.br/dp/B095R9CKYR?tag=eumaecarrinho-20&quot;,&quot;cta2&quot;:&quot;Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_HUGGIES_NC_RN&quot;},{&quot;rank&quot;:&quot;3&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Supreme Care RN&quot;,&quot;image&quot;:&quot;PLACEHOLDER_IMG_HUGGIES_SC_RN&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Xtra-Flex adaptado para RN&quot;,&quot;Corte umbilical&quot;,&quot;Melhor custo-benefício premium&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://www.amazon.com.br/dp/B07LFFSCJL?tag=eumaecarrinho-20&quot;,&quot;cta2&quot;:&quot;Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_HUGGIES_SC_RN&quot;},{&quot;rank&quot;:&quot;4&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;MamyPoko Calça RN&quot;,&quot;image&quot;:&quot;PLACEHOLDER_IMG_MAMYPOKO_RN&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Único pants para RN de destaque&quot;,&quot;Absorve 5 copos de líquido&quot;,&quot;Corte umbilical&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://www.amazon.com.br/dp/B09JZP3NJ2?tag=eumaecarrinho-20&quot;,&quot;cta2&quot;:&quot;Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_MAMYPOKO_RN&quot;},{&quot;rank&quot;:&quot;5&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Pom Pom Protek RN&quot;,&quot;image&quot;:&quot;PLACEHOLDER_IMG_POMPOM_RN&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;2x mais sequinha&quot;,&quot;Loção hidratante na camada interna&quot;,&quot;Melhor preço com qualidade&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://www.amazon.com.br/dp/B07Z3ZHYBC?tag=eumaecarrinho-20&quot;,&quot;cta2&quot;:&quot;Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_POMPOM_RN&quot;},{&quot;rank&quot;:&quot;6&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Turma da Mônica Baby RN&quot;,&quot;image&quot;:&quot;PLACEHOLDER_IMG_MONICA_RN&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Tecnologia Qu4troSec&quot;,&quot;Cintura elástica&quot;,&quot;Opção econômica bem avaliada&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://www.amazon.com.br/dp/B09JVKRS42?tag=eumaecarrinho-20&quot;,&quot;cta2&quot;:&quot;Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_MONICA_RN&quot;},{&quot;rank&quot;:&quot;7&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Mili Love &amp; Care RN&quot;,&quot;image&quot;:&quot;PLACEHOLDER_IMG_MILI_RN&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Algodão puro na camada interna&quot;,&quot;Corte umbilical&quot;,&quot;Bem avaliada por mães&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://www.amazon.com.br/dp/B09CDXRQJL?tag=eumaecarrinho-20&quot;,&quot;cta2&quot;:&quot;Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_MILI_RN&quot;},{&quot;rank&quot;:&quot;8&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Dermacare RN&quot;,&quot;image&quot;:&quot;PLACEHOLDER_IMG_DERMACARE_RN&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Linha clínica para alergia severa&quot;,&quot;Absorção especial para cocô líquido&quot;,&quot;Dermatologicamente testado&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://www.amazon.com.br/dp/B0DR9PH47L?tag=eumaecarrinho-20&quot;,&quot;cta2&quot;:&quot;Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_DERMACARE_RN&quot;}]">
+<div class="cnx-aff-roundup cnx-aff-block-wrap" data-cnx-roundup="[{&quot;rank&quot;:&quot;1&quot;,&quot;itemBadge&quot;:&quot;Melhor no geral&quot;,&quot;title&quot;:&quot;Pampers Premium Care RN&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/61JMOOlw39L._AC_SX679_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Corte umbilical especial&quot;,&quot;Material 100% algodão&quot;,&quot;Indicador de umidade incluso&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/4xj5U3h&quot;,&quot;cta2&quot;:&quot;Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;https://meli.la/1sH4ehk&quot;},{&quot;rank&quot;:&quot;2&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Natural Care RN&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/71DAxC1Pu4L._AC_SX679_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Sem fragrância e sem parabenos&quot;,&quot;Corte umbilical&quot;,&quot;Ideal para dermatite atópica&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/3PXUyAT&quot;,&quot;cta2&quot;:&quot;Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;https://meli.la/2pE9nUA&quot;},{&quot;rank&quot;:&quot;3&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Supreme Care RN&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/61I72J+E5bL._AC_SX679_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Xtra-Flex adaptado para RN&quot;,&quot;Corte umbilical&quot;,&quot;Melhor custo-benefício premium&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/4ul8Ppn&quot;,&quot;cta2&quot;:&quot;Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;https://meli.la/2Rm9YeP&quot;},{&quot;rank&quot;:&quot;4&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;MamyPoko Calça RN&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/71OTuERCh7L._AC_SX679_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Único pants para RN de destaque&quot;,&quot;Absorve 5 copos de líquido&quot;,&quot;Corte umbilical&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/43htZJW&quot;,&quot;cta2&quot;:&quot;Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;https://meli.la/28dQPfh&quot;},{&quot;rank&quot;:&quot;5&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Pom Pom Protek RN&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/51RwmySolFL._AC_SX522_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;2x mais sequinha&quot;,&quot;Loção hidratante na camada interna&quot;,&quot;Melhor preço com qualidade&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/4e131wt&quot;,&quot;cta2&quot;:&quot;Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;https://meli.la/2QQigxg&quot;},{&quot;rank&quot;:&quot;6&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Turma da Mônica Baby RN&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/61CSoJu3bxL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Tecnologia Qu4troSec&quot;,&quot;Cintura elástica&quot;,&quot;Opção econômica bem avaliada&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/49KPuqd&quot;,&quot;cta2&quot;:&quot;Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;https://meli.la/1ykTrxF&quot;},{&quot;rank&quot;:&quot;7&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Mili Love &amp; Care RN&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/71asCDNGTuL._AC_SX679_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Algodão puro na camada interna&quot;,&quot;Corte umbilical&quot;,&quot;Bem avaliada por mães&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/4uoZBZb&quot;,&quot;cta2&quot;:&quot;Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;https://meli.la/2bZ3q8b&quot;},{&quot;rank&quot;:&quot;8&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Dermacare RN&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/71yosOKC7mL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Linha clínica para alergia severa&quot;,&quot;Absorção especial para cocô líquido&quot;,&quot;Dermatologicamente testado&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://amzn.to/3QqJufE&quot;,&quot;cta2&quot;:&quot;Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;https://meli.la/2pE9nUA&quot;}]">
   <div class="cnx-aff-roundup-head" aria-hidden="true">
     <span class="cnx-aff-roundup-head-spacer"></span>
     <span>Imagem</span>
@@ -60,7 +60,7 @@ articleLayout: reviewRoundup
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">1</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="PLACEHOLDER_IMG_PAMPERS_RN" alt="Pampers Premium Care RN" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/61JMOOlw39L._AC_SX679_.jpg" alt="Pampers Premium Care RN" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Melhor no geral</div>
@@ -71,15 +71,15 @@ articleLayout: reviewRoundup
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="https://www.amazon.com.br/dp/B07GPV56NS?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="LINK_ML_PAMPERS_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4xj5U3h" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/1sH4ehk" target="_blank" rel="nofollow sponsored noopener noreferrer">Mercado Livre</a>
       </div>
     </div>
   </div>
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">2</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="PLACEHOLDER_IMG_HUGGIES_NC_RN" alt="Huggies Natural Care RN" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/71DAxC1Pu4L._AC_SX679_.jpg" alt="Huggies Natural Care RN" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <h3 class="cnx-aff-roundup-item-title">Huggies Natural Care RN</h3>
@@ -89,15 +89,15 @@ articleLayout: reviewRoundup
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="https://www.amazon.com.br/dp/B095R9CKYR?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="LINK_ML_HUGGIES_NC_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/3PXUyAT" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2pE9nUA" target="_blank" rel="nofollow sponsored noopener noreferrer">Mercado Livre</a>
       </div>
     </div>
   </div>
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">3</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="PLACEHOLDER_IMG_HUGGIES_SC_RN" alt="Huggies Supreme Care RN" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/61I72J+E5bL._AC_SX679_.jpg" alt="Huggies Supreme Care RN" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <h3 class="cnx-aff-roundup-item-title">Huggies Supreme Care RN</h3>
@@ -107,15 +107,15 @@ articleLayout: reviewRoundup
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="https://www.amazon.com.br/dp/B07LFFSCJL?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="LINK_ML_HUGGIES_SC_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4ul8Ppn" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2Rm9YeP" target="_blank" rel="nofollow sponsored noopener noreferrer">Mercado Livre</a>
       </div>
     </div>
   </div>
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">4</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="PLACEHOLDER_IMG_MAMYPOKO_RN" alt="MamyPoko Calça RN" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/71OTuERCh7L._AC_SX679_.jpg" alt="MamyPoko Calça RN" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <h3 class="cnx-aff-roundup-item-title">MamyPoko Calça RN</h3>
@@ -125,15 +125,15 @@ articleLayout: reviewRoundup
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="https://www.amazon.com.br/dp/B09JZP3NJ2?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="LINK_ML_MAMYPOKO_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/43htZJW" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/28dQPfh" target="_blank" rel="nofollow sponsored noopener noreferrer">Mercado Livre</a>
       </div>
     </div>
   </div>
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">5</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="PLACEHOLDER_IMG_POMPOM_RN" alt="Pom Pom Protek RN" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/51RwmySolFL._AC_SX522_.jpg" alt="Pom Pom Protek RN" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <h3 class="cnx-aff-roundup-item-title">Pom Pom Protek RN</h3>
@@ -143,15 +143,15 @@ articleLayout: reviewRoundup
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="https://www.amazon.com.br/dp/B07Z3ZHYBC?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="LINK_ML_POMPOM_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4e131wt" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2QQigxg" target="_blank" rel="nofollow sponsored noopener noreferrer">Mercado Livre</a>
       </div>
     </div>
   </div>
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">6</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="PLACEHOLDER_IMG_MONICA_RN" alt="Turma da Mônica Baby RN" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/61CSoJu3bxL._AC_SY300_SX300_QL70_ML2_.jpg" alt="Turma da Mônica Baby RN" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <h3 class="cnx-aff-roundup-item-title">Turma da Mônica Baby RN</h3>
@@ -161,15 +161,15 @@ articleLayout: reviewRoundup
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="https://www.amazon.com.br/dp/B09JVKRS42?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="LINK_ML_MONICA_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/49KPuqd" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/1ykTrxF" target="_blank" rel="nofollow sponsored noopener noreferrer">Mercado Livre</a>
       </div>
     </div>
   </div>
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">7</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="PLACEHOLDER_IMG_MILI_RN" alt="Mili Love &amp; Care RN" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/71asCDNGTuL._AC_SX679_.jpg" alt="Mili Love &amp; Care RN" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <h3 class="cnx-aff-roundup-item-title">Mili Love &amp; Care RN</h3>
@@ -179,15 +179,15 @@ articleLayout: reviewRoundup
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="https://www.amazon.com.br/dp/B09CDXRQJL?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="LINK_ML_MILI_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4uoZBZb" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2bZ3q8b" target="_blank" rel="nofollow sponsored noopener noreferrer">Mercado Livre</a>
       </div>
     </div>
   </div>
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">8</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="PLACEHOLDER_IMG_DERMACARE_RN" alt="Huggies Dermacare RN" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/71yosOKC7mL._AC_SY300_SX300_QL70_ML2_.jpg" alt="Huggies Dermacare RN" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <h3 class="cnx-aff-roundup-item-title">Huggies Dermacare RN</h3>
@@ -197,8 +197,8 @@ articleLayout: reviewRoundup
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="https://www.amazon.com.br/dp/B0DR9PH47L?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="LINK_ML_DERMACARE_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/3QqJufE" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2pE9nUA" target="_blank" rel="nofollow sponsored noopener noreferrer">Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -209,7 +209,7 @@ articleLayout: reviewRoundup
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="PLACEHOLDER_IMG_PAMPERS_RN" alt="Pampers Premium Care RN" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/61JMOOlw39L._AC_SX679_.jpg" alt="Pampers Premium Care RN" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Pampers Premium Care RN">Pampers Premium Care RN</h3>
@@ -221,10 +221,10 @@ articleLayout: reviewRoundup
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="https://www.amazon.com.br/dp/B07GPV56NS?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/4xj5U3h" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="LINK_ML_PAMPERS_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/1sH4ehk" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -261,8 +261,8 @@ articleLayout: reviewRoundup
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/B07GPV56NS?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="LINK_ML_PAMPERS_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4xj5U3h" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/1sH4ehk" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -273,7 +273,7 @@ articleLayout: reviewRoundup
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="PLACEHOLDER_IMG_HUGGIES_NC_RN" alt="Huggies Natural Care RN" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/71DAxC1Pu4L._AC_SX679_.jpg" alt="Huggies Natural Care RN" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Huggies Natural Care RN">Huggies Natural Care RN</h3>
@@ -285,10 +285,10 @@ articleLayout: reviewRoundup
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="https://www.amazon.com.br/dp/B095R9CKYR?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/3PXUyAT" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="LINK_ML_HUGGIES_NC_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/2pE9nUA" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -325,8 +325,8 @@ articleLayout: reviewRoundup
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/B095R9CKYR?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="LINK_ML_HUGGIES_NC_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/3PXUyAT" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2pE9nUA" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -337,7 +337,7 @@ articleLayout: reviewRoundup
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="PLACEHOLDER_IMG_HUGGIES_SC_RN" alt="Huggies Supreme Care RN" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/61I72J+E5bL._AC_SX679_.jpg" alt="Huggies Supreme Care RN" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Huggies Supreme Care RN">Huggies Supreme Care RN</h3>
@@ -349,10 +349,10 @@ articleLayout: reviewRoundup
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="https://www.amazon.com.br/dp/B07LFFSCJL?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/4ul8Ppn" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="LINK_ML_HUGGIES_SC_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/2Rm9YeP" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -389,8 +389,8 @@ articleLayout: reviewRoundup
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/B07LFFSCJL?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="LINK_ML_HUGGIES_SC_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4ul8Ppn" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2Rm9YeP" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -401,7 +401,7 @@ articleLayout: reviewRoundup
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="PLACEHOLDER_IMG_MAMYPOKO_RN" alt="MamyPoko Calça RN" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/71OTuERCh7L._AC_SX679_.jpg" alt="MamyPoko Calça RN" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="MamyPoko Calça RN">MamyPoko Calça RN</h3>
@@ -413,10 +413,10 @@ articleLayout: reviewRoundup
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="https://www.amazon.com.br/dp/B09JZP3NJ2?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/43htZJW" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="LINK_ML_MAMYPOKO_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/28dQPfh" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -452,8 +452,8 @@ articleLayout: reviewRoundup
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/B09JZP3NJ2?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="LINK_ML_MAMYPOKO_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/43htZJW" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/28dQPfh" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -464,7 +464,7 @@ articleLayout: reviewRoundup
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="PLACEHOLDER_IMG_POMPOM_RN" alt="Pom Pom Protek RN" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/51RwmySolFL._AC_SX522_.jpg" alt="Pom Pom Protek RN" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Pom Pom Protek RN">Pom Pom Protek RN</h3>
@@ -476,10 +476,10 @@ articleLayout: reviewRoundup
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="https://www.amazon.com.br/dp/B07Z3ZHYBC?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/4e131wt" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="LINK_ML_POMPOM_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/2QQigxg" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -516,8 +516,8 @@ articleLayout: reviewRoundup
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/B07Z3ZHYBC?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="LINK_ML_POMPOM_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4e131wt" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2QQigxg" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -528,7 +528,7 @@ articleLayout: reviewRoundup
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="PLACEHOLDER_IMG_MONICA_RN" alt="Turma da Mônica Baby RN" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/61CSoJu3bxL._AC_SY300_SX300_QL70_ML2_.jpg" alt="Turma da Mônica Baby RN" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Turma da Mônica Baby RN">Turma da Mônica Baby RN</h3>
@@ -540,10 +540,10 @@ articleLayout: reviewRoundup
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="https://www.amazon.com.br/dp/B09JVKRS42?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/49KPuqd" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="LINK_ML_MONICA_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/1ykTrxF" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -580,8 +580,8 @@ articleLayout: reviewRoundup
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/B09JVKRS42?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="LINK_ML_MONICA_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/49KPuqd" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/1ykTrxF" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -592,7 +592,7 @@ articleLayout: reviewRoundup
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="PLACEHOLDER_IMG_MILI_RN" alt="Mili Love &amp; Care RN" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/71asCDNGTuL._AC_SX679_.jpg" alt="Mili Love &amp; Care RN" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Mili Love &amp; Care RN">Mili Love &amp; Care RN</h3>
@@ -604,10 +604,10 @@ articleLayout: reviewRoundup
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="https://www.amazon.com.br/dp/B09CDXRQJL?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/4uoZBZb" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="LINK_ML_MILI_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/2bZ3q8b" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -644,8 +644,8 @@ articleLayout: reviewRoundup
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/B09CDXRQJL?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="LINK_ML_MILI_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4uoZBZb" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2bZ3q8b" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -656,7 +656,7 @@ articleLayout: reviewRoundup
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="PLACEHOLDER_IMG_DERMACARE_RN" alt="Huggies Dermacare RN" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/71yosOKC7mL._AC_SY300_SX300_QL70_ML2_.jpg" alt="Huggies Dermacare RN" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Huggies Dermacare RN">Huggies Dermacare RN</h3>
@@ -668,10 +668,10 @@ articleLayout: reviewRoundup
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="https://www.amazon.com.br/dp/B0DR9PH47L?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/3QqJufE" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="LINK_ML_DERMACARE_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/2pE9nUA" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -708,8 +708,8 @@ articleLayout: reviewRoundup
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/B0DR9PH47L?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="LINK_ML_DERMACARE_RN" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/3QqJufE" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2pE9nUA" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
