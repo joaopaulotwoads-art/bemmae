@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\João\\\\Desktop\\\\cms\" -Force)",
+      "Bash(Select-Object Name, FullName)",
+      "Bash(dir \"C:\\\\Users\\\\João\\\\Desktop\\\\cms\\\\src\" -d)",
+      "Bash(Select-Object Name)",
+      "PowerShell(ls \"C:\\\\Users\\\\João\\\\Desktop\\\\cms\\\\src\" | where-object { $_.PSIsContainer })",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\João\\\\Desktop\\\\cms\" -Directory)",
+      "PowerShell(head *)",
+      "Bash(findstr \"^\\\\[location\\\\]\\\\|^\\\\[service\\\\]\")",
+      "Bash(findstr \"^d\")",
+      "Bash(git commit -m 'Add affiliate-cta-defaults util required by AffiliateBlocksTipTap *)",
+      "Bash(git *)",
+      "WebSearch",
+      "WebFetch(domain:www.amazon.com.br)"
+    ]
+  }
+}

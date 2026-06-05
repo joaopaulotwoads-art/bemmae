@@ -1,0 +1,84 @@
+        const rel = 'nofollow sponsored noopener noreferrer';
+        const buildCtas = (it: RoundupItem) => {
+            const ctas: any[] = [];
+            if (it.cta1 && it.cta1Url) {
+                ctas.push(['a', { class: 'cnx-aff-roundup-cta-primary', href: it.cta1Url, target: '_blank', rel }, it.cta1]);
+            }
+            if (it.cta2 && it.cta2Url) {
+                ctas.push(['a', { class: 'cnx-aff-roundup-cta-secondary', href: it.cta2Url, target: '_blank', rel }, it.cta2]);
+            }
+            return ['motion.div', { class: 'cnx-aff-roundup-ctas' }, ...ctas];
+        };
+        const imgCellFor = (it: RoundupItem) =>
+            it.image
+                ? ['motion.div', { class: 'cnx-aff-roundup-img-cell' }, ['img', { src: it.image, alt: it.title, class: 'cnx-aff-roundup-img', loading: 'lazy', decoding: 'async' }]]
+                : ['motion.div', { class: 'cnx-aff-roundup-img-cell cnx-aff-roundup-img-cell--empty', 'aria-hidden': 'true' }];
+
+        const children = list.map((it) => {
+            if (layoutCards) {
+                const productInner: any[] = [
+                    ...(it.itemBadge ? [['motion.div', { class: 'cnx-aff-roundup-item-badge' }, it.itemBadge]] : []),
+                    ['h3', { class: 'cnx-aff-roundup-item-title' }, it.title],
+                ];
+                if (it.highlight?.trim()) {
+                    productInner.push([
+                        'p',
+                        { class: 'cnx-aff-roundup-highlight' },
+                        ['span', { class: 'cnx-aff-roundup-highlight-label' }, 'Destaque:'],
+                        ` ${it.highlight.trim()}`,
+                    ]);
+                }
+                return [
+                    'motion.div',
+                    { class: 'cnx-aff-roundup-item' },
+                    ['motion.div', { class: 'cnx-aff-roundup-rank' }, it.rank],
+                    ...(it.score
+                        ? [
+                              [
+                                  'motion.div',
+                                  { class: 'cnx-aff-roundup-score-badge', 'aria-label': `Nota ${it.score} de 10` },
+                                  ['span', { class: 'cnx-aff-roundup-score-star', 'aria-hidden': 'true' }, '★'],
+                                  ['span', { class: 'cnx-aff-roundup-score-value' }, it.score],
+                                  ['span', { class: 'cnx-aff-roundup-score-suffix' }, '/10'],
+                              ],
+                          ]
+                        : []),
+                    [
+                        'motion.div',
+                        { class: 'cnx-aff-roundup-card-body' },
+                        imgCellFor(it),
+                        ['motion.div', { class: 'cnx-aff-roundup-product-col' }, ...productInner],
+                        ['motion.div', { class: 'cnx-aff-roundup-card-divider', 'aria-hidden': 'true' }],
+                        ['motion.div', { class: 'cnx-aff-roundup-cta-col' }, buildCtas(it)],
+                    ],
+                ];
+            }
+            const feats = it.features.filter((f) => f.trim()).map((f) => ['li', {}, f]);
+            return [
+                'motion.div',
+                { class: 'cnx-aff-roundup-item' },
+                ['motion.div', { class: 'cnx-aff-roundup-rank' }, it.rank],
+                imgCellFor(it),
+                [
+                    'motion.div',
+                    { class: 'cnx-aff-roundup-product-col' },
+                    ...(it.itemBadge ? [['motion.div', { class: 'cnx-aff-roundup-item-badge' }, it.itemBadge]] : []),
+                    ['h3', { class: 'cnx-aff-roundup-item-title' }, it.title],
+                    ...(it.score ? [['motion.div', { class: 'cnx-aff-roundup-item-score' }, `Nota ${it.score}`]] : []),
+                ],
+                ['motion.div', { class: 'cnx-aff-roundup-features-col' }, ...(feats.length ? [['ul', {}, ...feats]] : [])],
+                ['motion.div', { class: 'cnx-aff-roundup-cta-col' }, buildCtas(it)],
+            ];
+        });
+        return [
+            'motion.div',
+            mergeAttributes(
+                {},
+                {
+                    class: roundupWrapClass(layoutCards),
+                    'data-cnx-roundup': JSON.stringify(list),
+                },
+            ),
+            ...(headRow ? [headRow] : []),
+            ...children,
+        ] as any;
