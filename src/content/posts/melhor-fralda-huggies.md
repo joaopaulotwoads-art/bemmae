@@ -35,7 +35,7 @@ articleLayout: reviewRoundup
 
 <h2>As 5 Linhas de Fralda Huggies</h2>
 
-<div class="cnx-aff-roundup cnx-aff-block-wrap" data-cnx-roundup="[{&quot;rank&quot;:&quot;1&quot;,&quot;itemBadge&quot;:&quot;Melhor no geral&quot;,&quot;title&quot;:&quot;Huggies Supreme Care&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/81k5q1RPzlL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Tecnologia Xtra-Flex com canais em X&quot;,&quot;Absorção MaxiSec 3x mais rápida&quot;,&quot;Excelente ajuste para bebês ativos&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;LINK_AMZ_SUPREME&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_SUPREME&quot;},{&quot;rank&quot;:&quot;2&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Natural Care&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/81uiM-l9MBL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Sem fragrância e sem parabenos&quot;,&quot;Corte umbilical para recém-nascidos&quot;,&quot;Máxima respirabilidade da pele&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;LINK_AMZ_NATURAL&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_NATURAL&quot;},{&quot;rank&quot;:&quot;3&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Dermacare&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/719yVPNSxpL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Indicado para dermatite atópica&quot;,&quot;Ultra macio para pele hiperssensível&quot;,&quot;Dermatologicamente testado&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;LINK_AMZ_DERMACARE&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_DERMACARE&quot;},{&quot;rank&quot;:&quot;4&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Tripla Proteção&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/61AXIQYKP4L._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;12h de proteção contínua&quot;,&quot;Barreiras duplas anti-vazamento&quot;,&quot;Melhor custo-benefício da linha&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;LINK_AMZ_TRIPLA&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_TRIPLA&quot;},{&quot;rank&quot;:&quot;5&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Little Swimmers&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/61unJKOuUPL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Não incha em contato com a água&quot;,&quot;Lateral rasga-fácil para troca prática&quot;,&quot;Elástico 360° como roupa de banho&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;LINK_AMZ_SWIMMERS&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_SWIMMERS&quot;}]">
+<div class="cnx-aff-roundup cnx-aff-block-wrap" data-cnx-roundup="[{&quot;rank&quot;:&quot;1&quot;,&quot;itemBadge&quot;:&quot;Melhor no geral&quot;,&quot;title&quot;:&quot;Huggies Supreme Care&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/81k5q1RPzlL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Tecnologia Xtra-Flex com canais em X&quot;,&quot;Absorção MaxiSec 3x mais rápida&quot;,&quot;Excelente ajuste para bebês ativos&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://www.amazon.com.br/dp/B0BFXKZQ2Y?tag=eumaecarrinho-20&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_SUPREME&quot;},{&quot;rank&quot;:&quot;2&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Natural Care&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/81uiM-l9MBL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Sem fragrância e sem parabenos&quot;,&quot;Corte umbilical para recém-nascidos&quot;,&quot;Máxima respirabilidade da pele&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://www.amazon.com.br/dp/B095R9CKYR?tag=eumaecarrinho-20&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_NATURAL&quot;},{&quot;rank&quot;:&quot;3&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Dermacare&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/719yVPNSxpL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Indicado para dermatite atópica&quot;,&quot;Ultra macio para pele hiperssensível&quot;,&quot;Dermatologicamente testado&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://www.amazon.com.br/dp/B0DSC8BPYY?tag=eumaecarrinho-20&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_DERMACARE&quot;},{&quot;rank&quot;:&quot;4&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Tripla Proteção&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/61AXIQYKP4L._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;12h de proteção contínua&quot;,&quot;Barreiras duplas anti-vazamento&quot;,&quot;Melhor custo-benefício da linha&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://www.amazon.com.br/dp/B07FN7VP6M?tag=eumaecarrinho-20&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_TRIPLA&quot;},{&quot;rank&quot;:&quot;5&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Little Swimmers&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/61unJKOuUPL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Não incha em contato com a água&quot;,&quot;Lateral rasga-fácil para troca prática&quot;,&quot;Elástico 360° como roupa de banho&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;https://www.amazon.com.br/dp/B08XZ63ZS4?tag=eumaecarrinho-20&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_SWIMMERS&quot;}]">
   <div class="cnx-aff-roundup-head" aria-hidden="true">
     <span class="cnx-aff-roundup-head-spacer"></span>
     <span>Imagem</span>
@@ -57,7 +57,7 @@ articleLayout: reviewRoundup
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="LINK_AMZ_SUPREME" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://www.amazon.com.br/dp/B0BFXKZQ2Y?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         <a class="cnx-aff-roundup-cta-secondary" href="LINK_ML_SUPREME" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
@@ -75,7 +75,7 @@ articleLayout: reviewRoundup
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="LINK_AMZ_NATURAL" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://www.amazon.com.br/dp/B095R9CKYR?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         <a class="cnx-aff-roundup-cta-secondary" href="LINK_ML_NATURAL" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
@@ -93,7 +93,7 @@ articleLayout: reviewRoundup
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="LINK_AMZ_DERMACARE" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://www.amazon.com.br/dp/B0DSC8BPYY?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         <a class="cnx-aff-roundup-cta-secondary" href="LINK_ML_DERMACARE" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
@@ -111,7 +111,7 @@ articleLayout: reviewRoundup
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="LINK_AMZ_TRIPLA" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://www.amazon.com.br/dp/B07FN7VP6M?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         <a class="cnx-aff-roundup-cta-secondary" href="LINK_ML_TRIPLA" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
@@ -129,7 +129,7 @@ articleLayout: reviewRoundup
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="LINK_AMZ_SWIMMERS" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://www.amazon.com.br/dp/B08XZ63ZS4?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         <a class="cnx-aff-roundup-cta-secondary" href="LINK_ML_SWIMMERS" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
@@ -153,7 +153,7 @@ articleLayout: reviewRoundup
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="LINK_AMZ_SUPREME" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://www.amazon.com.br/dp/B0BFXKZQ2Y?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
           <a href="LINK_ML_SUPREME" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
@@ -193,7 +193,7 @@ articleLayout: reviewRoundup
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="LINK_AMZ_SUPREME" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/B0BFXKZQ2Y?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
     <a class="cnx-aff-pros-cons-cta-secondary" href="LINK_ML_SUPREME" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
@@ -217,7 +217,7 @@ articleLayout: reviewRoundup
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="LINK_AMZ_NATURAL" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://www.amazon.com.br/dp/B095R9CKYR?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
           <a href="LINK_ML_NATURAL" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
@@ -257,7 +257,7 @@ articleLayout: reviewRoundup
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="LINK_AMZ_NATURAL" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/B095R9CKYR?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
     <a class="cnx-aff-pros-cons-cta-secondary" href="LINK_ML_NATURAL" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
@@ -281,7 +281,7 @@ articleLayout: reviewRoundup
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="LINK_AMZ_DERMACARE" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://www.amazon.com.br/dp/B0DSC8BPYY?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
           <a href="LINK_ML_DERMACARE" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
@@ -321,7 +321,7 @@ articleLayout: reviewRoundup
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="LINK_AMZ_DERMACARE" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/B0DSC8BPYY?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
     <a class="cnx-aff-pros-cons-cta-secondary" href="LINK_ML_DERMACARE" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
@@ -345,7 +345,7 @@ articleLayout: reviewRoundup
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="LINK_AMZ_TRIPLA" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://www.amazon.com.br/dp/B07FN7VP6M?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
           <a href="LINK_ML_TRIPLA" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
@@ -385,7 +385,7 @@ articleLayout: reviewRoundup
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="LINK_AMZ_TRIPLA" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/B07FN7VP6M?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
     <a class="cnx-aff-pros-cons-cta-secondary" href="LINK_ML_TRIPLA" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
@@ -408,7 +408,7 @@ articleLayout: reviewRoundup
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="LINK_AMZ_SWIMMERS" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://www.amazon.com.br/dp/B08XZ63ZS4?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
           <a href="LINK_ML_SWIMMERS" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
@@ -447,7 +447,7 @@ articleLayout: reviewRoundup
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="LINK_AMZ_SWIMMERS" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/B08XZ63ZS4?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
     <a class="cnx-aff-pros-cons-cta-secondary" href="LINK_ML_SWIMMERS" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
