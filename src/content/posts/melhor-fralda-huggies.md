@@ -4,10 +4,10 @@ slug: melhor-fralda-huggies
 author: vitoria-caroline
 category: fraldas
 publishedDate: '2026-06-05T12:00:00-03:00'
-thumbnail: /images/og/melhor-fralda-huggies-qual-linha-escolher.png
+thumbnail: /images/og/melhor-fralda-huggies-qual-linha-escolher.webp
 metaTitle: 'Melhor Fralda Huggies: Qual Linha Escolher'
 metaDescription: 'A melhor fralda Huggies é a Supreme Care vermelha. Comparativo das 5 linhas com custo por unidade e quando usar cada uma.'
-metaImage: /images/og/melhor-fralda-huggies-qual-linha-escolher.png
+metaImage: /images/og/melhor-fralda-huggies-qual-linha-escolher.webp
 keywords: 'melhor fralda Huggies, Huggies Supreme Care, Huggies Natural Care, Huggies Tripla Proteção, fralda Huggies vermelha'
 contentFormat: html
 seoSchema: articleItemList
