@@ -198,7 +198,7 @@ articleLayout: reviewRoundup
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
         <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/3QqJufE" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2pE9nUA" target="_blank" rel="nofollow sponsored noopener noreferrer">Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2La3FFP" target="_blank" rel="nofollow sponsored noopener noreferrer">Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -671,7 +671,7 @@ articleLayout: reviewRoundup
           <a href="https://amzn.to/3QqJufE" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="https://meli.la/2pE9nUA" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/2La3FFP" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -709,7 +709,7 @@ articleLayout: reviewRoundup
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
     <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/3QqJufE" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2pE9nUA" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2La3FFP" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
