@@ -18,10 +18,10 @@ contentFormat: html
 
 <p>Com mais de 15 marcas e preços de <strong>R$0,80 a R$1,84 por unidade</strong>, a escolha certa economiza até R$2.400 no 1º ano. Fraldas-calça são mais práticas a partir dos 6 meses; fraldas de fita continuam ideais nos primeiros meses pelo ajuste personalizado.</p>
 
-<p>Neste guia, comparamos as 10 melhores com <strong>preços reais de junho/2026</strong>, custo por unidade calculado e tecnologias que realmente importam.</p>
+<p>Neste guia, comparamos as 10 melhores com <strong>preços reais atualizados</strong>, custo por unidade calculado e tecnologias que realmente importam.</p>
 
 <div style="background:#f0f9ff;border-left:4px solid #0ea5e9;padding:1rem 1.25rem;border-radius:4px;margin:1.5rem 0;">
-  <p style="margin:0;"><strong>📋 Sobre este guia:</strong> Elaborado com base em fichas técnicas das fabricantes, análise de custo real por unidade (preços junho/2026) e avaliações de mais de 500 mães. Atualizado mensalmente.</p>
+  <p style="margin:0;"><strong>📋 Sobre este guia:</strong> Elaborado com base em fichas técnicas das fabricantes, análise de custo real por unidade e avaliações de mais de 500 mães. Atualizado mensalmente.</p>
 </div>
 
 <div style="background:#fefce8;border-left:4px solid #eab308;padding:1rem 1.25rem;border-radius:4px;margin:1.5rem 0;">
@@ -235,7 +235,7 @@ contentFormat: html
   </div>
 </div>
 
-<h2>Tabela Comparativa: Preço Real e Custo por Fralda em junho/2026</h2>
+<h2>Tabela Comparativa: Preço Real e Custo por Fralda</h2>
 
 <div style="overflow-x:auto;margin:1.5rem 0;">
   <table style="width:100%;border-collapse:collapse;font-size:0.9rem;">
@@ -322,7 +322,7 @@ contentFormat: html
     </tbody>
   </table>
 </div>
-<p><small>Preços referentes a junho/2026. Custo por unidade calculado com base nas embalagens mais comuns disponíveis. Atualizado mensalmente.</small></p>
+<p><small>Custo por unidade calculado com base nas embalagens mais comuns disponíveis. Atualizado mensalmente.</small></p>
 
 <h2>1. Pampers Fralda Premium Care Tamanho G – Melhor no Geral</h2>
 
@@ -1042,7 +1042,7 @@ contentFormat: html
 <p>SAP (polímero superabsorvente) está presente em todas as fraldas de qualidade. O diferencial está na distribuição do gel: canais em X da Huggies, gel mágico da Pampers e ondas de absorção da MamyPoko aumentam a velocidade e a retenção de diferentes formas.</p>
 
 <h3>5. Custo por unidade</h3>
-<p>O preço do pacote engana. Compare sempre: <strong>preço ÷ unidades = custo real por fralda</strong>. Pacotes maiores geralmente têm melhor custo por unidade. Use a tabela comparativa acima com os valores de junho/2026.</p>
+<p>O preço do pacote engana. Compare sempre: <strong>preço ÷ unidades = custo real por fralda</strong>. Pacotes maiores geralmente têm melhor custo por unidade. Use a tabela comparativa acima para conferir os valores atuais.</p>
 
 <h2>Guia de Tamanhos: Todas as Marcas por Peso</h2>
 
