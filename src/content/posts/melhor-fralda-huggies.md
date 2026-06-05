@@ -35,7 +35,7 @@ articleLayout: reviewRoundup
 
 <h2>As 5 Linhas de Fralda Huggies</h2>
 
-<div class="cnx-aff-roundup cnx-aff-block-wrap" data-cnx-roundup="[{&quot;rank&quot;:&quot;1&quot;,&quot;itemBadge&quot;:&quot;Melhor no geral&quot;,&quot;title&quot;:&quot;Huggies Supreme Care&quot;,&quot;image&quot;:&quot;PLACEHOLDER_IMG_SUPREME_CARE&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Tecnologia Xtra-Flex com canais em X&quot;,&quot;Absorção MaxiSec 3x mais rápida&quot;,&quot;Excelente ajuste para bebês ativos&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;LINK_AMZ_SUPREME&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_SUPREME&quot;},{&quot;rank&quot;:&quot;2&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Natural Care&quot;,&quot;image&quot;:&quot;PLACEHOLDER_IMG_NATURAL_CARE&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Sem fragrância e sem parabenos&quot;,&quot;Corte umbilical para recém-nascidos&quot;,&quot;Máxima respirabilidade da pele&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;LINK_AMZ_NATURAL&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_NATURAL&quot;},{&quot;rank&quot;:&quot;3&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Dermacare&quot;,&quot;image&quot;:&quot;PLACEHOLDER_IMG_DERMACARE&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Indicado para dermatite atópica&quot;,&quot;Ultra macio para pele hiperssensível&quot;,&quot;Dermatologicamente testado&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;LINK_AMZ_DERMACARE&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_DERMACARE&quot;},{&quot;rank&quot;:&quot;4&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Tripla Proteção&quot;,&quot;image&quot;:&quot;PLACEHOLDER_IMG_TRIPLA_PROTECAO&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;12h de proteção contínua&quot;,&quot;Barreiras duplas anti-vazamento&quot;,&quot;Melhor custo-benefício da linha&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;LINK_AMZ_TRIPLA&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_TRIPLA&quot;},{&quot;rank&quot;:&quot;5&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Little Swimmers&quot;,&quot;image&quot;:&quot;PLACEHOLDER_IMG_LITTLE_SWIMMERS&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Não incha em contato com a água&quot;,&quot;Lateral rasga-fácil para troca prática&quot;,&quot;Elástico 360° como roupa de banho&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;LINK_AMZ_SWIMMERS&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_SWIMMERS&quot;}]">
+<div class="cnx-aff-roundup cnx-aff-block-wrap" data-cnx-roundup="[{&quot;rank&quot;:&quot;1&quot;,&quot;itemBadge&quot;:&quot;Melhor no geral&quot;,&quot;title&quot;:&quot;Huggies Supreme Care&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/81k5q1RPzlL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Tecnologia Xtra-Flex com canais em X&quot;,&quot;Absorção MaxiSec 3x mais rápida&quot;,&quot;Excelente ajuste para bebês ativos&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;LINK_AMZ_SUPREME&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_SUPREME&quot;},{&quot;rank&quot;:&quot;2&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Natural Care&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/81uiM-l9MBL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Sem fragrância e sem parabenos&quot;,&quot;Corte umbilical para recém-nascidos&quot;,&quot;Máxima respirabilidade da pele&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;LINK_AMZ_NATURAL&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_NATURAL&quot;},{&quot;rank&quot;:&quot;3&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Dermacare&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/719yVPNSxpL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Indicado para dermatite atópica&quot;,&quot;Ultra macio para pele hiperssensível&quot;,&quot;Dermatologicamente testado&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;LINK_AMZ_DERMACARE&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_DERMACARE&quot;},{&quot;rank&quot;:&quot;4&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Tripla Proteção&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/61AXIQYKP4L._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;12h de proteção contínua&quot;,&quot;Barreiras duplas anti-vazamento&quot;,&quot;Melhor custo-benefício da linha&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;LINK_AMZ_TRIPLA&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_TRIPLA&quot;},{&quot;rank&quot;:&quot;5&quot;,&quot;itemBadge&quot;:&quot;&quot;,&quot;title&quot;:&quot;Huggies Little Swimmers&quot;,&quot;image&quot;:&quot;https://m.media-amazon.com/images/I/61unJKOuUPL._AC_SY300_SX300_QL70_ML2_.jpg&quot;,&quot;score&quot;:&quot;&quot;,&quot;features&quot;:[&quot;Não incha em contato com a água&quot;,&quot;Lateral rasga-fácil para troca prática&quot;,&quot;Elástico 360° como roupa de banho&quot;],&quot;cta1&quot;:&quot;Ver na Amazon&quot;,&quot;cta1Url&quot;:&quot;LINK_AMZ_SWIMMERS&quot;,&quot;cta2&quot;:&quot;Ver no Mercado Livre&quot;,&quot;cta2Url&quot;:&quot;LINK_ML_SWIMMERS&quot;}]">
   <div class="cnx-aff-roundup-head" aria-hidden="true">
     <span class="cnx-aff-roundup-head-spacer"></span>
     <span>Imagem</span>
@@ -46,7 +46,7 @@ articleLayout: reviewRoundup
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">1</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="PLACEHOLDER_IMG_SUPREME_CARE" alt="Huggies Supreme Care" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/81k5q1RPzlL._AC_SY300_SX300_QL70_ML2_.jpg" alt="Huggies Supreme Care" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Melhor no geral</div>
@@ -65,7 +65,7 @@ articleLayout: reviewRoundup
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">2</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="PLACEHOLDER_IMG_NATURAL_CARE" alt="Huggies Natural Care" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/81uiM-l9MBL._AC_SY300_SX300_QL70_ML2_.jpg" alt="Huggies Natural Care" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <h3 class="cnx-aff-roundup-item-title">Huggies Natural Care</h3>
@@ -83,7 +83,7 @@ articleLayout: reviewRoundup
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">3</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="PLACEHOLDER_IMG_DERMACARE" alt="Huggies Dermacare" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/719yVPNSxpL._AC_SY300_SX300_QL70_ML2_.jpg" alt="Huggies Dermacare" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <h3 class="cnx-aff-roundup-item-title">Huggies Dermacare</h3>
@@ -101,7 +101,7 @@ articleLayout: reviewRoundup
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">4</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="PLACEHOLDER_IMG_TRIPLA_PROTECAO" alt="Huggies Tripla Proteção" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/61AXIQYKP4L._AC_SY300_SX300_QL70_ML2_.jpg" alt="Huggies Tripla Proteção" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <h3 class="cnx-aff-roundup-item-title">Huggies Tripla Proteção</h3>
@@ -119,7 +119,7 @@ articleLayout: reviewRoundup
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">5</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="PLACEHOLDER_IMG_LITTLE_SWIMMERS" alt="Huggies Little Swimmers" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/61unJKOuUPL._AC_SY300_SX300_QL70_ML2_.jpg" alt="Huggies Little Swimmers" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <h3 class="cnx-aff-roundup-item-title">Huggies Little Swimmers</h3>
@@ -141,7 +141,7 @@ articleLayout: reviewRoundup
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="PLACEHOLDER_IMG_SUPREME_CARE" alt="Huggies Supreme Care" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/81k5q1RPzlL._AC_SY300_SX300_QL70_ML2_.jpg" alt="Huggies Supreme Care" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Huggies Supreme Care">Huggies Supreme Care</h3>
@@ -205,7 +205,7 @@ articleLayout: reviewRoundup
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="PLACEHOLDER_IMG_NATURAL_CARE" alt="Huggies Natural Care" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/81uiM-l9MBL._AC_SY300_SX300_QL70_ML2_.jpg" alt="Huggies Natural Care" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Huggies Natural Care">Huggies Natural Care</h3>
@@ -269,7 +269,7 @@ articleLayout: reviewRoundup
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="PLACEHOLDER_IMG_DERMACARE" alt="Huggies Dermacare" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/719yVPNSxpL._AC_SY300_SX300_QL70_ML2_.jpg" alt="Huggies Dermacare" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Huggies Dermacare">Huggies Dermacare</h3>
@@ -333,7 +333,7 @@ articleLayout: reviewRoundup
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="PLACEHOLDER_IMG_TRIPLA_PROTECAO" alt="Huggies Tripla Proteção" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/61AXIQYKP4L._AC_SY300_SX300_QL70_ML2_.jpg" alt="Huggies Tripla Proteção" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Huggies Tripla Proteção">Huggies Tripla Proteção</h3>
@@ -397,7 +397,7 @@ articleLayout: reviewRoundup
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="PLACEHOLDER_IMG_LITTLE_SWIMMERS" alt="Huggies Little Swimmers" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/61unJKOuUPL._AC_SY300_SX300_QL70_ML2_.jpg" alt="Huggies Little Swimmers" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Huggies Little Swimmers">Huggies Little Swimmers</h3>
