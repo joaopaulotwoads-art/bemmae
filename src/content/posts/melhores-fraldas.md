@@ -6,7 +6,7 @@ category: fraldas
 publishedDate: '2026-06-04T12:00:00-03:00'
 thumbnail: /images/og/melhores-fraldas.jpg
 metaTitle: 'Melhores Fraldas Descartáveis: Ranking'
-metaDescription: 'A melhor fralda descartável é a Pampers Premium Care. Ranking com custo real por unidade, guia de tamanhos e tecnologias. Junho/2026.'
+metaDescription: 'A melhor fralda descartável é a Pampers Premium Care. Ranking com custo real por unidade, guia de tamanhos e tecnologias.'
 metaImage: /images/og/melhores-fraldas.jpg
 seoSchema: articleItemList
 articleLayout: reviewRoundup
