@@ -46,7 +46,7 @@ contentFormat: html
 
 <h2>As 7 Melhores Fraldas Custo-Benefício de 2026</h2>
 
-<div class="cnx-aff-roundup cnx-aff-block-wrap" data-cnx-roundup='[{"rank":"1","itemBadge":"Melhor custo-benefício","title":"Babysec Premium (Galinha Pintadinha)","image":"[IMAGE_URL]","score":"","features":["R$0,87 por fralda","Absorção de 12h com barreiras","Aprovada por mães de premium"],"cta1":"Ver na Amazon","cta1Url":"[AMAZON_URL]","cta2":"Ver no Mercado Livre","cta2Url":"[ML_URL]"},{"rank":"2","itemBadge":"Melhor absorção vs preço","title":"Pom Pom Protek","image":"[IMAGE_URL]","score":"","features":["Gel absorvente 12h","Loção hidratante interna","Muito bem avaliada"],"cta1":"Ver na Amazon","cta1Url":"[AMAZON_URL]","cta2":"Ver no Mercado Livre","cta2Url":"[ML_URL]"},{"rank":"3","itemBadge":"Mais barata do mercado","title":"Turma da Mônica Baby","image":"[IMAGE_URL]","score":"","features":["Qu4troSec 4 camadas","Menor preço por fralda","Cintura elástica"],"cta1":"Ver na Amazon","cta1Url":"[AMAZON_URL]","cta2":"Ver no Mercado Livre","cta2Url":"[ML_URL]"},{"rank":"4","itemBadge":"Melhor para trocas diurnas","title":"Cremer Magic Care","image":"[IMAGE_URL]","score":"","features":["Perfil ultra fino","Econômica para uso de dia","Sem perfume"],"cta1":"Ver na Amazon","cta1Url":"[AMAZON_URL]","cta2":"Ver no Mercado Livre","cta2Url":"[ML_URL]"},{"rank":"5","itemBadge":"Com tecnologia japonesa","title":"Personal Baby Protect & Sec","image":"[IMAGE_URL]","score":"","features":["Sistema Pró Comfort 3D","Do tamanho P ao XXG","Mais acessível com tecnologia"],"cta1":"Ver na Amazon","cta1Url":"[AMAZON_URL]","cta2":"Ver no Mercado Livre","cta2Url":"[ML_URL]"},{"rank":"6","itemBadge":"Melhor intermediária da Pampers","title":"Pampers Supersec","image":"[IMAGE_URL]","score":"","features":["Canais de ar respiráveis","Entre econômica e premium","Marca Pampers por menos"],"cta1":"Ver na Amazon","cta1Url":"[AMAZON_URL]","cta2":"Ver no Mercado Livre","cta2Url":"[ML_URL]"},{"rank":"7","itemBadge":"Econômica da Huggies","title":"Huggies Tripla Proteção","image":"[IMAGE_URL]","score":"","features":["Barreira dupla 12h","A mais acessível da Huggies","Aprovada para uso noturno"],"cta1":"Ver na Amazon","cta1Url":"[AMAZON_URL]","cta2":"Ver no Mercado Livre","cta2Url":"[ML_URL]"}]'>
+<div class="cnx-aff-roundup cnx-aff-block-wrap" data-cnx-roundup='[{"rank":"1","itemBadge":"Melhor custo-benefício","title":"Babysec Premium (Galinha Pintadinha)","image":"https://m.media-amazon.com/images/I/61h-ItHZmWL._AC_SX679_.jpg","score":"","features":["R$0,87 por fralda","Absorção de 12h com barreiras","Aprovada por mães de premium"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/4eezCh5","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/2ooobhS"},{"rank":"2","itemBadge":"Melhor absorção vs preço","title":"Pom Pom Protek","image":"https://m.media-amazon.com/images/I/71p+Zbia21L._AC_SY300_SX300_QL70_ML2_.jpg","score":"","features":["Gel absorvente 12h","Loção hidratante interna","Muito bem avaliada"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/4xadk8Z","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/2GN1NE6"},{"rank":"3","itemBadge":"Mais barata do mercado","title":"Turma da Mônica Baby","image":"https://m.media-amazon.com/images/I/71Rh1PE7WML._AC_SX679_.jpg","score":"","features":["Qu4troSec 4 camadas","Menor preço por fralda","Cintura elástica"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/4g3EIiz","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/2u277t1"},{"rank":"4","itemBadge":"Melhor para trocas diurnas","title":"Cremer Magic Care","image":"https://m.media-amazon.com/images/I/71vhkv8EiCL._AC_SX679_.jpg","score":"","features":["Perfil ultra fino","Econômica para uso de dia","Sem perfume"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/4uUSjgG","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/1FaGP1b"},{"rank":"5","itemBadge":"Com tecnologia japonesa","title":"Personal Baby Protect & Sec","image":"https://m.media-amazon.com/images/I/61GxRFu4OhL._AC_SX679_.jpg","score":"","features":["Sistema Pró Comfort 3D","Do tamanho P ao XXG","Mais acessível com tecnologia"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/4xdh89h","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/1ZwS6H2"},{"rank":"6","itemBadge":"Melhor intermediária da Pampers","title":"Pampers Supersec","image":"https://m.media-amazon.com/images/I/619WsQ+0muL._AC_SX679_.jpg","score":"","features":["Canais de ar respiráveis","Entre econômica e premium","Marca Pampers por menos"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/4xglmgj","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/2rw39x4"},{"rank":"7","itemBadge":"Econômica da Huggies","title":"Huggies Tripla Proteção","image":"https://m.media-amazon.com/images/I/51Kic2wWwhL._AC_SL1000_.jpg","score":"","features":["Barreira dupla 12h","A mais acessível da Huggies","Aprovada para uso noturno"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/4ecTFfS","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/2rQH6Ps"}]'>
   <div class="cnx-aff-roundup-head" aria-hidden="true">
     <span class="cnx-aff-roundup-head-spacer"></span>
     <span>Imagem</span>
@@ -57,7 +57,7 @@ contentFormat: html
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">1</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="[IMAGE_URL]" alt="Babysec Premium Galinha Pintadinha" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/61h-ItHZmWL._AC_SX679_.jpg" alt="Babysec Premium Galinha Pintadinha" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Melhor custo-benefício</div>
@@ -72,15 +72,15 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4eezCh5" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2ooobhS" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">2</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="[IMAGE_URL]" alt="Pom Pom Protek" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/71p+Zbia21L._AC_SY300_SX300_QL70_ML2_.jpg" alt="Pom Pom Protek" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Melhor absorção vs preço</div>
@@ -95,15 +95,15 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4xadk8Z" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2GN1NE6" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">3</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="[IMAGE_URL]" alt="Turma da Mônica Baby" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/71Rh1PE7WML._AC_SX679_.jpg" alt="Turma da Mônica Baby" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Mais barata do mercado</div>
@@ -118,15 +118,15 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4g3EIiz" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2u277t1" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">4</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="[IMAGE_URL]" alt="Cremer Magic Care" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/71vhkv8EiCL._AC_SX679_.jpg" alt="Cremer Magic Care" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Melhor para trocas diurnas</div>
@@ -141,15 +141,15 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4uUSjgG" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/1FaGP1b" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">5</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="[IMAGE_URL]" alt="Personal Baby Protect Sec" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/61GxRFu4OhL._AC_SX679_.jpg" alt="Personal Baby Protect Sec" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Com tecnologia japonesa</div>
@@ -164,15 +164,15 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4xdh89h" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/1ZwS6H2" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">6</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="[IMAGE_URL]" alt="Pampers Supersec" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/619WsQ+0muL._AC_SX679_.jpg" alt="Pampers Supersec" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Melhor intermediária da Pampers</div>
@@ -187,15 +187,15 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4xglmgj" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2rw39x4" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">7</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="[IMAGE_URL]" alt="Huggies Tripla Proteção" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/51Kic2wWwhL._AC_SL1000_.jpg" alt="Huggies Tripla Proteção" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Econômica da Huggies</div>
@@ -210,8 +210,8 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4ecTFfS" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2rQH6Ps" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -297,7 +297,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="[IMAGE_URL]" alt="Babysec Premium Galinha Pintadinha" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/61h-ItHZmWL._AC_SX679_.jpg" alt="Babysec Premium Galinha Pintadinha" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Babysec Premium">Babysec Premium (Galinha Pintadinha)</h3>
@@ -309,10 +309,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/4eezCh5" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/2ooobhS" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -349,8 +349,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4eezCh5" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2ooobhS" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -359,7 +359,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="[IMAGE_URL]" alt="Pom Pom Protek" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/71p+Zbia21L._AC_SY300_SX300_QL70_ML2_.jpg" alt="Pom Pom Protek" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Pom Pom Protek">Pom Pom Protek</h3>
@@ -371,10 +371,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/4xadk8Z" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/2GN1NE6" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -411,8 +411,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4xadk8Z" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2GN1NE6" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -421,7 +421,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="[IMAGE_URL]" alt="Turma da Mônica Baby" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/71Rh1PE7WML._AC_SX679_.jpg" alt="Turma da Mônica Baby" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Turma da Mônica Baby">Turma da Mônica Baby</h3>
@@ -433,10 +433,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/4g3EIiz" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/2u277t1" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -473,8 +473,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4g3EIiz" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2u277t1" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -483,7 +483,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="[IMAGE_URL]" alt="Cremer Magic Care" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/71vhkv8EiCL._AC_SX679_.jpg" alt="Cremer Magic Care" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Cremer Magic Care">Cremer Magic Care</h3>
@@ -495,10 +495,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/4uUSjgG" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/1FaGP1b" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -535,8 +535,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4uUSjgG" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/1FaGP1b" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -545,7 +545,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="[IMAGE_URL]" alt="Personal Baby Protect Sec" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/61GxRFu4OhL._AC_SX679_.jpg" alt="Personal Baby Protect Sec" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Personal Baby Protect &amp; Sec">Personal Baby Protect &amp; Sec</h3>
@@ -557,10 +557,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/4xdh89h" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/1ZwS6H2" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -597,8 +597,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4xdh89h" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/1ZwS6H2" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -607,7 +607,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="[IMAGE_URL]" alt="Pampers Supersec" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/619WsQ+0muL._AC_SX679_.jpg" alt="Pampers Supersec" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Pampers Supersec">Pampers Supersec</h3>
@@ -619,10 +619,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/4xglmgj" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/2rw39x4" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -659,8 +659,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4xglmgj" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2rw39x4" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -669,7 +669,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="[IMAGE_URL]" alt="Huggies Tripla Proteção" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/51Kic2wWwhL._AC_SL1000_.jpg" alt="Huggies Tripla Proteção" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Huggies Tripla Proteção">Huggies Tripla Proteção</h3>
@@ -681,10 +681,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/4ecTFfS" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/2rQH6Ps" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -721,8 +721,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4ecTFfS" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2rQH6Ps" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -765,7 +765,7 @@ contentFormat: html
       </tr>
       <tr>
         <td style="padding:0.75rem;border:1px solid #e2e8f0;font-weight:600;color:#16a34a;">Economia anual</td>
-        <td style="padding:0.75rem;border:1px solid #e2e8f0;text-align:center;" colspan="3"><strong style="color:#16a34a;">R$1.902 por ano — sem abrir mão da proteção</strong></td>
+        <td style="padding:0.75rem;border:1px solid #e2e8f0;text-align:center;" colspan="3"><strong style="color:#16a34a;">R$1.902 por ano, sem abrir mão da proteção</strong></td>
       </tr>
     </tbody>
   </table>
