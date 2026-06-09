@@ -283,7 +283,6 @@ export function buildPostJsonLd(opts: {
     const webPageId = idPage(pageUrl, 'webpage');
     const articleId = idPage(pageUrl, mode === 'articleItemList' ? 'article' : 'blogposting');
     const breadcrumbId = idPage(pageUrl, 'breadcrumb');
-    const itemListId = idPage(pageUrl, 'itemlist');
 
     const imageObject: Record<string, unknown> = {
         '@type': 'ImageObject',
@@ -383,7 +382,6 @@ export function buildPostJsonLd(opts: {
             '@type': 'Article',
             '@id': articleId,
             ...articleCommon,
-            mainEntity: { '@id': itemListId },
         };
     } else {
         mainEntity = {
@@ -392,25 +390,6 @@ export function buildPostJsonLd(opts: {
             ...articleCommon,
         };
     }
-
-    const itemListNode: Record<string, unknown> | null =
-        items.length >= 2
-            ? {
-                  '@type': 'ItemList',
-                  '@id': itemListId,
-                  name: opts.headline,
-                  numberOfItems: items.length,
-                  itemListElement: items.map((item, i) => {
-                      const listItem: Record<string, unknown> = {
-                          '@type': 'ListItem',
-                          position: i + 1,
-                          name: item.name,
-                      };
-                      if (item.url) listItem.url = item.url;
-                      return listItem;
-                  }),
-              }
-            : null;
 
     const graph: Record<string, unknown>[] = [
         {
@@ -444,7 +423,6 @@ export function buildPostJsonLd(opts: {
             '@id': breadcrumbId,
             itemListElement: breadcrumbItems,
         },
-        ...(itemListNode ? [itemListNode] : []),
         ...(faqPageNode ? [faqPageNode] : []),
     ];
 
