@@ -234,6 +234,9 @@
   background: #3483fa !important;
   border: 1px solid #2968c8 !important;
   text-decoration: none !important;
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+  padding: 0.4rem 0.65rem !important;
 }
 
 .article-review-roundup .cnx-aff-roundup-ctas a.cnx-aff-roundup-cta-secondary:hover {
