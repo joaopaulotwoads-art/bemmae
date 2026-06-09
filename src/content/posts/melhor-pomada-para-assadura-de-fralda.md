@@ -14,11 +14,11 @@ keywords: 'melhor pomada para assadura, pomada para assadura de fralda, bepantol
 contentFormat: html
 ---
 
-<p>A melhor pomada para assadura de fralda é o <strong>Bepantol Baby Creme</strong>. Ele contém D-Pantenol (Vitamina B5) que regenera e cicatriza a pele lesionada em 24 a 48 horas, é fácil de aplicar e remover, pode ser usado em toda troca de fralda e é recomendado por dermatologistas pediátricos como primeira escolha para prevenção e casos leves.</p>
+<p>A melhor pomada para assadura de fralda é o <strong>Bepantol Baby Creme</strong>. Com D-Pantenol (Vitamina B5), cicatriza a pele em 24 a 48 horas e pode ser usado em toda troca de fralda.</p>
 
-<p>A assadura de fralda afeta até 35% dos bebês e pode surgir em menos de 2 horas de pele úmida. A pomada certa resolve, mas cada produto tem um ativo diferente com indicação específica. Para prevenção e casos leves: Bepantol. Para casos graves com muita vermelhidão: Desitin com 40% de óxido de zinco. Para pele sensível com suspeita de candidíase: consulte o pediatra antes de qualquer produto.</p>
+<p>A assadura afeta até 35% dos bebês e pode surgir em menos de 2 horas de pele úmida. Cada pomada tem um ativo com indicação específica: o produto errado não resolve.</p>
 
-<p>Neste guia você vai encontrar as 7 melhores pomadas de 2026 com os ativos de cada uma, como aplicar corretamente e quando parar de tratar em casa e ir ao médico.</p>
+<p>Neste guia estão as 7 melhores pomadas de 2026 com os ativos, como aplicar e quando ir ao médico.</p>
 
 <div style="background:#f0f9ff;border-left:4px solid #0ea5e9;padding:1rem 1.25rem;border-radius:4px;margin:1.5rem 0;">
   <p style="margin:0;"><strong>👩‍⚕️ Sobre este guia:</strong> Análise baseada em ativos dermatológicos, avaliações de mais de 3.000 compradores e indicações pediátricas. Preços verificados em junho de 2026.</p>
@@ -70,7 +70,7 @@ contentFormat: html
 
 <h2>As 7 Melhores Pomadas para Assadura de 2026</h2>
 
-<div class="cnx-aff-roundup cnx-aff-block-wrap" data-cnx-roundup='[{"rank":"1","itemBadge":"Melhor no geral","title":"Bepantol Baby Creme","image":"[IMAGE_URL]","score":"","features":["D-Pantenol cicatriza em 24-48h","Pode usar em toda troca","Recomendado por pediatras"],"cta1":"Ver na Amazon","cta1Url":"[AMAZON_URL]","cta2":"Ver no Mercado Livre","cta2Url":"[ML_URL]"},{"rank":"2","itemBadge":"A clássica mais vendida","title":"Hipoglós","image":"[IMAGE_URL]","score":"","features":["Óxido de zinco + Vitaminas A, D e E","A mais vendida do Brasil há décadas","Tampa flip-top prática"],"cta1":"Ver na Amazon","cta1Url":"[AMAZON_URL]","cta2":"Ver no Mercado Livre","cta2Url":"[ML_URL]"},{"rank":"3","itemBadge":"Melhor para casos graves","title":"Desitin Máxima Proteção","image":"[IMAGE_URL]","score":"","features":["40% óxido de zinco, dose máxima","Barreira total para lesões graves","Alivia em horas"],"cta1":"Ver na Amazon","cta1Url":"[AMAZON_URL]","cta2":"Ver no Mercado Livre","cta2Url":"[ML_URL]"},{"rank":"4","itemBadge":"Melhor natural e vegana","title":"Weleda Calendula Baby","image":"[IMAGE_URL]","score":"","features":["Calêndula + camomila anti-inflamatório","100% natural e vegana","Certificada NATRUE"],"cta1":"Ver na Amazon","cta1Url":"[AMAZON_URL]","cta2":"Ver no Mercado Livre","cta2Url":"[ML_URL]"},{"rank":"5","itemBadge":"Melhor premium","title":"Mustela Vitamin Barrier","image":"[IMAGE_URL]","score":"","features":["Vitamina B5 + triptase Mustela","Fórmula hipoalergênica testada","Para pele muito sensível"],"cta1":"Ver na Amazon","cta1Url":"[AMAZON_URL]","cta2":"Ver no Mercado Livre","cta2Url":"[ML_URL]"},{"rank":"6","itemBadge":"Melhor custo-benefício","title":"Huggies Pomada de Assadura","image":"[IMAGE_URL]","score":"","features":["Óleo de amêndoa 100% natural","Vitamina E protetora","Melhor preço por grama"],"cta1":"Ver na Amazon","cta1Url":"[AMAZON_URL]","cta2":"Ver no Mercado Livre","cta2Url":"[ML_URL]"},{"rank":"7","itemBadge":"Melhor para assadura com ferida","title":"Nebacetin Baby Creme","image":"[IMAGE_URL]","score":"","features":["Óleo de girassol cicatrizante","Sem perfume e sem corante","Para casos com lesão aberta"],"cta1":"Ver na Amazon","cta1Url":"[AMAZON_URL]","cta2":"Ver no Mercado Livre","cta2Url":"[ML_URL]"}]'>
+<div class="cnx-aff-roundup cnx-aff-block-wrap" data-cnx-roundup='[{"rank":"1","itemBadge":"Melhor no geral","title":"Bepantol Baby Creme","image":"https://m.media-amazon.com/images/I/713euw7uVZL._AC_SX679_.jpg","score":"","features":["D-Pantenol cicatriza em 24-48h","Pode usar em toda troca","Recomendado por pediatras"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/4uZvg4F","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/12zxVtk"},{"rank":"2","itemBadge":"A clássica mais vendida","title":"Hipoglós","image":"https://m.media-amazon.com/images/I/61-8xDAJfLL._AC_SL1500_.jpg","score":"","features":["Óxido de zinco + Vitaminas A, D e E","A mais vendida do Brasil há décadas","Tampa flip-top prática"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/4oh1PIF","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/1J2BB7j"},{"rank":"3","itemBadge":"Melhor para casos graves","title":"Desitin Máxima Proteção","image":"https://m.media-amazon.com/images/I/61yr4Q0p0iL._AC_SX679_.jpg","score":"","features":["40% óxido de zinco, dose máxima","Barreira total para lesões graves","Alivia em horas"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/3Q2UUGp","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/1gaGHwi"},{"rank":"4","itemBadge":"Melhor natural e vegana","title":"Weleda Calendula Baby","image":"https://m.media-amazon.com/images/I/51YWokTKFzL._AC_SY879_.jpg","score":"","features":["Calêndula + camomila anti-inflamatório","100% natural e vegana","Certificada NATRUE"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/3RT99y8","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/2GYpA5z"},{"rank":"5","itemBadge":"Melhor premium","title":"Mustela Vitamin Barrier","image":"https://m.media-amazon.com/images/I/51kbhWXRwpS._AC_SY300_SX300_QL70_ML2_.jpg","score":"","features":["Vitamina B5 + triptase exclusiva","Hipoalergênica testada dermatologicamente","Para pele muito sensível"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/4vCYXIG","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/2vh4Xgz"},{"rank":"6","itemBadge":"Melhor custo-benefício","title":"Huggies Pomada de Assadura","image":"https://m.media-amazon.com/images/I/51y4gaPpE2L._AC_SX679_.jpg","score":"","features":["Óleo de amêndoa 100% natural","Vitamina E protetora","Melhor preço por grama"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/43WrSLI","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/122VUWS"},{"rank":"7","itemBadge":"Melhor para assadura com ferida","title":"Nebacetin Baby Creme","image":"https://m.media-amazon.com/images/I/71ttWVJtqcL._AC_SY300_SX300_QL70_ML2_.jpg","score":"","features":["Óleo de girassol cicatrizante","Sem perfume e sem corante","Para casos com lesão aberta"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/49JpMm0","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/24ef6te"}]'>
   <div class="cnx-aff-roundup-head" aria-hidden="true">
     <span class="cnx-aff-roundup-head-spacer"></span>
     <span>Imagem</span>
@@ -81,7 +81,7 @@ contentFormat: html
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">1</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="[IMAGE_URL]" alt="Bepantol Baby Creme" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/713euw7uVZL._AC_SX679_.jpg" alt="Bepantol Baby Creme" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Melhor no geral</div>
@@ -96,15 +96,15 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4uZvg4F" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/12zxVtk" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">2</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="[IMAGE_URL]" alt="Hipoglós" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/61-8xDAJfLL._AC_SL1500_.jpg" alt="Hipoglós" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">A clássica mais vendida</div>
@@ -119,15 +119,15 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4oh1PIF" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/1J2BB7j" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">3</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="[IMAGE_URL]" alt="Desitin Máxima Proteção" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/61yr4Q0p0iL._AC_SX679_.jpg" alt="Desitin Máxima Proteção" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Melhor para casos graves</div>
@@ -142,15 +142,15 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/3Q2UUGp" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/1gaGHwi" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">4</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="[IMAGE_URL]" alt="Weleda Calendula Baby" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/51YWokTKFzL._AC_SY879_.jpg" alt="Weleda Calendula Baby" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Melhor natural e vegana</div>
@@ -165,15 +165,15 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/3RT99y8" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2GYpA5z" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">5</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="[IMAGE_URL]" alt="Mustela Vitamin Barrier" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/51kbhWXRwpS._AC_SY300_SX300_QL70_ML2_.jpg" alt="Mustela Vitamin Barrier" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Melhor premium</div>
@@ -188,15 +188,15 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4vCYXIG" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2vh4Xgz" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">6</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="[IMAGE_URL]" alt="Huggies Pomada de Assadura" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/51y4gaPpE2L._AC_SX679_.jpg" alt="Huggies Pomada de Assadura" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Melhor custo-benefício</div>
@@ -211,15 +211,15 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/43WrSLI" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/122VUWS" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">7</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="[IMAGE_URL]" alt="Nebacetin Baby Creme" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/71ttWVJtqcL._AC_SY300_SX300_QL70_ML2_.jpg" alt="Nebacetin Baby Creme" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Melhor para assadura com ferida</div>
@@ -234,8 +234,8 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/49JpMm0" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/24ef6te" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -313,7 +313,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="[IMAGE_URL]" alt="Bepantol Baby Creme" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/713euw7uVZL._AC_SX679_.jpg" alt="Bepantol Baby Creme" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Bepantol Baby Creme">Bepantol Baby Creme</h3>
@@ -325,10 +325,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/4uZvg4F" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/12zxVtk" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -365,8 +365,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4uZvg4F" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/12zxVtk" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -375,7 +375,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="[IMAGE_URL]" alt="Hipoglós" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/61-8xDAJfLL._AC_SL1500_.jpg" alt="Hipoglós" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Hipoglós">Hipoglós</h3>
@@ -387,10 +387,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/4oh1PIF" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/1J2BB7j" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -427,8 +427,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4oh1PIF" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/1J2BB7j" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -437,7 +437,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="[IMAGE_URL]" alt="Desitin Máxima Proteção" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/61yr4Q0p0iL._AC_SX679_.jpg" alt="Desitin Máxima Proteção" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Desitin Máxima Proteção">Desitin Máxima Proteção</h3>
@@ -449,10 +449,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/3Q2UUGp" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/1gaGHwi" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -489,8 +489,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/3Q2UUGp" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/1gaGHwi" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -499,7 +499,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="[IMAGE_URL]" alt="Weleda Calendula Baby" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/51YWokTKFzL._AC_SY879_.jpg" alt="Weleda Calendula Baby" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Weleda Calendula Baby">Weleda Calendula Baby</h3>
@@ -511,10 +511,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/3RT99y8" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/2GYpA5z" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -551,8 +551,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/3RT99y8" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2GYpA5z" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -561,7 +561,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="[IMAGE_URL]" alt="Mustela Vitamin Barrier" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/51kbhWXRwpS._AC_SY300_SX300_QL70_ML2_.jpg" alt="Mustela Vitamin Barrier" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Mustela Vitamin Barrier">Mustela Vitamin Barrier</h3>
@@ -573,10 +573,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/4vCYXIG" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/2vh4Xgz" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -613,8 +613,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4vCYXIG" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2vh4Xgz" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -623,7 +623,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="[IMAGE_URL]" alt="Huggies Pomada de Assadura" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/51y4gaPpE2L._AC_SX679_.jpg" alt="Huggies Pomada de Assadura" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Huggies Pomada de Assadura">Huggies Pomada de Assadura</h3>
@@ -635,10 +635,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/43WrSLI" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/122VUWS" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -675,8 +675,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/43WrSLI" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/122VUWS" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -685,7 +685,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="[IMAGE_URL]" alt="Nebacetin Baby Creme" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/71ttWVJtqcL._AC_SY300_SX300_QL70_ML2_.jpg" alt="Nebacetin Baby Creme" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Nebacetin Baby Creme">Nebacetin Baby Creme</h3>
@@ -697,10 +697,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/49JpMm0" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/24ef6te" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -737,8 +737,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/49JpMm0" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/24ef6te" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -774,45 +774,12 @@ contentFormat: html
 
 <h3>Pode usar pomada em toda troca?</h3>
 
-<p>O Bepantol Baby pode: é formulado para uso preventivo em toda troca sem acúmulo. O Desitin Máxima Proteção não deve ser usado em toda troca na fase preventiva. Por ter 40% de óxido de zinco, é muito denso para uso diário e pode ressecar a pele saudável. Use o Desitin apenas quando já há assadura instalada.</p>
+<p>O Bepantol Baby pode: é formulado para uso preventivo em toda troca. O Desitin 40% não: use só quando já há assadura instalada.</p>
 
 <h3>Bepantol ou Hipoglós: qual é melhor?</h3>
 
-<p>Depende do que você precisa. O Bepantol tem D-Pantenol que cicatriza a pele de dentro para fora, sendo melhor para prevenção diária e casos leves. O Hipoglós tem óxido de zinco que cria uma barreira física mais forte, sendo melhor quando a assadura já apareceu e você quer bloquear o contato com urina e fezes rapidamente. Para uso rotineiro sem assadura ativa: Bepantol. Para tratar assadura instalada: Hipoglós ou Desitin.</p>
+<p>Bepantol para prevenção diária e casos leves. Hipoglós quando a assadura já apareceu e você quer bloquear urina e fezes rapidamente.</p>
 
 <h3>Pomada de assadura pode ser usada em adultos?</h3>
 
-<p>Sim, especialmente para idosos com incontinência. As mesmas pomadas funcionam: Bepantol para prevenção, Desitin para casos graves. Para idosos que usam fralda geriátrica, a rotina de pomada em toda troca é ainda mais importante porque a pele adulta com incontinência é mais vulnerável. Veja o guia completo da <a href="/melhor-fralda-geriatrica/">melhor fralda geriátrica</a> com dicas de cuidados com a pele.</p>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Pode usar pomada em toda troca?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "O Bepantol Baby pode ser usado em toda troca, é formulado para uso preventivo sem acúmulo. O Desitin Máxima Proteção não deve ser usado preventivamente: use apenas quando já há assadura instalada."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Bepantol ou Hipoglós: qual é melhor?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "O Bepantol tem D-Pantenol que cicatriza a pele de dentro para fora, sendo melhor para prevenção diária e casos leves. O Hipoglós tem óxido de zinco que cria barreira física, sendo melhor quando a assadura já apareceu. Para uso rotineiro: Bepantol. Para tratar assadura ativa: Hipoglós ou Desitin."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Pomada de assadura pode ser usada em adultos?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sim, especialmente para idosos com incontinência. As mesmas pomadas funcionam: Bepantol para prevenção, Desitin para casos graves. Para quem usa fralda geriátrica, a rotina de pomada em toda troca é ainda mais importante."
-      }
-    }
-  ]
-}
-</script>
+<p>Sim, especialmente para idosos com incontinência. Bepantol para prevenção, Desitin para casos graves. Veja o guia da <a href="/melhor-fralda-geriatrica/">melhor fralda geriátrica</a>.</p>
