@@ -6,7 +6,7 @@ category: fraldas
 publishedDate: '2026-06-07T12:00:00-03:00'
 thumbnail: /images/og/melhor-pomada-para-assadura-de-fralda.webp
 metaTitle: 'Melhor Pomada para Assadura de Fralda em 2026: Top 7'
-metaDescription: 'A melhor pomada para assadura é o Bepantol Baby Creme. Top 7 com ativos, quando usar cada uma e como aplicar corretamente. Guia junho/2026.'
+metaDescription: 'A melhor pomada para assadura é o Bepantol Baby Creme. Top 7 com ativos, quando usar cada uma e como aplicar corretamente.'
 metaImage: /images/og/melhor-pomada-para-assadura-de-fralda.webp
 seoSchema: articleItemList
 articleLayout: reviewRoundup
