@@ -21,7 +21,7 @@ contentFormat: html
 <p>Neste guia você encontra os 10 melhores modelos de 2026 com preços reais, prós e contras de cada um e orientações para escolher o certo para a sua rotina.</p>
 
 <div style="background:#f0f9ff;border-left:4px solid #0ea5e9;padding:1rem 1.25rem;border-radius:4px;margin:1.5rem 0;">
-  <p style="margin:0;"><strong>👩‍⚕️ Sobre este guia:</strong> Analisamos mais de 20 modelos com base em segurança, certificação INMETRO, cinto de 5 pontos, conforto, facilidade de dobragem e custo-benefício. Preços verificados na Amazon Brasil e no Mercado Livre em junho de 2026.</p>
+  <p style="margin:0;"><strong>👩‍⚕️ Sobre este guia:</strong> Analisamos mais de 20 modelos com base em segurança, certificação INMETRO, cinto de 5 pontos, conforto, facilidade de dobragem e custo-benefício.</p>
 </div>
 
 <div style="background:#fefce8;border-left:4px solid #eab308;padding:1rem 1.25rem;border-radius:4px;margin:1.5rem 0;" id="ranking">
