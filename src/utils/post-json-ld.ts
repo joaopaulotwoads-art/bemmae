@@ -97,7 +97,7 @@ export function extractFAQ(content: string | null | undefined): Array<{ question
     if (!content?.trim()) return [];
     const raw = content.trim();
 
-    const faqHeading = /<h2[^>]*>\s*(?:Perguntas\s+frequentes|FAQ)\s*<\/h2>/i;
+    const faqHeading = /<h2[^>]*>\s*(?:Perguntas\s+frequentes|FAQ)\b[^<]*<\/h2>/i;
     const hm = raw.match(faqHeading);
     let segment = '';
     if (hm && hm.index !== undefined) {

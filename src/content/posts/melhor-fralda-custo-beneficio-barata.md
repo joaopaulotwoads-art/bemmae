@@ -785,45 +785,13 @@ contentFormat: html
 
 <h3>Fralda barata vaza mais?</h3>
 
-<p>Não necessariamente. O vazamento depende do ajuste, não do preço. Uma fralda barata bem ajustada nas pernas e na cintura vaza menos que uma premium no tamanho errado. O que importa é que a fralda esteja no tamanho correto para o peso do bebê e que as barreiras das pernas estejam para fora, não dobradas para dentro.</p>
+<p>Não. O vazamento depende do ajuste e do tamanho certo, não do preço. Fralda barata bem ajustada não vaza.</p>
 
 <h3>Qual a fralda mais barata do mercado em 2026?</h3>
 
-<p>A Turma da Mônica Baby, com R$0,79 por fralda no pacote de 44 unidades tamanho G. A Personal Baby Protect &amp; Sec vem logo depois, com R$0,95 por fralda e a vantagem de ter tecnologia 3D e maior amplitude de tamanhos. Para volume alto, as assinaturas da Amazon costumam baratear ainda mais o custo por unidade.</p>
+<p>A Turma da Mônica Baby, com R$0,79 por fralda. A Babysec Premium vem logo depois com R$0,87 e absorção de 12h.</p>
 
 <h3>Como comprar fralda mais barata sem perder qualidade?</h3>
 
-<p>Três estratégias combinadas: use o método misto com econômica de dia e boa absorção à noite; compre sempre o pacote jumbo da mesma fralda, pois o custo por unidade cai até 20%; e use a assinatura de entrega recorrente da Amazon, que oferece desconto adicional de 5% a 15% em fraldas. Com as três estratégias juntas, é possível chegar a menos de R$0,80 por fralda mesmo nas noturnas.</p>
+<p>Use o método misto com econômica de dia e premium à noite, e compre sempre o pacote maior para reduzir o custo por unidade.</p>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Fralda barata vaza mais?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Não necessariamente. O vazamento depende do ajuste, não do preço. Uma fralda barata bem ajustada nas pernas e na cintura vaza menos que uma premium no tamanho errado."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Qual a fralda mais barata do mercado em 2026?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A Turma da Mônica Baby, com R$0,79 por fralda no pacote de 44 unidades tamanho G. A Personal Baby Protect & Sec vem logo depois com R$0,95 por fralda e tecnologia 3D."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Como comprar fralda mais barata sem perder qualidade?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Três estratégias: use o método misto com econômica de dia e boa absorção à noite; compre sempre o pacote jumbo; e use a assinatura de entrega recorrente da Amazon, com desconto adicional de 5% a 15%."
-      }
-    }
-  ]
-}
-</script>
