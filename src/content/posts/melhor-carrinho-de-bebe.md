@@ -4,10 +4,10 @@ slug: melhor-carrinho-de-bebe
 author: vitoria-caroline
 category: carrinhos
 publishedDate: '2026-06-08T12:00:00-03:00'
-thumbnail: /images/og/melhor-carrinho-de-bebe.jpg
+thumbnail: /images/og/melhor-carrinho-de-bebe.webp
 metaTitle: 'Melhor Carrinho de Bebê 2026: guia com as 10 melhores opções'
 metaDescription: 'O melhor carrinho de bebê é o Safety 1st Magnific. Veja o ranking com preços reais, prós e contras de cada modelo. Guia atualizado.'
-metaImage: /images/og/melhor-carrinho-de-bebe.jpg
+metaImage: /images/og/melhor-carrinho-de-bebe.webp
 seoSchema: articleItemList
 articleLayout: reviewRoundup
 keywords: 'melhor carrinho de bebe, melhores carrinhos de bebe, carrinho de bebe 2026, melhor carrinho de bebe custo beneficio'
@@ -25,7 +25,7 @@ contentFormat: html
 </div>
 
 <div style="background:#fefce8;border-left:4px solid #eab308;padding:1rem 1.25rem;border-radius:4px;margin:1.5rem 0;" id="ranking">
-  <p style="margin:0;"><strong>🏆 Resposta rápida:</strong> O melhor carrinho de bebê no geral é o <strong>Safety 1st Magnific</strong> (<a href="[AMAZON_URL]" rel="nofollow sponsored noopener noreferrer">ver na Amazon</a> | <a href="[ML_URL]" rel="nofollow sponsored noopener noreferrer">ver no ML</a>). Para melhor custo-benefício com travel system completo por menos de R$1.150, escolha o <strong>Cosco Reverse</strong> (<a href="[AMAZON_URL]" rel="nofollow sponsored noopener noreferrer">ver na Amazon</a> | <a href="[ML_URL]" rel="nofollow sponsored noopener noreferrer">ver no ML</a>).</p>
+  <p style="margin:0;"><strong>🏆 Resposta rápida:</strong> O melhor carrinho de bebê no geral é o <strong>Safety 1st Magnific</strong> (<a href="https://amzn.to/43pxez8" rel="nofollow sponsored noopener noreferrer">ver na Amazon</a> | <a href="https://meli.la/1WQuXeA" rel="nofollow sponsored noopener noreferrer">ver no ML</a>). Para melhor custo-benefício com travel system completo por menos de R$1.150, escolha o <strong>Cosco Reverse</strong> (<a href="https://amzn.to/4vbzPso" rel="nofollow sponsored noopener noreferrer">ver na Amazon</a> | <a href="https://meli.la/27NuYTu" rel="nofollow sponsored noopener noreferrer">ver no ML</a>).</p>
 </div>
 
 <h2>Os 10 Melhores Carrinhos de Bebê de 2026</h2>
@@ -39,7 +39,7 @@ contentFormat: html
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">1</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="/images/og/safety-1st-magnific.jpg" alt="Safety 1st Magnific" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/51-s5U132jL._AC_SX679_.jpg" alt="Safety 1st Magnific" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Melhor no geral</div>
@@ -54,8 +54,8 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/43pxez8" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/1WQuXeA" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -63,7 +63,7 @@ contentFormat: html
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">2</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="/images/og/cosco-reverse.jpg" alt="Cosco Travel System Reverse" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/61V9xKbokJL._AC_SX679_.jpg" alt="Cosco Travel System Reverse" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Melhor custo-benefício</div>
@@ -78,8 +78,8 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4vbzPso" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/27NuYTu" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -87,7 +87,7 @@ contentFormat: html
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">3</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="/images/og/safety-1st-mobi-nv-trio.jpg" alt="Safety 1st Mobi NV Trio" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/51R2-Ukb2kL._AC_SY300_SX300_QL70_ML2_.jpg" alt="Safety 1st Mobi NV Trio" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Melhor travel system completo</div>
@@ -102,8 +102,8 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4umgCTX" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2Qpbuhv" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -111,7 +111,7 @@ contentFormat: html
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">4</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="/images/og/burigotto-ecco.jpg" alt="Burigotto Ecco" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/6102aQ-6cFL._AC_SX679_.jpg" alt="Burigotto Ecco" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Melhor carrinho tradicional</div>
@@ -126,8 +126,8 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4etVTst" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2B9cKw7" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -135,7 +135,7 @@ contentFormat: html
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">5</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="/images/og/galzerano-napoli.jpg" alt="Galzerano Napoli" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/51Zxi0pGVkL._AC_SX522_.jpg" alt="Galzerano Napoli" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Melhor para recém-nascido</div>
@@ -150,8 +150,8 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4unZ7m0" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2A161W7" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -159,7 +159,7 @@ contentFormat: html
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">6</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="/images/og/cosco-toffy.jpg" alt="Cosco Toffy" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/51BGkbJKYWL._AC_SX425_.jpg" alt="Cosco Toffy" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Melhor compacto</div>
@@ -174,8 +174,8 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4vClrt9" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/1GiLvz3" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -183,7 +183,7 @@ contentFormat: html
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">7</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="/images/og/galzerano-olympus.jpg" alt="Galzerano Olympus" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/61JE4QUSeeL._AC_SX522_.jpg" alt="Galzerano Olympus" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Melhor com moisés</div>
@@ -198,8 +198,8 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/43r1JEH" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/1AFoJ4J" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -207,7 +207,7 @@ contentFormat: html
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">8</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="/images/og/burigotto-up.jpg" alt="Burigotto Up" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/71P3OEiLcyL._AC_SL1500_.jpg" alt="Burigotto Up" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Melhor para viagens</div>
@@ -222,8 +222,8 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4xkFb66" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2ziR11T" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -231,7 +231,7 @@ contentFormat: html
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">9</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="/images/og/maxi-baby-movee.jpg" alt="MAXI BABY MOVEE" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/51e3h2AkhsL._AC_SX522_.jpg" alt="MAXI BABY MOVEE" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Melhor guarda-chuva</div>
@@ -246,8 +246,8 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/43WfJqb" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/1m1Eg1J" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -255,7 +255,7 @@ contentFormat: html
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">10</div>
     <div class="cnx-aff-roundup-img-cell">
-      <img src="/images/og/litet-jogger-sway.jpg" alt="Litet Jogger Sway" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/41SQbhgiasL._AC_SX522_.jpg" alt="Litet Jogger Sway" class="cnx-aff-roundup-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-roundup-product-col">
       <div class="cnx-aff-roundup-item-badge">Melhor para terrenos variados</div>
@@ -270,8 +270,8 @@ contentFormat: html
     </div>
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
-        <a class="cnx-aff-roundup-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-primary" href="https://amzn.to/4dVzAM8" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://meli.la/2Doz1y6" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -370,7 +370,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="/images/og/safety-1st-magnific.jpg" alt="Safety 1st Magnific" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/51-s5U132jL._AC_SX679_.jpg" alt="Safety 1st Magnific" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Safety 1st Magnific">Safety 1st Magnific</h3>
@@ -383,10 +383,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/43pxez8" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/1WQuXeA" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -425,8 +425,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/43pxez8" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/1WQuXeA" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -435,7 +435,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="/images/og/cosco-reverse.jpg" alt="Cosco Travel System Reverse" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/61V9xKbokJL._AC_SX679_.jpg" alt="Cosco Travel System Reverse" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Cosco Travel System Reverse">Cosco Travel System Reverse</h3>
@@ -448,10 +448,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/4vbzPso" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/27NuYTu" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -490,8 +490,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4vbzPso" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/27NuYTu" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -500,7 +500,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="/images/og/safety-1st-mobi-nv-trio.jpg" alt="Safety 1st Mobi NV Trio" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/51R2-Ukb2kL._AC_SY300_SX300_QL70_ML2_.jpg" alt="Safety 1st Mobi NV Trio" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Safety 1st Mobi NV Trio">Safety 1st Mobi NV Trio</h3>
@@ -513,10 +513,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/4umgCTX" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/2Qpbuhv" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -555,8 +555,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4umgCTX" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2Qpbuhv" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -565,7 +565,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="/images/og/burigotto-ecco.jpg" alt="Burigotto Ecco" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/6102aQ-6cFL._AC_SX679_.jpg" alt="Burigotto Ecco" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Burigotto Ecco">Burigotto Ecco</h3>
@@ -577,10 +577,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/4etVTst" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/2B9cKw7" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -616,8 +616,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4etVTst" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2B9cKw7" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -626,7 +626,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="https://ia-amazon.com/images/I/41SQbhgiasL._AC_SX522_.jpg" alt="Galzerano Napoli" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/51Zxi0pGVkL._AC_SX522_.jpg" alt="Galzerano Napoli" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Galzerano Napoli">Galzerano Napoli</h3>
@@ -638,10 +638,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="https://amzn.to/4dVzAM8" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/4unZ7m0" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="https://meli.la/2Doz1y6" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/2A161W7" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -678,8 +678,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4dVzAM8" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2Doz1y6" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4unZ7m0" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2A161W7" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -688,7 +688,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="/images/og/cosco-toffy.jpg" alt="Cosco Toffy" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/51BGkbJKYWL._AC_SX425_.jpg" alt="Cosco Toffy" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Cosco Toffy">Cosco Toffy</h3>
@@ -701,10 +701,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/4vClrt9" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/1GiLvz3" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -741,8 +741,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4vClrt9" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/1GiLvz3" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -751,7 +751,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="/images/og/galzerano-olympus.jpg" alt="Galzerano Olympus" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/61JE4QUSeeL._AC_SX522_.jpg" alt="Galzerano Olympus" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Galzerano Olympus">Galzerano Olympus</h3>
@@ -763,10 +763,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/43r1JEH" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/1AFoJ4J" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -802,8 +802,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/43r1JEH" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/1AFoJ4J" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -812,7 +812,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="/images/og/burigotto-up.jpg" alt="Burigotto Up" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/71P3OEiLcyL._AC_SL1500_.jpg" alt="Burigotto Up" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Burigotto Up">Burigotto Up</h3>
@@ -824,10 +824,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/4xkFb66" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/2ziR11T" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -863,8 +863,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4xkFb66" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2ziR11T" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -873,7 +873,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="/images/og/maxi-baby-movee.jpg" alt="MAXI BABY MOVEE" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/51e3h2AkhsL._AC_SX522_.jpg" alt="MAXI BABY MOVEE" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="MAXI BABY MOVEE">MAXI BABY MOVEE</h3>
@@ -886,10 +886,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/43WfJqb" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/1m1Eg1J" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -926,8 +926,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/43WfJqb" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/1m1Eg1J" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -936,7 +936,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="/images/og/litet-jogger-sway.jpg" alt="Litet Jogger Sway" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/41SQbhgiasL._AC_SX522_.jpg" alt="Litet Jogger Sway" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Litet Jogger Sway">Litet Jogger Sway</h3>
@@ -949,10 +949,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/4dVzAM8" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/2Doz1y6" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -988,8 +988,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4dVzAM8" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2Doz1y6" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
