@@ -626,7 +626,7 @@ contentFormat: html
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="/images/og/galzerano-napoli.jpg" alt="Galzerano Napoli" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://ia-amazon.com/images/I/41SQbhgiasL._AC_SX522_.jpg" alt="Galzerano Napoli" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Galzerano Napoli">Galzerano Napoli</h3>
@@ -638,10 +638,10 @@ contentFormat: html
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://amzn.to/4dVzAM8" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/2Doz1y6" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -678,8 +678,8 @@ contentFormat: html
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4dVzAM8" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2Doz1y6" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
