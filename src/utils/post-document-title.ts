@@ -4,7 +4,7 @@ function escapeRegExp(s: string): string {
 
 /**
  * Título `<title>` para posts no tema Bem Mãe: remove sufixos manuais legados
- * (`| Bem Mãe`, `- Bem Mãe`, etc.) e acrescenta uma única vez ` | {marca}`.
+ * (`| Bem Mãe`, `- Bem Mãe`, etc.) sem acrescentar sufixo de marca.
  */
 export function buildBemmaePostDocumentTitle(input: {
   metaTitle?: string | null;
@@ -25,7 +25,5 @@ export function buildBemmaePostDocumentTitle(input: {
     base = base.replace(new RegExp(`\\s*—\\s*${esc}\\s*$`, 'i'), '').trim();
   }
 
-  const suffix = ` | ${brand}`;
-  if (base.endsWith(suffix)) return base;
-  return `${base}${suffix}`;
+  return base;
 }
