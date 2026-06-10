@@ -462,6 +462,9 @@ contentFormat: html
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
+    <div class="cnx-aff-product-media">
+      <img src="https://m.media-amazon.com/images/I/51BGkbJKYWL._AC_SX425_.jpg" alt="Safety 1st Bytes" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+    </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Safety 1st Bytes">Safety 1st Bytes</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
@@ -522,6 +525,9 @@ contentFormat: html
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
+    <div class="cnx-aff-product-media">
+      <img src="https://m.media-amazon.com/images/I/51BGkbJKYWL._AC_SX425_.jpg" alt="Maxi Baby Allday" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+    </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Maxi Baby Allday">Maxi Baby Allday</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
@@ -581,6 +587,9 @@ contentFormat: html
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
+    <div class="cnx-aff-product-media">
+      <img src="https://m.media-amazon.com/images/I/51BGkbJKYWL._AC_SX425_.jpg" alt="Multikids Baby Pocket BB327" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+    </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Multikids Baby Pocket BB327">Multikids Baby Pocket BB327</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
@@ -641,6 +650,9 @@ contentFormat: html
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
+    <div class="cnx-aff-product-media">
+      <img src="https://m.media-amazon.com/images/I/51BGkbJKYWL._AC_SX425_.jpg" alt="Voyage Park Passeio Compacto B818" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+    </div>
     <div class="cnx-aff-product-main">
       <h3 class="cnx-aff-product-title" data-product-name="Voyage Park Passeio Compacto B818">Voyage Park Passeio Compacto B818</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
