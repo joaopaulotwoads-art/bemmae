@@ -272,239 +272,427 @@ contentFormat: html
 </table>
 </div>
 
-<h2>1. Cosco Toffy: Melhor Compacto Custo-Benefício</h2>
+<h2 id="cosco-toffy">1. Cosco Toffy: Melhor Compacto Custo-Benefício</h2>
 
-<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:1.25rem;margin:1.5rem 0;">
-  <img src="https://m.media-amazon.com/images/I/51BGkbJKYWL._AC_SX425_.jpg" alt="Cosco Toffy carrinho compacto" style="max-width:280px;display:block;margin:0 auto 1rem;" loading="lazy" decoding="async" />
-  <p style="margin:0 0 0.75rem;"><strong>Peso:</strong> 7 kg | <strong>Capacidade:</strong> nascimento até 15 kg | <strong>Cesto:</strong> 5 kg | <strong>Rodas:</strong> 3, dianteira giratória</p>
-  <p style="margin:0 0 0.75rem;"><strong>Preço:</strong> a partir de R$499</p>
-  <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
-    <a href="https://amzn.to/4vClrt9" target="_blank" rel="nofollow sponsored noopener noreferrer" style="background:#FF9900;color:#fff;padding:0.5rem 1rem;border-radius:4px;text-decoration:none;font-weight:600;">Ver na Amazon</a>
-    <a href="https://meli.la/1GiLvz3" target="_blank" rel="nofollow sponsored noopener noreferrer" style="background:#3483FA;color:#fff;padding:0.5rem 1rem;border-radius:4px;text-decoration:none;font-weight:600;">Ver no Mercado Livre</a>
+<div class="cnx-aff-product cnx-aff-block-wrap">
+  <div class="cnx-aff-product-body">
+    <div class="cnx-aff-product-media">
+      <img src="https://m.media-amazon.com/images/I/51BGkbJKYWL._AC_SX425_.jpg" alt="Cosco Toffy" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+    </div>
+    <div class="cnx-aff-product-main">
+      <h3 class="cnx-aff-product-title" data-product-name="Cosco Toffy">Cosco Toffy</h3>
+      <ul class="cnx-aff-product-features" style="color:#1e293b;">
+        <li>3 rodas com dianteira giratória</li>
+        <li>Do nascimento até 15 kg</li>
+        <li>Cesto de 5 kg | Capota retrátil com visor</li>
+        <li>Cinto de 5 pontos | INMETRO</li>
+        <li>Preço: a partir de R$499</li>
+      </ul>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="https://amzn.to/4vClrt9" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="https://meli.la/1GiLvz3" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
+
+<div class="cnx-aff-rating cnx-aff-rating--mini">
+  <span class="cnx-aff-rating-stars" aria-label="Nota 4.6 de 5">★★★★★</span>
+  <span class="cnx-aff-rating-score">4.6</span>
+  <span class="cnx-aff-rating-count">+9.000 avaliações</span>
 </div>
 
 <p>O Cosco Toffy se destaca pela configuração de 3 rodas, com a dianteira giratória que facilita as curvas em corredores de shopping e calçadas estreitas. O design moderno e o cesto generoso de 5 kg completam a proposta de um carrinho compacto que não sacrifica funcionalidade. A capota retrátil com visor permite observar o bebê sem interromper o passeio.</p>
 
-<p>Do nascimento até 15 kg, com reclinação em múltiplas posições e cinto de 5 pontos com certificação INMETRO, o Toffy entrega segurança completa. O ponto de atenção fica para terrenos irregulares: a configuração de 3 rodas pode ser menos estável em calçadas esburacadas. Para rotinas urbanas em piso plano, é a melhor escolha da lista pelo preço.</p>
+<p>Do nascimento até 15 kg, com reclinação em múltiplas posições e cinto de 5 pontos com certificação INMETRO, o Toffy entrega segurança completa. Para rotinas urbanas em piso plano, é a melhor escolha da lista pelo preço.</p>
 
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0;">
-  <div style="background:#f0fdf4;border-left:3px solid #22c55e;padding:0.75rem 1rem;border-radius:4px;">
-    <p style="margin:0;font-weight:600;color:#166534;">Prós</p>
-    <ul style="margin:0.5rem 0 0;padding-left:1.2rem;color:#166534;">
-      <li>Design moderno e atraente</li>
-      <li>3 rodas facilitam curvas</li>
-      <li>Cesto de 5 kg generoso</li>
-      <li>Bom custo-benefício</li>
-    </ul>
+<div class="cnx-aff-pros-cons cnx-aff-block-wrap">
+  <div class="cnx-aff-pros-cons-sections">
+    <section class="cnx-aff-pros-section">
+      <h3 class="cnx-aff-pros-title">Prós</h3>
+      <ul class="cnx-aff-pros-list" style="color:#1e293b;">
+        <li>Design moderno e atraente</li>
+        <li>3 rodas facilitam curvas</li>
+        <li>Cesto de 5 kg generoso</li>
+        <li>Bom custo-benefício</li>
+      </ul>
+    </section>
+    <section class="cnx-aff-cons-section">
+      <h3 class="cnx-aff-cons-title">Contras</h3>
+      <ul class="cnx-aff-cons-list" style="color:#1e293b;">
+        <li>Menos estável em calçadas irregulares</li>
+      </ul>
+    </section>
   </div>
-  <div style="background:#fef2f2;border-left:3px solid #ef4444;padding:0.75rem 1rem;border-radius:4px;">
-    <p style="margin:0;font-weight:600;color:#991b1b;">Contras</p>
-    <ul style="margin:0.5rem 0 0;padding-left:1.2rem;color:#991b1b;">
-      <li>Menos estável em calçadas irregulares</li>
-    </ul>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4vClrt9" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/1GiLvz3" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
-<h2>2. Burigotto Up: Melhor para Viagens</h2>
+<h2 id="burigotto-up">2. Burigotto Up: Melhor para Viagens</h2>
 
-<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:1.25rem;margin:1.5rem 0;">
-  <img src="https://m.media-amazon.com/images/I/71P3OEiLcyL._AC_SL1500_.jpg" alt="Burigotto Up carrinho para viagens" style="max-width:280px;display:block;margin:0 auto 1rem;" loading="lazy" decoding="async" />
-  <p style="margin:0 0 0.75rem;"><strong>Peso:</strong> 6,6 kg | <strong>Dobrado:</strong> 55 x 45 x 28 cm | <strong>Capacidade:</strong> nascimento até 15 kg | <strong>Fabricação:</strong> nacional</p>
-  <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
-    <a href="https://amzn.to/4xkFb66" target="_blank" rel="nofollow sponsored noopener noreferrer" style="background:#FF9900;color:#fff;padding:0.5rem 1rem;border-radius:4px;text-decoration:none;font-weight:600;">Ver na Amazon</a>
-    <a href="https://meli.la/2ziR11T" target="_blank" rel="nofollow sponsored noopener noreferrer" style="background:#3483FA;color:#fff;padding:0.5rem 1rem;border-radius:4px;text-decoration:none;font-weight:600;">Ver no Mercado Livre</a>
+<div class="cnx-aff-product cnx-aff-block-wrap">
+  <div class="cnx-aff-product-body">
+    <div class="cnx-aff-product-media">
+      <img src="https://m.media-amazon.com/images/I/71P3OEiLcyL._AC_SL1500_.jpg" alt="Burigotto Up" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+    </div>
+    <div class="cnx-aff-product-main">
+      <h3 class="cnx-aff-product-title" data-product-name="Burigotto Up">Burigotto Up</h3>
+      <ul class="cnx-aff-product-features" style="color:#1e293b;">
+        <li>Dobramento: 55 x 45 x 28 cm</li>
+        <li>Trava automática ao fechar</li>
+        <li>Do nascimento até 15 kg | Fabricação nacional</li>
+        <li>Cinto de 5 pontos | INMETRO</li>
+      </ul>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="https://amzn.to/4xkFb66" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="https://meli.la/2ziR11T" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
+
+<div class="cnx-aff-rating cnx-aff-rating--mini">
+  <span class="cnx-aff-rating-stars" aria-label="Nota 4.5 de 5">★★★★★</span>
+  <span class="cnx-aff-rating-score">4.5</span>
+  <span class="cnx-aff-rating-count">+3.500 avaliações</span>
 </div>
 
 <p>O Burigotto Up tem o menor volume dobrado desta lista, com 55 x 45 x 28 cm, e é aceito no finger de alguns aeroportos. A trava automática ao fechar elimina a necessidade de travar manualmente, detalhe valioso quando se está com o bebê no colo. Por ser de fabricação nacional, a assistência técnica e a disponibilidade de peças são mais acessíveis.</p>
 
-<p>Do nascimento até 15 kg, com reclinação em múltiplas posições e cinto de 5 pontos, o Burigotto Up tem certificação INMETRO. O principal ponto de atenção é a ausência de amortecedores nas rodas: em calçadas irregulares, o passeio fica menos confortável para o bebê. Para viagens e deslocamentos urbanos em piso regular, é a escolha mais prática da lista.</p>
+<p>Do nascimento até 15 kg, com reclinação em múltiplas posições e cinto de 5 pontos, o Burigotto Up tem certificação INMETRO. A ausência de amortecedores nas rodas torna o passeio menos confortável em calçadas irregulares. Para viagens e deslocamentos urbanos em piso regular, é a escolha mais prática da lista.</p>
 
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0;">
-  <div style="background:#f0fdf4;border-left:3px solid #22c55e;padding:0.75rem 1rem;border-radius:4px;">
-    <p style="margin:0;font-weight:600;color:#166534;">Prós</p>
-    <ul style="margin:0.5rem 0 0;padding-left:1.2rem;color:#166534;">
-      <li>Mais compacto dobrado da lista</li>
-      <li>Trava automática ao fechar</li>
-      <li>Aceito no finger de aeroporto</li>
-      <li>Fabricação nacional</li>
-    </ul>
+<div class="cnx-aff-pros-cons cnx-aff-block-wrap">
+  <div class="cnx-aff-pros-cons-sections">
+    <section class="cnx-aff-pros-section">
+      <h3 class="cnx-aff-pros-title">Prós</h3>
+      <ul class="cnx-aff-pros-list" style="color:#1e293b;">
+        <li>Mais compacto dobrado da lista</li>
+        <li>Trava automática ao fechar</li>
+        <li>Aceito no finger de aeroporto</li>
+        <li>Fabricação nacional</li>
+      </ul>
+    </section>
+    <section class="cnx-aff-cons-section">
+      <h3 class="cnx-aff-cons-title">Contras</h3>
+      <ul class="cnx-aff-cons-list" style="color:#1e293b;">
+        <li>Rodas sem amortecedor</li>
+        <li>Menos confortável em piso irregular</li>
+      </ul>
+    </section>
   </div>
-  <div style="background:#fef2f2;border-left:3px solid #ef4444;padding:0.75rem 1rem;border-radius:4px;">
-    <p style="margin:0;font-weight:600;color:#991b1b;">Contras</p>
-    <ul style="margin:0.5rem 0 0;padding-left:1.2rem;color:#991b1b;">
-      <li>Rodas sem amortecedor</li>
-      <li>Menos confortável em piso irregular</li>
-    </ul>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4xkFb66" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/2ziR11T" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
-<h2>3. Maxi Baby MOVEE: Melhor Guarda-Chuva Ultracompacto</h2>
+<h2 id="maxi-baby-movee">3. Maxi Baby MOVEE: Melhor Guarda-Chuva Ultracompacto</h2>
 
-<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:1.25rem;margin:1.5rem 0;">
-  <img src="https://m.media-amazon.com/images/I/51e3h2AkhsL._AC_SX522_.jpg" alt="Maxi Baby MOVEE guarda-chuva ultracompacto" style="max-width:280px;display:block;margin:0 auto 1rem;" loading="lazy" decoding="async" />
-  <p style="margin:0 0 0.75rem;"><strong>Peso:</strong> 4,3 kg | <strong>Tipo:</strong> guarda-chuva | <strong>Capacidade:</strong> 6 meses até 15 kg</p>
-  <p style="margin:0 0 0.75rem;"><strong>Preço:</strong> R$349,90</p>
-  <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
-    <a href="https://amzn.to/43WfJqb" target="_blank" rel="nofollow sponsored noopener noreferrer" style="background:#FF9900;color:#fff;padding:0.5rem 1rem;border-radius:4px;text-decoration:none;font-weight:600;">Ver na Amazon</a>
-    <a href="https://meli.la/1m1Eg1J" target="_blank" rel="nofollow sponsored noopener noreferrer" style="background:#3483FA;color:#fff;padding:0.5rem 1rem;border-radius:4px;text-decoration:none;font-weight:600;">Ver no Mercado Livre</a>
+<div class="cnx-aff-product cnx-aff-block-wrap">
+  <div class="cnx-aff-product-body">
+    <div class="cnx-aff-product-media">
+      <img src="https://m.media-amazon.com/images/I/51e3h2AkhsL._AC_SX522_.jpg" alt="Maxi Baby MOVEE" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+    </div>
+    <div class="cnx-aff-product-main">
+      <h3 class="cnx-aff-product-title" data-product-name="Maxi Baby MOVEE">Maxi Baby MOVEE</h3>
+      <ul class="cnx-aff-product-features" style="color:#1e293b;">
+        <li>4,3 kg — mais leve da lista</li>
+        <li>Tipo guarda-chuva | A partir de 6 meses até 15 kg</li>
+        <li>Rodas dianteiras giratórias | Capota retrátil</li>
+        <li>Cinto de 5 pontos | INMETRO</li>
+        <li>Preço: R$349,90</li>
+      </ul>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="https://amzn.to/43WfJqb" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="https://meli.la/1m1Eg1J" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
+
+<div class="cnx-aff-rating cnx-aff-rating--mini">
+  <span class="cnx-aff-rating-stars" aria-label="Nota 4.4 de 5">★★★★☆</span>
+  <span class="cnx-aff-rating-score">4.4</span>
+  <span class="cnx-aff-rating-count">+7.000 avaliações</span>
 </div>
 
 <p>Com 4,3 kg, o Maxi Baby MOVEE é o mais leve desta lista. O dobramento ultracompacto estilo guarda-chuva permite guardá-lo em porta-malas pequenos, armários e até sob o assento do avião em alguns casos. As rodas dianteiras giratórias dão boa manobrabilidade e a capota retrátil com bolso adiciona praticidade no dia a dia.</p>
 
-<p>A limitação principal é que o uso começa apenas aos 6 meses de idade, pois não tem reclinação do encosto para deixar o bebê deitado. O cinto de 5 pontos e a certificação INMETRO garantem a segurança. Para mães e pais que já passaram da fase de recém-nascido e precisam de um carrinho leve e barato para o cotidiano, o MOVEE é a melhor escolha.</p>
+<p>A limitação principal é que o uso começa apenas aos 6 meses, pois não tem reclinação do encosto para deixar o bebê deitado. O cinto de 5 pontos e a certificação INMETRO garantem a segurança. Para mães que já passaram da fase de recém-nascido e precisam de um carrinho leve e barato para o cotidiano, o MOVEE é a melhor escolha.</p>
 
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0;">
-  <div style="background:#f0fdf4;border-left:3px solid #22c55e;padding:0.75rem 1rem;border-radius:4px;">
-    <p style="margin:0;font-weight:600;color:#166534;">Prós</p>
-    <ul style="margin:0.5rem 0 0;padding-left:1.2rem;color:#166534;">
-      <li>Mais leve da lista: 4,3 kg</li>
-      <li>Dobramento ultracompacto</li>
-      <li>Preço mais acessível entre os com roda dianteira giratória</li>
-    </ul>
+<div class="cnx-aff-pros-cons cnx-aff-block-wrap">
+  <div class="cnx-aff-pros-cons-sections">
+    <section class="cnx-aff-pros-section">
+      <h3 class="cnx-aff-pros-title">Prós</h3>
+      <ul class="cnx-aff-pros-list" style="color:#1e293b;">
+        <li>Mais leve da lista: 4,3 kg</li>
+        <li>Dobramento ultracompacto</li>
+        <li>Menor preço da lista: R$349,90</li>
+      </ul>
+    </section>
+    <section class="cnx-aff-cons-section">
+      <h3 class="cnx-aff-cons-title">Contras</h3>
+      <ul class="cnx-aff-cons-list" style="color:#1e293b;">
+        <li>Só a partir de 6 meses</li>
+        <li>Sem reclinação do encosto</li>
+      </ul>
+    </section>
   </div>
-  <div style="background:#fef2f2;border-left:3px solid #ef4444;padding:0.75rem 1rem;border-radius:4px;">
-    <p style="margin:0;font-weight:600;color:#991b1b;">Contras</p>
-    <ul style="margin:0.5rem 0 0;padding-left:1.2rem;color:#991b1b;">
-      <li>Só a partir de 6 meses</li>
-      <li>Sem reclinação do encosto</li>
-    </ul>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/43WfJqb" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/1m1Eg1J" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
-<h2>4. Safety 1st Bytes: Melhor Fechamento Estilo Mala</h2>
+<h2 id="safety-1st-bytes">4. Safety 1st Bytes: Melhor Fechamento Estilo Mala</h2>
 
-<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:1.25rem;margin:1.5rem 0;">
-  <p style="margin:0 0 0.75rem;"><strong>Peso:</strong> 7 kg | <strong>Capacidade:</strong> nascimento até 15 kg | <strong>Cesto:</strong> 2 kg | <strong>Capota:</strong> UV50+ com aba removível</p>
-  <p style="margin:0 0 0.75rem;"><strong>Preço:</strong> R$839,90</p>
-  <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
-    <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer" style="background:#FF9900;color:#fff;padding:0.5rem 1rem;border-radius:4px;text-decoration:none;font-weight:600;">Ver na Amazon</a>
-    <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer" style="background:#3483FA;color:#fff;padding:0.5rem 1rem;border-radius:4px;text-decoration:none;font-weight:600;">Ver no Mercado Livre</a>
+<div class="cnx-aff-product cnx-aff-block-wrap">
+  <div class="cnx-aff-product-body">
+    <div class="cnx-aff-product-main">
+      <h3 class="cnx-aff-product-title" data-product-name="Safety 1st Bytes">Safety 1st Bytes</h3>
+      <ul class="cnx-aff-product-features" style="color:#1e293b;">
+        <li>Fecha e transporta como mala com alça telescópica</li>
+        <li>Amortecedores nas rodas | Freio centralizado</li>
+        <li>Do nascimento até 15 kg | Capota UV50+</li>
+        <li>Fechamento com uma mão | Cinto de 5 pontos | INMETRO</li>
+        <li>Preço: R$839,90</li>
+      </ul>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
+
+<div class="cnx-aff-rating cnx-aff-rating--mini">
+  <span class="cnx-aff-rating-stars" aria-label="Nota 4.5 de 5">★★★★★</span>
+  <span class="cnx-aff-rating-score">4.5</span>
+  <span class="cnx-aff-rating-count">+2.000 avaliações</span>
 </div>
 
 <p>O grande diferencial do Safety 1st Bytes é a forma como ele se transporta: fechado, vira uma mala de viagem com alça telescópica e rodas, facilitando muito o deslocamento em aeroportos e rodoviárias. O fechamento com uma mão e o freio centralizado completam a proposta de praticidade. Os amortecedores nas rodas são o único item desta lista com esse recurso nessa faixa de preço compacta.</p>
 
-<p>A capota com proteção UV50+ e aba removível com visor protege bem o bebê do sol. Do nascimento até 15 kg, com cinto de 5 pontos com protetor acolchoado e certificação INMETRO. O cesto de apenas 2 kg é o ponto mais fraco e pode limitar quem carrega mais itens. O preço de R$839,90 é o mais alto desta lista, mas justificado para quem viaja com frequência.</p>
+<p>A capota com proteção UV50+ e aba removível com visor protege bem o bebê do sol. Do nascimento até 15 kg, com cinto de 5 pontos com protetor acolchoado e certificação INMETRO. O cesto de apenas 2 kg é o ponto mais fraco e pode limitar quem carrega mais itens.</p>
 
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0;">
-  <div style="background:#f0fdf4;border-left:3px solid #22c55e;padding:0.75rem 1rem;border-radius:4px;">
-    <p style="margin:0;font-weight:600;color:#166534;">Prós</p>
-    <ul style="margin:0.5rem 0 0;padding-left:1.2rem;color:#166534;">
-      <li>Transporte estilo mala com alça telescópica</li>
-      <li>Amortecedores nas rodas</li>
-      <li>Fechamento com uma mão</li>
-      <li>Capota UV50+</li>
-    </ul>
+<div class="cnx-aff-pros-cons cnx-aff-block-wrap">
+  <div class="cnx-aff-pros-cons-sections">
+    <section class="cnx-aff-pros-section">
+      <h3 class="cnx-aff-pros-title">Prós</h3>
+      <ul class="cnx-aff-pros-list" style="color:#1e293b;">
+        <li>Transporte estilo mala com alça telescópica</li>
+        <li>Amortecedores nas rodas</li>
+        <li>Fechamento com uma mão</li>
+        <li>Capota UV50+</li>
+      </ul>
+    </section>
+    <section class="cnx-aff-cons-section">
+      <h3 class="cnx-aff-cons-title">Contras</h3>
+      <ul class="cnx-aff-cons-list" style="color:#1e293b;">
+        <li>Preço mais alto da lista</li>
+        <li>Cesto pequeno de apenas 2 kg</li>
+      </ul>
+    </section>
   </div>
-  <div style="background:#fef2f2;border-left:3px solid #ef4444;padding:0.75rem 1rem;border-radius:4px;">
-    <p style="margin:0;font-weight:600;color:#991b1b;">Contras</p>
-    <ul style="margin:0.5rem 0 0;padding-left:1.2rem;color:#991b1b;">
-      <li>Preço mais alto da lista</li>
-      <li>Cesto pequeno de apenas 2 kg</li>
-    </ul>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
-<h2>5. Maxi Baby Allday: Melhor do Nascimento com Fechamento de Uma Mão</h2>
+<h2 id="maxi-baby-allday">5. Maxi Baby Allday: Melhor do Nascimento com Fechamento de Uma Mão</h2>
 
-<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:1.25rem;margin:1.5rem 0;">
-  <p style="margin:0 0 0.75rem;"><strong>Peso:</strong> 5,9 kg | <strong>Capacidade:</strong> nascimento até 15 kg | <strong>Reclinação:</strong> total para modo berço</p>
-  <p style="margin:0 0 0.75rem;"><strong>Preço:</strong> R$549</p>
-  <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
-    <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer" style="background:#FF9900;color:#fff;padding:0.5rem 1rem;border-radius:4px;text-decoration:none;font-weight:600;">Ver na Amazon</a>
-    <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer" style="background:#3483FA;color:#fff;padding:0.5rem 1rem;border-radius:4px;text-decoration:none;font-weight:600;">Ver no Mercado Livre</a>
+<div class="cnx-aff-product cnx-aff-block-wrap">
+  <div class="cnx-aff-product-body">
+    <div class="cnx-aff-product-main">
+      <h3 class="cnx-aff-product-title" data-product-name="Maxi Baby Allday">Maxi Baby Allday</h3>
+      <ul class="cnx-aff-product-features" style="color:#1e293b;">
+        <li>5,9 kg | Do nascimento até 15 kg</li>
+        <li>Reclinação total para modo berço</li>
+        <li>Fechamento com uma mão | Bandeja com porta-copos</li>
+        <li>Cinto de 5 pontos | INMETRO ABNT NBR 14.389</li>
+        <li>Preço: R$549</li>
+      </ul>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
+
+<div class="cnx-aff-rating cnx-aff-rating--mini">
+  <span class="cnx-aff-rating-stars" aria-label="Nota 4.4 de 5">★★★★☆</span>
+  <span class="cnx-aff-rating-score">4.4</span>
+  <span class="cnx-aff-rating-count">+1.500 avaliações</span>
 </div>
 
 <p>O Maxi Baby Allday combina uso desde o nascimento com fechamento de uma mão em um carrinho de 5,9 kg. A reclinação total para modo berço atende recém-nascidos, e a posição sentado serve para crianças mais velhas. A bandeja frontal removível com porta-copos e o apoio de pés ajustável em 3 posições são diferenciais de conforto para passeios mais longos.</p>
 
-<p>A capota ampla com visor e bolso protege bem, e o cinto de 5 pontos com protetores tem certificação INMETRO com norma ABNT NBR 14.389. A limitação é a ausência de posição intermediária: o encosto vai de berço direto para sentado, sem posições de reclinação parcial entre os dois extremos. Para quem precisa de um carrinho leve desde o nascimento com fechamento simples, o Allday entrega bem.</p>
+<p>A capota ampla com visor e bolso protege bem, e o cinto de 5 pontos com protetores tem certificação INMETRO com norma ABNT NBR 14.389. A limitação é a ausência de posição intermediária: o encosto vai de berço direto para sentado, sem posições de reclinação parcial.</p>
 
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0;">
-  <div style="background:#f0fdf4;border-left:3px solid #22c55e;padding:0.75rem 1rem;border-radius:4px;">
-    <p style="margin:0;font-weight:600;color:#166534;">Prós</p>
-    <ul style="margin:0.5rem 0 0;padding-left:1.2rem;color:#166534;">
-      <li>Leve, 5,9 kg, desde o nascimento</li>
-      <li>Fechamento com uma mão</li>
-      <li>Bandeja com porta-copos inclusa</li>
-    </ul>
+<div class="cnx-aff-pros-cons cnx-aff-block-wrap">
+  <div class="cnx-aff-pros-cons-sections">
+    <section class="cnx-aff-pros-section">
+      <h3 class="cnx-aff-pros-title">Prós</h3>
+      <ul class="cnx-aff-pros-list" style="color:#1e293b;">
+        <li>Leve, 5,9 kg, desde o nascimento</li>
+        <li>Fechamento com uma mão</li>
+        <li>Bandeja com porta-copos inclusa</li>
+      </ul>
+    </section>
+    <section class="cnx-aff-cons-section">
+      <h3 class="cnx-aff-cons-title">Contras</h3>
+      <ul class="cnx-aff-cons-list" style="color:#1e293b;">
+        <li>Apenas 2 posições de encosto</li>
+        <li>Sem posição intermediária de reclinação</li>
+      </ul>
+    </section>
   </div>
-  <div style="background:#fef2f2;border-left:3px solid #ef4444;padding:0.75rem 1rem;border-radius:4px;">
-    <p style="margin:0;font-weight:600;color:#991b1b;">Contras</p>
-    <ul style="margin:0.5rem 0 0;padding-left:1.2rem;color:#991b1b;">
-      <li>Apenas 2 posições de encosto</li>
-      <li>Sem posição intermediária de reclinação</li>
-    </ul>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
-<h2>6. Multikids Baby Pocket BB327: Mais Barato da Lista</h2>
+<h2 id="multikids-pocket">6. Multikids Baby Pocket BB327: Mais Barato da Lista</h2>
 
-<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:1.25rem;margin:1.5rem 0;">
-  <p style="margin:0 0 0.75rem;"><strong>Peso:</strong> 5 kg | <strong>Tipo:</strong> guarda-chuva | <strong>Capacidade:</strong> 6 meses até 15 kg</p>
-  <p style="margin:0 0 0.75rem;"><strong>Preço:</strong> R$359,90</p>
-  <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
-    <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer" style="background:#FF9900;color:#fff;padding:0.5rem 1rem;border-radius:4px;text-decoration:none;font-weight:600;">Ver na Amazon</a>
-    <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer" style="background:#3483FA;color:#fff;padding:0.5rem 1rem;border-radius:4px;text-decoration:none;font-weight:600;">Ver no Mercado Livre</a>
+<div class="cnx-aff-product cnx-aff-block-wrap">
+  <div class="cnx-aff-product-body">
+    <div class="cnx-aff-product-main">
+      <h3 class="cnx-aff-product-title" data-product-name="Multikids Baby Pocket BB327">Multikids Baby Pocket BB327</h3>
+      <ul class="cnx-aff-product-features" style="color:#1e293b;">
+        <li>5 kg | Tipo guarda-chuva</li>
+        <li>A partir de 6 meses até 15 kg</li>
+        <li>Encosto 2 posições | Capota removível</li>
+        <li>Cinto de 5 pontos | INMETRO</li>
+        <li>Preço: R$359,90</li>
+      </ul>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
+
+<div class="cnx-aff-rating cnx-aff-rating--mini">
+  <span class="cnx-aff-rating-stars" aria-label="Nota 4.3 de 5">★★★★☆</span>
+  <span class="cnx-aff-rating-score">4.3</span>
+  <span class="cnx-aff-rating-count">+2.500 avaliações</span>
 </div>
 
 <p>O Multikids Baby Pocket BB327 é o mais barato e um dos mais leves desta seleção, com 5 kg e design ultracompacto estilo guarda-chuva. Para famílias que precisam de um segundo carrinho para viagens ou um modelo para uso esporádico, o Pocket BB327 cumpre bem a função sem comprometer o orçamento. A capota removível permite adaptação conforme o clima.</p>
 
-<p>O cinto de 5 pontos e a certificação INMETRO garantem a segurança necessária. O uso começa apenas aos 6 meses e as rodas pequenas tornam o passeio menos suave em terrenos irregulares. A capota não retrátil pode ser incômoda em shoppings. Para uso em piso liso e rotinas simples a partir dos 6 meses, é uma opção honesta pelo preço pedido.</p>
+<p>O cinto de 5 pontos e a certificação INMETRO garantem a segurança necessária. O uso começa apenas aos 6 meses e as rodas pequenas tornam o passeio menos suave em terrenos irregulares. Para uso em piso liso e rotinas simples a partir dos 6 meses, é uma opção honesta pelo preço pedido.</p>
 
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0;">
-  <div style="background:#f0fdf4;border-left:3px solid #22c55e;padding:0.75rem 1rem;border-radius:4px;">
-    <p style="margin:0;font-weight:600;color:#166534;">Prós</p>
-    <ul style="margin:0.5rem 0 0;padding-left:1.2rem;color:#166534;">
-      <li>Muito leve: 5 kg</li>
-      <li>Extremamente compacto</li>
-      <li>Preço acessível</li>
-    </ul>
+<div class="cnx-aff-pros-cons cnx-aff-block-wrap">
+  <div class="cnx-aff-pros-cons-sections">
+    <section class="cnx-aff-pros-section">
+      <h3 class="cnx-aff-pros-title">Prós</h3>
+      <ul class="cnx-aff-pros-list" style="color:#1e293b;">
+        <li>Muito leve: 5 kg</li>
+        <li>Extremamente compacto</li>
+        <li>Preço acessível</li>
+      </ul>
+    </section>
+    <section class="cnx-aff-cons-section">
+      <h3 class="cnx-aff-cons-title">Contras</h3>
+      <ul class="cnx-aff-cons-list" style="color:#1e293b;">
+        <li>Só a partir de 6 meses</li>
+        <li>Rodas pequenas</li>
+        <li>Capota não retrátil</li>
+      </ul>
+    </section>
   </div>
-  <div style="background:#fef2f2;border-left:3px solid #ef4444;padding:0.75rem 1rem;border-radius:4px;">
-    <p style="margin:0;font-weight:600;color:#991b1b;">Contras</p>
-    <ul style="margin:0.5rem 0 0;padding-left:1.2rem;color:#991b1b;">
-      <li>Só a partir de 6 meses</li>
-      <li>Rodas pequenas</li>
-      <li>Capota não retrátil</li>
-    </ul>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
-<h2>7. Voyage Park Passeio Compacto B818: Melhor Cesto Entre os Compactos</h2>
+<h2 id="voyage-park-b818">7. Voyage Park Passeio Compacto B818: Melhor Cesto Entre os Compactos</h2>
 
-<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:1.25rem;margin:1.5rem 0;">
-  <p style="margin:0 0 0.75rem;"><strong>Peso:</strong> 6,6 kg | <strong>Capacidade:</strong> nascimento até 15 kg | <strong>Cesto:</strong> 3 kg | <strong>Reclinação:</strong> 3 posições</p>
-  <p style="margin:0 0 0.75rem;"><strong>Preço:</strong> R$516,98</p>
-  <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
-    <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer" style="background:#FF9900;color:#fff;padding:0.5rem 1rem;border-radius:4px;text-decoration:none;font-weight:600;">Ver na Amazon</a>
-    <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer" style="background:#3483FA;color:#fff;padding:0.5rem 1rem;border-radius:4px;text-decoration:none;font-weight:600;">Ver no Mercado Livre</a>
+<div class="cnx-aff-product cnx-aff-block-wrap">
+  <div class="cnx-aff-product-body">
+    <div class="cnx-aff-product-main">
+      <h3 class="cnx-aff-product-title" data-product-name="Voyage Park Passeio Compacto B818">Voyage Park Passeio Compacto B818</h3>
+      <ul class="cnx-aff-product-features" style="color:#1e293b;">
+        <li>6,6 kg | Do nascimento até 15 kg</li>
+        <li>Cesto de 3 kg: maior entre os compactos</li>
+        <li>3 posições de reclinação | Apoio de pés ajustável</li>
+        <li>Cinto de 5 pontos | INMETRO</li>
+        <li>Preço: R$516,98</li>
+      </ul>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
+
+<div class="cnx-aff-rating cnx-aff-rating--mini">
+  <span class="cnx-aff-rating-stars" aria-label="Nota 4.3 de 5">★★★★☆</span>
+  <span class="cnx-aff-rating-score">4.3</span>
+  <span class="cnx-aff-rating-count">+1.000 avaliações</span>
 </div>
 
 <p>O Voyage Park B818 tem o maior cesto desta lista com capacidade de 3 kg, um diferencial relevante para quem leva bolsa de fraldas e sacolas de compras. Com 3 posições de reclinação desde o nascimento e apoio de pés ajustável, oferece mais versatilidade de postura do que a maioria dos compactos. A capota com visor e disponibilidade em 3 opções de cor completam o pacote.</p>
 
-<p>O cinto de 5 pontos com certificação INMETRO garante a segurança. Com 6,6 kg, está entre os mais pesados da lista, mas ainda dentro do limite do que se considera compacto. O desempenho em terrenos irregulares é o ponto fraco, já que as rodas não têm amortecimento especial. Para uso urbano cotidiano com necessidade de mais espaço de armazenamento, o B818 equilibra bem os prós.</p>
+<p>O cinto de 5 pontos com certificação INMETRO garante a segurança. Com 6,6 kg, está entre os mais pesados da lista, mas ainda dentro do limite do que se considera compacto. O desempenho em terrenos irregulares é o ponto fraco, já que as rodas não têm amortecimento especial.</p>
 
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0;">
-  <div style="background:#f0fdf4;border-left:3px solid #22c55e;padding:0.75rem 1rem;border-radius:4px;">
-    <p style="margin:0;font-weight:600;color:#166534;">Prós</p>
-    <ul style="margin:0.5rem 0 0;padding-left:1.2rem;color:#166534;">
-      <li>Cesto de 3 kg: maior entre os compactos</li>
-      <li>3 posições de reclinação</li>
-      <li>Desde o nascimento</li>
-      <li>Custo-benefício equilibrado</li>
-    </ul>
+<div class="cnx-aff-pros-cons cnx-aff-block-wrap">
+  <div class="cnx-aff-pros-cons-sections">
+    <section class="cnx-aff-pros-section">
+      <h3 class="cnx-aff-pros-title">Prós</h3>
+      <ul class="cnx-aff-pros-list" style="color:#1e293b;">
+        <li>Cesto de 3 kg: maior entre os compactos</li>
+        <li>3 posições de reclinação</li>
+        <li>Desde o nascimento</li>
+        <li>Custo-benefício equilibrado</li>
+      </ul>
+    </section>
+    <section class="cnx-aff-cons-section">
+      <h3 class="cnx-aff-cons-title">Contras</h3>
+      <ul class="cnx-aff-cons-list" style="color:#1e293b;">
+        <li>Desempenho limitado em terrenos irregulares</li>
+      </ul>
+    </section>
   </div>
-  <div style="background:#fef2f2;border-left:3px solid #ef4444;padding:0.75rem 1rem;border-radius:4px;">
-    <p style="margin:0;font-weight:600;color:#991b1b;">Contras</p>
-    <ul style="margin:0.5rem 0 0;padding-left:1.2rem;color:#991b1b;">
-      <li>Desempenho limitado em terrenos irregulares</li>
-    </ul>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -547,32 +735,20 @@ contentFormat: html
 
 <h2>Perguntas Frequentes sobre Carrinhos Compactos</h2>
 
-<details>
-  <summary><strong>Qual o carrinho de bebê compacto mais leve do mercado nesta lista?</strong></summary>
-  <p>Escolha o Maxi Baby MOVEE, com 4,3 kg. É o mais leve e custa R$349,90.</p>
-</details>
+<h3>Qual o carrinho de bebê compacto mais leve desta lista?</h3>
+<p>Escolha o Maxi Baby MOVEE, com 4,3 kg. É o mais leve e custa R$349,90.</p>
 
-<details>
-  <summary><strong>Carrinho compacto serve para recém-nascido?</strong></summary>
-  <p>Sim, escolha modelos com reclinação total: Cosco Toffy, Burigotto Up, Safety 1st Bytes, Maxi Baby Allday ou Voyage Park B818.</p>
-</details>
+<h3>Carrinho compacto serve para recém-nascido?</h3>
+<p>Sim, escolha modelos com reclinação total: Cosco Toffy, Burigotto Up, Safety 1st Bytes, Maxi Baby Allday ou Voyage Park B818.</p>
 
-<details>
-  <summary><strong>Carrinho de bebê compacto cabe no porta-malas de carro pequeno?</strong></summary>
-  <p>Sim. Meça o porta-malas e compare com as dimensões dobradas do modelo. O Burigotto Up tem 55 x 45 x 28 cm dobrado.</p>
-</details>
+<h3>Carrinho de bebê compacto cabe no porta-malas de carro pequeno?</h3>
+<p>Sim. Meça o porta-malas e compare com as dimensões dobradas do modelo. O Burigotto Up tem 55 x 45 x 28 cm dobrado.</p>
 
-<details>
-  <summary><strong>Posso despachar o carrinho no aeroporto sem pagar taxa?</strong></summary>
-  <p>Sim. Companhias brasileiras aceitam carrinhos despachados gratuitamente. Confirme a política com a sua companhia antes de viajar.</p>
-</details>
+<h3>Posso despachar o carrinho no aeroporto sem pagar taxa?</h3>
+<p>Sim. Companhias brasileiras aceitam carrinhos despachados gratuitamente. Confirme a política com a sua companhia antes de viajar.</p>
 
-<details>
-  <summary><strong>Qual carrinho compacto tem o melhor fechamento para quem está sozinho?</strong></summary>
-  <p>Use o Safety 1st Bytes ou o Maxi Baby Allday: ambos fecham com uma mão enquanto você segura o bebê.</p>
-</details>
+<h3>Qual carrinho compacto tem o melhor fechamento para quem está sozinho?</h3>
+<p>Use o Safety 1st Bytes ou o Maxi Baby Allday: ambos fecham com uma mão enquanto você segura o bebê.</p>
 
-<details>
-  <summary><strong>Carrinho guarda-chuva é seguro para bebês?</strong></summary>
-  <p>Sim, desde que tenha cinto de 5 pontos e certificação INMETRO. Respeite a idade mínima indicada pelo fabricante.</p>
-</details>
+<h3>Carrinho guarda-chuva é seguro para bebês?</h3>
+<p>Sim, desde que tenha cinto de 5 pontos e certificação INMETRO. Respeite a idade mínima indicada pelo fabricante.</p>
