@@ -353,6 +353,7 @@ contentFormat: html
       <img src="https://m.media-amazon.com/images/I/61xsfXHEmmL._AC_SY300_SX300_QL70_ML2_.jpg" alt="Cosco Kids Travel System Reverse" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
+      <div class="cnx-aff-roundup-item-badge">Melhor custo-benefício geral</div>
       <h3 class="cnx-aff-product-title" data-product-name="Cosco Kids Travel System Reverse">Cosco Kids Travel System Reverse</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
         <li>Travel system completo com bebê conforto incluso</li>
@@ -406,6 +407,8 @@ contentFormat: html
   </div>
 </div>
 
+<p><strong>Ideal para quem:</strong> usa o carro todo dia com bebê recém-nascido e quer um kit completo sem pagar por carrinho e bebê conforto separados.</p>
+
 <h2 id="produto-2">2. Burigotto Carrinho de Bebê Zap Metal</h2>
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
@@ -414,6 +417,7 @@ contentFormat: html
       <img src="https://m.media-amazon.com/images/I/71dUWMVi4lL._AC_SY300_SX300_QL70_ML2_.jpg" alt="Burigotto Carrinho de Bebê Zap Metal" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
+      <div class="cnx-aff-roundup-item-badge">Melhor carrinho simples nacional</div>
       <h3 class="cnx-aff-product-title" data-product-name="Burigotto Carrinho de Bebê Zap Metal">Burigotto Carrinho de Bebê Zap Metal</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
         <li>Estrutura em metal reforçado para maior durabilidade</li>
@@ -466,6 +470,8 @@ contentFormat: html
   </div>
 </div>
 
+<p><strong>Ideal para quem:</strong> quer um carrinho robusto de marca nacional com assistência técnica acessível e estrutura para durar até os 3 anos da criança.</p>
+
 <h2 id="produto-3">3. Cosco Carrinho de Bebê Toffy</h2>
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
@@ -474,6 +480,7 @@ contentFormat: html
       <img src="https://m.media-amazon.com/images/I/51RV8i7C38L._AC_SY300_SX300_QL70_ML2_.jpg" alt="Cosco Carrinho de Bebê Toffy" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
+      <div class="cnx-aff-roundup-item-badge">Melhor abaixo de R$ 500</div>
       <h3 class="cnx-aff-product-title" data-product-name="Cosco Carrinho de Bebê Toffy">Cosco Carrinho de Bebê Toffy</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
         <li>3 rodas com roda dianteira giratória e travável</li>
@@ -526,6 +533,8 @@ contentFormat: html
   </div>
 </div>
 
+<p><strong>Ideal para quem:</strong> tem orçamento até R$ 500 e precisa de um carrinho funcional com acessórios inclusos desde o nascimento até os 15 kg.</p>
+
 <h2 id="produto-4">4. Burigotto RIO 22 Carrinho Reversível</h2>
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
@@ -534,6 +543,7 @@ contentFormat: html
       <img src="https://m.media-amazon.com/images/I/81ZxtoyrrWL._AC_SY300_SX300_QL70_ML2_.jpg" alt="Burigotto RIO 22 Carrinho Reversível" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
+      <div class="cnx-aff-roundup-item-badge">Melhor reversível nacional</div>
       <h3 class="cnx-aff-product-title" data-product-name="Burigotto RIO 22 Carrinho Reversível">Burigotto RIO 22 Carrinho Reversível</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
         <li>Assento dupla-face reversível</li>
@@ -586,6 +596,8 @@ contentFormat: html
   </div>
 </div>
 
+<p><strong>Ideal para quem:</strong> prioriza cesto espaçoso para compras e quer assento reversível para acompanhar o bebê de perto nos primeiros meses.</p>
+
 <h2 id="produto-5">5. Galzerano Carrinho Berço Passeio Reversível</h2>
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
@@ -594,6 +606,7 @@ contentFormat: html
       <img src="https://m.media-amazon.com/images/I/51KnurTtK+L._AC_SY300_SX300_QL70_ML2_.jpg" alt="Galzerano Carrinho Berço Passeio Reversível" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
+      <div class="cnx-aff-roundup-item-badge">Melhor com função berço</div>
       <h3 class="cnx-aff-product-title" data-product-name="Galzerano Carrinho Berço Passeio Reversível">Galzerano Carrinho Berço Passeio Reversível</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
         <li>Conversível em berço para recém-nascidos</li>
@@ -646,6 +659,8 @@ contentFormat: html
   </div>
 </div>
 
+<p><strong>Ideal para quem:</strong> tem recém-nascido e quer um produto que funciona como berço nos primeiros meses e como carrinho de passeio depois, sem comprar dois itens separados.</p>
+
 <h2 id="produto-6">6. Zippy Toys Carrinho de Bebê Modelo Compacto</h2>
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
@@ -654,6 +669,7 @@ contentFormat: html
       <img src="https://m.media-amazon.com/images/I/51dU3VBTgPL._AC_SX300_SY300_QL70_ML2_.jpg" alt="Zippy Toys Carrinho de Bebê Modelo Compacto" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
+      <div class="cnx-aff-roundup-item-badge">Melhor compacto econômico</div>
       <h3 class="cnx-aff-product-title" data-product-name="Zippy Toys Carrinho de Bebê Modelo Compacto">Zippy Toys Carrinho de Bebê Modelo Compacto</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
         <li>Design compacto pensado para cidades</li>
@@ -703,6 +719,8 @@ contentFormat: html
   </div>
 </div>
 
+<p><strong>Ideal para quem:</strong> mora em cidade grande, usa transporte público com frequência e precisa de um carrinho leve que caiba em qualquer porta e porta-malas.</p>
+
 <h2 id="produto-7">7. Burigotto Carrinho de Bebê Up</h2>
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
@@ -711,6 +729,7 @@ contentFormat: html
       <img src="https://m.media-amazon.com/images/I/81i4A3ttrJL._AC_SY300_SX300_QL70_ML2_.jpg" alt="Burigotto Carrinho de Bebê Up" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
+      <div class="cnx-aff-roundup-item-badge">Melhor guarda-chuva nacional</div>
       <h3 class="cnx-aff-product-title" data-product-name="Burigotto Carrinho de Bebê Up">Burigotto Carrinho de Bebê Up</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
         <li>Ultra compacto ao dobrar</li>
@@ -763,6 +782,8 @@ contentFormat: html
   </div>
 </div>
 
+<p><strong>Ideal para quem:</strong> tem filho acima de 6 meses com sustentação do pescoço e precisa de algo ultra compacto para passeios rápidos e viagens.</p>
+
 <h2 id="produto-8">8. Burigotto Carrinho de Bebê Ecco</h2>
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
@@ -771,6 +792,7 @@ contentFormat: html
       <img src="https://m.media-amazon.com/images/I/81M+stCaZhL._AC_SY300_SX300_QL70_ML2_.jpg" alt="Burigotto Carrinho de Bebê Ecco" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
+      <div class="cnx-aff-roundup-item-badge">Melhor para uso urbano diário</div>
       <h3 class="cnx-aff-product-title" data-product-name="Burigotto Carrinho de Bebê Ecco">Burigotto Carrinho de Bebê Ecco</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
         <li>Chassi leve em alumínio</li>
@@ -823,6 +845,8 @@ contentFormat: html
   </div>
 </div>
 
+<p><strong>Ideal para quem:</strong> enfrenta calçadas irregulares e transporte público todos os dias e quer leveza com chassi de alumínio sem abrir mão de marca nacional.</p>
+
 <h2 id="produto-9">9. Cosco Carrinho de Bebê Lummy</h2>
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
@@ -831,6 +855,7 @@ contentFormat: html
       <img src="https://m.media-amazon.com/images/I/51kmOjEtdJL._AC_SY300_SX300_QL70_ML2_.jpg" alt="Cosco Carrinho de Bebê Lummy" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
+      <div class="cnx-aff-roundup-item-badge">Melhor para orçamento limitado</div>
       <h3 class="cnx-aff-product-title" data-product-name="Cosco Carrinho de Bebê Lummy">Cosco Carrinho de Bebê Lummy</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
         <li>Entrada de linha com preço acessível</li>
@@ -883,6 +908,8 @@ contentFormat: html
   </div>
 </div>
 
+<p><strong>Ideal para quem:</strong> tem orçamento muito limitado e não abre mão de marca reconhecida com INMETRO, garantia e cinto de 5 pontos.</p>
+
 <h2 id="produto-10">10. Travel System Safety 1st Spark Plus Duo</h2>
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
@@ -891,6 +918,7 @@ contentFormat: html
       <img src="https://m.media-amazon.com/images/I/516JlxgNhvL._AC_SY300_SX300_QL70_ML2_.jpg" alt="Travel System Safety 1st Spark Plus Duo" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
+      <div class="cnx-aff-roundup-item-badge">Melhor travel system custo-benefício</div>
       <h3 class="cnx-aff-product-title" data-product-name="Travel System Safety 1st Spark Plus Duo">Travel System Safety 1st Spark Plus Duo</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
         <li>Kit com bebê conforto + carrinho</li>
@@ -943,6 +971,8 @@ contentFormat: html
   </div>
 </div>
 
+<p><strong>Ideal para quem:</strong> quer o melhor travel system do mercado nacional sem pagar os R$ 3.000 ou mais das marcas europeias e precisa de compatibilidade com isofix.</p>
+
 <h2>Como Escolher o Melhor Carrinho de Bebê Custo-Benefício</h2>
 
 <p>A armadilha mais comum na hora de comprar é olhar só o preço. Um carrinho de R$ 300 que dura 8 meses sai mais caro do que um de R$ 600 que dura 3 anos. O custo-benefício real considera quanto tempo você vai usar o produto e o que ele entrega nesse período.</p>
@@ -992,6 +1022,11 @@ contentFormat: html
   <li><a href="/melhor-carrinho-de-bebe-compacto/">Melhores carrinhos compactos</a>: modelos leves para viagem e transporte público</li>
   <li><a href="/melhor-carrinho-de-bebe-travel-system/">Melhores travel systems</a>: comparativo dos principais kits com bebê conforto</li>
 </ul>
+
+<div style="background:#f8fafc;border:1px solid #e2e8f0;padding:1.25rem 1.5rem;border-radius:8px;margin:2rem 0;">
+  <p style="margin:0 0 0.4rem 0;font-weight:700;">Sobre a autora: Vitória Caroline</p>
+  <p style="margin:0;color:#475569;font-size:0.9rem;">Mãe e especialista em produtos para bebês, Vitória escreve para o Bem Mãe com base em experiência real de uso. Acompanha lançamentos das principais marcas nacionais e importadas disponíveis no Brasil e avalia cada produto com foco em segurança, custo-benefício e praticidade para o dia a dia de mães e pais.</p>
+</div>
 
 <h2>Perguntas Frequentes sobre Carrinhos de Bebê Custo-Benefício</h2>
 
