@@ -354,7 +354,6 @@ contentFormat: html
     </div>
     <div class="cnx-aff-product-main">
       <div class="cnx-aff-roundup-item-badge">Melhor custo-benefício geral</div>
-      <h3 class="cnx-aff-product-title" data-product-name="Cosco Kids Travel System Reverse">Cosco Kids Travel System Reverse</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
         <li>Travel system completo com bebê conforto incluso</li>
         <li>Assento reversível: bebê olha para você ou para a rua</li>
@@ -417,7 +416,6 @@ contentFormat: html
     </div>
     <div class="cnx-aff-product-main">
       <div class="cnx-aff-roundup-item-badge">Melhor carrinho simples nacional</div>
-      <h3 class="cnx-aff-product-title" data-product-name="Burigotto Carrinho de Bebê Zap Metal">Burigotto Carrinho de Bebê Zap Metal</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
         <li>Estrutura em metal reforçado para maior durabilidade</li>
         <li>Assento reclinável e reversível</li>
@@ -480,7 +478,6 @@ contentFormat: html
     </div>
     <div class="cnx-aff-product-main">
       <div class="cnx-aff-roundup-item-badge">Melhor abaixo de R$ 500</div>
-      <h3 class="cnx-aff-product-title" data-product-name="Cosco Carrinho de Bebê Toffy">Cosco Carrinho de Bebê Toffy</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
         <li>3 rodas com roda dianteira giratória e travável</li>
         <li>Do nascimento até 15 kg</li>
@@ -543,7 +540,6 @@ contentFormat: html
     </div>
     <div class="cnx-aff-product-main">
       <div class="cnx-aff-roundup-item-badge">Melhor reversível nacional</div>
-      <h3 class="cnx-aff-product-title" data-product-name="Burigotto RIO 22 Carrinho Reversível">Burigotto RIO 22 Carrinho Reversível</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
         <li>Assento dupla-face reversível</li>
         <li>Rodas traseiras com trava independente</li>
@@ -606,7 +602,6 @@ contentFormat: html
     </div>
     <div class="cnx-aff-product-main">
       <div class="cnx-aff-roundup-item-badge">Melhor com função berço</div>
-      <h3 class="cnx-aff-product-title" data-product-name="Galzerano Carrinho Berço Passeio Reversível">Galzerano Carrinho Berço Passeio Reversível</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
         <li>Conversível em berço para recém-nascidos</li>
         <li>Assento reversível para passeios</li>
@@ -669,7 +664,6 @@ contentFormat: html
     </div>
     <div class="cnx-aff-product-main">
       <div class="cnx-aff-roundup-item-badge">Melhor compacto econômico</div>
-      <h3 class="cnx-aff-product-title" data-product-name="Zippy Toys Carrinho de Bebê Modelo Compacto">Zippy Toys Carrinho de Bebê Modelo Compacto</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
         <li>Design compacto pensado para cidades</li>
         <li>Fechamento prático para guardar no porta-malas</li>
@@ -729,7 +723,6 @@ contentFormat: html
     </div>
     <div class="cnx-aff-product-main">
       <div class="cnx-aff-roundup-item-badge">Melhor guarda-chuva nacional</div>
-      <h3 class="cnx-aff-product-title" data-product-name="Burigotto Carrinho de Bebê Up">Burigotto Carrinho de Bebê Up</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
         <li>Ultra compacto ao dobrar</li>
         <li>Trava automática ao fechar</li>
@@ -792,7 +785,6 @@ contentFormat: html
     </div>
     <div class="cnx-aff-product-main">
       <div class="cnx-aff-roundup-item-badge">Melhor para uso urbano diário</div>
-      <h3 class="cnx-aff-product-title" data-product-name="Burigotto Carrinho de Bebê Ecco">Burigotto Carrinho de Bebê Ecco</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
         <li>Chassi leve em alumínio</li>
         <li>Encosto regulável em 3 posições</li>
@@ -855,7 +847,6 @@ contentFormat: html
     </div>
     <div class="cnx-aff-product-main">
       <div class="cnx-aff-roundup-item-badge">Melhor para orçamento limitado</div>
-      <h3 class="cnx-aff-product-title" data-product-name="Cosco Carrinho de Bebê Lummy">Cosco Carrinho de Bebê Lummy</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
         <li>Entrada de linha com preço acessível</li>
         <li>Cinto de segurança de 5 pontos</li>
@@ -918,7 +909,6 @@ contentFormat: html
     </div>
     <div class="cnx-aff-product-main">
       <div class="cnx-aff-roundup-item-badge">Melhor travel system custo-benefício</div>
-      <h3 class="cnx-aff-product-title" data-product-name="Travel System Safety 1st Spark Plus Duo">Travel System Safety 1st Spark Plus Duo</h3>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
         <li>Kit com bebê conforto + carrinho</li>
         <li>Bebê conforto compatível com base isofix</li>
