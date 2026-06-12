@@ -995,13 +995,12 @@ contentFormat: html
 
 <h3>O que Checar Antes de Comprar</h3>
 
-<p>O cinto de 5 pontos é item não negociável. Qualquer carrinho sem cinto de 5 pontos não entra nesta lista, independente do preço. O cinto mantém o bebê seguro em frenadas e manobras bruscas.</p>
-
-<p>A certificação INMETRO garante que o produto passou por testes de resistência e segurança no Brasil. Modelos sem a etiqueta do INMETRO não têm essa garantia e você não sabe se foram testados para o uso real.</p>
-
-<p>O peso do carrinho importa muito se você mora em apartamento sem elevador ou usa transporte público com frequência. Um carrinho de 10 kg parece pouco no papel, mas depois de subir escadas com ele no braço você sente a diferença.</p>
-
-<p>Verifique se o cesto de compras é acessível quando o assento está na posição de uso normal. Alguns modelos reversíveis bloqueiam o acesso ao cesto dependendo da direção do assento, o que é frustrante no dia a dia.</p>
+<ul>
+  <li><strong>Cinto de 5 pontos:</strong> item não negociável. Mantém o bebê seguro em frenadas e manobras bruscas.</li>
+  <li><strong>Certificação INMETRO:</strong> garante testes de segurança no Brasil. Sem a etiqueta, você não sabe se o produto foi testado.</li>
+  <li><strong>Peso do chassi:</strong> carrinhos acima de 9 kg pesam quando você precisa subir escadas ou entrar no ônibus.</li>
+  <li><strong>Cesto acessível:</strong> modelos reversíveis às vezes bloqueiam o cesto dependendo da direção do assento. Teste antes de comprar.</li>
+</ul>
 
 <h2>Outros Guias de Carrinhos de Bebê</h2>
 
