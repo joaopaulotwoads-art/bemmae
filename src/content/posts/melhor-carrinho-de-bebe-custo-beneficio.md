@@ -1023,11 +1023,6 @@ contentFormat: html
   <li><a href="/melhor-carrinho-de-bebe-travel-system/">Melhores travel systems</a>: comparativo dos principais kits com bebê conforto</li>
 </ul>
 
-<div style="background:#f8fafc;border:1px solid #e2e8f0;padding:1.25rem 1.5rem;border-radius:8px;margin:2rem 0;">
-  <p style="margin:0 0 0.4rem 0;font-weight:700;">Sobre a autora: Vitória Caroline</p>
-  <p style="margin:0;color:#475569;font-size:0.9rem;">Mãe e especialista em produtos para bebês, Vitória escreve para o Bem Mãe com base em experiência real de uso. Acompanha lançamentos das principais marcas nacionais e importadas disponíveis no Brasil e avalia cada produto com foco em segurança, custo-benefício e praticidade para o dia a dia de mães e pais.</p>
-</div>
-
 <h2>Perguntas Frequentes sobre Carrinhos de Bebê Custo-Benefício</h2>
 
 <h3>Qual o melhor carrinho de bebê custo-benefício em 2026?</h3>
