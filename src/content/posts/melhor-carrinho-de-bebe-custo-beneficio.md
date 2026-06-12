@@ -385,19 +385,18 @@ contentFormat: html
     <section class="cnx-aff-pros-section">
       <h3 class="cnx-aff-pros-title">Prós</h3>
       <ul class="cnx-aff-pros-list" style="color:#1e293b;">
-        <li>Kit completo pelo preço de apenas o carrinho em outras marcas</li>
-        <li>Assento reversível com ajuste fácil</li>
-        <li>Bebê conforto encaixa no chassi sem acordar o bebê</li>
+        <li>Kit completo com bebê conforto</li>
+        <li>Assento reversível</li>
+        <li>Encaixe no chassi sem acordar o bebê</li>
         <li>Certificado pelo INMETRO</li>
-        <li>Boa reputação de durabilidade nas avaliações</li>
       </ul>
     </section>
     <section class="cnx-aff-cons-section">
       <h3 class="cnx-aff-cons-title">Contras</h3>
       <ul class="cnx-aff-cons-list" style="color:#1e293b;">
-        <li>Mais pesado que modelos de passeio simples</li>
-        <li>Cesto inferior com acesso limitado quando o assento está voltado para frente</li>
-        <li>Sem opção de suspensão para terrenos irregulares</li>
+        <li>Mais pesado que carrinhos simples</li>
+        <li>Cesto com acesso limitado</li>
+        <li>Sem suspensão</li>
       </ul>
     </section>
   </div>
@@ -449,18 +448,18 @@ contentFormat: html
     <section class="cnx-aff-pros-section">
       <h3 class="cnx-aff-pros-title">Prós</h3>
       <ul class="cnx-aff-pros-list" style="color:#1e293b;">
-        <li>Estrutura metálica mais durável que concorrentes em plástico</li>
-        <li>Marca nacional com assistência técnica disponível</li>
-        <li>Assento reversível com boa amplitude de reclinação</li>
-        <li>Rodas com amortecimento para terrenos variados</li>
+        <li>Estrutura metálica robusta</li>
+        <li>Assistência técnica nacional</li>
+        <li>Assento reversível</li>
+        <li>Rodas com amortecimento</li>
       </ul>
     </section>
     <section class="cnx-aff-cons-section">
       <h3 class="cnx-aff-cons-title">Contras</h3>
       <ul class="cnx-aff-cons-list" style="color:#1e293b;">
-        <li>Não inclui bebê conforto</li>
-        <li>Mais pesado que modelos com chassi em alumínio</li>
-        <li>Design menos moderno que concorrentes importados</li>
+        <li>Sem bebê conforto incluso</li>
+        <li>Mais pesado que chassi em alumínio</li>
+        <li>Design menos moderno</li>
       </ul>
     </section>
   </div>
@@ -512,18 +511,18 @@ contentFormat: html
     <section class="cnx-aff-pros-section">
       <h3 class="cnx-aff-pros-title">Prós</h3>
       <ul class="cnx-aff-pros-list" style="color:#1e293b;">
-        <li>Melhor relação recurso-preço abaixo de R$ 500</li>
-        <li>Roda dianteira giratória facilita manobras</li>
-        <li>Acessórios inclusos que em outros modelos são vendidos separado</li>
-        <li>Compacto para guardar no porta-malas</li>
+        <li>Melhor custo-benefício abaixo de R$ 500</li>
+        <li>Roda dianteira giratória</li>
+        <li>Acessórios inclusos no kit</li>
+        <li>Compacto e leve</li>
       </ul>
     </section>
     <section class="cnx-aff-cons-section">
       <h3 class="cnx-aff-cons-title">Contras</h3>
       <ul class="cnx-aff-cons-list" style="color:#1e293b;">
-        <li>Sem função reversível do assento</li>
-        <li>Cesto inferior com capacidade reduzida</li>
-        <li>Rodas traseiras menores que modelos de passeio completos</li>
+        <li>Sem assento reversível</li>
+        <li>Cesto pequeno</li>
+        <li>Rodas traseiras menores</li>
       </ul>
     </section>
   </div>
@@ -575,18 +574,18 @@ contentFormat: html
     <section class="cnx-aff-pros-section">
       <h3 class="cnx-aff-pros-title">Prós</h3>
       <ul class="cnx-aff-pros-list" style="color:#1e293b;">
-        <li>Cesto espaçoso para compras e bolsa</li>
-        <li>Reversão do assento sem ferramentas</li>
-        <li>Marca nacional com boa assistência técnica</li>
+        <li>Cesto espaçoso</li>
+        <li>Reversão sem ferramentas</li>
+        <li>Assistência técnica nacional</li>
         <li>Trava de rodas confiável</li>
       </ul>
     </section>
     <section class="cnx-aff-cons-section">
       <h3 class="cnx-aff-cons-title">Contras</h3>
       <ul class="cnx-aff-cons-list" style="color:#1e293b;">
-        <li>Não inclui bebê conforto</li>
-        <li>Menos compacto ao dobrar que modelos de 3 rodas</li>
-        <li>Rodas sem suspensão para terrenos pesados</li>
+        <li>Sem bebê conforto incluso</li>
+        <li>Menos compacto ao dobrar</li>
+        <li>Sem suspensão</li>
       </ul>
     </section>
   </div>
@@ -638,18 +637,18 @@ contentFormat: html
     <section class="cnx-aff-pros-section">
       <h3 class="cnx-aff-pros-title">Prós</h3>
       <ul class="cnx-aff-pros-list" style="color:#1e293b;">
-        <li>Funciona como berço desde o nascimento</li>
-        <li>Guarda-sol com proteção UV de boa cobertura</li>
-        <li>Rodas duplas traseiras para maior estabilidade</li>
-        <li>Transição berço para assento sem comprar outro produto</li>
+        <li>Funciona como berço</li>
+        <li>Proteção UV no guarda-sol</li>
+        <li>Rodas duplas traseiras</li>
+        <li>Dois produtos em um</li>
       </ul>
     </section>
     <section class="cnx-aff-cons-section">
       <h3 class="cnx-aff-cons-title">Contras</h3>
       <ul class="cnx-aff-cons-list" style="color:#1e293b;">
-        <li>Mais volumoso ao dobrar por causa da estrutura do berço</li>
-        <li>Peso maior que carrinhos de passeio simples</li>
-        <li>Não inclui bebê conforto para o carro</li>
+        <li>Volumoso ao dobrar</li>
+        <li>Mais pesado</li>
+        <li>Sem bebê conforto incluso</li>
       </ul>
     </section>
   </div>
@@ -699,17 +698,17 @@ contentFormat: html
     <section class="cnx-aff-pros-section">
       <h3 class="cnx-aff-pros-title">Prós</h3>
       <ul class="cnx-aff-pros-list" style="color:#1e293b;">
-        <li>Ideal para transporte público e cidades densas</li>
-        <li>Preço entre os mais baixos desta lista</li>
-        <li>Fácil de guardar em apartamentos pequenos</li>
+        <li>Ultra leve</li>
+        <li>Preço acessível</li>
+        <li>Fácil de guardar</li>
       </ul>
     </section>
     <section class="cnx-aff-cons-section">
       <h3 class="cnx-aff-cons-title">Contras</h3>
       <ul class="cnx-aff-cons-list" style="color:#1e293b;">
-        <li>Não recomendado para recém-nascidos sem adaptador</li>
-        <li>Cesto menor que modelos de passeio completos</li>
-        <li>Rodas menores com menos absorção de impacto</li>
+        <li>Não indicado para recém-nascidos</li>
+        <li>Cesto pequeno</li>
+        <li>Rodas com menos amortecimento</li>
       </ul>
     </section>
   </div>
@@ -761,16 +760,16 @@ contentFormat: html
     <section class="cnx-aff-pros-section">
       <h3 class="cnx-aff-pros-title">Prós</h3>
       <ul class="cnx-aff-pros-list" style="color:#1e293b;">
-        <li>Trava automática evita abertura acidental ao carregar</li>
+        <li>Trava automática ao fechar</li>
         <li>Alça de transporte integrada</li>
-        <li>Muito leve e compacto ao dobrar</li>
-        <li>Marca nacional confiável</li>
+        <li>Ultra compacto e leve</li>
+        <li>Marca nacional</li>
       </ul>
     </section>
     <section class="cnx-aff-cons-section">
       <h3 class="cnx-aff-cons-title">Contras</h3>
       <ul class="cnx-aff-cons-list" style="color:#1e293b;">
-        <li>Encosto com poucas posições de reclinação</li>
+        <li>Pouca reclinação</li>
         <li>Não indicado para recém-nascidos</li>
         <li>Cesto pequeno</li>
       </ul>
@@ -824,18 +823,18 @@ contentFormat: html
     <section class="cnx-aff-pros-section">
       <h3 class="cnx-aff-pros-title">Prós</h3>
       <ul class="cnx-aff-pros-list" style="color:#1e293b;">
-        <li>Chassi de alumínio mais leve que concorrentes em aço</li>
-        <li>Bom desempenho em calçadas irregulares</li>
-        <li>Encosto com 3 posições atende bem as fases do bebê</li>
-        <li>Marca com boa rede de assistência nacional</li>
+        <li>Chassi de alumínio leve</li>
+        <li>Bom em calçadas irregulares</li>
+        <li>Encosto em 3 posições</li>
+        <li>Assistência técnica nacional</li>
       </ul>
     </section>
     <section class="cnx-aff-cons-section">
       <h3 class="cnx-aff-cons-title">Contras</h3>
       <ul class="cnx-aff-cons-list" style="color:#1e293b;">
         <li>Sem assento reversível</li>
-        <li>Cesto de compras de tamanho médio</li>
-        <li>Não inclui acessórios como capa de chuva</li>
+        <li>Cesto médio</li>
+        <li>Sem capa de chuva inclusa</li>
       </ul>
     </section>
   </div>
@@ -887,16 +886,16 @@ contentFormat: html
     <section class="cnx-aff-pros-section">
       <h3 class="cnx-aff-pros-title">Prós</h3>
       <ul class="cnx-aff-pros-list" style="color:#1e293b;">
-        <li>Marca confiável no menor preço disponível</li>
-        <li>Cinto de 5 pontos incluso</li>
+        <li>Marca confiável no menor preço</li>
+        <li>Cinto de 5 pontos</li>
         <li>Leve e fácil de guardar</li>
-        <li>Certificado pelo INMETRO</li>
+        <li>Certificado INMETRO</li>
       </ul>
     </section>
     <section class="cnx-aff-cons-section">
       <h3 class="cnx-aff-cons-title">Contras</h3>
       <ul class="cnx-aff-cons-list" style="color:#1e293b;">
-        <li>Recursos limitados em comparação aos outros modelos da lista</li>
+        <li>Recursos limitados</li>
         <li>Sem assento reversível</li>
         <li>Cesto pequeno</li>
       </ul>
@@ -950,18 +949,18 @@ contentFormat: html
     <section class="cnx-aff-pros-section">
       <h3 class="cnx-aff-pros-title">Prós</h3>
       <ul class="cnx-aff-pros-list" style="color:#1e293b;">
-        <li>Compatibilidade isofix aumenta a segurança no carro</li>
-        <li>Encaixe clique único bebê conforto no chassi</li>
-        <li>Design premium abaixo do preço das marcas europeias</li>
-        <li>Safety 1st tem histórico confiável em segurança infantil</li>
+        <li>Compatível com isofix</li>
+        <li>Encaixe clique único no chassi</li>
+        <li>Design premium acessível</li>
+        <li>Marca referência em segurança</li>
       </ul>
     </section>
     <section class="cnx-aff-cons-section">
       <h3 class="cnx-aff-cons-title">Contras</h3>
       <ul class="cnx-aff-cons-list" style="color:#1e293b;">
-        <li>Preço significativamente acima dos outros modelos desta lista</li>
-        <li>Mais pesado ao carregar pelo peso do chassi</li>
-        <li>Base isofix vendida separado em alguns pontos de venda</li>
+        <li>Preço mais alto da lista</li>
+        <li>Mais pesado</li>
+        <li>Base isofix vendida separado</li>
       </ul>
     </section>
   </div>
