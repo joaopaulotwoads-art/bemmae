@@ -345,7 +345,7 @@ contentFormat: html
   </table>
 </div>
 
-<h2 id="produto-1">1. Cosco Kids Travel System Reverse: Melhor Custo-Benefício Geral</h2>
+<h2 id="produto-1">1. Cosco Kids Travel System Reverse</h2>
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
@@ -406,7 +406,7 @@ contentFormat: html
   </div>
 </div>
 
-<h2 id="produto-2">2. Burigotto Carrinho de Bebê Zap Metal: Melhor Carrinho Simples Nacional</h2>
+<h2 id="produto-2">2. Burigotto Carrinho de Bebê Zap Metal</h2>
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
@@ -466,7 +466,7 @@ contentFormat: html
   </div>
 </div>
 
-<h2 id="produto-3">3. Cosco Carrinho de Bebê Toffy: Melhor Abaixo de R$ 500</h2>
+<h2 id="produto-3">3. Cosco Carrinho de Bebê Toffy</h2>
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
@@ -526,7 +526,7 @@ contentFormat: html
   </div>
 </div>
 
-<h2 id="produto-4">4. Burigotto RIO 22 Carrinho Reversível: Melhor Reversível Nacional</h2>
+<h2 id="produto-4">4. Burigotto RIO 22 Carrinho Reversível</h2>
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
@@ -586,7 +586,7 @@ contentFormat: html
   </div>
 </div>
 
-<h2 id="produto-5">5. Galzerano Carrinho Berço Passeio Reversível: Melhor com Função Berço</h2>
+<h2 id="produto-5">5. Galzerano Carrinho Berço Passeio Reversível</h2>
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
@@ -646,7 +646,7 @@ contentFormat: html
   </div>
 </div>
 
-<h2 id="produto-6">6. Zippy Toys Carrinho de Bebê Modelo Compacto: Melhor Compacto Econômico</h2>
+<h2 id="produto-6">6. Zippy Toys Carrinho de Bebê Modelo Compacto</h2>
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
@@ -703,7 +703,7 @@ contentFormat: html
   </div>
 </div>
 
-<h2 id="produto-7">7. Burigotto Carrinho de Bebê Up: Melhor Guarda-Chuva Nacional</h2>
+<h2 id="produto-7">7. Burigotto Carrinho de Bebê Up</h2>
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
@@ -763,7 +763,7 @@ contentFormat: html
   </div>
 </div>
 
-<h2 id="produto-8">8. Burigotto Carrinho de Bebê Ecco: Melhor para Uso Urbano Diário</h2>
+<h2 id="produto-8">8. Burigotto Carrinho de Bebê Ecco</h2>
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
@@ -823,7 +823,7 @@ contentFormat: html
   </div>
 </div>
 
-<h2 id="produto-9">9. Cosco Carrinho de Bebê Lummy: Melhor para Orçamento Limitado</h2>
+<h2 id="produto-9">9. Cosco Carrinho de Bebê Lummy</h2>
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
@@ -883,7 +883,7 @@ contentFormat: html
   </div>
 </div>
 
-<h2 id="produto-10">10. Travel System Safety 1st Spark Plus Duo: Melhor Travel System Premium</h2>
+<h2 id="produto-10">10. Travel System Safety 1st Spark Plus Duo</h2>
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
