@@ -141,7 +141,7 @@
  */
 .bemmae-post-html {
   font-family: var(--bemmae-post-font);
-  font-size: 1rem; /* 16px */
+  font-size: 1.0625rem; /* 17px */
   line-height: var(--bemmae-post-line);
   letter-spacing: 0;
   font-weight: 400;
