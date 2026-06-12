@@ -361,8 +361,13 @@ contentFormat: html
         <li>Certificação INMETRO</li>
         <li>Cinto de segurança de 5 pontos</li>
       </ul>
-      <div class="cnx-aff-product-cta">
-        <a href="https://amzn.to/4claOo1" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="https://amzn.to/4claOo1" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
       </div>
     </div>
   </div>
@@ -395,8 +400,9 @@ contentFormat: html
       </ul>
     </section>
   </div>
-  <div class="cnx-aff-pros-cons-cta">
-    <a href="https://amzn.to/4claOo1" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4claOo1" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -416,8 +422,13 @@ contentFormat: html
         <li>Rodas com sistema de amortecimento</li>
         <li>Fabricado no Brasil pela Burigotto</li>
       </ul>
-      <div class="cnx-aff-product-cta">
-        <a href="https://amzn.to/48VWIHv" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="https://amzn.to/48VWIHv" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
       </div>
     </div>
   </div>
@@ -449,8 +460,9 @@ contentFormat: html
       </ul>
     </section>
   </div>
-  <div class="cnx-aff-pros-cons-cta">
-    <a href="https://amzn.to/48VWIHv" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/48VWIHv" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -470,8 +482,13 @@ contentFormat: html
         <li>Capa de chuva e protetor solar inclusos</li>
         <li>Dobramento compacto para facilitar o transporte</li>
       </ul>
-      <div class="cnx-aff-product-cta">
-        <a href="https://amzn.to/4mvEZfj" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="https://amzn.to/4mvEZfj" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
       </div>
     </div>
   </div>
@@ -503,8 +520,9 @@ contentFormat: html
       </ul>
     </section>
   </div>
-  <div class="cnx-aff-pros-cons-cta">
-    <a href="https://amzn.to/4mvEZfj" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4mvEZfj" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -524,8 +542,13 @@ contentFormat: html
         <li>Encosto reclinável</li>
         <li>Certificado pelo INMETRO</li>
       </ul>
-      <div class="cnx-aff-product-cta">
-        <a href="https://amzn.to/4u9ztlK" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="https://amzn.to/4u9ztlK" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
       </div>
     </div>
   </div>
@@ -557,8 +580,9 @@ contentFormat: html
       </ul>
     </section>
   </div>
-  <div class="cnx-aff-pros-cons-cta">
-    <a href="https://amzn.to/4u9ztlK" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4u9ztlK" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -578,8 +602,13 @@ contentFormat: html
         <li>Rodas traseiras duplas para estabilidade</li>
         <li>Cinto de segurança de 5 pontos</li>
       </ul>
-      <div class="cnx-aff-product-cta">
-        <a href="https://amzn.to/3OZ5YUx" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="https://amzn.to/3OZ5YUx" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
       </div>
     </div>
   </div>
@@ -611,8 +640,9 @@ contentFormat: html
       </ul>
     </section>
   </div>
-  <div class="cnx-aff-pros-cons-cta">
-    <a href="https://amzn.to/3OZ5YUx" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/3OZ5YUx" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -632,8 +662,13 @@ contentFormat: html
         <li>Encosto reclinável</li>
         <li>Preço acessível na categoria</li>
       </ul>
-      <div class="cnx-aff-product-cta">
-        <a href="https://amzn.to/4woHUei" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="https://amzn.to/4woHUei" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
       </div>
     </div>
   </div>
@@ -662,8 +697,9 @@ contentFormat: html
       </ul>
     </section>
   </div>
-  <div class="cnx-aff-pros-cons-cta">
-    <a href="https://amzn.to/4woHUei" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4woHUei" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -683,8 +719,13 @@ contentFormat: html
         <li>Alça de transporte integrada</li>
         <li>Fabricado no Brasil</li>
       </ul>
-      <div class="cnx-aff-product-cta">
-        <a href="https://amzn.to/4claFAZ" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="https://amzn.to/4claFAZ" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
       </div>
     </div>
   </div>
@@ -716,8 +757,9 @@ contentFormat: html
       </ul>
     </section>
   </div>
-  <div class="cnx-aff-pros-cons-cta">
-    <a href="https://amzn.to/4claFAZ" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4claFAZ" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -737,8 +779,13 @@ contentFormat: html
         <li>Cinto de segurança de 5 pontos</li>
         <li>Fabricado no Brasil</li>
       </ul>
-      <div class="cnx-aff-product-cta">
-        <a href="https://amzn.to/4muSkol" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="https://amzn.to/4muSkol" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
       </div>
     </div>
   </div>
@@ -770,8 +817,9 @@ contentFormat: html
       </ul>
     </section>
   </div>
-  <div class="cnx-aff-pros-cons-cta">
-    <a href="https://amzn.to/4muSkol" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4muSkol" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -791,8 +839,13 @@ contentFormat: html
         <li>Encosto reclinável</li>
         <li>Certificação INMETRO</li>
       </ul>
-      <div class="cnx-aff-product-cta">
-        <a href="https://amzn.to/48PHKmq" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="https://amzn.to/48PHKmq" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
       </div>
     </div>
   </div>
@@ -824,8 +877,9 @@ contentFormat: html
       </ul>
     </section>
   </div>
-  <div class="cnx-aff-pros-cons-cta">
-    <a href="https://amzn.to/48PHKmq" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/48PHKmq" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -845,8 +899,13 @@ contentFormat: html
         <li>Design moderno e ergonômico</li>
         <li>Certificação INMETRO</li>
       </ul>
-      <div class="cnx-aff-product-cta">
-        <a href="https://amzn.to/4f5S0L2" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+      <div class="cnx-aff-product-cta-row">
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
+          <a href="https://amzn.to/4f5S0L2" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+        </div>
+        <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
+          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        </div>
       </div>
     </div>
   </div>
@@ -878,8 +937,9 @@ contentFormat: html
       </ul>
     </section>
   </div>
-  <div class="cnx-aff-pros-cons-cta">
-    <a href="https://amzn.to/4f5S0L2" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+  <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4f5S0L2" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
