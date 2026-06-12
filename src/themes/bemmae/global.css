@@ -22,7 +22,7 @@
   --bemmae-font-sans: var(--font-ui);
   --font-product: var(--font-ui);
   --bemmae-post-font: var(--font-body);
-  --bemmae-post-line: 1.625;
+  --bemmae-post-line: 1.5;
   --bemmae-post-p-space: 2rem;
   --bemmae-radius-card: 1.25rem;
 }
@@ -145,7 +145,7 @@
   line-height: var(--bemmae-post-line);
   letter-spacing: 0;
   font-weight: 400;
-  color: #1f2937;
+  color: #09090b;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
