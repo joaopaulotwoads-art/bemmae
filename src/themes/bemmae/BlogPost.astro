@@ -9,6 +9,7 @@ import { injectMissingProsConsCtas } from '../../utils/review-pros-cons-cta';
 import { ensureRoundupTableHead, upgradeRoundupItemsHtml } from '../../utils/review-roundup-rows';
 import type { BemmaeExpertCardData } from '../../utils/bemmae-article-experts';
 import BemmaeExpertCard from './BemmaeExpertCard.astro';
+import { extractFirstRoundup } from '../../utils/extract-roundup';
 
 interface Props {
   post: any;
@@ -71,6 +72,17 @@ if (isReviewRoundup && postHtmlBody) {
  */
 const applyRoundupArticleScope =
   isReviewRoundup || (!!postHtmlBody && /\bcnx-aff-/.test(postHtmlBody));
+
+const hideHero = !!post.data.hideThumbnail;
+let heroRoundupHtml = '';
+if (hideHero && isReviewRoundup && reviewBodySplit) {
+  // Extrai o roundup do tail (onde ele sempre está no nosso layout sem review-hero-picks)
+  const extracted = extractFirstRoundup(reviewBodySplit.tail);
+  if (extracted.roundupHtml) {
+    heroRoundupHtml = extracted.roundupHtml;
+    reviewBodySplit = { head: reviewBodySplit.head, tail: extracted.remainingHtml };
+  }
+}
 ---
 <article
   class:list={[
@@ -91,7 +103,7 @@ const applyRoundupArticleScope =
       {post.data.title}
     </h1>
   </header>
-  {heroImage && (
+  {heroImage && !hideHero && (
     <div
       class:list={[
         'post-hero-image-wrap flex items-center justify-center',
@@ -108,6 +120,12 @@ const applyRoundupArticleScope =
         fetchpriority="high"
         decoding="async"
       />
+    </div>
+  )}
+  {heroRoundupHtml && (
+    <div class="article-review-roundup hero-roundup mb-5 md:mb-6">
+      <h2 class="text-2xl md:text-3xl font-bold tracking-tight text-[var(--color-heading)] [font-family:var(--font-heading)] mb-4">Produtos em Destaque</h2>
+      <div set:html={heroRoundupHtml} />
     </div>
   )}
   {(author || date) && (
@@ -324,3 +342,77 @@ const applyRoundupArticleScope =
     </section>
   )}
 </article>
+
+<script>
+  const CHEVRON_LEFT = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>`;
+  const CHEVRON_RIGHT = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>`;
+
+  function initRoundupSliders() {
+    document.querySelectorAll('.cnx-aff-roundup').forEach(roundup => {
+      if (roundup.dataset.sliderInit) return;
+      roundup.dataset.sliderInit = '1';
+
+      const head = roundup.querySelector('.cnx-aff-roundup-head');
+      const items = [...roundup.querySelectorAll(':scope > .cnx-aff-roundup-item')];
+      if (items.length < 2) return;
+
+      if (head) head.hidden = true;
+
+      const track = document.createElement('div');
+      track.className = 'cnx-aff-roundup-track';
+      track.setAttribute('role', 'list');
+      items.forEach(item => {
+        item.setAttribute('role', 'listitem');
+        track.appendChild(item);
+      });
+      roundup.appendChild(track);
+
+      const wrap = document.createElement('div');
+      wrap.className = 'cnx-aff-roundup-slider-wrap';
+      roundup.parentNode.insertBefore(wrap, roundup);
+      wrap.appendChild(roundup);
+
+      const prevBtn = document.createElement('button');
+      prevBtn.type = 'button';
+      prevBtn.className = 'cnx-aff-slider-btn cnx-aff-slider-btn--prev';
+      prevBtn.setAttribute('aria-label', 'Produto anterior');
+      prevBtn.innerHTML = CHEVRON_LEFT;
+      prevBtn.setAttribute('aria-disabled', 'true');
+
+      const nextBtn = document.createElement('button');
+      nextBtn.type = 'button';
+      nextBtn.className = 'cnx-aff-slider-btn cnx-aff-slider-btn--next';
+      nextBtn.setAttribute('aria-label', 'Próximo produto');
+      nextBtn.innerHTML = CHEVRON_RIGHT;
+
+      const updateButtons = () => {
+        const atStart = track.scrollLeft <= 2;
+        const atEnd = track.scrollLeft + track.clientWidth >= track.scrollWidth - 2;
+        prevBtn.setAttribute('aria-disabled', String(atStart));
+        nextBtn.setAttribute('aria-disabled', String(atEnd));
+      };
+
+      const scroll = (dir) => {
+        const cardW = track.querySelector('.cnx-aff-roundup-item')?.offsetWidth || 195;
+        const gap = 12;
+        track.scrollBy({ left: dir * (cardW + gap), behavior: 'smooth' });
+      };
+
+      prevBtn.addEventListener('click', () => scroll(-1));
+      nextBtn.addEventListener('click', () => scroll(1));
+      track.addEventListener('scroll', updateButtons, { passive: true });
+
+      wrap.appendChild(prevBtn);
+      wrap.appendChild(nextBtn);
+
+      // Estado inicial dos botões após o layout estabilizar
+      requestAnimationFrame(updateButtons);
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initRoundupSliders);
+  } else {
+    initRoundupSliders();
+  }
+</script>

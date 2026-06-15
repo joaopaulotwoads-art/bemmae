@@ -840,3 +840,95 @@
     font-size: 2.25rem !important;
   }
 }
+
+/* ── Hero roundup: pré-estilo como slider horizontal para evitar flash vertical (CLS) ──
+   Aplica ANTES do JS rodar (.cnx-aff-roundup diretamente)
+   e DEPOIS do JS rodar (.cnx-aff-roundup-track dentro do roundup).
+   Ambos os estados produzem o mesmo visual → sem layout shift visível.
+*/
+
+/* Container: flex scroll horizontal antes do JS */
+.hero-roundup .cnx-aff-roundup.cnx-aff-block-wrap {
+  display: flex !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  scroll-snap-type: x mandatory !important;
+  gap: 0.75rem !important;
+  padding: 0.75rem !important;
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+.hero-roundup .cnx-aff-roundup.cnx-aff-block-wrap::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* Cabeçalho oculto desde o início */
+.hero-roundup .cnx-aff-roundup .cnx-aff-roundup-head {
+  display: none !important;
+}
+
+/* Elementos desnecessários nos cards */
+.hero-roundup .cnx-aff-roundup .cnx-aff-roundup-rank { display: none !important; }
+.hero-roundup .cnx-aff-roundup .cnx-aff-roundup-features-col { display: none !important; }
+
+/* Cards: mesma largura e layout antes e depois do JS */
+.hero-roundup .cnx-aff-roundup .cnx-aff-roundup-item,
+.hero-roundup .cnx-aff-roundup-track .cnx-aff-roundup-item {
+  display: flex !important;
+  flex-direction: column !important;
+  grid-template-columns: none !important;
+  flex: 0 0 calc((min(100vw, 48rem) - 7.5rem) / 3) !important;
+  width: calc((min(100vw, 48rem) - 7.5rem) / 3) !important;
+  scroll-snap-align: start;
+  flex-shrink: 0 !important;
+}
+
+/* Área da imagem */
+.hero-roundup .cnx-aff-roundup .cnx-aff-roundup-img-cell {
+  width: 100% !important;
+  height: 148px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8fafc;
+  border-radius: 0.5rem;
+}
+
+.hero-roundup .cnx-aff-roundup .cnx-aff-roundup-img {
+  max-width: 88% !important;
+  max-height: 132px !important;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Coluna do produto */
+.hero-roundup .cnx-aff-roundup .cnx-aff-roundup-product-col {
+  padding-right: 0 !important;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+/* CTA */
+.hero-roundup .cnx-aff-roundup .cnx-aff-roundup-cta-col {
+  margin-top: auto;
+  padding-top: 0.5rem;
+}
+
+.hero-roundup .cnx-aff-roundup .cnx-aff-roundup-ctas a.cnx-aff-roundup-cta-secondary {
+  display: none !important;
+}
+
+@media (max-width: 639px) {
+  .hero-roundup .cnx-aff-roundup .cnx-aff-roundup-item,
+  .hero-roundup .cnx-aff-roundup-track .cnx-aff-roundup-item {
+    flex: 0 0 calc(100vw - 4.25rem) !important;
+    width: calc(100vw - 4.25rem) !important;
+  }
+}

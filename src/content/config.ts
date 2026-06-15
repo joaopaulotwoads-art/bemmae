@@ -30,6 +30,8 @@ const posts = defineCollection({
         seoSchema: z.enum(['auto', 'blogPosting', 'articleItemList', 'none']).optional(),
         /** Layout editorial: reviewRoundup = artigo tipo ranking (fundo rosado, CTAs amarelos, blocos de review). */
         articleLayout: z.enum(['default', 'reviewRoundup']).optional(),
+        /** Oculta a imagem hero dentro do artigo (mantém thumbnail para OG/cards externos). */
+        hideThumbnail: z.boolean().optional(),
     }),
 });
 
