@@ -942,11 +942,71 @@
   gap: 0.3rem !important;
 }
 
+/* Título: máx 2 linhas com reticências */
+.hero-roundup .cnx-aff-roundup-item-title {
+  font-size: 0.82rem !important;
+  font-weight: 700 !important;
+  line-height: 1.38 !important;
+  margin: 0.25rem 0 !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+}
+
 /* CTA */
 .hero-roundup .cnx-aff-roundup-cta-col {
   margin-top: auto !important;
   padding-top: 0.5rem !important;
 }
+.hero-roundup .cnx-aff-roundup-ctas {
+  flex-direction: column !important;
+  gap: 0 !important;
+}
+
+/* Botão pílula amarelo Amazon */
+.hero-roundup .cnx-aff-roundup-ctas a.cnx-aff-roundup-cta-primary {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.35rem !important;
+  width: 100% !important;
+  padding: 0.55rem 0.75rem !important;
+  border-radius: 9999px !important;
+  background: #ffc107 !important;
+  border: none !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18), 0 1px 0 rgba(0,0,0,0.08) !important;
+  color: #111 !important;
+  font-size: 0.75rem !important;
+  font-weight: 800 !important;
+  text-decoration: none !important;
+  line-height: 1 !important;
+}
+.hero-roundup .cnx-aff-roundup-ctas a.cnx-aff-roundup-cta-primary:hover {
+  background: #ffca28 !important;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.22) !important;
+}
+/* Ícone Amazon (::before) */
+.hero-roundup .cnx-aff-roundup-ctas a.cnx-aff-roundup-cta-primary::before {
+  content: '';
+  display: inline-block !important;
+  width: 14px !important;
+  height: 14px !important;
+  flex-shrink: 0 !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23111' d='M13.958 10.09c0 1.232.029 2.256-.591 3.351-.502.891-1.301 1.439-2.186 1.439-1.214 0-1.922-.924-1.922-2.292 0-2.692 2.415-3.182 4.699-3.182v.684zm3.187 7.705c-.209.189-.512.201-.745.074-1.047-.872-1.236-1.276-1.814-2.106-1.734 1.768-2.962 2.297-5.209 2.297-2.66 0-4.731-1.641-4.731-4.925 0-2.565 1.391-4.309 3.37-5.164 1.715-.754 4.11-.891 5.942-1.097v-.41c0-.753.06-1.642-.383-2.294-.385-.579-1.124-.816-1.776-.816-1.207 0-2.284.619-2.548 1.903-.054.285-.261.567-.549.582l-3.061-.333c-.259-.056-.548-.266-.472-.661C5.7 2.607 8.928 1.5 11.83 1.5c1.487 0 3.429.395 4.601 1.524C17.753 4.206 17.6 5.986 17.6 7.917v5.181c0 1.558.645 2.241 1.252 3.083.213.299.259.657-.013.879-.68.569-1.894 1.625-2.56 2.218l-.135-.483zM20.556 18.01c-2.382 1.431-4.938 2.143-7.37 2.143-3.487 0-6.626-1.287-9.002-3.428-.187-.169-.02-.4.205-.269 2.561 1.489 5.729 2.383 8.997 2.383 2.205 0 4.629-.457 6.861-1.404.337-.144.619.221.309.575z'/%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+}
+/* Seta (::after) */
+.hero-roundup .cnx-aff-roundup-ctas a.cnx-aff-roundup-cta-primary::after {
+  content: '→' !important;
+  font-size: 0.85rem !important;
+  line-height: 1 !important;
+  color: #111 !important;
+  margin-left: 0.1rem !important;
+  opacity: 1 !important;
+}
+
 .hero-roundup .cnx-aff-roundup-ctas a.cnx-aff-roundup-cta-secondary {
   display: none !important;
 }
