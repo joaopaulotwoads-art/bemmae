@@ -28,9 +28,6 @@ contentFormat: html
 <div style="background:#fefce8;border-left:4px solid #eab308;padding:1rem 1.25rem;border-radius:4px;margin:1.5rem 0;" id="ranking">
   <p style="margin:0;"><strong>Resposta rápida:</strong> O melhor carrinho compacto no geral é o <strong>Cosco Toffy</strong>: <a href="https://amzn.to/4vClrt9" rel="nofollow sponsored noopener noreferrer">ver na Amazon</a> | <a href="https://meli.la/1GiLvz3" rel="nofollow sponsored noopener noreferrer">ver no ML</a>. Para melhor custo-benefício com peso de apenas 4,3 kg, escolha o <strong>Maxi Baby MOVEE</strong>: <a href="https://amzn.to/43WfJqb" rel="nofollow sponsored noopener noreferrer">ver na Amazon</a> | <a href="https://meli.la/1m1Eg1J" rel="nofollow sponsored noopener noreferrer">ver no ML</a>.</p>
 </div>
-
-<h2>Os 7 Melhores Carrinhos de Bebê Compactos de 2026</h2>
-
 <div class="cnx-aff-roundup cnx-aff-block-wrap" data-cnx-roundup='[{"rank":1,"name":"Cosco Toffy","badge":"Melhor compacto custo-benefício"},{"rank":2,"name":"Burigotto Up","badge":"Melhor para viagens"},{"rank":3,"name":"Maxi Baby MOVEE","badge":"Melhor guarda-chuva ultracompacto"},{"rank":4,"name":"Safety 1st Bytes","badge":"Melhor fechamento estilo mala"},{"rank":5,"name":"Maxi Baby Allday","badge":"Melhor do nascimento com fechamento de uma mão"},{"rank":6,"name":"Multikids Baby Pocket BB327","badge":"Mais barato da lista"},{"rank":7,"name":"Voyage Park Passeio Compacto B818","badge":"Melhor cesto entre os compactos"}]'>
   <div class="cnx-aff-roundup-head" aria-hidden="true">
     <span class="cnx-aff-roundup-head-spacer"></span>

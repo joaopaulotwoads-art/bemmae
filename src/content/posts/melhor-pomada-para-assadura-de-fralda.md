@@ -10,6 +10,7 @@ metaDescription: 'A melhor pomada para assadura é o Bepantol Baby Creme. Top 7 
 metaImage: /images/og/melhor-pomada-para-assadura-de-fralda.webp
 seoSchema: articleItemList
 articleLayout: reviewRoundup
+hideThumbnail: true
 keywords: 'melhor pomada para assadura, pomada para assadura de fralda, bepantol baby, desitin, hipoglós, assadura bebê'
 contentFormat: html
 ---
@@ -67,16 +68,13 @@ contentFormat: html
 <h3>Lanolina: barreira impermeável</h3>
 
 <p>A lanolina é uma cera natural derivada da lã de ovelha que cria uma barreira impermeável muito eficaz. O Bepantol usa lanolina combinada com D-Pantenol, o que explica por que ele consegue tanto proteger quanto cicatrizar ao mesmo tempo. É segura para bebês e hipoalergênica na maioria das formulações.</p>
-
-<h2>As 7 Melhores Pomadas para Assadura de 2026</h2>
-
 <div class="cnx-aff-roundup cnx-aff-block-wrap" data-cnx-roundup='[{"rank":"1","itemBadge":"Melhor no geral","title":"Bepantol Baby Creme","image":"https://m.media-amazon.com/images/I/713euw7uVZL._AC_SX679_.jpg","score":"","features":["D-Pantenol cicatriza em 24-48h","Pode usar em toda troca","Recomendado por pediatras"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/4uZvg4F","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/12zxVtk"},{"rank":"2","itemBadge":"A clássica mais vendida","title":"Hipoglós","image":"https://m.media-amazon.com/images/I/61-8xDAJfLL._AC_SL1500_.jpg","score":"","features":["Óxido de zinco + Vitaminas A, D e E","A mais vendida do Brasil há décadas","Tampa flip-top prática"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/4oh1PIF","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/1J2BB7j"},{"rank":"3","itemBadge":"Melhor para casos graves","title":"Desitin Máxima Proteção","image":"https://m.media-amazon.com/images/I/61yr4Q0p0iL._AC_SX679_.jpg","score":"","features":["40% óxido de zinco, dose máxima","Barreira total para lesões graves","Alivia em horas"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/3Q2UUGp","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/1gaGHwi"},{"rank":"4","itemBadge":"Melhor natural e vegana","title":"Weleda Calendula Baby","image":"https://m.media-amazon.com/images/I/51YWokTKFzL._AC_SY879_.jpg","score":"","features":["Calêndula + camomila anti-inflamatório","100% natural e vegana","Certificada NATRUE"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/3RT99y8","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/2GYpA5z"},{"rank":"5","itemBadge":"Melhor premium","title":"Mustela Vitamin Barrier","image":"https://m.media-amazon.com/images/I/51kbhWXRwpS._AC_SY300_SX300_QL70_ML2_.jpg","score":"","features":["Vitamina B5 + triptase exclusiva","Hipoalergênica testada dermatologicamente","Para pele muito sensível"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/4vCYXIG","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/2vh4Xgz"},{"rank":"6","itemBadge":"Melhor custo-benefício","title":"Huggies Pomada de Assadura","image":"https://m.media-amazon.com/images/I/51y4gaPpE2L._AC_SX679_.jpg","score":"","features":["Óleo de amêndoa 100% natural","Vitamina E protetora","Melhor preço por grama"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/43WrSLI","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/122VUWS"},{"rank":"7","itemBadge":"Melhor para assadura com ferida","title":"Nebacetin Baby Creme","image":"https://m.media-amazon.com/images/I/71ttWVJtqcL._AC_SY300_SX300_QL70_ML2_.jpg","score":"","features":["Óleo de girassol cicatrizante","Sem perfume e sem corante","Para casos com lesão aberta"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/49JpMm0","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/24ef6te"}]'>
   <div class="cnx-aff-roundup-head" aria-hidden="true">
     <span class="cnx-aff-roundup-head-spacer"></span>
-    <span>Imagem</span>
-    <span>Produto</span>
-    <span>Destaques</span>
-    <span>Preço</span>
+    
+    
+    
+    
   </div>
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">1</div>

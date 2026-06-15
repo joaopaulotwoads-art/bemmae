@@ -10,6 +10,7 @@ metaDescription: 'A melhor fralda de pano é a Korui all-in-one. Top 5 modelos, 
 metaImage: /images/og/melhor-fralda-de-pano-ecologica.webp
 seoSchema: articleItemList
 articleLayout: reviewRoundup
+hideThumbnail: true
 keywords: 'melhor fralda de pano, fralda ecológica, fralda de pano ecológica, fralda de pano moderna, korui, dipano'
 contentFormat: html
 ---
@@ -57,16 +58,13 @@ contentFormat: html
 <h3>Botões ajustáveis: tamanho único dos 4kg aos 16kg</h3>
 
 <p>Os botões de pressão na parte frontal permitem ajustar o comprimento da fralda conforme o bebê cresce. Na posição menor, serve a partir dos 4kg. Na posição maior, vai até os 16kg, o que cobre praticamente todo o período de fraldas. Comprar um kit de 20 fraldas serve do início ao desfralde.</p>
-
-<h2>As 5 Melhores Fraldas de Pano de 2026</h2>
-
 <div class="cnx-aff-roundup cnx-aff-block-wrap" data-cnx-roundup='[{"rank":"1","itemBadge":"Melhor all-in-one","title":"Korui Fralda Ecológica AIO","image":"https://m.media-amazon.com/images/I/61c7bKbDJeL._AC_SX679_.jpg","score":"","features":["Sistema all-in-one sem montagem","Absorvente de bambu certificado","Tamanho único 4kg a 16kg"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/4uullTj","cta2":"Ver no Mercado Livre","cta2Url":"https://amzn.to/43WOWKj"},{"rank":"2","itemBadge":"Melhor custo-benefício em kit","title":"Dipano Fralda Pocket","image":"https://m.media-amazon.com/images/I/61M-iR9X-2L._AC_SY300_SX300_QL70_ML2_.jpg","score":"","features":["Kit com absorventes inclusos","Suporta até 400 lavagens","Sem químicos e corantes"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/4umolB9","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/2ySvtjs"},{"rank":"3","itemBadge":"Melhor para iniciantes","title":"Baby Bum Fralda Ecológica","image":"https://m.media-amazon.com/images/I/61+ELH-aukL._AC_SY879_.jpg","score":"","features":["Praticidade máxima","Fácil de lavar e secar","Boa durabilidade"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/4uuq2MV","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/244SFEJ"},{"rank":"4","itemBadge":"Melhor na Amazon","title":"Ekological Fralda de Pano","image":"https://m.media-amazon.com/images/I/61xP4cVu21L._AC_SX679_.jpg","score":"","features":["3 camadas antivazamento","Ótima avaliação na Amazon","Preço acessível"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/4uqrDUg","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/2Uw11Q2"},{"rank":"5","itemBadge":"Melhor variedade de estampas","title":"Mari Fraldas Pocket","image":"https://m.media-amazon.com/images/I/614nbJU162L._AC_SX679_.jpg","score":"","features":["Tecido respirável","Comunidade ativa de suporte","Variedade de estampas"],"cta1":"Ver na Amazon","cta1Url":"https://amzn.to/4dZIGHR","cta2":"Ver no Mercado Livre","cta2Url":"https://meli.la/1RUAtAq"}]'>
   <div class="cnx-aff-roundup-head" aria-hidden="true">
     <span class="cnx-aff-roundup-head-spacer"></span>
-    <span>Imagem</span>
-    <span>Produto</span>
-    <span>Destaques</span>
-    <span>Preço</span>
+    
+    
+    
+    
   </div>
   <div class="cnx-aff-roundup-item">
     <div class="cnx-aff-roundup-rank">1</div>

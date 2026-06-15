@@ -28,9 +28,6 @@ contentFormat: html
 <div style="background:#fefce8;border-left:4px solid #eab308;padding:1rem 1.25rem;border-radius:4px;margin:1.5rem 0;" id="ranking">
   <p style="margin:0;"><strong>🏆 Resposta rápida:</strong> O melhor carrinho de bebê no geral é o <strong>Safety 1st Magnific</strong> (<a href="https://amzn.to/43pxez8" rel="nofollow sponsored noopener noreferrer">ver na Amazon</a> | <a href="https://meli.la/1WQuXeA" rel="nofollow sponsored noopener noreferrer">ver no ML</a>). Para melhor custo-benefício com travel system completo por menos de R$1.150, escolha o <strong>Cosco Reverse</strong> (<a href="https://amzn.to/4vbzPso" rel="nofollow sponsored noopener noreferrer">ver na Amazon</a> | <a href="https://meli.la/27NuYTu" rel="nofollow sponsored noopener noreferrer">ver no ML</a>).</p>
 </div>
-
-<h2>Os 10 Melhores Carrinhos de Bebê de 2026</h2>
-
 <div class="cnx-aff-roundup cnx-aff-block-wrap" data-cnx-roundup='[{"rank":1,"name":"Safety 1st Magnific","badge":"Melhor no geral"},{"rank":2,"name":"Cosco Travel System Reverse","badge":"Melhor custo-benefício"},{"rank":3,"name":"Safety 1st Mobi NV Trio","badge":"Melhor travel system"},{"rank":4,"name":"Burigotto Ecco","badge":"Melhor carrinho tradicional"},{"rank":5,"name":"Galzerano Napoli","badge":"Melhor para recém-nascido"},{"rank":6,"name":"Cosco Toffy","badge":"Melhor compacto"},{"rank":7,"name":"Galzerano Olympus","badge":"Melhor com moisés"},{"rank":8,"name":"Burigotto Up","badge":"Melhor para viagens"},{"rank":9,"name":"MAXI BABY MOVEE","badge":"Melhor guarda-chuva"},{"rank":10,"name":"Litet Jogger Sway","badge":"Melhor para terrenos variados"}]'>
   <div class="cnx-aff-roundup-head" aria-hidden="true">
     <span class="cnx-aff-roundup-head-spacer"></span>
