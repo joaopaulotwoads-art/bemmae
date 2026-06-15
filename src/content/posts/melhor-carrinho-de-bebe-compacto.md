@@ -1,15 +1,16 @@
 ---
-title: 'Melhor Carrinho de Bebê Compacto 2026: 7 Opções Leves e Fáceis de Dobrar'
+title: 'Melhor Carrinho de Bebê Compacto 2026: 7 Opções'
 slug: melhor-carrinho-de-bebe-compacto
 author: vitoria-caroline
 category: carrinhos
 publishedDate: '2026-06-09T12:00:00-03:00'
 thumbnail: /images/og/melhor-carrinho-de-bebe-compacto.webp
-metaTitle: 'Melhor Carrinho de Bebê Compacto 2026: 7 opções leves e fáceis de dobrar'
+metaTitle: 'Melhor Carrinho de Bebê Compacto 2026: 7 Opções'
 metaDescription: 'O melhor carrinho de bebê compacto é o Cosco Toffy. Veja o ranking com 7 modelos, preços reais, prós e contras. Guia atualizado 2026.'
 metaImage: /images/og/melhor-carrinho-de-bebe-compacto.webp
 seoSchema: articleItemList
 articleLayout: reviewRoundup
+hideThumbnail: true
 keywords: 'melhor carrinho de bebe compacto, carrinho compacto para bebe, carrinho de bebe leve, carrinho de bebe dobravel, carrinho compacto 2026'
 contentFormat: html
 ---
@@ -33,7 +34,7 @@ contentFormat: html
 <div class="cnx-aff-roundup cnx-aff-block-wrap" data-cnx-roundup='[{"rank":1,"name":"Cosco Toffy","badge":"Melhor compacto custo-benefício"},{"rank":2,"name":"Burigotto Up","badge":"Melhor para viagens"},{"rank":3,"name":"Maxi Baby MOVEE","badge":"Melhor guarda-chuva ultracompacto"},{"rank":4,"name":"Safety 1st Bytes","badge":"Melhor fechamento estilo mala"},{"rank":5,"name":"Maxi Baby Allday","badge":"Melhor do nascimento com fechamento de uma mão"},{"rank":6,"name":"Multikids Baby Pocket BB327","badge":"Mais barato da lista"},{"rank":7,"name":"Voyage Park Passeio Compacto B818","badge":"Melhor cesto entre os compactos"}]'>
   <div class="cnx-aff-roundup-head" aria-hidden="true">
     <span class="cnx-aff-roundup-head-spacer"></span>
-    <span>Imagem</span><span>Produto</span><span>Destaques</span><span>Preço</span>
+    
   </div>
 
   <div class="cnx-aff-roundup-item">

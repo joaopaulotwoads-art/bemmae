@@ -1,5 +1,5 @@
 ---
-title: 'Melhor Carrinho de Bebê 2026: Guia Completo com as 10 Melhores Opções'
+title: 'Melhor Carrinho de Bebê 2026: Top 10 para Escolher'
 slug: melhor-carrinho-de-bebe
 author: vitoria-caroline
 category: carrinhos
@@ -10,6 +10,7 @@ metaDescription: 'O melhor carrinho de bebê é o Safety 1st Magnific. Veja o ra
 metaImage: /images/og/melhor-carrinho-de-bebe.webp
 seoSchema: articleItemList
 articleLayout: reviewRoundup
+hideThumbnail: true
 keywords: 'melhor carrinho de bebe, melhores carrinhos de bebe, carrinho de bebe 2026, melhor carrinho de bebe custo beneficio'
 contentFormat: html
 ---
@@ -33,7 +34,7 @@ contentFormat: html
 <div class="cnx-aff-roundup cnx-aff-block-wrap" data-cnx-roundup='[{"rank":1,"name":"Safety 1st Magnific","badge":"Melhor no geral"},{"rank":2,"name":"Cosco Travel System Reverse","badge":"Melhor custo-benefício"},{"rank":3,"name":"Safety 1st Mobi NV Trio","badge":"Melhor travel system"},{"rank":4,"name":"Burigotto Ecco","badge":"Melhor carrinho tradicional"},{"rank":5,"name":"Galzerano Napoli","badge":"Melhor para recém-nascido"},{"rank":6,"name":"Cosco Toffy","badge":"Melhor compacto"},{"rank":7,"name":"Galzerano Olympus","badge":"Melhor com moisés"},{"rank":8,"name":"Burigotto Up","badge":"Melhor para viagens"},{"rank":9,"name":"MAXI BABY MOVEE","badge":"Melhor guarda-chuva"},{"rank":10,"name":"Litet Jogger Sway","badge":"Melhor para terrenos variados"}]'>
   <div class="cnx-aff-roundup-head" aria-hidden="true">
     <span class="cnx-aff-roundup-head-spacer"></span>
-    <span>Imagem</span><span>Produto</span><span>Destaques</span><span>Preço</span>
+    
   </div>
 
   <div class="cnx-aff-roundup-item">
