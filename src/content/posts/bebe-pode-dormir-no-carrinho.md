@@ -4,10 +4,10 @@ slug: bebe-pode-dormir-no-carrinho
 author: vitoria-caroline
 category: carrinhos-de-bebe
 publishedDate: '2026-06-11T12:00:00-03:00'
-thumbnail: /images/og/bebe-pode-dormir-no-carrinho.jpg
+thumbnail: /images/posts/1776131838288-bebe-dormindo-no-carrinho.webp
 metaTitle: 'Bebê Pode Dormir no Carrinho? Riscos e Cuidados'
 metaDescription: 'Bebê pode dormir no carrinho em cochilos curtos supervisionados. Veja os riscos, condições seguras, quanto tempo é aceitável e o que fazer quando o bebê só dorme no carrinho.'
-metaImage: /images/og/bebe-pode-dormir-no-carrinho.jpg
+metaImage: /images/posts/1776131838288-bebe-dormindo-no-carrinho.webp
 seoSchema: blogPosting
 articleLayout: default
 keywords: 'bebe pode dormir no carrinho, bebê dormir no carrinho risco, sono bebe carrinho, carrinho para dormir bebe, segurança bebe dormir carrinho'

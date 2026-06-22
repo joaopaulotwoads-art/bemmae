@@ -4,10 +4,10 @@ slug: pode-levar-carrinho-de-bebe-no-aviao
 author: vitoria-caroline
 category: carrinhos-de-bebe
 publishedDate: '2026-06-10T12:00:00-03:00'
-thumbnail: /images/og/pode-levar-carrinho-de-bebe-no-aviao.jpg
+thumbnail: /images/posts/1774382124664-carrinho-de-bebe-no-aviao.webp
 metaTitle: 'Pode Levar Carrinho de Bebê no Avião? Regras 2026'
 metaDescription: 'Pode levar carrinho de bebê no avião gratuitamente até a porta da aeronave. Veja as regras da Gol, LATAM e Azul para despacho e dimensões.'
-metaImage: /images/og/pode-levar-carrinho-de-bebe-no-aviao.jpg
+metaImage: /images/posts/1774382124664-carrinho-de-bebe-no-aviao.webp
 seoSchema: blogPosting
 articleLayout: default
 keywords: 'pode levar carrinho de bebe no aviao, carrinho de bebe no aviao regras, despachar carrinho de bebe aviao, carrinho de bebe gol latam azul, carrinho de bebe viagem aviao'

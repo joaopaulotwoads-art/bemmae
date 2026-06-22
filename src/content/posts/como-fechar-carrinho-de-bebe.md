@@ -4,10 +4,10 @@ slug: como-fechar-carrinho-de-bebe
 author: vitoria-caroline
 category: carrinhos-de-bebe
 publishedDate: '2026-06-10T12:00:00-03:00'
-thumbnail: /images/og/como-fechar-carrinho-de-bebe.jpg
+thumbnail: /images/posts/1774388133339-Como-fechar-carrinho-de-beb--Passo-a-passo-r-pido-e-seguro.webp
 metaTitle: 'Como Fechar Carrinho de Bebê: Passo a Passo por Marca'
 metaDescription: 'Para fechar um carrinho de bebê, dobre o assento, pressione o botão no chassi e empurre até travar. Passo a passo para 6 marcas.'
-metaImage: /images/og/como-fechar-carrinho-de-bebe.jpg
+metaImage: /images/posts/1774388133339-Como-fechar-carrinho-de-beb--Passo-a-passo-r-pido-e-seguro.webp
 seoSchema: blogPosting
 articleLayout: default
 keywords: 'como fechar carrinho de bebe, como dobrar carrinho de bebe, fechar carrinho de bebe passo a passo, como dobrar carrinho, mecanismo de dobragem carrinho'

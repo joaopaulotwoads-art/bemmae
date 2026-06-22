@@ -4,10 +4,10 @@ slug: com-quantos-meses-o-bebe-pode-usar-carrinho-de-passeio
 author: vitoria-caroline
 category: carrinhos-de-bebe
 publishedDate: '2026-06-10T12:00:00-03:00'
-thumbnail: /images/og/com-quantos-meses-o-bebe-pode-usar-carrinho-de-passeio.jpg
+thumbnail: /images/posts/1774384674803-Quando-trocar-o-beb--conforto-pelo-carrinho-de-passeio.webp
 metaTitle: 'Com Quantos Meses Bebê Pode Usar Carrinho de Passeio?'
 metaDescription: 'O bebê pode usar carrinho de passeio convencional a partir dos 6 meses, quando sustenta o pescoço. Para recém-nascidos, use modelos com moisés ou encosto plano.'
-metaImage: /images/og/com-quantos-meses-o-bebe-pode-usar-carrinho-de-passeio.jpg
+metaImage: /images/posts/1774384674803-Quando-trocar-o-beb--conforto-pelo-carrinho-de-passeio.webp
 seoSchema: blogPosting
 articleLayout: default
 keywords: 'com quantos meses bebe pode usar carrinho de passeio, idade carrinho de passeio, carrinho de bebe meses, quando usar carrinho de passeio, bebe carrinho passeio'

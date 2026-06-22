@@ -4,10 +4,10 @@ slug: melhor-fralda-noturna
 author: vitoria-caroline
 category: fraldas
 publishedDate: '2026-06-05T12:00:00-03:00'
-thumbnail: /images/og/melhor-fralda-noturna.webp
+thumbnail: /images/og/melhores-fraldas.jpg
 metaTitle: 'Melhor Fralda Noturna para Bebê: Top 6 sem Vazamento'
 metaDescription: 'A melhor fralda noturna é a MamyPoko Dia e Noite, com absorção de 5 copos e 12h de proteção. Top 6 que não vazam com dicas para nunca mais ter vazamento à noite.'
-metaImage: /images/og/melhor-fralda-noturna.webp
+metaImage: /images/og/melhores-fraldas.jpg
 seoSchema: articleItemList
 articleLayout: reviewRoundup
 hideThumbnail: true

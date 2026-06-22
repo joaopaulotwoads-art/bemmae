@@ -4,10 +4,10 @@ slug: como-embalar-carrinho-bebe-aviao
 author: vitoria-caroline
 category: carrinhos-de-bebe
 publishedDate: '2026-06-11T12:00:00-03:00'
-thumbnail: /images/og/como-embalar-carrinho-bebe-aviao.jpg
+thumbnail: /images/posts/1774400588083-Preparando-o-carrinho-de-beb--para-o-despacho-no-avi-o.webp
 metaTitle: 'Como Embalar Carrinho de Bebê para o Avião: Guia Completo'
 metaDescription: 'Como embalar carrinho de bebê para o avião: saco de lixo 200L, capa de viagem ou plástico bolha. Passo a passo para proteger rodas, chassi e tecido no porão.'
-metaImage: /images/og/como-embalar-carrinho-bebe-aviao.jpg
+metaImage: /images/posts/1774400588083-Preparando-o-carrinho-de-beb--para-o-despacho-no-avi-o.webp
 seoSchema: blogPosting
 articleLayout: default
 keywords: 'como embalar carrinho de bebe para aviao, embalar carrinho aviao, proteger carrinho aviao, saco carrinho aviao, capa carrinho viagem aviao'

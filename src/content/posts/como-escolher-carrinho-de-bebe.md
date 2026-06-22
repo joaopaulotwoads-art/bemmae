@@ -4,10 +4,10 @@ slug: como-escolher-carrinho-de-bebe
 author: vitoria-caroline
 category: carrinhos-de-bebe
 publishedDate: '2026-06-11T12:00:00-03:00'
-thumbnail: /images/og/como-escolher-carrinho-de-bebe.jpg
+thumbnail: /images/posts/1774276426103-guia-como-escolher-carrinho-de-bebe-mae-parque.jpg
 metaTitle: 'Como Escolher Carrinho de Bebê: Guia por Perfil de Rotina'
 metaDescription: 'Como escolher carrinho de bebê: descubra o modelo certo para o seu perfil de rotina, os 5 critérios que definem a escolha e o checklist de segurança na loja.'
-metaImage: /images/og/como-escolher-carrinho-de-bebe.jpg
+metaImage: /images/posts/1774276426103-guia-como-escolher-carrinho-de-bebe-mae-parque.jpg
 seoSchema: blogPosting
 articleLayout: default
 keywords: 'como escolher carrinho de bebe, como escolher carrinho de bebe certo, o que observar na hora de comprar carrinho de bebe, criterios carrinho de bebe, tipos de carrinho de bebe'
