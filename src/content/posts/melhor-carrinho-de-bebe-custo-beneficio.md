@@ -1007,6 +1007,7 @@ contentFormat: html
   <li><a href="/melhor-carrinho-de-bebe-reversivel/">Melhores carrinhos reversíveis</a>: opções com assento bidirecional</li>
   <li><a href="/melhor-carrinho-de-bebe-compacto/">Melhores carrinhos compactos</a>: modelos leves para viagem e transporte público</li>
   <li><a href="/melhor-carrinho-de-bebe-travel-system/">Melhores travel systems</a>: comparativo dos principais kits com bebê conforto</li>
+  <li><a href="/melhor-marca-de-carrinho-de-bebe/">Melhores marcas de carrinho de bebê</a>: qual fabricante tem o melhor custo-benefício e reputação</li>
 </ul>
 
 <h2>Perguntas Frequentes sobre Carrinhos de Bebê Custo-Benefício</h2>

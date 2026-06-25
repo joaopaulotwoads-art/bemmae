@@ -741,6 +741,7 @@ contentFormat: html
 <ul>
   <li><a href="/melhor-carrinho-de-bebe/">Melhor carrinho de bebê: guia completo com os 10 melhores modelos de 2026</a>, com análise detalhada dos principais carrinhos do mercado, de R$350 a R$2.000.</li>
   <li><a href="/melhor-carrinho-de-bebe-travel-system/">Melhor carrinho travel system</a>, para quem quer um conjunto completo com bebê conforto e base para o carro integrados.</li>
+  <li><a href="/melhor-marca-de-carrinho-de-bebe/">Melhores marcas de carrinho de bebê</a>: veja quais fabricantes têm o melhor histórico de qualidade e assistência técnica no Brasil.</li>
 </ul>
 
 <h2>Perguntas Frequentes sobre Carrinhos Compactos</h2>
