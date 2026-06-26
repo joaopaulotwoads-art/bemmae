@@ -31,14 +31,7 @@ HEADERS = SESSION.headers
 
 # Coloque aqui os ASINs que precisa
 PRODUTOS = [
-    ("Burigotto Ecco",              "B087RYYMKC"),
-    ("Burigotto Up!",               "B07D2FJS93"),
-    ("Cosco Toffy",                 "B09ZNX93JK"),
-    ("Cosco Travel System Nexus",   "B0784DBYBX"),
-    ("Galzerano Olympus",           "B09VHCYVVJ"),
-    ("Galzerano Milano Rev II",     "B09TM5VXNK"),
-    ("Voyage Park",                 "B08X7H8498"),
-    ("Litet Candy",                 "B08952CD7S"),
+    ("Graco Modes Element",            "B07Y5V44FP"),
 ]
 
 TAG = "eumaecarrinho-20"
