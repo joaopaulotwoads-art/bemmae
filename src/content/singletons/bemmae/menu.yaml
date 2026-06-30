@@ -1,6 +1,6 @@
 logoType: image
 logoText: Bem Mãe
-logoImage: ""
+logoImage: /bem-mae-logo.svg
 items:
   - label: Início
     href: /

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 195 68" width="390" height="136" role="img" aria-label="Bem Mãe">
+  <!-- Símbolo: quadrado coral arredondado -->
+  <rect x="0" y="4" width="60" height="60" rx="14" fill="#E85A2D"/>
+  <!-- Coração creme + bolinha coral (mãe e bebê) -->
+  <g transform="translate(3, 11) scale(0.54)">
+    <path d="M50 78 C22 64,6 50,6 36 C6 22,16 14,28 14 C36 14,43 18,50 26 C57 18,64 14,72 14 C84 14,94 22,94 36 C94 50,78 64,50 78Z" fill="#FCEFE3"/>
+    <circle cx="50" cy="46" r="12" fill="#E85A2D"/>
+  </g>
+  <!-- Wordmark: "bem" coral bold -->
+  <text x="76" y="35"
+        font-family="'Fraunces', Georgia, 'Times New Roman', serif"
+        font-size="27" font-weight="700" fill="#E85A2D" letter-spacing="-0.4">bem</text>
+  <!-- Wordmark: "mãe" escuro light -->
+  <text x="76" y="61"
+        font-family="'Fraunces', Georgia, 'Times New Roman', serif"
+        font-size="27" font-weight="300" fill="#1c1917" letter-spacing="-0.4">mãe</text>
+</svg>
