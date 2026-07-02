@@ -31,8 +31,8 @@ HEADERS = SESSION.headers
 
 # Coloque aqui os ASINs que precisa
 PRODUTOS = [
-    ("Galzerano Capri 1006 preto/cinza",       "B07R7XNKD1"),
-    ("Galzerano Capri 1006 preto/cobre",       "B0CWSBBXXQ"),
+    ("Calesita Andador Feliz",                 "B07MFQR3JF"),
+    ("Calesita Andador Feliz sortido",         "B0849Z165T"),
 ]
 
 TAG = "eumaecarrinho-20"
