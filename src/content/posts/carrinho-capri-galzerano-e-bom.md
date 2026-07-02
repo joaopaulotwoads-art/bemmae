@@ -116,7 +116,7 @@ contentFormat: html
 
 <p>O dobramento guarda-chuva do Capri não exige sequência de passos. Você aperta os dois botões laterais e o carrinho fecha. Dois ou três usos e vira automático. Para quem usa transporte público com bebê, isso elimina aquele momento de pânico com fila atrás esperando.</p>
 
-<p>O assento reversível funciona de forma simples: você desencaixa, vira e reencaixa. Sem ferramentas, sem desmontagem. As 4 posições de reclinação cobrem bem a fase de 6 a 12 meses, quando o bebê ainda não sustenta bem a posição sentada por muito tempo.</p>
+<p>O <a href="/melhor-carrinho-de-bebe-reversivel/">assento reversível</a> funciona de forma simples: você desencaixa, vira e reencaixa. Sem ferramentas, sem desmontagem. As 4 posições de reclinação cobrem bem a fase de 6 a 12 meses, quando o bebê ainda não sustenta bem a posição sentada por muito tempo.</p>
 
 <p>O freio nas quatro rodas é um diferencial real. Em qualquer inclinação leve, um carrinho com freio só nas traseiras ainda desliza. O Capri para firme nas quatro, o que dá segurança para largar a alça por um segundo sem segurar.</p>
 
@@ -135,7 +135,7 @@ contentFormat: html
   <ol style="margin:0;padding-left:1.25rem;">
     <li>Tem bebê a partir de 6 meses e precisa de carrinho leve para rotina urbana</li>
     <li>Usa transporte público ou carro compacto com porta-malas pequeno</li>
-    <li>Quer assento reversível sem passar de R$ 600</li>
+    <li>Quer assento reversível sem passar de R$ 600 — veja também o guia de <a href="/melhor-carrinho-de-bebe-custo-beneficio/">carrinho de bebê custo-benefício</a> para comparar outras opções na mesma faixa</li>
     <li>Mora e passeio em calçadas com bom estado de conservação</li>
   </ol>
 </div>
@@ -248,4 +248,4 @@ contentFormat: html
 <p>Até 15 kg, com uso a partir dos 6 meses de idade.</p>
 
 <h3>O Capri Galzerano acopla bebê conforto?</h3>
-<p>Não. O Capri não é travel system e não tem encaixe para bebê conforto de nenhuma marca.</p>
+<p>Não. O Capri não é <a href="/melhor-carrinho-de-bebe-travel-system/">travel system</a> e não tem encaixe para bebê conforto de nenhuma marca.</p>
