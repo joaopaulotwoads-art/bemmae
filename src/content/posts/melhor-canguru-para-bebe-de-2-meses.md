@@ -702,7 +702,7 @@ contentFormat: html
 
 <p>Para bebê de 2 meses, o peso médio fica entre 4 e 6 kg. O peso mínimo suportado pelo canguru precisa ser menor que isso. O peso máximo define até quando o produto vai durar: modelos com limite de 9 kg ficam obsoletos por volta dos 12 meses, enquanto modelos com 18-20 kg acompanham a criança até os 3-4 anos.</p>
 
-<p>Se você quer comprar só um canguru para toda a fase de bebê e criança pequena, escolha um com capacidade de pelo menos 15 kg. Se prefere a melhor opção para os primeiros meses e não se importa em trocar depois, qualquer modelo desta lista funciona.</p>
+<p>Se você quer comprar só um canguru para toda a fase de bebê e criança pequena, escolha um com capacidade de pelo menos 15 kg. Se prefere a melhor opção para os primeiros meses e não se importa em trocar depois, qualquer modelo desta lista funciona. Quando o bebê ganhar mobilidade e você precisar de passeios mais longos, vale conferir <a href="/com-quantos-meses-o-bebe-pode-usar-carrinho-de-passeio/">com quantos meses o bebê pode usar carrinho de passeio</a> para planejar a transição.</p>
 
 <h3>Canguru ergonômico com alça acolchoada e cinto estruturado</h3>
 
@@ -722,7 +722,7 @@ contentFormat: html
 
 <p>Para quem está começando com babywearing agora com um bebê de 2 meses, o canguru estruturado é mais seguro porque a posição correta é mais fácil de atingir. O risco com sling mal amarrado para bebê de 2 meses é maior porque a cabeça do bebê ainda não tem sustentação própria. Se você quer usar sling, o ideal é fazer um curso presencial de babywearing antes de usar com recém-nascido.</p>
 
-<p>Para uso no dia a dia em rotina urbana, transporte e consultas, o canguru estruturado resolve melhor. Para amamentação em casa e contato pele a pele prolongado, o sling tem vantagens. Os dois podem coexistir na mesma família.</p>
+<p>Para uso no dia a dia em rotina urbana, transporte e consultas, o canguru estruturado resolve melhor. Para amamentação em casa e contato pele a pele prolongado, o sling tem vantagens. Quando o bebê crescer e os passeios ficarem mais longos, um <a href="/melhor-carrinho-de-bebe/">bom carrinho de bebê</a> complementa bem o canguru sem substituí-lo nos primeiros meses.</p>
 
 <h2>Cuidados ao usar o canguru com recém-nascido</h2>
 
