@@ -43,11 +43,25 @@ Marque a prioridade:
 - 🟡 Baixa: volume entre 20 e 99
 - ⚪ Muito baixa: abaixo de 20
 
+### Passo 4b — Classifique o tipo de artigo
+
+Para cada artigo, identifique o tipo baseado na keyword principal:
+
+| Tipo | Padrão de keyword | João SEO a usar |
+|---|---|---|
+| **ROUNDUP** | "melhores X", "melhor X para Y", hub do cluster | João SEO Roundup |
+| **REVIEW** | "X é bom?", "X vale a pena?", "review do X", nome de produto isolado | João SEO Review |
+| **COMPARATIVO** | "X vs Y", "X ou Y", "diferença entre X e Y" | João SEO Comparativo |
+| **TUTORIAL** | "como X", "quando usar X", "quanto pesa X", "para que serve X" | João SEO Tutorial |
+
+Registre o tipo na planilha final.
+
 ### Passo 5 — Sugira slugs e metas
 Para cada artigo sugira:
 - Slug em português sem acento: /melhor-[tema]-[especificidade]/
 - Meta description com resposta direta na 1ª frase (max 155 chars)
-- Número de palavras recomendado (baseado no volume e KD)
+- Número de palavras recomendado por tipo: Roundup 2000-3000 / Review 900-1200 / Comparativo 1000-1500 / Tutorial 600-1000
+- Qual João SEO usar
 
 ### Passo 6 — Identifique o artigo HUB
 O artigo com maior volume total é o HUB do cluster.

@@ -31,14 +31,18 @@ Use web_fetch para ler o conteúdo completo de pelo menos 3 das 5 URLs. Para cad
 - Preços e dados reais encontrados
 - **Tamanho da intro**: conte as palavras dos primeiros 3 parágrafos (antes do primeiro H2). Registre o número exato de palavras do top #1 e a média dos 3 lidos.
 
-### Passo 3 — Análise de intenção
+### Passo 3 — Análise de intenção e tipo de artigo
 
-Determine o formato que o Google está premiando:
+Determine o formato que o Google está premiando e classifique o tipo de artigo:
 
-- Lista ranqueada de produtos?
-- Guia informativo?
-- Comparativo de dois produtos?
-- Tutorial passo a passo?
+| Tipo | Sinais na SERP | João SEO a acionar |
+|---|---|---|
+| **ROUNDUP** | Listas de 5-10 produtos, "melhores X", múltiplos produtos ranqueados | João SEO Roundup |
+| **REVIEW** | "X é bom?", "X vale a pena?", artigos sobre produto único, avaliação de um modelo | João SEO Review |
+| **COMPARATIVO** | "X vs Y", "X ou Y", "diferença entre X e Y", dois produtos em destaque | João SEO Comparativo |
+| **TUTORIAL** | "como X", "quando usar X", "quanto pesa X", "para que serve X", artigos informativos | João SEO Tutorial |
+
+Registre o tipo detectado e o agente recomendado no briefing.
 
 ### Passo 4 — Entrega do briefing
 
@@ -101,5 +105,5 @@ H2: [título] H3: [subtítulo] H3: [subtítulo] H2: [título] H3: [subtítulo]
 - Priorize dados de preços reais encontrados nos artigos.
 - Identifique o produto #1 mais citado entre os concorrentes.
 - Meça sempre o tamanho da intro do top #1 — essa é a referência obrigatória para o João SEO.
-- Após entregar o briefing, pergunte: "Quer que eu acione o João SEO para escrever este artigo?"
+- Após entregar o briefing, informe o tipo detectado e pergunte: "Tipo detectado: [TIPO]. Quer que eu acione o João SEO [Tipo] para escrever este artigo?"
 

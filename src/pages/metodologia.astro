@@ -1,0 +1,29 @@
+---
+import { getEntry } from 'astro:content';
+import BaseLayoutBemmae from '../themes/bemmae/BaseLayout.astro';
+import Metodologia from '../themes/bemmae/Metodologia.astro';
+import { readSingleton } from '../utils/singleton-utils';
+import { footerNavFromSingleton, logoSrcFromMenu, navFromMenu } from '../utils/theme-nav';
+import { resolvePublicSiteUrl } from '../utils/read-site-settings';
+
+const settings = await getEntry('siteSettings', 'settings').catch(() => null);
+const siteName = settings?.data?.siteName || 'Site';
+const siteUrl = resolvePublicSiteUrl(settings?.data?.canonicalUrl as string | undefined, Astro.url.origin);
+const beMenu = await readSingleton('menu', 'bemmae');
+const beFoot = await readSingleton('footer', 'bemmae');
+const beNav = beMenu ? navFromMenu(beMenu) : [];
+const beFootNav = beFoot ? footerNavFromSingleton(beFoot) : [];
+---
+
+<BaseLayoutBemmae
+    title={`Como avaliamos produtos para bebês - ${siteName}`}
+    description="Conheça o processo editorial do Bem Mãe: quem escreve, quais fontes usamos, os critérios de avaliação e como tratamos links de afiliado."
+    siteName={(beMenu as any)?.logoText || siteName}
+    logoSrc={logoSrcFromMenu(beMenu as Record<string, unknown>)}
+    siteUrl={siteUrl}
+    nav={beNav}
+    footerNav={beFootNav}
+    contentThemeId="bemmae"
+>
+    <Metodologia />
+</BaseLayoutBemmae>

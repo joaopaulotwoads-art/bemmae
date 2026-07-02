@@ -391,7 +391,35 @@ export function buildPostJsonLd(opts: {
         };
     }
 
+    const itemListNode: Record<string, unknown> | null =
+        mode === 'articleItemList' && items.length >= 2
+            ? {
+                  '@type': 'ItemList',
+                  '@id': idPage(pageUrl, 'itemlist'),
+                  name: opts.headline,
+                  url: pageUrl,
+                  numberOfItems: items.length,
+                  itemListElement: items.map((item, i) => ({
+                      '@type': 'ListItem',
+                      position: i + 1,
+                      name: item.name,
+                      ...(item.url ? { url: schemaPageUrl(item.url) } : {}),
+                  })),
+              }
+            : null;
+
     const graph: Record<string, unknown>[] = [
+        mainEntity,
+        ...(itemListNode ? [itemListNode] : []),
+        webPage,
+        {
+            '@type': 'BreadcrumbList',
+            '@id': breadcrumbId,
+            itemListElement: breadcrumbItems,
+        },
+        ...(faqPageNode ? [faqPageNode] : []),
+        ...(authorNode ? [authorNode] : []),
+        ...(imgUrl ? [imageObject] : []),
         {
             '@type': 'Organization',
             '@id': orgId,
@@ -414,16 +442,6 @@ export function buildPostJsonLd(opts: {
                 'query-input': 'required name=search_term_string',
             },
         },
-        ...(authorNode ? [authorNode] : []),
-        ...(imgUrl ? [imageObject] : []),
-        webPage,
-        mainEntity,
-        {
-            '@type': 'BreadcrumbList',
-            '@id': breadcrumbId,
-            itemListElement: breadcrumbItems,
-        },
-        ...(faqPageNode ? [faqPageNode] : []),
     ];
 
     return {

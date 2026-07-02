@@ -8,7 +8,6 @@ export default {
             fontFamily: {
                 sans: ['Outfit', 'ui-sans-serif', 'system-ui', 'sans-serif'],
                 heading: ['Fraunces', 'Georgia', 'Times New Roman', 'serif'],
-                serif: ['"Source Serif 4"', 'Georgia', 'Times New Roman', 'serif'],
                 product: ['Outfit', 'ui-sans-serif', 'system-ui', 'sans-serif'],
             },
             colors: {

@@ -143,7 +143,20 @@
       "WebFetch(domain:www.oshoppingdobebe.com.br)",
       "WebFetch(domain:www.mamibrinquedos.com.br)",
       "WebFetch(domain:www.alvesbaby.com.br)",
-      "Bash(pip install *)"
+      "Bash(pip install *)",
+      "WebFetch(domain:mulhermae.com.br)",
+      "WebFetch(domain:eumae.com.br)",
+      "WebFetch(domain:reviewcincoestrelas.com.br)",
+      "WebFetch(domain:melhoressugestoes.com.br)",
+      "WebFetch(domain:carrinho-de-bebe-galzerano.bnsf.com.br)",
+      "WebFetch(domain:www.eletrolar.com.br)",
+      "WebFetch(domain:produto.mercadolivre.com.br)",
+      "Bash(bun tools/gen-favicons.mjs)",
+      "Bash(bun add *)",
+      "Bash(rm tools/gen-ico.mjs)",
+      "Bash(bun remove *)",
+      "WebFetch(domain:4maos.com.br)",
+      "WebFetch(domain:searchai.com.br)"
     ]
   }
 }

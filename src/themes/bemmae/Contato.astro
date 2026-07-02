@@ -68,20 +68,20 @@ const successMessage = d.formSuccessMessage || 'Mensagem enviada com sucesso! Re
   <form class="space-y-4" id="bem-contact-form" onsubmit="return false;" aria-label="Formulário de contato">
     <div>
       <label for="bem-nome" class="block text-sm font-medium text-[var(--color-text)] mb-1">Nome</label>
-      <input id="bem-nome" type="text" name="nome" required class="w-full min-h-[44px] px-4 rounded-md border border-[var(--color-border)] bg-white text-[var(--color-text)]" />
+      <input id="bem-nome" type="text" name="nome" required class="w-full min-h-[44px] px-4 rounded-lg border border-[var(--color-border)] bg-white text-[var(--color-text)]" />
     </div>
     <div>
       <label for="bem-email" class="block text-sm font-medium text-[var(--color-text)] mb-1">E-mail</label>
-      <input id="bem-email" type="email" name="email" required class="w-full min-h-[44px] px-4 rounded-md border border-[var(--color-border)] bg-white text-[var(--color-text)]" />
+      <input id="bem-email" type="email" name="email" required class="w-full min-h-[44px] px-4 rounded-lg border border-[var(--color-border)] bg-white text-[var(--color-text)]" />
     </div>
     <div>
       <label for="bem-mensagem" class="block text-sm font-medium text-[var(--color-text)] mb-1">Mensagem</label>
-      <textarea id="bem-mensagem" name="mensagem" rows="4" required class="w-full min-h-[44px] px-4 py-3 rounded-md border border-[var(--color-border)] bg-white text-[var(--color-text)]" />
+      <textarea id="bem-mensagem" name="mensagem" rows="4" required class="w-full min-h-[44px] px-4 py-3 rounded-lg border border-[var(--color-border)] bg-white text-[var(--color-text)]" />
     </div>
-    <button type="submit" class="min-h-[44px] px-5 py-2.5 rounded-md bg-[var(--color-accent)] text-white font-medium hover:opacity-90">
+    <button type="submit" class="min-h-[44px] px-5 py-2.5 rounded-lg bg-[var(--color-accent)] text-white font-medium hover:opacity-90">
       {d.formSubmitText || 'Enviar'}
     </button>
-    <div id="bem-form-message" class="hidden p-3 rounded-md text-sm" />
+    <div id="bem-form-message" class="hidden p-3 rounded-lg text-sm" />
   </form>
 </article>
 

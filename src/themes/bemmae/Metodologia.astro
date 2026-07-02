@@ -1,0 +1,127 @@
+---
+const authorPhoto = '/authors/vitoria-caroline-barbosa.png';
+---
+
+<article class="bemmae-metodologia max-w-3xl mx-auto px-4 sm:px-6 py-12 md:py-16">
+
+  <!-- Cabeçalho -->
+  <header class="mb-12 pb-10 border-b border-[var(--color-border)]">
+    <p class="text-sm font-semibold uppercase tracking-wider text-[var(--color-accent)] mb-3">Transparência editorial</p>
+    <h1 class="text-3xl sm:text-4xl font-extrabold text-[var(--color-heading)] leading-tight tracking-tight mb-5">
+      Como avaliamos produtos para bebês
+    </h1>
+    <p class="text-lg text-[var(--color-muted)] leading-relaxed">
+      Cada artigo publicado aqui passou por um processo de pesquisa antes de chegar até você. Esta página explica como funciona esse processo, quem escreve e quais critérios guiam as recomendações.
+    </p>
+  </header>
+
+  <!-- Quem escreve -->
+  <section class="mb-12" aria-labelledby="met-autora">
+    <h2 id="met-autora" class="text-2xl font-bold text-[var(--color-heading)] mb-6 tracking-tight">Quem escreve</h2>
+    <div class="flex flex-col sm:flex-row gap-6 items-start rounded-2xl bg-[var(--color-rosa)] p-5 md:p-6 mb-6">
+      <img
+        src={authorPhoto}
+        alt="Vitória Caroline"
+        width="72"
+        height="72"
+        class="w-16 h-16 sm:w-[4.5rem] sm:h-[4.5rem] rounded-full object-cover shrink-0 border border-[var(--color-border)] bg-white"
+        loading="lazy"
+        decoding="async"
+      />
+      <div>
+        <div class="font-bold text-[var(--color-heading)] text-lg leading-snug">Vitória Caroline</div>
+        <p class="text-sm text-[var(--color-muted)] mt-0.5 mb-3">Fundadora e editora do Bem Mãe</p>
+        <p class="text-[var(--color-text)] text-[17px] leading-relaxed">
+          Mãe de primeira viagem, criou o Bem Mãe para ajudar outras mães e pais a escolherem os melhores produtos para o bebê. Compartilha pesquisas, comparações e dicas práticas sobre carrinhos, fraldas e acessórios infantis para facilitar as escolhas do dia a dia.
+        </p>
+      </div>
+    </div>
+    <p class="text-[17px] text-[var(--color-text)] leading-relaxed">
+      Os artigos do Bem Mãe são escritos por Vitória e passam por revisão de dados técnicos pela equipe editorial antes de serem publicados. Não publicamos conteúdo gerado automaticamente sem revisão humana.
+    </p>
+  </section>
+
+  <!-- Fontes de pesquisa -->
+  <section class="mb-12" aria-labelledby="met-fontes">
+    <h2 id="met-fontes" class="text-2xl font-bold text-[var(--color-heading)] mb-6 tracking-tight">De onde vêm as informações</h2>
+    <p class="text-[17px] text-[var(--color-text)] leading-relaxed mb-5">
+      Nem sempre é possível testar fisicamente cada produto. Por isso, cada artigo combina múltiplas fontes antes de chegar a uma conclusão:
+    </p>
+    <ul class="space-y-4">
+      {[
+        { icon: '📋', title: 'Ficha técnica e manual do fabricante', body: 'Consultamos as especificações oficiais: peso máximo, dimensões, materiais, faixa etária e restrições de uso.' },
+        { icon: '🏷️', title: 'Certificações e selos', body: 'Verificamos se o produto possui certificação INMETRO e, quando aplicável, certificações internacionais como JPMA ou normas europeias.' },
+        { icon: '⭐', title: 'Avaliações de compradores reais', body: 'Lemos centenas de avaliações na Amazon e no Mercado Livre para identificar padrões de satisfação e reclamações recorrentes.' },
+        { icon: '🔎', title: 'Comparação com concorrentes', body: 'Cada produto é analisado em relação a alternativas de preço e categoria similar disponíveis no mercado brasileiro.' },
+        { icon: '👶', title: 'Experiência direta', body: 'Quando o produto está presente no dia a dia com nossa filha, esse uso real é incorporado à análise.' },
+      ].map((item) => (
+        <li class="flex gap-4 items-start">
+          <span class="text-2xl shrink-0 mt-0.5" aria-hidden="true">{item.icon}</span>
+          <div>
+            <h3 class="font-semibold text-[var(--color-heading)] mb-1">{item.title}</h3>
+            <p class="text-[var(--color-muted)] text-[16px] leading-relaxed">{item.body}</p>
+          </div>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <!-- Critérios de avaliação -->
+  <section class="mb-12" aria-labelledby="met-criterios">
+    <h2 id="met-criterios" class="text-2xl font-bold text-[var(--color-heading)] mb-6 tracking-tight">Critérios de avaliação</h2>
+    <p class="text-[17px] text-[var(--color-text)] leading-relaxed mb-6">
+      Os artigos do tipo "melhores X" seguem critérios fixos para que a análise seja comparável entre produtos:
+    </p>
+    <div class="grid sm:grid-cols-2 gap-4">
+      {[
+        { label: 'Segurança', desc: 'Certificações, histórico de recalls e alertas de segurança conhecidos.' },
+        { label: 'Custo-benefício', desc: 'Relação entre preço praticado no Brasil, qualidade de materiais e durabilidade esperada.' },
+        { label: 'Praticidade', desc: 'Facilidade de montagem, limpeza, transporte e uso no cotidiano brasileiro.' },
+        { label: 'Adequação à realidade local', desc: 'Calçamento, tamanho de porta-malas, disponibilidade de peças e assistência técnica no Brasil.' },
+        { label: 'Faixa etária e peso', desc: 'Se o produto atende bem a faixa indicada e quais são os limites reais de uso.' },
+        { label: 'Reclamações frequentes', desc: 'Problemas que aparecem de forma consistente nas avaliações de compradores.' },
+      ].map((item) => (
+        <div class="rounded-xl border border-[var(--color-border)] bg-white p-4">
+          <div class="font-semibold text-[var(--color-heading)] mb-1 text-[15px]">{item.label}</div>
+          <p class="text-sm text-[var(--color-muted)] leading-relaxed">{item.desc}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Links de afiliado -->
+  <section class="mb-12" aria-labelledby="met-afiliados">
+    <h2 id="met-afiliados" class="text-2xl font-bold text-[var(--color-heading)] mb-4 tracking-tight">Links de afiliado</h2>
+    <div class="rounded-2xl bg-[var(--color-rosa)] border border-[var(--color-border)] p-5 md:p-6">
+      <p class="text-[17px] text-[var(--color-text)] leading-relaxed mb-3">
+        Alguns links nos artigos são links de afiliado da Amazon Associates e do Mercado Livre. Se você comprar por meio de um desses links, recebemos uma pequena comissão sem custo adicional para você.
+      </p>
+      <p class="text-[17px] text-[var(--color-text)] leading-relaxed">
+        Essa comissão não influencia quais produtos são recomendados nem em qual posição aparecem. Os critérios de avaliação são os mesmos independentemente da existência de link de afiliado.
+      </p>
+    </div>
+  </section>
+
+  <!-- Atualização de conteúdo -->
+  <section class="mb-12" aria-labelledby="met-atualizacao">
+    <h2 id="met-atualizacao" class="text-2xl font-bold text-[var(--color-heading)] mb-4 tracking-tight">Atualização dos artigos</h2>
+    <p class="text-[17px] text-[var(--color-text)] leading-relaxed mb-4">
+      O mercado de produtos infantis muda com frequência: linhas descontinuadas, novos modelos, mudanças de preço e recolhimentos de produtos. Quando identificamos que um artigo está desatualizado em informações relevantes, voltamos ao texto para corrigir.
+    </p>
+    <p class="text-[17px] text-[var(--color-text)] leading-relaxed">
+      Se você encontrar uma informação incorreta ou desatualizada em qualquer artigo, pode nos avisar pelo <a href="/contato" class="font-semibold text-[var(--color-link)] hover:underline">formulário de contato</a>. Levamos isso a sério.
+    </p>
+  </section>
+
+  <!-- Limitações -->
+  <section aria-labelledby="met-limitacoes">
+    <h2 id="met-limitacoes" class="text-2xl font-bold text-[var(--color-heading)] mb-4 tracking-tight">Limitações do nosso trabalho</h2>
+    <p class="text-[17px] text-[var(--color-text)] leading-relaxed mb-4">
+      Não somos um laboratório de testes nem uma entidade certificadora. Não realizamos testes de impacto, análises químicas de materiais ou avaliações clínicas. Para questões médicas relacionadas ao seu bebê, consulte sempre um pediatra.
+    </p>
+    <p class="text-[17px] text-[var(--color-text)] leading-relaxed">
+      O que fazemos é reunir e organizar informações disponíveis publicamente, combinadas com experiência real de uso, para ajudar famílias brasileiras a decidir com mais clareza.
+    </p>
+  </section>
+
+</article>

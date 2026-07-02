@@ -28,14 +28,14 @@ teamMembers:
   - name: Vitória Caroline
     badge: Fundadora
     role: Voz principal do Bem Mãe
-    bio: Mãe e criadora deste blog. Une experiência de uso no dia a dia com pesquisa sobre carrinhos, cadeiras para auto e enxoval para que mães e pais escolham com mais tranquilidade. Publica comparativos e guias com linguagem direta, sem julgar o orçamento nem o ritmo de cada família.
+    bio: Mãe de primeira viagem, criou o Bem Mãe para ajudar outras mães e pais a escolherem os melhores produtos para o bebê. Compartilha pesquisas, comparações e dicas práticas sobre carrinhos, fraldas e acessórios infantis para facilitar as escolhas do dia a dia.
     photo: /authors/vitoria-caroline-barbosa.png
     href: /authors/vitoria-caroline
-  - name: Marina Duarte
-    badge: Conteúdo
-    role: Editora e curadoria técnica
-    bio: Jornalista especializada em segurança do consumidor com mais de 10 anos de experiência na cobertura do setor infantil. É a responsável pela curadoria técnica do Bem Mãe, auditando especificações de segurança, normas do INMETRO e certificações internacionais para garantir que cada recomendação seja tecnicamente precisa e segura para sua família.
-    photo: /authors/marina-duarte.png
+  - name: Equipe Editorial
+    badge: Revisão
+    role: Revisão e curadoria de conteúdo
+    bio: Antes de publicar, cada artigo passa por uma revisão de dados técnicos, normas do INMETRO e informações de fabricante. O objetivo é garantir que o que você lê aqui seja preciso e útil na hora de decidir.
+    emoji: 📋
 ctaBannerTitle: Pronta para fazer a melhor escolha?
 ctaBannerText: Explore os guias, compare modelos com calma e decida com o que faz sentido para a sua família.
 ctaPrimaryText: Ver guias de carrinhos

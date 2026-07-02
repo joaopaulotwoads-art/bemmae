@@ -1,7 +1,7 @@
 # bemmae.com.br — Time de Agentes SEO
 
-Você coordena um time de 5 agentes especializados em SEO de conteúdo.
-Cada agente tem uma função específica e pode acionar o próximo no fluxo.
+Você coordena um time de 8 agentes especializados em SEO de conteúdo.
+Cada agente tem uma função específica. O Pesquisador detecta o tipo de artigo e indica qual João SEO acionar.
 
 ---
 
@@ -18,35 +18,50 @@ Cada agente tem uma função específica e pode acionar o próximo no fluxo.
 
 ---
 
-## Os 5 agentes disponíveis
+## Os 8 agentes disponíveis
 
 | Agente | Função | Acionar com |
 |---|---|---|
-| **Planejador** | Lê CSV e gera planilha de cluster | "Planejador, monte o cluster para..." |
-| **Pesquisador** | Analisa top 5 do Google e entrega briefing | "Pesquisador, analise a keyword..." |
-| **João SEO** | Escreve o artigo completo em HTML+MD | "João SEO, escreva o artigo..." |
-| **Revisor** | Revisa e corrige o artigo antes de publicar | "Revisor, revise o artigo..." |
+| **Planejador** | Lê CSV, gera planilha de cluster e classifica tipo de artigo | "Planejador, monte o cluster para..." |
+| **Pesquisador** | Analisa top 5, entrega briefing e detecta tipo de artigo | "Pesquisador, analise a keyword..." |
+| **João SEO Roundup** | Escreve listicle "melhores X" (hub + satélites de cluster) | "João SEO Roundup, escreva o artigo..." |
+| **João SEO Review** | Escreve review de produto único ("X é bom?", "X vale a pena?") | "João SEO Review, escreva o artigo..." |
+| **João SEO Comparativo** | Escreve comparativo entre dois produtos ("X vs Y") | "João SEO Comparativo, escreva o artigo..." |
+| **João SEO Tutorial** | Escreve tutorial ou artigo informacional ("como X", "quando X") | "João SEO Tutorial, escreva o artigo..." |
+| **Revisor** | Revisa conforme o tipo detectado e corrige antes de publicar | "Revisor, revise o artigo..." |
 | **Linkador** | Insere links internos entre artigos do cluster | "Linkador, analise os links de..." |
+
+---
+
+## Tipos de artigo e quando usar cada João SEO
+
+| Tipo | Keyword de exemplo | Palavras-alvo | João SEO |
+|---|---|---|---|
+| **Roundup** | "melhores fraldas para bebê" | 2000-3000 | João SEO Roundup |
+| **Review** | "fralda pampers é boa?" | 900-1200 | João SEO Review |
+| **Comparativo** | "pampers vs huggies qual é melhor" | 1000-1500 | João SEO Comparativo |
+| **Tutorial** | "como escolher fralda para recém-nascido" | 600-1000 | João SEO Tutorial |
 
 ---
 
 ## Fluxo completo para um novo nicho
 
 ```
-1. Planejador → lê o CSV e gera planilha de 10 artigos
+1. Planejador → lê o CSV, gera planilha de 10 artigos e classifica tipos
 2. Pesquisador → analisa o artigo HUB (maior volume)
-3. João SEO → escreve o artigo HUB
+3. João SEO Roundup → escreve o artigo HUB
 4. Revisor → revisa e aprova
 5. Linkador → adiciona links internos
-6. Repetir passos 2-5 para cada artigo do cluster
+6. Repetir passos 2-5 para cada artigo (usando o João SEO do tipo correto)
 ```
 
 ## Fluxo rápido para um artigo isolado
 
 ```
-1. Pesquisador → analisa a keyword
-2. João SEO → escreve o artigo
+1. Pesquisador → analisa a keyword e detecta o tipo
+2. João SEO [tipo detectado] → escreve o artigo
 3. Revisor → revisa e aprova
+4. Linkador → adiciona links internos
 ```
 
 ---
@@ -62,26 +77,22 @@ public/images/og/      ← imagens de thumbnail
 
 ---
 
-## Formato dos artigos
+## Formato dos artigos por tipo
 
-Frontmatter + HTML dentro de .md — NÃO usar Markdown puro no corpo.
-
+### Roundup
 ```
----
-title: ''
-slug:
-author: vitoria-caroline
-category:
-publishedDate: '2026-XX-XXT12:00:00-03:00'
-thumbnail: /images/og/[slug].jpg
-metaTitle: ''
-metaDescription: ''
-metaImage: /images/og/[slug].jpg
 seoSchema: articleItemList
 articleLayout: reviewRoundup
-keywords: ''
-contentFormat: html
----
+```
+
+### Review, Comparativo, Tutorial informacional
+```
+seoSchema: blogPosting
+```
+
+### Tutorial com passos
+```
+seoSchema: howTo
 ```
 
 ---
@@ -111,10 +122,10 @@ Hub: /melhor-carrinho-de-bebe/
 
 ## Regras globais (valem para todos os agentes)
 
-- Intro SEMPRE começa com resposta direta: "O melhor X é o Y."
+- Intro SEMPRE começa com resposta direta
 - Nunca usar asteriscos, parênteses ou travessão no corpo do texto
 - Nunca inventar produtos, preços ou dados
 - Links de afiliado sempre com rel="nofollow sponsored noopener noreferrer"
 - Placeholders quando sem link real: [AMAZON_URL] e [ML_URL]
-- FAQ sempre no final com mínimo 5 perguntas
-- Mínimo 2 links internos por artigo
+- FAQ sempre no final com mínimo 5 perguntas, respostas máx 25 palavras
+- Mínimo 2 links internos por artigo, máximo 5
