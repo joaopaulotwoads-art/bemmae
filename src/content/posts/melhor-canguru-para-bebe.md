@@ -575,7 +575,7 @@ contentFormat: html
 
 <p>O Boba é o canguru mais indicado para recém-nascidos nesta lista. A certificação IHDI, do Instituto Internacional de Displasia do Quadril, confirma que o design respeita o desenvolvimento do quadril do bebê desde os primeiros dias de vida, colocando automaticamente na posição M invertida.</p>
 
-<p>Ele é recomendado por fisioterapeutas pediátricos especialmente em casos de bebês com risco de displasia do quadril. Se você tem um bebê prematuro ou de baixo peso, o Boba é um dos poucos cangurus no mercado brasileiro com respaldo clínico explícito.</p>
+<p>Ele é recomendado por fisioterapeutas pediátricos especialmente em casos de bebês com risco de displasia do quadril. Se você tem um bebê prematuro ou de baixo peso, o Boba é um dos poucos cangurus no mercado brasileiro com respaldo clínico explícito. Para quem está nessa fase inicial, veja nossa análise completa dos <a href="/melhor-canguru-para-bebe-de-2-meses/">melhores cangurus para bebê de 2 meses</a>, com foco em suporte de cabeça e segurança cervical.</p>
 
 <p>O preço não foi encontrado nas fontes consultadas. Vale verificar direto nas lojas antes de comprar.</p>
 
