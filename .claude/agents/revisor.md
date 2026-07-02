@@ -47,11 +47,14 @@ Aplique o checklist do tipo detectado.
 
 #### Formatação proibida
 - [ ] Tem asteriscos (**texto**) no corpo? → ERRO
-- [ ] Tem parênteses () com informação adicional? → ERRO
+- [ ] Tem parênteses () com informação adicional no corpo? → ERRO
+- [ ] Tem parênteses () em títulos H2 ou H3? → ERRO
+- [ ] Tem dois-pontos em títulos H2 ou H3? → ERRO
 - [ ] Tem travessão (—) no meio de frases? → ERRO
 - [ ] Tem "é importante ressaltar", "vale destacar"? → ERRO
 - [ ] Tem "confira abaixo", "veja a seguir"? → ERRO
 - [ ] Tem "Em resumo", "Dito isso", "Sendo assim"? → ERRO
+- [ ] Box EEAT menciona "avaliações de compradores na Amazon" como critério? → ERRO
 
 #### Conteúdo
 - [ ] Classes HTML corretas (cnx-aff-roundup, cnx-aff-product, etc)?
@@ -74,6 +77,7 @@ Aplique o checklist do tipo detectado.
 - [ ] Tem card individual por produto (H2 + card + prós e contras)?
 - [ ] Tem tabela comparativa?
 - [ ] Tem seção "Para quem nenhum desses serve" ou equivalente?
+- [ ] Títulos de produtos estão em `<h2>` (não `<h3>`)? → Se estiver em H3, ERRO crítico
 - [ ] Títulos H2 de produtos no formato `N. Nome Exato do Produto`?
 
 ### REVIEW

@@ -69,7 +69,7 @@ contentFormat: html
       <img src="https://m.media-amazon.com/images/I/[IMAGE_ID]._AC_SL300_.jpg" alt="[NOME]" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
-      <h3 class="cnx-aff-product-title" data-product-name="[NOME]">[NOME]</h3>
+      <p class="cnx-aff-product-title" data-product-name="[NOME]">[NOME]</p>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
         <li>Feature 1</li><li>Feature 2</li><li>Feature 3</li>
       </ul>
@@ -207,6 +207,8 @@ Regras para as seções narrativas:
 - Imagens: `https://m.media-amazon.com/images/I/[IMAGE_ID]._AC_SL300_.jpg` com `loading="lazy" decoding="async"`
 - Links afiliado: sempre `rel="nofollow sponsored noopener noreferrer"`
 - PROIBIDO: asteriscos, parênteses com info, travessão, "é importante ressaltar", "vale destacar", "confira abaixo", "Em resumo", "Dito isso"
+- PROIBIDO em H2 e H3: parênteses e dois-pontos — reescreva o título sem eles. Errado: `Análise (prós e contras)` ou `Resultado: vale ou não`. Certo: `Prós e contras`, `Vale a pena comprar`
+- PROIBIDO no box EEAT: mencionar "avaliações de compradores na Amazon" como critério — use specs técnicas, fontes do fabricante ou experiência própria
 - PROIBIDO neste formato: roundup component, ficha técnica em tabela extensa no topo, múltiplos cards de produto
 - Use "você" — nunca "o leitor" ou "as mães"
 - Nunca invente preços — use apenas os do briefing

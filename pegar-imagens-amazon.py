@@ -31,7 +31,16 @@ HEADERS = SESSION.headers
 
 # Coloque aqui os ASINs que precisa
 PRODUTOS = [
-    ("Graco Modes Element",            "B07Y5V44FP"),
+    ("Safety 1st Sidekick",                    "B0CH1FPMQV"),
+    ("Safety 1st Freedom",                     "B09BVWHFRZ"),
+    ("NUK Baby Carrier Supreme Comfort 4 em 1","B07Q84FG6V"),
+    ("Fisher-Price Hipseat BB312",             "B07LGG8NGX"),
+    ("Boba",                                   "B07CZML8M5"),
+    ("Hygge Moments 6 em 1",                   "B0D8W73VG7"),
+    ("Chicco Easy Fit",                        "B01JYSQ2S2"),
+    ("Cosco Loop",                             "B084DSPYG8"),
+    ("Maxi Cosi Feel",                         "B0FPD6W81Q"),
+    ("Infantino Flip 4 em 1",                  "B01IQKZ4OE"),
 ]
 
 TAG = "eumaecarrinho-20"
@@ -84,7 +93,7 @@ for nome, asin in PRODUTOS:
 
     if image_id:
         img_url = f"https://m.media-amazon.com/images/I/{image_id}._AC_SL300_.jpg"
-        amz_url = f"https://www.amazon.com.br/dp/{asin}?tag={TAG}"
+        amz_url = f"https://www.amazon.com.br/dp/{asin}?tag={TAG}&th=1&psc=1"
         print(f"  Imagem : {img_url}")
         print(f"  Afiliado: {amz_url}")
     else:

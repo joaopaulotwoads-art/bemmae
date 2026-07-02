@@ -246,26 +246,23 @@ html.dark .cnx-aff-block-wrap {
 .cnx-aff-pros-cons {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  padding: 24px;
-  border: 1px solid rgba(196, 167, 125, 0.35);
-  border-radius: 1rem;
+  gap: 14px;
+  padding: 16px 20px;
+  border: 1px solid rgba(196, 167, 125, 0.2);
+  border-radius: 0.75rem;
   background: var(--aff-bg);
 }
 
 .cnx-aff-pros-cons-sections {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 8px 24px;
 }
 
 .cnx-aff-pros-section,
 .cnx-aff-cons-section {
-  flex: 1 1 280px;
+  flex: 1 1 240px;
   min-width: 0;
-  padding: 16px;
-  border-radius: 0.8rem;
-  border: 1px solid var(--aff-border);
 }
 
 .cnx-aff-pros-title,
@@ -1027,10 +1024,8 @@ html.dark .cnx-aff-versus--with-media .cnx-aff-versus-side {
 
 /* ── Ficha técnica (especificações) ───────────────────────────────────────── */
 .cnx-aff-tech-sheet.cnx-aff-block-wrap {
-  border: 2px solid #00a884;
-  box-shadow:
-    0 12px 32px rgba(0, 168, 132, 0.1),
-    0 4px 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e7e5e4;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   padding: 0;
   overflow: hidden;
   border-radius: 0.85rem;
@@ -1039,9 +1034,9 @@ html.dark .cnx-aff-versus--with-media .cnx-aff-versus-side {
 }
 .cnx-aff-tech-head {
   position: relative;
-  padding: 1rem 1.15rem 1.05rem;
-  border-bottom: 1px solid rgba(0, 168, 132, 0.22);
-  background: linear-gradient(135deg, rgba(0, 168, 132, 0.09) 0%, rgba(52, 211, 153, 0.06) 45%, #fff 100%);
+  padding: 0.75rem 1rem 0.7rem;
+  border-bottom: 1px solid #f0ede9;
+  background: linear-gradient(135deg, rgba(232, 93, 50, 0.05) 0%, #fff8f5 60%, #fff 100%);
 }
 .cnx-aff-tech-head::before {
   content: '';
@@ -1049,15 +1044,16 @@ html.dark .cnx-aff-versus--with-media .cnx-aff-versus-side {
   top: 0;
   left: 0;
   right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, #00a884 0%, #14b8a6 40%, #5eead4 100%);
+  height: 3px;
+  background: linear-gradient(90deg, #e85d32 0%, #f59e0b 100%);
 }
 .cnx-aff-tech-title {
-  font-size: 1.05rem !important;
-  font-weight: 800 !important;
+  font-size: 0.75rem !important;
+  font-weight: 700 !important;
   margin: 0 !important;
-  color: #047857 !important;
-  letter-spacing: -0.02em;
+  color: #57534e !important;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   line-height: 1.25 !important;
 }
 .cnx-aff-tech-sub {
@@ -1074,17 +1070,17 @@ html.dark .cnx-aff-tech-sub {
 .prose-invert .cnx-aff-tech-sheet.cnx-aff-block-wrap,
 html.dark .cnx-aff-tech-sheet.cnx-aff-block-wrap {
   background: rgba(255, 255, 255, 0.04);
-  border-color: rgba(45, 212, 191, 0.55);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 }
 .prose-invert .cnx-aff-tech-head,
 html.dark .cnx-aff-tech-head {
-  background: linear-gradient(135deg, rgba(45, 212, 191, 0.12) 0%, rgba(255, 255, 255, 0.03) 100%);
-  border-bottom-color: rgba(45, 212, 191, 0.25);
+  background: linear-gradient(135deg, rgba(232, 93, 50, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%);
+  border-bottom-color: rgba(255, 255, 255, 0.08);
 }
 .prose-invert .cnx-aff-tech-title,
 html.dark .cnx-aff-tech-title {
-  color: #5eead4 !important;
+  color: #d4d0cc !important;
 }
 .cnx-aff-tech-scroll {
   overflow-x: auto;
@@ -1118,7 +1114,7 @@ html.dark .cnx-aff-tech-title {
   background: #fff;
 }
 .cnx-aff-tech-table tbody tr:nth-child(even) {
-  background: rgba(0, 168, 132, 0.06);
+  background: rgba(232, 93, 50, 0.04);
 }
 .cnx-aff-tech-table tbody tr:last-child th,
 .cnx-aff-tech-table tbody tr:last-child td {

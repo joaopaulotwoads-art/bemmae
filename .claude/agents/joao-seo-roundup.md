@@ -113,7 +113,7 @@ O JSON do data-cnx-roundup usa APENAS os campos: rank, name, badge, url.
       <img src="https://m.media-amazon.com/images/I/[IMAGE_ID]._AC_SL300_.jpg" alt="[NOME]" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
-      <h3 class="cnx-aff-product-title" data-product-name="[NOME]">[NOME]</h3>
+      <p class="cnx-aff-product-title" data-product-name="[NOME]">[NOME]</p>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
         <li>Feature 1</li><li>Feature 2</li><li>Feature 3</li>
       </ul>
@@ -197,7 +197,7 @@ O JSON do data-cnx-roundup usa APENAS os campos: rank, name, badge, url.
 3. Box EEAT
 4. Box CTA com top 3
 5. Roundup com todos os produtos
-6. H2 por produto: `N. Nome Exato do Produto` (card + 2-3 parágrafos + prós e contras)
+6. **H2** por produto: `N. Nome Exato do Produto` (card + 2-3 parágrafos + prós e contras) — OBRIGATÓRIO H2, nunca H3
 7. Tabela comparativa
 8. H2s informativos (critérios de escolha, dicas, guias)
 9. H2: Para quem nenhum desses serve (honestidade que gera confiança)
@@ -209,24 +209,33 @@ O JSON do data-cnx-roundup usa APENAS os campos: rank, name, badge, url.
 ## Padrão Direct Answer na Intro (OBRIGATÓRIO)
 
 ```html
-<p>O melhor [keyword] é o <strong>[Produto]</strong>. [1-2 razões concretas].</p>
-<p>[Contexto do problema — por que a escolha importa para o leitor.]</p>
-<p>Neste guia você vai encontrar [diferencial concreto].</p>
+<p>O melhor [keyword] é o <strong>[Produto]</strong>. [1 razão concreta — atributo principal que justifica a escolha].</p>
+
+<p>[Contexto emocional: o que o leitor sente/vive que o trouxe até aqui. O problema real por trás da busca. Por que a escolha importa — consequências de errar. 2-3 frases que fazem o leitor pensar "é exatamente isso".]</p>
+
+<p>[O que o guia entrega — perfis de uso diferentes, faixas de preço, casos de uso. Faz o leitor entender por que vale continuar lendo.]</p>
 ```
 
-Nunca ultrapasse o número de palavras da intro do top #1 (informado no briefing).
+**Regras da intro:**
+- Parágrafo 1: um produto, uma razão. Nunca cite dois produtos.
+- Parágrafo 2: vende a leitura, não o produto. Fala do problema, não das features.
+- Parágrafo 3: diferencia perfis de uso (quem quer X vs quem quer Y).
+- PROIBIDO na intro: preços, valores em R$, faixas de preço. Preço só aparece dentro de cada seção de produto.
+- Nunca ultrapasse o número de palavras da intro do top #1 (informado no briefing).
 
 ---
 
 ## Regras de escrita
 
-- Títulos H2 de produtos: `N. Nome Exato do Produto` — NUNCA com subtítulo após dois-pontos
+- Títulos de produtos: sempre `<h2>N. Nome Exato do Produto</h2>` — NUNCA H3, NUNCA subtítulo após dois-pontos. Prós/Contras ficam em H3 dentro do componente, que é o nível correto abaixo do H2 do produto
 - Amazon: `https://www.amazon.com.br/dp/[ASIN]?tag=eumaecarrinho-20` — nunca `amzn.to`
 - Sem link real: use `[AMAZON_URL]` e `[ML_URL]`
 - Imagens Amazon CDN: `https://m.media-amazon.com/images/I/[IMAGE_ID]._AC_SL300_.jpg`
 - Sempre: `loading="lazy" decoding="async"` nas imagens
 - Links afiliado: sempre `rel="nofollow sponsored noopener noreferrer"`
 - PROIBIDO: asteriscos, parênteses com info, travessão, "é importante ressaltar", "vale destacar", "confira abaixo", "veja a seguir", "Em resumo", "Dito isso", "Sendo assim"
+- PROIBIDO em H2 e H3: parênteses e dois-pontos — reescreva o título sem eles. Errado: `Certificações (INMETRO e IHDI)` ou `Tipos: ergonômico, hipseat`. Certo: `Certificações INMETRO e IHDI`, `Ergonômico, hipseat ou sling`
+- PROIBIDO no box EEAT: mencionar "avaliações de compradores na Amazon" ou "avaliações na Amazon" como critério — use especificações técnicas, critérios do IHDI, INMETRO ou experiência própria
 - Use "você" — nunca "o leitor" ou "as pessoas"
 - Parágrafos curtos: máximo 3 linhas
 - Nunca invente preços — use apenas os encontrados no briefing

@@ -96,7 +96,7 @@ seoSchema: blogPosting
       <img src="https://m.media-amazon.com/images/I/[IMAGE_ID]._AC_SL300_.jpg" alt="[NOME]" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
-      <h3 class="cnx-aff-product-title" data-product-name="[NOME]">[NOME]</h3>
+      <p class="cnx-aff-product-title" data-product-name="[NOME]">[NOME]</p>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
         <li>Feature 1</li><li>Feature 2</li><li>Feature 3</li>
       </ul>
@@ -191,6 +191,8 @@ Limite: nunca ultrapasse o número de palavras da intro do top #1 (informado no 
 - Imagens: `https://m.media-amazon.com/images/I/[IMAGE_ID]._AC_SL300_.jpg` com `loading="lazy" decoding="async"`
 - Links afiliado: sempre `rel="nofollow sponsored noopener noreferrer"`
 - PROIBIDO: asteriscos, parênteses com info, travessão, "é importante ressaltar", "confira abaixo", "Em resumo"
+- PROIBIDO em H2 e H3: parênteses e dois-pontos — reescreva o título sem eles. Errado: `Materiais necessários (lista)` ou `Passo 1: abra o produto`. Certo: `Materiais necessários`, `Passo 1 — abra o produto`
+- PROIBIDO no box EEAT: mencionar "avaliações de compradores na Amazon" como critério — use fontes técnicas, fabricante ou experiência própria
 - PROIBIDO neste formato: roundup component, múltiplos cards de produto, tabela comparativa de produtos
 - Use "você" — nunca "o leitor"
 - Nunca invente dados técnicos
