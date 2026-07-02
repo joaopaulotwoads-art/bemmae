@@ -190,7 +190,20 @@ O JSON do data-cnx-roundup usa APENAS os campos: rank, name, badge, url.
 
 ---
 
-## Estrutura do artigo (ordem obrigatória)
+## Estrutura do artigo
+
+### PRIORIDADE 1 — Siga a outline do briefing (sempre que houver)
+
+O briefing do Pesquisador entrega uma outline baseada nos top 3 concorrentes. **Essa outline é obrigatória.** Ela representa o que o Google já está premiando para esta keyword.
+
+- Use a mesma ordem de H2s que o Pesquisador indicou
+- Mantenha os produtos na sequência definida no briefing
+- Seções marcadas com [GAP] no briefing: adicione-as onde o Pesquisador indicou
+- Adapte o HTML dos componentes à estrutura do briefing — não o contrário
+
+### PRIORIDADE 2 — Estrutura padrão (use apenas se não tiver briefing)
+
+Se não houver briefing com outline, use esta sequência como fallback:
 
 1. Frontmatter
 2. Intro em `<p>` — padrão Direct Answer (máx palavras do top #1 no briefing)
@@ -203,6 +216,13 @@ O JSON do data-cnx-roundup usa APENAS os campos: rank, name, badge, url.
 9. H2: Para quem nenhum desses serve (honestidade que gera confiança)
 10. Links internos para o cluster (mín 2, máx 5)
 11. FAQPage JSON-LD + H2 FAQ (H3 por pergunta)
+
+### Elementos fixos (sempre presentes, independente da estrutura)
+
+- Intro com Direct Answer antes de qualquer H2
+- Box EEAT logo após a intro
+- FAQPage JSON-LD + H2 FAQ ao final
+- Links internos do cluster (mín 2, máx 5)
 
 ---
 

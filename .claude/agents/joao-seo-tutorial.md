@@ -137,9 +137,19 @@ seoSchema: blogPosting
 
 ## Estrutura do artigo
 
-### Para artigos com passos (como/passo a passo)
+### PRIORIDADE 1 — Siga a outline do briefing (sempre que houver)
 
-1. Frontmatter (seoSchema: howTo)
+O briefing do Pesquisador entrega uma outline baseada nos top 3 concorrentes. **Essa outline é obrigatória.** Ela representa o que o Google já está premiando para esta keyword.
+
+- Use a mesma ordem de H2s que o Pesquisador indicou
+- Seções marcadas com [GAP] no briefing: adicione onde indicado
+- Adapte os componentes HTML à estrutura — não o contrário
+
+### PRIORIDADE 2 — Estrutura padrão (use apenas se não tiver briefing)
+
+**Para artigos com passos (como/passo a passo):**
+
+1. Frontmatter (seoSchema: blogPosting)
 2. Intro — resposta direta em 1-2 parágrafos (máx palavras do briefing)
 3. Box de resposta rápida (featured snippet com os passos resumidos)
 4. Box EEAT (apenas se tema técnico)
@@ -149,7 +159,7 @@ seoSchema: blogPosting
 8. Links internos no texto (mín 2, máx 5)
 9. FAQPage JSON-LD + H2 Perguntas frequentes
 
-### Para artigos informativos (quando/quanto/para que/o que é)
+**Para artigos informativos (quando/quanto/para que/o que é):**
 
 1. Frontmatter (seoSchema: blogPosting)
 2. Intro — resposta direta em 1-2 parágrafos (máx palavras do briefing)
@@ -158,6 +168,12 @@ seoSchema: blogPosting
 5. Card de produto (no máximo 1-2, apenas se a pergunta leva naturalmente a uma recomendação)
 6. Links internos no texto (mín 2, máx 5)
 7. FAQPage JSON-LD + H2 Perguntas frequentes
+
+### Elementos fixos (sempre presentes)
+
+- Intro com Direct Answer antes de qualquer H2
+- FAQPage JSON-LD + H2 FAQ ao final
+- Links internos do cluster (mín 2, máx 5)
 
 **Comprimento alvo: 600-1000 palavras.** Tutoriais não precisam de 2000 palavras para ranquear. Precisam de clareza.
 

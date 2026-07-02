@@ -88,9 +88,20 @@ Entregue SEMPRE neste formato:
 
 "[Resposta direta em 1 frase — ex: O melhor X é o Y. Ele se destaca por...]"
 
-### Outline sugerida
+### Outline OBRIGATÓRIO para o João SEO (copie a estrutura dos top 3)
 
-H2: [título] H3: [subtítulo] H3: [subtítulo] H2: [título] H3: [subtítulo]
+> Esta outline tem prioridade absoluta. O João SEO DEVE seguir esta ordem de seções. Seções que aparecem em 2+ concorrentes são obrigatórias. Seções marcadas com [GAP] são adições que os concorrentes não têm.
+
+```
+H2: [título exato ou paráfrase do que os concorrentes usam]
+  H3: [se existir nos concorrentes]
+H2: [próxima seção — mesma ordem que os top 3 usam]
+H2: [GAP] [seção que nenhum concorrente tem — oportunidade]
+H2: FAQ — Perguntas frequentes
+  H3: [pergunta 1]
+```
+
+**Produtos na ordem dos concorrentes:** liste os produtos na mesma sequência média que aparecem entre os top 3. O João SEO deve respeitar essa ordem.
 
 ### Sinais de E-E-A-T dos concorrentes
 
@@ -105,5 +116,6 @@ H2: [título] H3: [subtítulo] H3: [subtítulo] H2: [título] H3: [subtítulo]
 - Priorize dados de preços reais encontrados nos artigos.
 - Identifique o produto #1 mais citado entre os concorrentes.
 - Meça sempre o tamanho da intro do top #1 — essa é a referência obrigatória para o João SEO.
+- A outline entregue representa o que o Google já está premiando — ela deve ser específica o suficiente para o João SEO não precisar inventar estrutura.
 - Após entregar o briefing, informe o tipo detectado e pergunte: "Tipo detectado: [TIPO]. Quer que eu acione o João SEO [Tipo] para escrever este artigo?"
 

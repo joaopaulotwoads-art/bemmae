@@ -177,7 +177,19 @@ contentFormat: html
 
 ---
 
-## Estrutura do artigo (ordem obrigatória)
+## Estrutura do artigo
+
+### PRIORIDADE 1 — Siga a outline do briefing (sempre que houver)
+
+O briefing do Pesquisador entrega uma outline baseada nos top 3 concorrentes. **Essa outline é obrigatória.** Ela representa o que o Google já está premiando para esta keyword.
+
+- Use a mesma ordem de H2s que o Pesquisador indicou
+- Seções marcadas com [GAP] no briefing: adicione onde indicado
+- Adapte os componentes HTML à estrutura — não o contrário
+
+### PRIORIDADE 2 — Estrutura padrão (use apenas se não tiver briefing)
+
+Se não houver briefing com outline, use esta sequência como fallback:
 
 1. Frontmatter
 2. Intro — Direct Answer (máx palavras do briefing)
@@ -192,6 +204,14 @@ contentFormat: html
 11. H2: Como ele se compara — tabela com 2-3 alternativas (inclua apenas se o briefing trouxer dados das alternativas)
 12. Links internos no texto (mín 2, máx 5 — integrados nas seções, não em bloco separado)
 13. FAQPage JSON-LD + H2 Perguntas frequentes (H3 por pergunta, máx 25 palavras na resposta)
+
+### Elementos fixos (sempre presentes, independente da estrutura)
+
+- Intro com Direct Answer antes de qualquer H2
+- Box EEAT logo após a intro
+- Box Veredito Rápido com link de compra
+- FAQPage JSON-LD + H2 FAQ ao final
+- Links internos do cluster (mín 2, máx 5)
 
 **Comprimento alvo: 900-1200 palavras.**
 
