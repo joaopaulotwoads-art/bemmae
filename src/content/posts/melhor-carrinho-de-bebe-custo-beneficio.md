@@ -364,7 +364,7 @@ contentFormat: html
           <a href="https://amzn.to/4claOo1" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://amzn.to/4claOo1"" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -399,7 +399,7 @@ contentFormat: html
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
     <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4claOo1" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://amzn.to/4claOo1"" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -426,7 +426,7 @@ contentFormat: html
           <a href="https://amzn.to/48VWIHv" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://amzn.to/48VWIHv"" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -461,7 +461,7 @@ contentFormat: html
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
     <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/48VWIHv" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://amzn.to/48VWIHv"" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -488,7 +488,7 @@ contentFormat: html
           <a href="https://amzn.to/4mvEZfj" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://amzn.to/4mvEZfj"" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -523,7 +523,7 @@ contentFormat: html
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
     <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4mvEZfj" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://amzn.to/4mvEZfj"" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -550,7 +550,7 @@ contentFormat: html
           <a href="https://amzn.to/4u9ztlK" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://amzn.to/4u9ztlK"" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -585,7 +585,7 @@ contentFormat: html
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
     <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4u9ztlK" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://amzn.to/4u9ztlK"" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -612,7 +612,7 @@ contentFormat: html
           <a href="https://amzn.to/3OZ5YUx" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://amzn.to/3OZ5YUx"" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -647,7 +647,7 @@ contentFormat: html
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
     <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/3OZ5YUx" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://amzn.to/3OZ5YUx"" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -674,7 +674,7 @@ contentFormat: html
           <a href="https://amzn.to/4woHUei" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://amzn.to/4woHUei"" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -706,7 +706,7 @@ contentFormat: html
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
     <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4woHUei" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://amzn.to/4woHUei"" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -733,7 +733,7 @@ contentFormat: html
           <a href="https://amzn.to/4claFAZ" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://amzn.to/4claFAZ"" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -768,7 +768,7 @@ contentFormat: html
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
     <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4claFAZ" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://amzn.to/4claFAZ"" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -795,7 +795,7 @@ contentFormat: html
           <a href="https://amzn.to/4muSkol" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://amzn.to/4muSkol"" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -830,7 +830,7 @@ contentFormat: html
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
     <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4muSkol" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://amzn.to/4muSkol"" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -857,7 +857,7 @@ contentFormat: html
           <a href="https://amzn.to/48PHKmq" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://amzn.to/48PHKmq"" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -892,7 +892,7 @@ contentFormat: html
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
     <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/48PHKmq" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://amzn.to/48PHKmq"" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -919,7 +919,7 @@ contentFormat: html
           <a href="https://amzn.to/4f5S0L2" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://amzn.to/4f5S0L2"" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -954,7 +954,7 @@ contentFormat: html
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
     <a class="cnx-aff-pros-cons-cta-primary" href="https://amzn.to/4f5S0L2" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://amzn.to/4f5S0L2"" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 

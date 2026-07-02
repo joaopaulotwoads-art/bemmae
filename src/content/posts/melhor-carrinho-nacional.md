@@ -26,7 +26,7 @@ contentFormat: html
 </div>
 
 <div style="background:#fefce8;border-left:4px solid #eab308;padding:1rem 1.25rem;border-radius:4px;margin:1.5rem 0;" id="ranking">
-  <p style="margin:0;"><strong>Resposta rápida:</strong> O melhor carrinho nacional no geral é o <strong>Burigotto Ecco</strong> (<a href="https://www.amazon.com.br/dp/B087RYYMKC?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ver na Amazon</a> | <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">ver no ML</a>). Para quem quer travel system completo, o <strong>Cosco Travel System Nexus</strong> entrega tudo por menos de R$ 500 (<a href="https://www.amazon.com.br/dp/B0784DBYBX?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ver na Amazon</a>).</p>
+  <p style="margin:0;"><strong>Resposta rápida:</strong> O melhor carrinho nacional no geral é o <strong>Burigotto Ecco</strong> (<a href="https://www.amazon.com.br/dp/B087RYYMKC?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ver na Amazon</a> | <a href="https://www.amazon.com.br/dp/B087RYYMKC?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ver no ML</a>). Para quem quer travel system completo, o <strong>Cosco Travel System Nexus</strong> entrega tudo por menos de R$ 500 (<a href="https://www.amazon.com.br/dp/B0784DBYBX?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">ver na Amazon</a>).</p>
 </div>
 
 <div class="cnx-aff-roundup cnx-aff-block-wrap" data-cnx-roundup='[{"rank":"1","name":"Burigotto Ecco","badge":"Melhor no geral","url":"https://www.amazon.com.br/dp/B087RYYMKC?tag=eumaecarrinho-20"},{"rank":"2","name":"Cosco Travel System Nexus","badge":"Melhor travel system","url":"https://www.amazon.com.br/dp/B0784DBYBX?tag=eumaecarrinho-20"},{"rank":"3","name":"Galzerano Olympus","badge":"Melhor com moisés","url":"https://www.amazon.com.br/dp/B09VHCYVVJ?tag=eumaecarrinho-20"},{"rank":"4","name":"Burigotto Up!","badge":"Melhor compacto para viagens","url":"https://www.amazon.com.br/dp/B07D2FJS93?tag=eumaecarrinho-20"},{"rank":"5","name":"Cosco Toffy","badge":"Melhor 3 rodas simples","url":"https://www.amazon.com.br/dp/B09ZNX93JK?tag=eumaecarrinho-20"},{"rank":"6","name":"Galzerano Milano Rev II","badge":"Melhor reversível nacional","url":"https://www.amazon.com.br/dp/B09TM5VXNK?tag=eumaecarrinho-20"},{"rank":"7","name":"Voyage Park","badge":"Mais barato do mercado","url":"https://www.amazon.com.br/dp/B08X7H8498?tag=eumaecarrinho-20"},{"rank":"8","name":"Litet Candy","badge":"Melhor para quem quer nível importado","url":"https://www.amazon.com.br/dp/B08952CD7S?tag=eumaecarrinho-20"}]'>
@@ -53,7 +53,7 @@ contentFormat: html
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
         <a class="cnx-aff-roundup-cta-primary" href="https://www.amazon.com.br/dp/B087RYYMKC?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://www.amazon.com.br/dp/B087RYYMKC?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -77,7 +77,7 @@ contentFormat: html
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
         <a class="cnx-aff-roundup-cta-primary" href="https://www.amazon.com.br/dp/B0784DBYBX?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://www.amazon.com.br/dp/B0784DBYBX?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -101,7 +101,7 @@ contentFormat: html
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
         <a class="cnx-aff-roundup-cta-primary" href="https://www.amazon.com.br/dp/B09VHCYVVJ?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://www.amazon.com.br/dp/B09VHCYVVJ?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -125,7 +125,7 @@ contentFormat: html
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
         <a class="cnx-aff-roundup-cta-primary" href="https://www.amazon.com.br/dp/B07D2FJS93?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://www.amazon.com.br/dp/B07D2FJS93?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -149,7 +149,7 @@ contentFormat: html
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
         <a class="cnx-aff-roundup-cta-primary" href="https://www.amazon.com.br/dp/B09ZNX93JK?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://www.amazon.com.br/dp/B09ZNX93JK?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -173,7 +173,7 @@ contentFormat: html
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
         <a class="cnx-aff-roundup-cta-primary" href="https://www.amazon.com.br/dp/B09TM5VXNK?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://www.amazon.com.br/dp/B09TM5VXNK?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -197,7 +197,7 @@ contentFormat: html
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
         <a class="cnx-aff-roundup-cta-primary" href="https://www.amazon.com.br/dp/B08X7H8498?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://www.amazon.com.br/dp/B08X7H8498?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -221,7 +221,7 @@ contentFormat: html
     <div class="cnx-aff-roundup-cta-col">
       <div class="cnx-aff-roundup-ctas">
         <a class="cnx-aff-roundup-cta-primary" href="https://www.amazon.com.br/dp/B08952CD7S?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-        <a class="cnx-aff-roundup-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+        <a class="cnx-aff-roundup-cta-secondary" href="https://www.amazon.com.br/dp/B08952CD7S?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
       </div>
     </div>
   </div>
@@ -323,7 +323,7 @@ contentFormat: html
           <a href="https://www.amazon.com.br/dp/B087RYYMKC?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://www.amazon.com.br/dp/B087RYYMKC?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -358,7 +358,7 @@ contentFormat: html
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
     <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/B087RYYMKC?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://www.amazon.com.br/dp/B087RYYMKC?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -385,7 +385,7 @@ contentFormat: html
           <a href="https://www.amazon.com.br/dp/B0784DBYBX?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://www.amazon.com.br/dp/B0784DBYBX?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -420,7 +420,7 @@ contentFormat: html
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
     <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/B0784DBYBX?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://www.amazon.com.br/dp/B0784DBYBX?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -447,7 +447,7 @@ contentFormat: html
           <a href="https://www.amazon.com.br/dp/B09VHCYVVJ?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://www.amazon.com.br/dp/B09VHCYVVJ?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -482,7 +482,7 @@ contentFormat: html
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
     <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/B09VHCYVVJ?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://www.amazon.com.br/dp/B09VHCYVVJ?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -509,7 +509,7 @@ contentFormat: html
           <a href="https://www.amazon.com.br/dp/B07D2FJS93?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://www.amazon.com.br/dp/B07D2FJS93?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -544,7 +544,7 @@ contentFormat: html
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
     <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/B07D2FJS93?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://www.amazon.com.br/dp/B07D2FJS93?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -571,7 +571,7 @@ contentFormat: html
           <a href="https://www.amazon.com.br/dp/B09ZNX93JK?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://www.amazon.com.br/dp/B09ZNX93JK?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -604,7 +604,7 @@ contentFormat: html
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
     <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/B09ZNX93JK?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://www.amazon.com.br/dp/B09ZNX93JK?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -631,7 +631,7 @@ contentFormat: html
           <a href="https://www.amazon.com.br/dp/B09TM5VXNK?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://www.amazon.com.br/dp/B09TM5VXNK?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -664,7 +664,7 @@ contentFormat: html
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
     <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/B09TM5VXNK?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://www.amazon.com.br/dp/B09TM5VXNK?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -691,7 +691,7 @@ contentFormat: html
           <a href="https://www.amazon.com.br/dp/B08X7H8498?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://www.amazon.com.br/dp/B08X7H8498?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -724,7 +724,7 @@ contentFormat: html
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
     <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/B08X7H8498?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://www.amazon.com.br/dp/B08X7H8498?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
@@ -751,7 +751,7 @@ contentFormat: html
           <a href="https://www.amazon.com.br/dp/B08952CD7S?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://www.amazon.com.br/dp/B08952CD7S?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -784,7 +784,7 @@ contentFormat: html
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
     <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/B08952CD7S?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://www.amazon.com.br/dp/B08952CD7S?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
