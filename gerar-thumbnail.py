@@ -1,9 +1,12 @@
 """
 gerar-thumbnail.py
-Gera a capa 1200x630 de um artigo roundup pegando as 3 primeiras imagens do roundup.
+Gera a capa 1200x630 de um artigo, detectando o tipo automaticamente:
+  - articleItemList (roundup): 3 produtos em colunas iguais
+  - blogPosting    (review):   1 produto centralizado e grande
 
 Uso:
     python gerar-thumbnail.py melhor-canguru-para-bebe          # gera .webp (padrao)
+    python gerar-thumbnail.py carrinho-capri-galzerano-e-bom    # detecta review
     python gerar-thumbnail.py melhor-canguru-para-bebe --jpg    # gera .jpg
 """
 
@@ -32,44 +35,44 @@ HEADERS = {
     )
 }
 
-# ── Funções ─────────────────────────────────────────────────────────────────
+# ── Leitura do artigo ────────────────────────────────────────────────────────
 
-def get_slug():
-    if len(sys.argv) < 2:
-        print("Uso: python gerar-thumbnail.py <slug>")
-        print("Ex:  python gerar-thumbnail.py melhor-canguru-para-bebe")
-        sys.exit(1)
-    return sys.argv[1].strip()
-
-
-def extract_image_ids(slug):
-    """Lê o .md do artigo e retorna os 3 primeiros IMAGE_IDs do roundup."""
+def read_article(slug):
     path = os.path.join(POSTS_DIR, slug + ".md")
     if not os.path.exists(path):
         print(f"Arquivo não encontrado: {path}")
         sys.exit(1)
-
     with open(path, "r", encoding="utf-8") as f:
-        content = f.read()
+        return f.read()
 
-    # Pega só a seção do roundup (antes do primeiro H2 de produto)
+
+def get_seo_schema(content):
+    """Lê seoSchema do frontmatter. Retorna 'blogPosting' como padrão."""
+    match = re.search(r'^seoSchema:\s*(\S+)', content, re.MULTILINE)
+    return match.group(1).strip() if match else "blogPosting"
+
+
+def extract_image_ids(content, max_count=3):
+    """Retorna os primeiros IMAGE_IDs do Amazon CDN encontrados no artigo."""
+    # Tenta pegar primeiro da seção do roundup (antes do primeiro H2 de produto)
     roundup_section = content.split("<h2>")[0] if "<h2>" in content else content
 
     pattern = re.compile(
-        r'https://m\.media-amazon\.com/images/I/([A-Za-z0-9+_%-]+)\._AC_SL300_\.jpg'
+        r'https://m\.media-amazon\.com/images/I/([A-Za-z0-9+_%\-]+)\._AC_SL300_\.jpg'
     )
     ids = pattern.findall(roundup_section)
 
-    if len(ids) < 3:
-        # Fallback: pega de qualquer parte do artigo
+    if len(ids) < max_count:
         ids = pattern.findall(content)
 
     ids = list(dict.fromkeys(ids))  # deduplica mantendo ordem
-    if len(ids) < 3:
+
+    if len(ids) < max_count:
         print(f"Atenção: encontrei apenas {len(ids)} imagem(ns) no artigo.")
 
-    return ids[:3]
+    return ids[:max_count]
 
+# ── Download ─────────────────────────────────────────────────────────────────
 
 def fetch_image(image_id, retries=3):
     """Baixa imagem do Amazon CDN em resolução alta."""
@@ -90,39 +93,56 @@ def fetch_image(image_id, retries=3):
                     print(f"  ERRO {image_id} ({size}): {e}")
     return None
 
+# ── Layouts ──────────────────────────────────────────────────────────────────
 
-def build_thumbnail(images):
-    """Monta o canvas 1200x630 com 3 imagens em colunas iguais."""
+def build_roundup_thumbnail(images):
+    """3 produtos em colunas iguais (roundup/articleItemList)."""
     canvas = Image.new("RGB", (W, H), BG_COLOR)
     draw   = ImageDraw.Draw(canvas)
 
-    COL_W   = W // 3        # 400px por coluna
-    PADDING = 40             # margem interna
-    IMG_MAX = COL_W - PADDING * 2   # 320px max por imagem
+    COL_W   = W // 3
+    PADDING = 40
+    IMG_MAX = COL_W - PADDING * 2
 
     for idx, prod in enumerate(images):
         if prod is None:
             continue
-
-        # Redimensiona mantendo proporção
         prod.thumbnail((IMG_MAX, H - PADDING * 2), Image.LANCZOS)
-
-        # Centraliza na coluna
         cx = idx * COL_W + (COL_W - prod.width) // 2
         cy = (H - prod.height) // 2
-
-        # Composição sobre fundo branco (remove transparência)
         bg = Image.new("RGB", prod.size, BG_COLOR)
         bg.paste(prod, mask=prod.split()[3])
         canvas.paste(bg, (cx, cy))
 
-    # Divisores verticais sutis
     for i in [1, 2]:
         x = i * COL_W
         draw.line([(x, 40), (x, H - 40)], fill=DIVIDER, width=1)
 
     return canvas
 
+
+def build_review_thumbnail(image):
+    """1 produto centralizado e grande (review/blogPosting)."""
+    canvas = Image.new("RGB", (W, H), BG_COLOR)
+
+    if image is None:
+        return canvas
+
+    # Imagem pode ocupar até 80% da altura e 55% da largura
+    max_w = int(W * 0.55)
+    max_h = int(H * 0.82)
+    image.thumbnail((max_w, max_h), Image.LANCZOS)
+
+    cx = (W - image.width) // 2
+    cy = (H - image.height) // 2
+
+    bg = Image.new("RGB", image.size, BG_COLOR)
+    bg.paste(image, mask=image.split()[3])
+    canvas.paste(bg, (cx, cy))
+
+    return canvas
+
+# ── Salvar ───────────────────────────────────────────────────────────────────
 
 def save(canvas, slug, use_webp=True):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -136,27 +156,36 @@ def save(canvas, slug, use_webp=True):
     print(f"\nSalvo: {out}  ({size_kb} KB)")
     return out
 
-
 # ── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
-    slug     = get_slug()
+    if len(sys.argv) < 2:
+        print("Uso: python gerar-thumbnail.py <slug> [--jpg]")
+        sys.exit(1)
+
+    slug     = sys.argv[1].strip()
     use_webp = "--jpg" not in sys.argv
 
     print(f"Gerando thumbnail para: {slug}  (formato: {'webp' if use_webp else 'jpg'})")
 
-    print("Extraindo IMAGE_IDs do artigo...")
-    ids = extract_image_ids(slug)
-    print(f"  Encontrados: {ids}")
+    content = read_article(slug)
+    schema  = get_seo_schema(content)
+    print(f"  Tipo detectado: {schema}")
 
-    print("Baixando imagens...")
-    images = [fetch_image(img_id) for img_id in ids]
-
-    while len(images) < 3:
-        images.append(None)
-
-    print("Montando canvas...")
-    canvas = build_thumbnail(images)
+    if schema == "blogPosting":
+        print("  Layout: review (produto único centralizado)")
+        ids = extract_image_ids(content, max_count=1)
+        print(f"  IMAGE_ID: {ids}")
+        image = fetch_image(ids[0]) if ids else None
+        canvas = build_review_thumbnail(image)
+    else:
+        print("  Layout: roundup (3 colunas)")
+        ids = extract_image_ids(content, max_count=3)
+        print(f"  IMAGE_IDs: {ids}")
+        images = [fetch_image(img_id) for img_id in ids]
+        while len(images) < 3:
+            images.append(None)
+        canvas = build_roundup_thumbnail(images)
 
     save(canvas, slug, use_webp=use_webp)
 
