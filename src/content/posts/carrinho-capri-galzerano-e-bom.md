@@ -47,7 +47,7 @@ contentFormat: html
           <a href="https://www.amazon.com.br/dp/B07R7XNKD1?tag=eumaecarrinho-20&th=1&psc=1" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
-          <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+          <a href="https://meli.la/1kDoMRb" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
         </div>
       </div>
     </div>
@@ -81,7 +81,7 @@ contentFormat: html
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
     <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/B07R7XNKD1?tag=eumaecarrinho-20&th=1&psc=1" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
-    <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
+    <a class="cnx-aff-pros-cons-cta-secondary" href="https://meli.la/1kDoMRb" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
