@@ -32,10 +32,10 @@ slug: slug-do-artigo
 author: vitoria-caroline
 category: [categoria]
 publishedDate: '[data atual]T12:00:00-03:00'
-thumbnail: /images/og/[slug].jpg
+thumbnail: /images/og/[slug].webp
 metaTitle: 'Meta título com keyword'
 metaDescription: 'Sim/Não com condição em 1 frase. Máximo 155 caracteres.'
-metaImage: /images/og/[slug].jpg
+metaImage: /images/og/[slug].webp
 seoSchema: blogPosting
 hideThumbnail: true
 keywords: 'keyword1, keyword2, keyword3'
@@ -54,7 +54,7 @@ contentFormat: html
 </div>
 ```
 
-### Box resposta rápida CTA
+### Box veredito rápido CTA
 ```html
 <div style="background:#fefce8;border-left:4px solid #eab308;padding:1rem 1.25rem;border-radius:4px;margin:1.5rem 0;" id="ranking">
   <p style="margin:0;"><strong>🏆 Veredito rápido:</strong> [sim ou não com a condição exata + link para compra]</p>
@@ -86,7 +86,7 @@ contentFormat: html
 </div>
 ```
 
-### Prós e Contras (compacto)
+### Prós e Contras
 ```html
 <div class="cnx-aff-pros-cons cnx-aff-block-wrap">
   <div class="cnx-aff-pros-cons-sections">
@@ -103,6 +103,34 @@ contentFormat: html
     <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/ASIN?tag=eumaecarrinho-20" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
     <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
+</div>
+```
+
+### Ficha técnica
+```html
+<div class="cnx-aff-tech-sheet cnx-aff-block-wrap">
+  <div class="cnx-aff-tech-head">
+    <p class="cnx-aff-tech-title">Ficha técnica</p>
+  </div>
+  <div class="cnx-aff-tech-scroll">
+    <table class="cnx-aff-tech-table">
+      <tbody>
+        <tr><th>Especificação</th><td>Valor</td></tr>
+        <tr><th>Especificação</th><td>Valor</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+```
+
+### Box checklist (para quem vale)
+```html
+<div style="background:#f0fdf4;border-left:4px solid #22c55e;padding:1rem 1.25rem;border-radius:4px;margin:1.5rem 0;">
+  <p style="margin:0 0 0.75rem;font-weight:600;">✅ Compre o [Produto] se você:</p>
+  <ol style="margin:0;padding-left:1.25rem;">
+    <li>Condição 1</li>
+    <li>Condição 2</li>
+  </ol>
 </div>
 ```
 
@@ -152,20 +180,20 @@ contentFormat: html
 ## Estrutura do artigo (ordem obrigatória)
 
 1. Frontmatter
-2. Intro — Direct Answer com limite de palavras do briefing
+2. Intro — Direct Answer (máx palavras do briefing)
 3. Box EEAT
 4. Box Veredito Rápido (CTA)
 5. Card do produto único
-6. H2: O que funciona — análise narrativa, 2-4 parágrafos específicos
-7. H2: O que falta — limitações reais, 2-3 parágrafos específicos
-8. Box Prós e Contras
-9. H2: Como ele se compara — tabela com 2-3 alternativas + parágrafo de contexto
-10. H2: Para quem vale a pena — checklist box verde
-11. H2: Para quem não vale — 2-3 parágrafos diretos com link para alternativa
+6. **Box Prós e Contras** ← logo após o card, antes de qualquer narrativa
+7. **H2: Ficha técnica** ← tabela de specs como seção própria
+8. H2: O que funciona — narrativa, 2-4 parágrafos específicos
+9. H2: O que falta — narrativa, 2-3 parágrafos específicos
+10. **H2: Para quem vale (e para quem não vale)** ← UMA seção só: box checklist verde + 1-2 parágrafos de quando não faz sentido
+11. H2: Como ele se compara — tabela com 2-3 alternativas (inclua apenas se o briefing trouxer dados das alternativas)
 12. Links internos no texto (mín 2, máx 5 — integrados nas seções, não em bloco separado)
 13. FAQPage JSON-LD + H2 Perguntas frequentes (H3 por pergunta, máx 25 palavras na resposta)
 
-**Comprimento alvo: 900-1200 palavras.** Mais que isso é padding. Menos que 700 é raso.
+**Comprimento alvo: 900-1200 palavras.**
 
 ---
 
@@ -174,7 +202,7 @@ contentFormat: html
 ```html
 <p>[Sim/Não], o [Produto] é [adjetivo com condição]. [1-2 dados concretos que justificam].</p>
 <p>[O que limita ou o que surpreende — algo específico que só quem pesquisou saberia.]</p>
-<p>Neste review você vai encontrar [o que o diferencia: dados reais, comparativo com alternativas, para quem compra e para quem evita].</p>
+<p>Neste review você vai encontrar [o que o diferencia: dados reais, ficha técnica, para quem compra e para quem evita].</p>
 ```
 
 Limite de palavras: nunca ultrapasse o número informado no briefing (top #1 da SERP).
@@ -183,7 +211,7 @@ Limite de palavras: nunca ultrapasse o número informado no briefing (top #1 da 
 
 ## Como escrever as seções narrativas
 
-**"O que funciona"** e **"O que falta"** são os diferenciais deste formato. Não são listas de bullet. São parágrafos que contam o que acontece na prática.
+**"O que funciona"** e **"O que falta"** não são listas de bullet. São parágrafos que contam o que acontece na prática.
 
 **Certo:**
 > Com 5,8 kg, o Capri é um dos poucos carrinhos com assento reversível que você consegue segurar com uma mão enquanto abre o porta-malas com a outra. Em apartamento, isso faz diferença toda vez que você volta de uma consulta.
@@ -191,12 +219,33 @@ Limite de palavras: nunca ultrapasse o número informado no briefing (top #1 da 
 **Errado:**
 > O carrinho tem assento reversível, que é uma vantagem importante para as mães que gostam de ver o bebê durante os passeios.
 
-Regras para as seções narrativas:
-- Use observações específicas, não genéricas
-- Cite dados reais do briefing dentro do texto — não em tabela separada
+Regras:
+- Observações específicas, não genéricas
+- Cite dados reais do briefing dentro do texto — não em tabela separada nessas seções
 - Diga o impacto prático, não apenas a feature
 - Parágrafos curtos: máximo 3 linhas
 - Máximo 4 parágrafos por seção
+
+---
+
+## Como escrever "Para quem vale (e para quem não vale)"
+
+É uma seção só com duas partes:
+
+```html
+<h2>Para quem vale (e para quem não vale)</h2>
+
+<div style="background:#f0fdf4;border-left:4px solid #22c55e;padding:1rem 1.25rem;border-radius:4px;margin:1.5rem 0;">
+  <p style="margin:0 0 0.75rem;font-weight:600;">✅ Compre o [Produto] se você:</p>
+  <ol style="margin:0;padding-left:1.25rem;">
+    <li>[condição concreta 1]</li>
+    <li>[condição concreta 2]</li>
+    <li>[condição concreta 3]</li>
+  </ol>
+</div>
+
+<p>[Quem não deve comprar e por quê — direto, sem rodeios. Inclua link para alternativa se houver no cluster.]</p>
+```
 
 ---
 
@@ -207,9 +256,9 @@ Regras para as seções narrativas:
 - Imagens: `https://m.media-amazon.com/images/I/[IMAGE_ID]._AC_SL300_.jpg` com `loading="lazy" decoding="async"`
 - Links afiliado: sempre `rel="nofollow sponsored noopener noreferrer"`
 - PROIBIDO: asteriscos, parênteses com info, travessão, "é importante ressaltar", "vale destacar", "confira abaixo", "Em resumo", "Dito isso"
-- PROIBIDO em H2 e H3: parênteses e dois-pontos — reescreva o título sem eles. Errado: `Análise (prós e contras)` ou `Resultado: vale ou não`. Certo: `Prós e contras`, `Vale a pena comprar`
-- PROIBIDO no box EEAT: mencionar "avaliações de compradores na Amazon" como critério — use specs técnicas, fontes do fabricante ou experiência própria
-- PROIBIDO neste formato: roundup component, ficha técnica em tabela extensa no topo, múltiplos cards de produto
+- PROIBIDO em H2 e H3: parênteses e dois-pontos — reescreva o título sem eles
+- PROIBIDO no box EEAT: mencionar "avaliações de compradores na Amazon" como critério
+- PROIBIDO neste formato: roundup component, ficha técnica inline por produto, múltiplos cards de produto
 - Use "você" — nunca "o leitor" ou "as mães"
 - Nunca invente preços — use apenas os do briefing
 

@@ -31,16 +31,8 @@ HEADERS = SESSION.headers
 
 # Coloque aqui os ASINs que precisa
 PRODUTOS = [
-    ("Safety 1st Sidekick",                    "B0CH1FPMQV"),
-    ("Safety 1st Freedom",                     "B09BVWHFRZ"),
-    ("NUK Baby Carrier Supreme Comfort 4 em 1","B07Q84FG6V"),
-    ("Fisher-Price Hipseat BB312",             "B07LGG8NGX"),
-    ("Boba",                                   "B07CZML8M5"),
-    ("Hygge Moments 6 em 1",                   "B0D8W73VG7"),
-    ("Chicco Easy Fit",                        "B01JYSQ2S2"),
-    ("Cosco Loop",                             "B084DSPYG8"),
-    ("Maxi Cosi Feel",                         "B0FPD6W81Q"),
-    ("Infantino Flip 4 em 1",                  "B01IQKZ4OE"),
+    ("Galzerano Capri 1006 preto/cinza",       "B07R7XNKD1"),
+    ("Galzerano Capri 1006 preto/cobre",       "B0CWSBBXXQ"),
 ]
 
 TAG = "eumaecarrinho-20"

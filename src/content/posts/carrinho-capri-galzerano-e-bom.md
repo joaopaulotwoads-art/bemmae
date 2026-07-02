@@ -2,49 +2,49 @@
 title: 'Carrinho Capri Galzerano é Bom? Review Honesto 2026'
 slug: carrinho-capri-galzerano-e-bom
 author: vitoria-caroline
-category: carrinhos-de-bebe
-publishedDate: '2026-06-26T12:00:00-03:00'
-thumbnail: /images/posts/1777079975015-carrinho-capri-galzerano-bebe-no-parque.webp
+category: carrinhos-e-passeio
+publishedDate: '2026-07-02T12:00:00-03:00'
+thumbnail: /images/og/carrinho-capri-galzerano-e-bom.webp
 metaTitle: 'Carrinho Capri Galzerano é Bom? Review Honesto 2026'
-metaDescription: 'Sim, o Capri pesa 5,8 kg, dobra no guarda-chuva e tem 4,6 estrelas na Amazon. Mas não serve para recém-nascidos nem pisos irregulares. Review completo.'
-metaImage: /images/posts/1777079975015-carrinho-capri-galzerano-bebe-no-parque.webp
+metaDescription: 'Sim, o Galzerano Capri é bom para bebês de 6 meses a 15 kg que precisam de carrinho leve e reversível abaixo de R$ 600. Não serve para recém-nascidos.'
+metaImage: /images/og/carrinho-capri-galzerano-e-bom.webp
 seoSchema: blogPosting
 hideThumbnail: true
-keywords: 'carrinho capri galzerano, capri galzerano é bom, carrinho galzerano capri review'
+keywords: 'carrinho capri galzerano, capri galzerano é bom, galzerano capri 1006 review'
 contentFormat: html
 ---
 
-<p>Sim, o Capri Galzerano é bom para rotina urbana. Pesa 5,8 kg, fecha no guarda-chuva em segundos e acumula 4,6 estrelas na Amazon com base em centenas de avaliações reais. Para quem tem bebê a partir dos 6 meses e precisa de algo leve e prático para o dia a dia na cidade, ele entrega o que promete.</p>
+<p>Sim, o Galzerano Capri é bom. Pesa 5,8 kg, dobra em guarda-chuva com uma mão e tem assento reversível — tudo isso abaixo de R$ 600, o que é raro no mercado brasileiro. Para bebês de 6 meses a 15 kg em rotina urbana com calçadas razoáveis, ele entrega o que promete.</p>
 
-<p>A ressalva é clara: o Capri não serve para recém-nascidos, não tem suspensão nas rodas e não acopla bebê conforto. Saber disso antes de comprar evita frustração depois.</p>
+<p>O limite está na faixa etária: ele não serve para recém-nascidos, não tem encaixe para moisés e a suspensão inexistente penaliza quem mora em cidade com pisos irregulares.</p>
+
+<p>Neste review você encontra a análise técnica completa, os pontos fortes e fracos e para quem ele realmente vale a pena comprar.</p>
 
 <div style="background:#f0f9ff;border-left:4px solid #0ea5e9;padding:1rem 1.25rem;border-radius:4px;margin:1.5rem 0;">
-  <p style="margin:0;"><strong>Sobre este review:</strong> Analisamos as especificações técnicas oficiais do fabricante, o laudo INMETRO 007425/2018, norma NBR 14389, e mais de 200 avaliações de compradores na Amazon. Nenhuma informação foi inventada. Preços coletados em junho de 2026.</p>
+  <p style="margin:0;"><strong>👩‍⚕️ Sobre este review:</strong> Analisamos as especificações técnicas oficiais do Galzerano Capri 1006, a certificação INMETRO do modelo e o comportamento relatado por pais em uso diário com transporte público, carro compacto e apartamento.</p>
 </div>
 
 <div style="background:#fefce8;border-left:4px solid #eab308;padding:1rem 1.25rem;border-radius:4px;margin:1.5rem 0;" id="ranking">
-  <p style="margin:0;"><strong>Veredito rápido:</strong> O <strong>Capri Galzerano</strong> vale para bebês de 6 meses a 15 kg em rotina urbana com calçadas boas. Não serve para recém-nascidos nem para pisos irregulares. <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver preço atual na Amazon</a>.</p>
+  <p style="margin:0;"><strong>🏆 Veredito rápido:</strong> Vale para bebês de 6 meses a 15 kg que precisam de carrinho leve com assento reversível abaixo de R$ 600. <a href="https://www.amazon.com.br/dp/B07R7XNKD1?tag=eumaecarrinho-20&th=1&psc=1" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver preço na Amazon</a>.</p>
 </div>
 
 <div class="cnx-aff-product cnx-aff-block-wrap">
   <div class="cnx-aff-product-body">
     <div class="cnx-aff-product-media">
-      <img src="/images/posts/1777079975015-carrinho-capri-galzerano-bebe-no-parque.webp" alt="Carrinho de Bebê Capri Galzerano" class="cnx-aff-product-img" loading="lazy" decoding="async" />
+      <img src="https://m.media-amazon.com/images/I/515NReXqzWL._AC_SL300_.jpg" alt="Galzerano Capri 1006" class="cnx-aff-product-img" loading="lazy" decoding="async" />
     </div>
     <div class="cnx-aff-product-main">
-      <h3 class="cnx-aff-product-title" data-product-name="Carrinho de Bebê Galzerano Capri">Carrinho de Bebê Galzerano Capri</h3>
+      <p class="cnx-aff-product-title" data-product-name="Galzerano Capri 1006">Galzerano Capri 1006</p>
       <ul class="cnx-aff-product-features" style="color:#1e293b;">
-        <li>5,8 kg com fechamento guarda-chuva</li>
-        <li>Assento reversível e reclinável</li>
+        <li>5,8 kg com dobramento guarda-chuva</li>
+        <li>Assento reversível, 4 posições de reclinação</li>
         <li>Uso dos 6 meses até 15 kg</li>
-        <li>Cinto de 5 pontos com protetor de ombro</li>
-        <li>Capota removível dupla face</li>
-        <li>Laudo INMETRO 007425/2018, norma NBR 14389</li>
-        <li>4,6 estrelas na Amazon</li>
+        <li>Freio nas 4 rodas, cinto de 5 pontos</li>
+        <li>Certificado INMETRO</li>
       </ul>
       <div class="cnx-aff-product-cta-row">
         <div class="cnx-aff-product-cta cnx-aff-product-cta--amazon">
-          <a href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+          <a href="https://www.amazon.com.br/dp/B07R7XNKD1?tag=eumaecarrinho-20&th=1&psc=1" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
         </div>
         <div class="cnx-aff-product-cta cnx-aff-product-cta--ml">
           <a href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
@@ -54,97 +54,113 @@ contentFormat: html
   </div>
 </div>
 
-<h2>O que funciona no Capri</h2>
-
-<p>Com 5,8 kg e 28 cm de largura dobrado, o Capri entra no porta-malas de qualquer carro compacto sem precisar desmontar rodas. Para quem usa Uber com bebê ou mora em apartamento sem garagem fixa, esse detalhe elimina um estresse real na saída de casa. Dobrado, ele tem as mesmas dimensões de uma mala de bordo.</p>
-
-<p>O assento reversível é o diferencial que justifica o preço em relação a guarda-chuvas mais simples na mesma faixa. Você posiciona o bebê de frente para você nos primeiros meses de uso, mantendo contato visual durante o passeio, e vira para a frente quando ele já quer explorar o mundo ao redor. A capota dupla face foi projetada para acompanhar os dois posicionamentos, o que é mais raro abaixo de R$ 600.</p>
-
-<p>O cinto de 5 pontos com protetor de ombro distribui a pressão de forma mais uniforme do que os modelos de 3 pontos comuns em carrinhos guarda-chuva. O freio nas rodas traseiras trava com clareza e não exige força excessiva. São detalhes que fazem diferença em passeios diários, não apenas em situações de emergência.</p>
-
-<p>A certificação INMETRO com laudo 007425/2018 e norma NBR 14389 atesta que o produto passou por testes de resistência estrutural, estabilidade e verificação do sistema de retenção. Nenhum concorrente direto menciona o número do laudo, o que dificulta verificar se outros modelos têm o mesmo nível de rastreabilidade. Com o Capri, você consegue consultar o laudo pelo número exato se quiser confirmar.</p>
-
-<h2>O que falta no Capri</h2>
-
-<p>A ausência de suspensão nas rodas é o limite mais concreto do modelo. Em calçada boa, shopping ou piso de academia, você não percebe. Em paralelepípedo, calçada quebrada ou rua com cascalho fino, toda a trepidação vai direto para o bebê. Se o percurso entre a sua casa e a padaria tem esse tipo de piso, o desconforto vai aparecer no dia a dia, não só em passeios ocasionais.</p>
-
-<p>O apoio de pé não existe no Capri. Para bebês de 6 a 8 meses, as perninhas ficam curtas o suficiente para não incomodar muito. Mas com 9 a 12 meses, quando as pernas crescem e o bebê fica mais ativo no carrinho, a falta do apoio começa a aparecer em passeios mais longos. Não é um problema de segurança, mas é um ponto de conforto que os modelos acima resolvem.</p>
-
-<p>O Capri começa a partir dos 6 meses. Ele não tem posição totalmente deitada, não tem modo berço e não foi projetado para recém-nascidos. Se você está grávida e quer comprar o carrinho agora para usar desde o nascimento, o Capri não atende essa necessidade. Para essa situação, o <a href="/carrinho-napoli-galzerano-e-bom/">carrinho Napoli Galzerano</a> inclui berço moisés e pode ser usado desde o primeiro dia.</p>
-
 <div class="cnx-aff-pros-cons cnx-aff-block-wrap">
   <div class="cnx-aff-pros-cons-sections">
     <section class="cnx-aff-pros-section">
       <h3 class="cnx-aff-pros-title">Prós</h3>
       <ul class="cnx-aff-pros-list" style="color:#1e293b;">
-        <li>5,8 kg com assento reversível, raro nessa faixa de preço</li>
-        <li>Dobrado fica com 28 cm de largura, cabe em qualquer porta-malas</li>
-        <li>Capota dupla face acompanha os dois posicionamentos</li>
-        <li>Cinto de 5 pontos com protetor de ombro</li>
-        <li>INMETRO com laudo 007425/2018 e norma NBR 14389 consultável</li>
-        <li>4,6 estrelas na Amazon com centenas de avaliações</li>
-        <li>Garantia de 1 ano pelo fabricante</li>
+        <li>5,8 kg com assento reversível</li>
+        <li>Dobramento intuitivo com uma mão</li>
+        <li>4 rodas giratórias com freio</li>
+        <li>4 posições de reclinação</li>
+        <li>Cinto de 5 pontos</li>
+        <li>Tecido removível e lavável</li>
+        <li>Certificado INMETRO</li>
       </ul>
     </section>
     <section class="cnx-aff-cons-section">
       <h3 class="cnx-aff-cons-title">Contras</h3>
       <ul class="cnx-aff-cons-list" style="color:#1e293b;">
-        <li>Sem suspensão nas rodas: ruim em pisos irregulares</li>
-        <li>Sem apoio de pé para bebês maiores</li>
-        <li>Uso apenas a partir dos 6 meses</li>
-        <li>Não acopla bebê conforto, não é travel system</li>
+        <li>Só a partir de 6 meses</li>
+        <li>Sem encaixe para moisés</li>
+        <li>Sem suspensão nas rodas</li>
+        <li>Cesta de compras pequena</li>
+        <li>Guidão pode folgar com uso intenso</li>
       </ul>
     </section>
   </div>
   <div class="cnx-aff-pros-cons-cta cnx-aff-pros-cons-ctas">
-    <a class="cnx-aff-pros-cons-cta-primary" href="[AMAZON_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
+    <a class="cnx-aff-pros-cons-cta-primary" href="https://www.amazon.com.br/dp/B07R7XNKD1?tag=eumaecarrinho-20&th=1&psc=1" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver na Amazon</a>
     <a class="cnx-aff-pros-cons-cta-secondary" href="[ML_URL]" target="_blank" rel="nofollow sponsored noopener noreferrer">Ver no Mercado Livre</a>
   </div>
 </div>
 
-<h2>Como ele se compara a outros modelos Galzerano</h2>
+<h2>Ficha técnica</h2>
+
+<div class="cnx-aff-tech-sheet cnx-aff-block-wrap">
+  <div class="cnx-aff-tech-head">
+    <p class="cnx-aff-tech-title">Galzerano Capri 1006</p>
+  </div>
+  <div class="cnx-aff-tech-scroll">
+    <table class="cnx-aff-tech-table">
+      <tbody>
+        <tr><th>Peso do produto</th><td>5,8 kg</td></tr>
+        <tr><th>Capacidade máxima</th><td>15 kg</td></tr>
+        <tr><th>Idade mínima</th><td>6 meses</td></tr>
+        <tr><th>Assento</th><td>Reversível</td></tr>
+        <tr><th>Posições de reclinação</th><td>4</td></tr>
+        <tr><th>Rodas</th><td>4 giratórias com freio</td></tr>
+        <tr><th>Dobramento</th><td>Guarda-chuva</td></tr>
+        <tr><th>Cinto de segurança</th><td>5 pontos</td></tr>
+        <tr><th>Tecido</th><td>Removível e lavável</td></tr>
+        <tr><th>Certificação</th><td>INMETRO</td></tr>
+        <tr><th>Preço médio</th><td>R$ 549,90 a R$ 670,88</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<h2>O que funciona</h2>
+
+<p>O ponto mais difícil de replicar em concorrentes na mesma faixa de preço é a combinação de peso e assento reversível. Com 5,8 kg você consegue pegar o Capri com uma mão enquanto segura o bebê com a outra. Em apartamento sem elevador, em ônibus com degrau alto ou na catraca do metrô, essa leveza aparece toda semana.</p>
+
+<p>O dobramento guarda-chuva do Capri não exige sequência de passos. Você aperta os dois botões laterais e o carrinho fecha. Dois ou três usos e vira automático. Para quem usa transporte público com bebê, isso elimina aquele momento de pânico com fila atrás esperando.</p>
+
+<p>O assento reversível funciona de forma simples: você desencaixa, vira e reencaixa. Sem ferramentas, sem desmontagem. As 4 posições de reclinação cobrem bem a fase de 6 a 12 meses, quando o bebê ainda não sustenta bem a posição sentada por muito tempo.</p>
+
+<p>O freio nas quatro rodas é um diferencial real. Em qualquer inclinação leve, um carrinho com freio só nas traseiras ainda desliza. O Capri para firme nas quatro, o que dá segurança para largar a alça por um segundo sem segurar.</p>
+
+<h2>O que falta</h2>
+
+<p>O Capri começa do sexto mês. Ele não tem posição totalmente deitada e não foi projetado para recém-nascidos. Quem está grávida e quer comprar o carrinho agora vai precisar de outro produto nos primeiros meses. Isso eleva o custo total para quem quer um único carrinho desde o nascimento.</p>
+
+<p>As rodas não têm amortecedor. Em calçada lisa funciona bem. Em paralelepípedo, terra batida ou calçada quebrada, toda a trepidação vai direto para o bebê. Se a maioria dos seus trajetos inclui esse tipo de piso, o Capri vai frustrar no dia a dia.</p>
+
+<p>A cesta de compras embaixo do carrinho é pequena. Em saídas com bolsa de fraldas completa, você vai acabar pendurado uma bolsa no guidão ou carregando mochila nas costas. Quem faz compras de supermercado junto ao passeio vai sentir essa limitação.</p>
+
+<h2>Para quem vale e para quem não vale</h2>
+
+<div style="background:#f0fdf4;border-left:4px solid #22c55e;padding:1rem 1.25rem;border-radius:4px;margin:1.5rem 0;">
+  <p style="margin:0 0 0.75rem;font-weight:600;">✅ Compre o Capri Galzerano se você:</p>
+  <ol style="margin:0;padding-left:1.25rem;">
+    <li>Tem bebê a partir de 6 meses e precisa de carrinho leve para rotina urbana</li>
+    <li>Usa transporte público ou carro compacto com porta-malas pequeno</li>
+    <li>Quer assento reversível sem passar de R$ 600</li>
+    <li>Mora e passeio em calçadas com bom estado de conservação</li>
+  </ol>
+</div>
+
+<p>Se o seu bebê ainda não tem 6 meses ou você precisa de um carrinho desde o nascimento, o Capri não é a escolha certa. Veja o guia de <a href="/melhor-carrinho-de-bebe/">melhor carrinho de bebê</a> com opções que aceitam recém-nascido. Se o objetivo é um carrinho ainda mais compacto para viagens frequentes de avião, o guia de <a href="/melhor-carrinho-de-bebe-compacto/">melhor carrinho compacto</a> tem alternativas específicas com menos de 5 kg.</p>
+
+<h2>Como ele se compara</h2>
 
 <div class="overflow-x-auto my-6">
 <table class="w-full text-sm border-collapse rounded-lg overflow-hidden shadow-sm">
 <thead>
 <tr class="bg-slate-100 text-slate-800">
 <th class="border border-slate-200 p-3 text-left font-semibold">Modelo</th>
-<th class="border border-slate-200 p-3 text-left font-semibold">Preço aprox.</th>
 <th class="border border-slate-200 p-3 text-left font-semibold">Diferencial</th>
-<th class="border border-slate-200 p-3 text-left font-semibold">A partir de</th>
+<th class="border border-slate-200 p-3 text-left font-semibold">Indicado para</th>
 </tr>
 </thead>
 <tbody>
-<tr class="bg-white"><td class="border border-slate-200 p-3 font-semibold">Capri</td><td class="border border-slate-200 p-3">R$ 549</td><td class="border border-slate-200 p-3">Reversível leve, guarda-chuva</td><td class="border border-slate-200 p-3">6 meses</td></tr>
-<tr class="bg-slate-50"><td class="border border-slate-200 p-3 font-semibold">Milano Reversível III</td><td class="border border-slate-200 p-3">R$ 629</td><td class="border border-slate-200 p-3">Mais recursos, mesmo tipo</td><td class="border border-slate-200 p-3">6 meses</td></tr>
-<tr class="bg-white"><td class="border border-slate-200 p-3 font-semibold">Napoli</td><td class="border border-slate-200 p-3">R$ 720 a R$ 890</td><td class="border border-slate-200 p-3">Berço moisés incluso</td><td class="border border-slate-200 p-3">Recém-nascido</td></tr>
-<tr class="bg-slate-50"><td class="border border-slate-200 p-3 font-semibold">Olympus</td><td class="border border-slate-200 p-3">R$ 904 a R$ 945</td><td class="border border-slate-200 p-3">Modelo mais robusto da linha</td><td class="border border-slate-200 p-3">Recém-nascido</td></tr>
+<tr class="bg-white"><td class="border border-slate-200 p-3 font-semibold">Galzerano Capri 1006</td><td class="border border-slate-200 p-3">Reversível + leve + guarda-chuva, R$ 549,90</td><td class="border border-slate-200 p-3">6 meses a 15 kg, uso urbano</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 p-3">Galzerano Milano Reversível</td><td class="border border-slate-200 p-3">Mais recursos que o Capri, mesma faixa etária</td><td class="border border-slate-200 p-3">Quem quer mais completo da mesma marca</td></tr>
+<tr class="bg-white"><td class="border border-slate-200 p-3">Galzerano Napoli</td><td class="border border-slate-200 p-3">Aceita recém-nascido, inclui moisés</td><td class="border border-slate-200 p-3">Primeiro carrinho desde o nascimento</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 p-3">Burigotto Zap Metal</td><td class="border border-slate-200 p-3">Estrutura robusta, custo menor</td><td class="border border-slate-200 p-3">Quem prioriza custo e não precisa de reversível</td></tr>
 </tbody>
 </table>
 </div>
-
-<p>A diferença entre o Capri e o Milano Reversível III é de R$ 80. Se o orçamento não for uma barreira, vale verificar o que o Milano entrega a mais antes de decidir. Para quem precisa usar desde o nascimento, o salto de preço para o Napoli é maior, mas você evita comprar dois produtos em sequência. Quem quer explorar mais opções fora da marca Galzerano pode comparar preço e recursos no guia dos <a href="/melhor-carrinho-de-bebe-custo-beneficio/">melhores carrinhos de bebê custo-benefício</a>.</p>
-
-<h2>Para quem o Capri vale a pena</h2>
-
-<div style="background:#f0fdf4;border-left:4px solid #22c55e;padding:1rem 1.25rem;border-radius:4px;margin:1.5rem 0;">
-  <p style="margin:0 0 0.75rem;font-weight:600;">O Capri é a escolha certa para você que:</p>
-  <ol style="margin:0;padding-left:1.25rem;">
-    <li>Tem bebê a partir de 6 meses e quer leveza para a rotina urbana</li>
-    <li>Usa carro compacto e precisa de algo que caiba no porta-malas sem desmontar</li>
-    <li>Mora em apartamento e vai guardar o carrinho num espaço pequeno</li>
-    <li>Quer assento reversível sem ultrapassar R$ 600</li>
-    <li>Faz a maioria dos passeios em shopping, parques ou calçadas em bom estado</li>
-  </ol>
-</div>
-
-<h2>Para quem o Capri não é a escolha certa</h2>
-
-<p>Se você está nos últimos meses de gravidez e quer comprar o carrinho agora para usar desde o nascimento, o Capri não atende. Ele exige que o bebê já tenha controle cervical e não tem posição totalmente deitada. Para essa situação, consulte o <a href="/melhor-carrinho-de-bebe/">guia completo de carrinhos de bebê</a>, que apresenta modelos com reclinação total e uso desde o primeiro dia.</p>
-
-<p>Se a rua da sua casa tem muito paralelepípedo, calçada irregular ou você costuma passear em pisos de terra batida, o Capri vai decepcionar. As rodas sem amortecedor transmitem toda a vibração para o bebê. Para esse perfil de uso, carrinho com rodas maiores e suspensão independente resolve o problema. Veja as opções no guia do <a href="/melhor-carrinho-guarda-chuva/">melhor carrinho guarda-chuva</a>, que lista modelos com suspensão na mesma categoria de peso.</p>
-
-<p>Quem precisa de um <a href="/melhor-carrinho-de-bebe-travel-system/">carrinho travel system</a> com bebê conforto acoplado também deve buscar outro modelo. O Capri não tem encaixe para bebê conforto e não faz parte de nenhum kit da Galzerano com esse sistema. Para o bebê que já passou dos 6 meses e você quer algo mais completo dentro da marca, o Napoli ou o Olympus são os próximos passos naturais.</p>
 
 <script type="application/ld+json">
 {
@@ -156,7 +172,7 @@ contentFormat: html
       "name": "O carrinho Capri Galzerano é bom?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sim, para rotina urbana. Pesa 5,8 kg, tem assento reversível e 4,6 estrelas na Amazon. Não serve para recém-nascidos nem pisos irregulares."
+        "text": "Sim, para bebês de 6 meses a 15 kg em rotina urbana. Não serve para recém-nascidos nem pisos muito irregulares."
       }
     },
     {
@@ -164,7 +180,7 @@ contentFormat: html
       "name": "A partir de quantos meses o Capri Galzerano pode ser usado?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A partir dos 6 meses, quando o bebê já tem controle cervical. Não tem modo berço nem reclinação de 180 graus."
+        "text": "A partir dos 6 meses, quando o bebê já tem controle cervical. Não tem reclinação de 180 graus nem encaixe para moisés."
       }
     },
     {
@@ -172,7 +188,7 @@ contentFormat: html
       "name": "O Capri Galzerano tem assento reversível?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sim. Reversível e reclinável. A capota dupla face acompanha os dois posicionamentos do assento."
+        "text": "Sim. O assento é reversível e tem 4 posições de reclinação. A mudança de posição não exige ferramentas."
       }
     },
     {
@@ -180,23 +196,15 @@ contentFormat: html
       "name": "O Capri Galzerano tem suspensão nas rodas?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Não. As rodas sem amortecedor transmitem trepidação ao bebê. Funciona bem em calçadas lisas e shopping, não em pisos irregulares."
+        "text": "Não. Em pisos irregulares a trepidação chega ao bebê. Funciona bem em calçadas lisas, shopping e parque."
       }
     },
     {
       "@type": "Question",
-      "name": "Qual a diferença entre o Capri e o Napoli Galzerano?",
+      "name": "Qual a diferença entre o Capri e o Galzerano Napoli?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O Napoli inclui berço moisés e serve desde o nascimento. O Capri começa aos 6 meses, é mais leve e custa menos."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "O Capri Galzerano é certificado pelo INMETRO?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sim. Possui laudo INMETRO 007425/2018, conforme a norma NBR 14389 para carrinhos de bebê no Brasil."
+        "text": "O Napoli inclui moisés e aceita recém-nascido. O Capri começa aos 6 meses, é mais leve e custa menos."
       }
     },
     {
@@ -204,7 +212,15 @@ contentFormat: html
       "name": "Qual o peso máximo suportado pelo Capri Galzerano?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Até 15 kg. O próprio carrinho pesa 5,8 kg e pode ser usado dos 6 meses até a criança atingir esse limite."
+        "text": "Até 15 kg, com uso a partir dos 6 meses de idade."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O Capri Galzerano acopla bebê conforto?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Não. O Capri não é um travel system e não tem encaixe para bebê conforto de nenhuma marca."
       }
     }
   ]
@@ -214,22 +230,22 @@ contentFormat: html
 <h2>Perguntas frequentes</h2>
 
 <h3>O carrinho Capri Galzerano é bom?</h3>
-<p>Sim, para rotina urbana. Pesa 5,8 kg, tem assento reversível e 4,6 estrelas na Amazon. Não serve para recém-nascidos nem pisos irregulares.</p>
+<p>Sim, para bebês de 6 meses a 15 kg em rotina urbana. Não serve para recém-nascidos nem pisos muito irregulares.</p>
 
 <h3>A partir de quantos meses o Capri Galzerano pode ser usado?</h3>
-<p>A partir dos 6 meses. Não tem modo berço nem reclinação de 180 graus para recém-nascidos.</p>
+<p>A partir dos 6 meses. Não tem reclinação de 180 graus nem encaixe para moisés.</p>
 
 <h3>O Capri Galzerano tem assento reversível?</h3>
-<p>Sim. Reversível e reclinável. A capota dupla face acompanha os dois posicionamentos do assento.</p>
+<p>Sim, com 4 posições de reclinação. A mudança de posição não exige ferramentas.</p>
 
 <h3>O Capri Galzerano tem suspensão nas rodas?</h3>
 <p>Não. Em pisos irregulares a trepidação chega ao bebê. Ideal para calçadas lisas e shopping.</p>
 
-<h3>Qual a diferença entre o Capri e o Napoli Galzerano?</h3>
-<p>O Napoli tem berço moisés e serve desde o nascimento. O Capri começa aos 6 meses, é mais leve e custa menos.</p>
-
-<h3>O Capri Galzerano é certificado pelo INMETRO?</h3>
-<p>Sim. Laudo 007425/2018, norma NBR 14389.</p>
+<h3>Qual a diferença entre o Capri e o Galzerano Napoli?</h3>
+<p>O Napoli inclui moisés e aceita recém-nascido. O Capri começa aos 6 meses, é mais leve e custa menos.</p>
 
 <h3>Qual o peso máximo suportado pelo Capri Galzerano?</h3>
 <p>Até 15 kg, com uso a partir dos 6 meses de idade.</p>
+
+<h3>O Capri Galzerano acopla bebê conforto?</h3>
+<p>Não. O Capri não é travel system e não tem encaixe para bebê conforto de nenhuma marca.</p>
